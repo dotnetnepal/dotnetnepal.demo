@@ -25,6 +25,7 @@ using AspNet.Security.OAuth.Validation;
 using Microsoft.AspNetCore.Identity;
 using Swashbuckle.AspNetCore.Swagger;
 using AppPermissions = Infrastructure.Core.ApplicationPermissions;
+using Infrastructure.Services;
 
 namespace dotnetnepal
 {
@@ -100,6 +101,7 @@ namespace dotnetnepal
 
             // Add framework services.
             services.AddMvc();
+             //   .WithRazorPagesRoot("/Pages");
 
 
             //Todo: ***Using DataAnnotations for validation until Swashbuckle supports FluentValidation***
@@ -174,6 +176,15 @@ namespace dotnetnepal
 
             // DB Creation and Seeding
             services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
+            
+
+            services.AddSingleton<SlugGenerator>();
+            ExcerptGenerator excerptGenerator = new ExcerptGenerator(140);
+            services.AddSingleton<ExcerptGenerator>(excerptGenerator);
+            services.AddSingleton<MarkdownRenderer>();
+
+
+
         }
         
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

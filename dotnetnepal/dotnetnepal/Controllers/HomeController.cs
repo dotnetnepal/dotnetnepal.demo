@@ -21,10 +21,7 @@ namespace dotnetnepal.Controllers
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
         }
-
-
-
-
+        
 
         // GET api/values
         [Route("api/[controller]"), Authorize, HttpGet]

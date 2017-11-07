@@ -10,11 +10,11 @@ namespace Infrastructure.Models
     {
         public Comment()
         {
-            ID = Guid.NewGuid().ToString();
+            Id = Guid.NewGuid().ToString();
             PubDate = DateTime.UtcNow;
         }
 
-        public string ID { get; set; }
+        public string Id { get; set; }
         public string Author { get; set; }
         public string Email { get; set; }
         public string Website { get; set; }

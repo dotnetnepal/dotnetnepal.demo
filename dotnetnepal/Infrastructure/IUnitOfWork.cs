@@ -11,7 +11,7 @@ namespace Infrastructure
 {
     public interface IUnitOfWork
     {
-        IBlogRepository Blogs { get; }
+        IPostRepository Posts { get; }
 
         int SaveChanges();
     }

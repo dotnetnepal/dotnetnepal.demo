@@ -10,7 +10,7 @@ namespace Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {
-        IBlogRepository _blogs;
+        IPostRepository _posts;
         readonly ApplicationDbContext _context;
         
         public UnitOfWork(ApplicationDbContext context)
@@ -18,14 +18,14 @@ namespace Infrastructure
             _context = context;
         }
 
-        public IBlogRepository Blogs
+        public IPostRepository Posts
         {
             get
             {
-                if (_blogs == null)
-                    _blogs = new BlogRepository(_context);
+                if (_posts == null)
+                    _posts = new PostRepository(_context);
 
-                return _blogs;
+                return _posts;
             }
         }
 
