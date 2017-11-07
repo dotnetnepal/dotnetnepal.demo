@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "ClientApp/app/styles.css",
+    "inputFile": "ClientApp/app/styles.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/home/home.component.css",
+    "inputFile": "ClientApp/app/components/home/home.component.scss"
+  }
+]

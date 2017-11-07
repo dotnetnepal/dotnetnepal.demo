@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - dotnetnepal</title>
     <base href="~/" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/lib/animate.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
 </head>
 <body>
     @RenderBody()
 
+    <script src="~/lib/skrollr.min.js"></script>
+    <script src="~/lib/wow.js"></script>
+   
     @RenderSection("scripts", required: false)
+    <script src="~/js/master.js"></script>
 </body>
 </html>

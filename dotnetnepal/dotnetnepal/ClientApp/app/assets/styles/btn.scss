@@ -1,0 +1,17 @@
+﻿@import "color.scss";
+
+.tn-btn {
+    border: none;
+    border-radius: 0;
+}
+
+.tn-btn-pad {
+    padding: 10px 40px;
+}
+
+.btn-primary {
+    &:hover {
+        background-color: $blue;
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1),0px 3px 3px 0px rgba(0,0,0,0.1),0px 3px 3px 0px rgba(0,0,0,0.1);
+    }
+}
