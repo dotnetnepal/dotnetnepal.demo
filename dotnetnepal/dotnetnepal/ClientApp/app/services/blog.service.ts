@@ -2,9 +2,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
 
-import { catchError, map, tap } from 'rxjs/Operators';
 
 
 import { Post } from '../models/post.model';
@@ -21,12 +19,6 @@ export class BlogsService {
         private http: HttpClient,
     ) { }
 
-    getPosts(): Observable<Post[]> {
-        return this.http.get<Post[]>(this.blogUrl)
-            .pipe(
-            tap(posts = > this.log('fetched posts')),
-            catchError(this.handleError('getPosts',[])
-            )
-    }
+  
 
 }
