@@ -17,10 +17,11 @@ import { Permission } from '../models/permission.model';
 import { LoginComponent } from "../components/login/login.component";
 
 var alertify: any = require('../assets/scripts/alertify.js');
+/*var masterjs: any = require('../assets/scripts/master.js')*/;
 
 
 @Component({
-    selector: "quick-app",
+    selector: "dotnetnepal",
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css', '../styles.css', '../themes.css'],
     encapsulation: ViewEncapsulation.None
@@ -32,7 +33,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     shouldShowLoginModal: boolean;
     removePrebootScreen: boolean;
     newNotificationCount = 0;
-    appTitle = "dotnetnepal";
+    appTitle = "dotNetNepal";
     appLogo = require("../assets/images/logo.png");
 
     stickyToasties: number[] = [];

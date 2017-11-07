@@ -85,4 +85,8 @@
   <ItemGroup>
     <Folder Include="Helpers\Templates\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\master.js" />
+  </ItemGroup>
 </Project>
