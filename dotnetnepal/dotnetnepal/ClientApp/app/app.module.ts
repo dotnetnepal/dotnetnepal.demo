@@ -58,6 +58,8 @@ import { RolesManagementComponent } from "./components/controls/roles-management
 import { RoleEditorComponent } from "./components/controls/role-editor.component";
 
 
+import { BlogsComponent } from "./components/blogs/blogs.component";
+
 
 
 @NgModule({
@@ -101,7 +103,10 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
         BootstrapToggleDirective,
         BootstrapSelectDirective,
         BootstrapDatepickerDirective,
-        GroupByPipe
+        GroupByPipe,
+
+        BlogsComponent
+
     ],
     providers: [
         { provide: 'BASE_URL', useFactory: getBaseUrl },

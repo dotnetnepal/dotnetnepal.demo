@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8c5a50ad3001bf673e74"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5e7d5943d0be5d86b27c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -55592,12 +55592,14 @@ function _mergeArrays(parts) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(80);
+throw new Error("Cannot find module \"../components/blogs/blogs.component\"");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -55694,7 +55696,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_31__directives_bootstrap_toggle_directive__["a" /* BootstrapToggleDirective */],
                 __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__["a" /* BootstrapSelectDirective */],
                 __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__["a" /* BootstrapDatepickerDirective */],
-                __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__["a" /* GroupByPipe */]
+                __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__["a" /* GroupByPipe */],
+                __WEBPACK_IMPORTED_MODULE_51__components_blogs_blogs_component__["BlogsComponent"]
             ],
             providers: [
                 { provide: 'BASE_URL', useFactory: getBaseUrl },
