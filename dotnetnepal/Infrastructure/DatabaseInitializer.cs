@@ -19,8 +19,6 @@ namespace Infrastructure
     }
 
 
-
-
     public class DatabaseInitializer : IDatabaseInitializer
     {
         private readonly ApplicationDbContext _context;
@@ -51,11 +49,11 @@ namespace Infrastructure
                 await createUserAsync("admin", "Admin123!@#",  "admin@example.com", new string[] { adminRoleName });
                 await createUserAsync("user", "User123!@#",  "user@example.com",  new string[] { userRoleName });
 
+                await createPostAsync();
+
                 _logger.LogInformation("Inbuilt account generation completed");
             }
-
-
-
+            
         }
 
 
@@ -90,6 +88,17 @@ namespace Infrastructure
 
 
             return applicationUser;
+        }
+
+
+        private async Task createPostAsync()
+        {
+            var post = new Post
+            {
+                   Title="test", IsDeleted=false, IsPublic=true, Body = "test"
+            };
+            _context.Add(post);
+            await Task.CompletedTask;
         }
     }
 }

@@ -31,12 +31,13 @@ namespace Infrastructure
             builder.Entity<ApplicationRole>().HasMany(r => r.Users).WithOne().HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
 
 
-            builder.Entity<Blog>();
+            builder.Entity<Post>().HasMany(c=>c.Comments).WithOne();
 
 
         }
 
-        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
 
         public override int SaveChanges()

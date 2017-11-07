@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dotnetnepal.ViewModels
 {
-    public class BlogViewModel
+    public class PostViewModel
     {
         
     }

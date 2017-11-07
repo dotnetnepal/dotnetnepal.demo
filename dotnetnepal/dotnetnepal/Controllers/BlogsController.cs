@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using dotnetnepal.ViewModels;
 using Infrastructure;
+using Infrastructure.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,65 +13,60 @@ using System.Threading.Tasks;
 namespace dotnetnepal.Controllers
 {
     [Route("api/[controller]")]
-    public class BlogController : Controller
+    public class BlogsController : Controller
     {
         private IUnitOfWork _unitOfWork;
         readonly ILogger _logger;
-
-
-        public BlogController(IUnitOfWork unitOfWork, ILogger<BlogController> logger)
+        
+        public BlogsController(IUnitOfWork unitOfWork, ILogger<BlogsController> logger)
         {
             _unitOfWork = unitOfWork;
             _logger = logger;
         }
-
-
-
-        // GET: api/values
+        
         [HttpGet]
         public IActionResult Get()
         {
-            var allBlogs = _unitOfWork.Blogs.GetAllBlogsData();
-            return Ok(Mapper.Map<IEnumerable<BlogViewModel>>(allBlogs));
+            var allBlogs = _unitOfWork.Posts.GetAllPostsData();
+            return Ok(Mapper.Map<IEnumerable<PostViewModel>>(allBlogs));
         }
 
         
         [HttpGet("throw")]
-        public IEnumerable<BlogViewModel> Throw()
+        public IEnumerable<PostViewModel> Throw()
         {
             throw new InvalidOperationException("This is a test exception: " + DateTime.Now);
         }
 
-        
-        // GET api/values/5
+ 
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(string id)
         {
-            return "value: " + id;
+            var post = _unitOfWork.Posts.GetPost(Guid.Parse(id));
+            return Ok(Mapper.Map<PostViewModel>(post));
         }
 
 
-
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]PostViewModel model)
         {
+            if (ModelState.IsValid)
+            {        
+            _unitOfWork.Posts.SavePost(Mapper.Map<Post>(model));
+            }
         }
 
 
-
-        // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
+        
 
-
-
-        // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(string id)
         {
+            _unitOfWork.Posts.DeletePost(Guid.Parse(id));
         }
     }
 }
