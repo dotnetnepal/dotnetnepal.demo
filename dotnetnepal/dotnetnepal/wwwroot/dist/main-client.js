@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5e7d5943d0be5d86b27c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0c6f275a75b7baa879a2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1851,7 +1851,7 @@ module.exports = (__webpack_require__(1))(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__db_Keys__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jwt_helper__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__models_user_model__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__models_user_model__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11010,7 +11010,7 @@ var Permission = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__translate_compiler__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__missing_translation_handler__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__translate_parser__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util__ = __webpack_require__(27);
 
 
 
@@ -11856,42 +11856,72 @@ var LocalStoreManager = /** @class */ (function () {
 
 /***/ }),
 /* 20 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a09ecfb7fbf6bd73833c2814875511b2.png";
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return fadeInOut; });
+/* unused harmony export flyInOut */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__(35);
+// ======================================
+// Author: Ebenezer Monney
+// Email:  info@ebenmonney.com
+// Copyright (c) 2017 www.ebenmonney.com
+// 
+// ==> Gun4Hire: contact@ebenmonney.com
+// ======================================
+
+var fadeInOut = Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('fadeInOut', [
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':enter', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s ease-in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1 }))]),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':leave', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s 10ms ease-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }))])
+]);
+function flyInOut(duration) {
+    if (duration === void 0) { duration = 0.2; }
+    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('flyInOut', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["g" /* state */])('in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1, transform: 'translateX(0)' })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('void => *', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(-100%)' }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s ease-in")]),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('* => void', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s 10ms ease-out", Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(100%)' }))])
+    ]);
+}
+
 
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(4);
+module.exports = __webpack_require__.p + "a09ecfb7fbf6bd73833c2814875511b2.png";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(203);
+module.exports = (__webpack_require__(1))(4);
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(206);
+module.exports = (__webpack_require__(1))(203);
 
 /***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(205);
+module.exports = (__webpack_require__(1))(206);
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(201);
+module.exports = (__webpack_require__(1))(205);
 
 /***/ }),
 /* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(201);
+
+/***/ }),
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11989,13 +12019,13 @@ function mergeDeep(target, source) {
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(194);
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12024,36 +12054,6 @@ var User = /** @class */ (function () {
     return User;
 }());
 
-
-
-/***/ }),
-/* 29 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return fadeInOut; });
-/* unused harmony export flyInOut */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__(35);
-// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
-
-var fadeInOut = Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('fadeInOut', [
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':enter', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s ease-in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1 }))]),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':leave', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s 10ms ease-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }))])
-]);
-function flyInOut(duration) {
-    if (duration === void 0) { duration = 0.2; }
-    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('flyInOut', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["g" /* state */])('in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1, transform: 'translateX(0)' })),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('void => *', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(-100%)' }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s ease-in")]),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('* => void', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s 10ms ease-out", Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(100%)' }))])
-    ]);
-}
 
 
 /***/ }),
@@ -13652,7 +13652,7 @@ FakeMissingTranslationHandler.ctorParameters = function () { return []; };
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TranslateParser; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslateDefaultParser; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(27);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -13744,8 +13744,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var subscribeToResult_1 = __webpack_require__(23);
-var OuterSubscriber_1 = __webpack_require__(24);
+var subscribeToResult_1 = __webpack_require__(24);
+var OuterSubscriber_1 = __webpack_require__(25);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -21055,7 +21055,7 @@ TranslateModule.ctorParameters = function () { return []; };
 
 "use strict";
 
-var ArrayObservable_1 = __webpack_require__(25);
+var ArrayObservable_1 = __webpack_require__(26);
 exports.of = ArrayObservable_1.ArrayObservable.of;
 //# sourceMappingURL=of.js.map
 
@@ -21067,7 +21067,7 @@ exports.of = ArrayObservable_1.ArrayObservable.of;
 
 var Observable_1 = __webpack_require__(2);
 var isScheduler_1 = __webpack_require__(58);
-var ArrayObservable_1 = __webpack_require__(25);
+var ArrayObservable_1 = __webpack_require__(26);
 var mergeAll_1 = __webpack_require__(38);
 /* tslint:enable:max-line-length */
 /**
@@ -21318,7 +21318,7 @@ var TranslateStore = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslateDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__translate_service__ = __webpack_require__(18);
 
 
@@ -21495,7 +21495,7 @@ TranslateDirective.propDecorators = {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslatePipe; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__translate_service__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(27);
 
 
 
@@ -21659,8 +21659,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(24);
-var subscribeToResult_1 = __webpack_require__(23);
+var OuterSubscriber_1 = __webpack_require__(25);
+var subscribeToResult_1 = __webpack_require__(24);
 /**
  * Catches errors on the observable to be handled by returning a new observable or throwing an error.
  *
@@ -21835,7 +21835,7 @@ var DBkeys = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -21877,7 +21877,7 @@ var HomeComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_animations__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_tab_directive__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_account_service__ = __webpack_require__(8);
@@ -22024,7 +22024,7 @@ var SettingsComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
 // ======================================
 // Author: Ebenezer Monney
@@ -22406,7 +22406,7 @@ var AccountEndpoint = /** @class */ (function (_super) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -22438,7 +22438,7 @@ var AboutComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotFoundComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -22687,7 +22687,7 @@ var NotificationEndpoint = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BootstrapSelectDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select__);
@@ -22803,7 +22803,7 @@ var BootstrapSelectDirective = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_user_model__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_user_model__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_edit_model__ = __webpack_require__(238);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
@@ -55549,7 +55549,7 @@ function _mergeArrays(parts) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_toasty__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ngx_bootstrap_modal__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_bootstrap_tooltip__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ngx_bootstrap_popover__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_bootstrap_dropdown__ = __webpack_require__(121);
@@ -55592,7 +55592,7 @@ function _mergeArrays(parts) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(80);
-throw new Error("Cannot find module \"../components/blogs/blogs.component\"");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_blogs_blogs_component__ = __webpack_require__(257);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -55697,7 +55697,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__["a" /* BootstrapSelectDirective */],
                 __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__["a" /* BootstrapDatepickerDirective */],
                 __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__["a" /* GroupByPipe */],
-                __WEBPACK_IMPORTED_MODULE_51__components_blogs_blogs_component__["BlogsComponent"]
+                __WEBPACK_IMPORTED_MODULE_51__components_blogs_blogs_component__["a" /* BlogsComponent */]
             ],
             providers: [
                 { provide: 'BASE_URL', useFactory: getBaseUrl },
@@ -55736,10 +55736,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(2);
-var EmptyObservable_1 = __webpack_require__(22);
+var EmptyObservable_1 = __webpack_require__(23);
 var isArray_1 = __webpack_require__(32);
-var subscribeToResult_1 = __webpack_require__(23);
-var OuterSubscriber_1 = __webpack_require__(24);
+var subscribeToResult_1 = __webpack_require__(24);
+var OuterSubscriber_1 = __webpack_require__(25);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -61877,8 +61877,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(24);
-var subscribeToResult_1 = __webpack_require__(23);
+var OuterSubscriber_1 = __webpack_require__(25);
+var subscribeToResult_1 = __webpack_require__(24);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -62098,7 +62098,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Subscriber_1 = __webpack_require__(6);
 var ArgumentOutOfRangeError_1 = __webpack_require__(117);
-var EmptyObservable_1 = __webpack_require__(22);
+var EmptyObservable_1 = __webpack_require__(23);
 /**
  * Emits only the first `count` values emitted by the source Observable.
  *
@@ -70343,7 +70343,7 @@ var isArrayLike_1 = __webpack_require__(129);
 var isPromise_1 = __webpack_require__(130);
 var PromiseObservable_1 = __webpack_require__(54);
 var IteratorObservable_1 = __webpack_require__(131);
-var ArrayObservable_1 = __webpack_require__(25);
+var ArrayObservable_1 = __webpack_require__(26);
 var ArrayLikeObservable_1 = __webpack_require__(132);
 var iterator_1 = __webpack_require__(64);
 var Observable_1 = __webpack_require__(2);
@@ -70649,7 +70649,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(2);
 var ScalarObservable_1 = __webpack_require__(65);
-var EmptyObservable_1 = __webpack_require__(22);
+var EmptyObservable_1 = __webpack_require__(23);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -71904,7 +71904,7 @@ exports.push([module.i, ".boxshadow {\n    position: relative;\n    -moz-box-sha
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<!--<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut]>\r\n      \r\n    </div>\r\n</div>-->\r\n\r\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n    <!-- Indicators -->\r\n    <ol class=\"carousel-indicators\">\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\r\n    </ol>\r\n\r\n    <!-- Wrapper for slides -->\r\n    <div class=\"carousel-inner\" role=\"listbox\">\r\n        <div class=\"item active ms-slide one\">\r\n            <!--<img alt=\"First slide\" src=\"http://placehold.it/1200x675&text=First+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 1</h3>\r\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide two\">\r\n            <!--<img alt=\"Second slide\" src=\"http://placehold.it/1200x675&text=Second+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 2</h3>\r\n                <p>Morbi eget libero quis metus consectetur semper.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide three\">\r\n            <!--<img alt=\"Third slide\" src=\"http://placehold.it/1200x675&text=Third+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 3</h3>\r\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- Controls -->\r\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\r\n        <span class=\"material-icons\">navigate_before</span>\r\n        <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\r\n        <span class=\"material-icons\">navigate_next</span>\r\n        <span class=\"sr-only\">Next</span>\r\n    </a>\r\n</div>\r\n<section class=\"\" id=\"whowe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"row whowe-content\">\r\n                <div class=\"col-md-12\">\r\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\r\n                    <hr class=\"sec-hr\" />\r\n                </div>\r\n                <div class=\"col-md-12\">\r\n                    <div>\r\n                        <div class=\"whowe-detail\">\r\n                            <div class=\"animated slideInDown\">\r\n                                A dotNet Community based in Nepal.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                            </div>\r\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\r\n\r\n                        </div>\r\n                    </div>\r\n                   \r\n\r\n                </div>\r\n\r\n            </div> <!-- row -->\r\n\r\n        </div>\r\n    </div>\r\n</section>\r\n<section id=\"whatwe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\r\n                <hr class=\"sec-hr wow fadeInDown\" />\r\n            </div>\r\n            <div class=\"col-md-12\">\r\n                <div class=\"whatwe-content\">\r\n                    <div class=\"descript wow fadeInDown\">\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"learn\">\r\n                            </div>\r\n                            <p>Learn</p>\r\n                        </div>\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"share\">\r\n                            </div>\r\n                            <p>Share</p>\r\n                        </div>\r\n                        \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"collab\">\r\n                            </div>\r\n\r\n                            <p>Collab</p>\r\n                        </div>\r\n                       \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"repeat\">\r\n                            </div>\r\n                            <p>Repeat</p>\r\n                        </div>\r\n                        <hr class=\"hr\" />\r\n                    </div>\r\n                    <div class=\"text-center\">\r\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n<section id=\"supporters\">\r\n    <div class=\"container\">\r\n        <div class=\"sup-content\">\r\n            <div class=\"content-title\">\r\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\r\n                <hr class=\"sec-hr\" />\r\n            </div>\r\n            <div class=\"content-body\">\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </div>\r\n\r\n</section>\r\n\r\n<section id=\"joinus\">\r\n    <div class=\"container\">\r\n        <div class=\"content\">\r\n            <div class=\"wow fadeInDown animation-delay-3\">\r\n                Like our work ?\r\n            </div>\r\n            <div>\r\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n</section>";
+module.exports = "<!--<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut]>\r\n      \r\n    </div>\r\n</div>-->\r\n\r\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n    <!-- Indicators -->\r\n    <ol class=\"carousel-indicators\">\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\r\n    </ol>\r\n\r\n    <!-- Wrapper for slides -->\r\n    <div class=\"carousel-inner\" role=\"listbox\">\r\n        <div class=\"item active ms-slide one\">\r\n            <!--<img alt=\"First slide\" src=\"http://placehold.it/1200x675&text=First+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 1</h3>\r\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide two\">\r\n            <!--<img alt=\"Second slide\" src=\"http://placehold.it/1200x675&text=Second+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 2</h3>\r\n                <p>Morbi eget libero quis metus consectetur semper.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide three\">\r\n            <!--<img alt=\"Third slide\" src=\"http://placehold.it/1200x675&text=Third+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 3</h3>\r\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- Controls -->\r\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\r\n        <span class=\"material-icons\">navigate_before</span>\r\n        <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\r\n        <span class=\"material-icons\">navigate_next</span>\r\n        <span class=\"sr-only\">Next</span>\r\n    </a>\r\n</div>\r\n<section class=\"\" id=\"whowe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"row whowe-content\">\r\n                <div class=\"col-md-12\">\r\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\r\n                    <hr class=\"sec-hr\" />\r\n                </div>\r\n                <div class=\"col-md-12\">\r\n                    <div>\r\n                        <div class=\"whowe-detail\">\r\n                            <div class=\"animated slideInDown\">\r\n                                A dotNet Community based in Nepal.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                            </div>\r\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\r\n\r\n                        </div>\r\n                    </div>\r\n                   \r\n\r\n                </div>\r\n\r\n            </div> <!-- row -->\r\n\r\n        </div>\r\n    </div>\r\n</section>\r\n<section id=\"whatwe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\r\n                <hr class=\"sec-hr wow fadeInDown\" />\r\n            </div>\r\n            <div class=\"col-md-12\">\r\n                <div class=\"whatwe-content\">\r\n                    <div class=\"descript wow fadeInDown\">\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"learn\">\r\n                            </div>\r\n                            <p>Learn</p>\r\n                        </div>\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"share\">\r\n                            </div>\r\n                            <p>Share</p>\r\n                        </div>\r\n                        \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"collab\">\r\n                            </div>\r\n\r\n                            <p>Collab</p>\r\n                        </div>\r\n                       \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"repeat\">\r\n                            </div>\r\n                            <p>Repeat</p>\r\n                        </div>\r\n                        <hr class=\"hr\" />\r\n                    </div>\r\n                    <div class=\"text-center\">\r\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n<section id=\"supporters\">\r\n    <div class=\"container\">\r\n        <div class=\"sup-content\">\r\n            <div class=\"content-title\">\r\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\r\n                <hr class=\"sec-hr\" />\r\n            </div>\r\n            <div class=\"content-body\">\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(21) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(21) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(21) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(21) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(21) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </div>\r\n\r\n</section>\r\n\r\n<section id=\"joinus\">\r\n    <div class=\"container\">\r\n        <div class=\"content\">\r\n            <div class=\"wow fadeInDown animation-delay-3\">\r\n                Like our work ?\r\n            </div>\r\n            <div>\r\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n</section>";
 
 /***/ }),
 /* 158 */
@@ -73007,9 +73007,9 @@ Observable_1.Observable.prototype.startWith = startWith_1.startWith;
 
 "use strict";
 
-var ArrayObservable_1 = __webpack_require__(25);
+var ArrayObservable_1 = __webpack_require__(26);
 var ScalarObservable_1 = __webpack_require__(65);
-var EmptyObservable_1 = __webpack_require__(22);
+var EmptyObservable_1 = __webpack_require__(23);
 var concat_1 = __webpack_require__(57);
 var isScheduler_1 = __webpack_require__(58);
 /* tslint:enable:max-line-length */
@@ -73266,7 +73266,7 @@ var AutofocusDirective = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle__);
@@ -73382,7 +73382,7 @@ module.exports = (__webpack_require__(1))(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker__);
@@ -73530,7 +73530,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 (function(factory){
     if (true) {
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(21)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(22)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -76748,7 +76748,7 @@ module.exports = "";
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TodoDemoComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_translation_service__ = __webpack_require__(7);
@@ -77488,7 +77488,7 @@ exports.push([module.i, "\n.search-icon {\n    pointer-events: none;\n}\n", ""])
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserEdit; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user_model__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user_model__ = __webpack_require__(29);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -77737,12 +77737,12 @@ exports.push([module.i, "\n.separator-hr {\n    margin: 7px 5px;\n    border-top
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsersManagementComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_user_model__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_user_model__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__user_info_component__ = __webpack_require__(79);
 // ======================================
@@ -77986,7 +77986,7 @@ exports.push([module.i, "\n.user-role {\n    font-size: 0.8em !important;\n    m
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RolesManagementComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_account_service__ = __webpack_require__(8);
@@ -78235,6 +78235,72 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 // module
 exports.push([module.i, "\n.control-box {\n    margin-bottom: 5px;\n}\n\n.search-box {\n    margin: 0;\n}\n\n.action-box {\n    margin: 0 50px 0 0;\n    min-height: 0;\n}\n\n    .action-box .toolbaritem a {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        min-width: 100px;\n    }\n\n\n@media (max-width: 768px) {\n    .action-box {\n        margin: 0 14px;\n    }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 257 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var BlogsComponent = /** @class */ (function () {
+    function BlogsComponent() {
+    }
+    BlogsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'blogs',
+            template: __webpack_require__(258),
+            styles: [__webpack_require__(259)],
+            animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
+        })
+    ], BlogsComponent);
+    return BlogsComponent;
+}());
+
+
+
+/***/ }),
+/* 258 */
+/***/ (function(module, exports) {
+
+module.exports = "";
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(260);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 260 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
 
 // exports
 
