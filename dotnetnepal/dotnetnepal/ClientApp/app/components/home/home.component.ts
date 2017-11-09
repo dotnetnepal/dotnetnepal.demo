@@ -14,4 +14,15 @@ import { ConfigurationService } from '../../services/configuration.service';
 export class HomeComponent {
     constructor(public configurations: ConfigurationService) {
     }
+
+    text: any = {
+        Year: 'Year',
+        Month: 'Month',
+        Weeks: "Weeks",
+        Days: "Days",
+        Hours: "Hours",
+        Minutes: "Minutes",
+        Seconds: "Seconds",
+        MilliSeconds: "MilliSeconds"
+    };
 }

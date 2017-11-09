@@ -6,5 +6,9 @@
   {
     "outputFile": "ClientApp/app/components/home/home.component.css",
     "inputFile": "ClientApp/app/components/home/home.component.scss"
+  },
+  {
+    "outputFile": "node_modules/ng2-date-countdown/lib/countdown.css",
+    "inputFile": "node_modules/ng2-date-countdown/lib/countdown.scss"
   }
 ]

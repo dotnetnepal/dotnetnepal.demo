@@ -39,7 +39,46 @@
   min-height: 100vh;
   min-width: 100%; }
 
+.carousel-caption {
+  bottom: auto; }
+
 .ms-slide.one {
+  background: #256CA0;
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: 100%; }
+  .ms-slide.one .ms-cap {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .ms-slide.one .ms-cap .carousel-caption {
+      position: absolute; }
+      .ms-slide.one .ms-cap .carousel-caption .ms-cap-heading {
+        font-size: 7rem;
+        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);
+        color: #EAF900; }
+      .ms-slide.one .ms-cap .carousel-caption .ms-cap-body {
+        font-size: 2rem;
+        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);
+        color: #256ca0; }
+        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body h3 {
+          font-size: 5rem;
+          padding: 15px 20px;
+          background: #EAF900;
+          text-shadow: none; }
+        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p {
+          color: white; }
+          .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {
+            color: #EAF900; }
+
+.ms-slide.two {
+  background: #256CA0; }
+
+.ms-slide.three {
   background: #256CA0; }
 
 /*carousel*/
@@ -110,6 +149,8 @@
       flex-direction: column;
       /*border: 1px solid white;*/
       z-index: 2; }
+      #whatwe .whatwe-content .descript .descriptbox:not(:first-child) {
+        margin-left: 10px; }
       #whatwe .whatwe-content .descript .descriptbox .learn {
         background: url(../../assets/images/backgrounds/open-book.svg);
         background-repeat: no-repeat;

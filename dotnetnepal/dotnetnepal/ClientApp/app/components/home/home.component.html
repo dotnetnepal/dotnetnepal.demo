@@ -19,11 +19,23 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active ms-slide one">
-            <!--<img alt="First slide" src="http://placehold.it/1200x675&text=First+slide">-->
-            <div class="carousel-caption">
-                <h3>Caption heading 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="ms-cap">
+                <!--<img alt="First slide" src="http://placehold.it/1200x675&text=First+slide">-->
+                <div class="carousel-caption">
+                    <div class="ms-cap-heading">
+                        dotNetNepal
+                    </div>
+                    <div class="ms-cap-body">
+                        <h3>dotConf v1</h3>
+                        <p>Hold on <span>dot</span> is coming.</p>
+                        <countdown [text]="text" units="Year | Month | Days | Hours | Minutes | Seconds" end="December 31,2017" ></countdown>
+                    </div>
+                    <div class="ms-cap-footer">
+                        <a routerLink="/eventdetail" class="btn tn-btn btn-primary">Event Detail</a>
+                    </div>
+                </div>
             </div>
+          
         </div>
         <div class="item ms-slide two">
             <!--<img alt="Second slide" src="http://placehold.it/1200x675&text=Second+slide">-->

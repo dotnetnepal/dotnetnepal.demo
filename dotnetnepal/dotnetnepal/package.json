@@ -54,7 +54,8 @@
     "webpack": "3.6.0",
     "webpack-hot-middleware": "2.19.1",
     "webpack-merge": "4.1.0",
-    "zone.js": "0.8.17"
+    "zone.js": "0.8.17",
+    "ng2-date-countdown": "0.0.4"
   },
   "devDependencies": {
     "@types/chai": "4.0.4",
@@ -81,12 +82,7 @@
     "angularX",
     "aspnetcore",
     "aspnet-core",
-    "startup",
-    "template",
-    "quick-app",
-    "quickapp",
-    "quickapplication",
-    "rad",
+    "dotnetnepal",
     "ng2",
     "ng4",
     "ngX"
