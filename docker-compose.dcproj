@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Windows</DockerTargetOS>
-    <ProjectGuid>ee3ccb00-991d-4631-a44c-f56171ce0842</ProjectGuid>
+    <ProjectGuid>d75f0936-9e12-453d-bf01-c5dbb4573597</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>http://{ServiceIPAddress}</DockerServiceUrl>
     <DockerServiceName>dotnetnepal</DockerServiceName>
