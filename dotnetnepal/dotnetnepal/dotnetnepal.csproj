@@ -9,6 +9,7 @@
     <Copyright></Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <Company></Company>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
