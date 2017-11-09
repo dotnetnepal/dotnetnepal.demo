@@ -1,5 +1,6 @@
 ﻿@import '../../assets/styles/color.scss';
 @import'../../assets/styles/btn.scss';
+
 .bottom-space {
     margin-bottom: 40px;
 }
@@ -24,28 +25,89 @@
 }
 
 /*carousel*/
-.carousel-control{
-    background-image:none;
-}
-.carousel-control .material-icons{
-    position:absolute;
-    top:50%;
+.carousel-control {
+    background-image: none;
 }
 
-.item.ms-slide{
-    min-height:100vh;
-    
-    min-width:100%;
+.carousel-control .material-icons {
+    position: absolute;
+    top: 50%;
 }
+
+.item.ms-slide {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.carousel-caption {
+    // display:flex;
+    bottom: auto;
+}
+
 .ms-slide.one {
     background: #256CA0;
-}
-.ms-slide.two {
-}
-.ms-slide.three {
-}
-/*carousel*/
+    position: relative;
+    width: 100%;
+    top: 0;
+    height: 100%;
 
+    .ms-cap {
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .carousel-caption {
+            position: absolute;
+
+            .ms-cap-heading {
+                font-size: 7rem;
+                text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);
+                color: $yellow;
+            }
+
+            .ms-cap-body {
+                font-size: 2rem;
+                text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);
+                color: $blue;
+
+                h3 {
+                    font-size: 5rem;
+                    padding: 15px 20px;
+                    background: $yellow;
+                    text-shadow: none;
+                }
+
+                p {
+                    color: white;
+
+                    span {
+                        color: $yellow
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ms-slide.two {
+    background: #256CA0;
+
+    .carousel-caption {
+        .ms-cap-heading {
+        }
+    }
+}
+
+.ms-slide.three {
+    background: #256CA0;
+}
+
+
+/*carousel*/
 .sec-title {
     text-transform: uppercase;
     text-align: center;
@@ -63,14 +125,14 @@
 }
 
 #whowe {
-     /*background-color:$yellow;*/
+    /*background-color:$yellow;*/
     background-image: url(../../assets/images/backgrounds/greenblue.png);
     background-position: center;
     background-size: cover;
     /*transform:rotate(-15deg) translate(a);*/
-    .whowe-content{
+    .whowe-content {
         padding-bottom: 20px;
-         /*transform:rotate(15deg);*/
+        /*transform:rotate(15deg);*/
         .whowe-detail {
             text-align: center;
             font-weight: lighter;
@@ -85,15 +147,14 @@
         }
     }
 }
-
 /*who we*/
-
 /*whatwe*/
 #whatwe {
     background: $green;
     padding: 15px 0;
     min-height: 100%;
-    .sec-title{
+
+    .sec-title {
         color: white;
     }
 
@@ -101,17 +162,19 @@
         border-color: white;
     }
 
-    .whatwe-content
-        .descript{
+    .whatwe-content {
+        .descript {
             display: flex;
-            justify-content:center;
-            align-items:center;
-            margin-bottom:10px;
-            position:relative;
-            &:before{
-                content:'';
-                border:1px solid red;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            position: relative;
+
+            &:before {
+                content: '';
+                border: 1px solid red;
             }
+
             .descriptbox {
                 height: 100px;
                 width: 100px;
@@ -119,18 +182,20 @@
                 margin-left: 15px;
                 padding: 15px;
                 padding-bottom: 0;
-                 background: #079007;
+                background: #079007;
                 color: white;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
                 /*border: 1px solid white;*/
-                z-index:2;
-                &:not(:first-child){
-                    margin-left:10px;
-                 }
-                .learn{
+                z-index: 2;
+
+                &:not(:first-child) {
+                    margin-left: 10px;
+                }
+
+                .learn {
                     background: url(../../assets/images/backgrounds/open-book.svg);
                     background-repeat: no-repeat;
                     padding: 25px;
@@ -162,13 +227,13 @@
                 p {
                     font-size: 2rem;
                 }
-               
             }
+
             .hr {
                 position: absolute;
                 min-width: 50%;
                 bottom: 30%;
-                border-top:2px solid white;
+                border-top: 2px solid white;
             }
         }
     }
