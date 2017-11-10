@@ -74,6 +74,8 @@
           color: white; }
           .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {
             color: #EAF900; }
+      .ms-slide.one .ms-cap .carousel-caption .ms-cap-footer {
+        margin-top: 25px; }
 
 .ms-slide.two {
   background: #256CA0; }
