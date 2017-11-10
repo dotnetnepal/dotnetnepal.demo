@@ -1,31 +1,29 @@
-using System;
+﻿using AspNet.Security.OAuth.Validation;
+using AspNet.Security.OpenIdConnect.Primitives;
+using AutoMapper;
+using dotnetnepal.Helpers;
+using dotnetnepal.Policies;
+using dotnetnepal.ViewModels;
+using Infrastructure;
+using Infrastructure.Core;
+using Infrastructure.Core.Interfaces;
+using Infrastructure.Models;
+using Infrastructure.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SpaServices.Webpack;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Infrastructure;
-using Infrastructure.Models;
-using System.Net;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Http;
-using AutoMapper;
 using Newtonsoft.Json;
-using Infrastructure.Core;
-using Infrastructure.Core.Interfaces;
-using Microsoft.AspNetCore.Authorization;
-using dotnetnepal.ViewModels;
-using dotnetnepal.Helpers;
-using dotnetnepal.Policies;
-using AspNet.Security.OpenIdConnect.Primitives;
-using AspNet.Security.OAuth.Validation;
-using Microsoft.AspNetCore.Identity;
 using Swashbuckle.AspNetCore.Swagger;
+using System.Net;
 using AppPermissions = Infrastructure.Core.ApplicationPermissions;
-using Infrastructure.Services;
 
 namespace dotnetnepal
 {
@@ -37,7 +35,7 @@ namespace dotnetnepal
         {
             Configuration = configuration;
         }
-                
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -101,7 +99,7 @@ namespace dotnetnepal
 
             // Add framework services.
             services.AddMvc();
-             //   .WithRazorPagesRoot("/Pages");
+            //   .WithRazorPagesRoot("/Pages");
 
 
             //Todo: ***Using DataAnnotations for validation until Swashbuckle supports FluentValidation***
@@ -176,7 +174,7 @@ namespace dotnetnepal
 
             // DB Creation and Seeding
             services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
-            
+
 
             services.AddSingleton<SlugGenerator>();
             ExcerptGenerator excerptGenerator = new ExcerptGenerator(140);
@@ -186,7 +184,7 @@ namespace dotnetnepal
 
 
         }
-        
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
@@ -202,7 +200,7 @@ namespace dotnetnepal
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                    HotModuleReplacement = true
+                    HotModuleReplacement = true                  
                 });
             }
             else

@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3B92FF4-1657-489E-9013-74C4D2610A3F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal", "dotnetnepal\dotnetnepal\dotnetnepal.csproj", "{004B0EC1-7AF2-4D01-85B8-3959F5605259}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "dotnetnepal\Infrastructure\Infrastructure.csproj", "{B01B7DFB-FDE5-4B43-A44D-A873CECEDE47}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EE3CCB00-991D-4631-A44C-F56171CE0842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{B01B7DFB-FDE5-4B43-A44D-A873CECEDE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01B7DFB-FDE5-4B43-A44D-A873CECEDE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01B7DFB-FDE5-4B43-A44D-A873CECEDE47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE3CCB00-991D-4631-A44C-F56171CE0842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE3CCB00-991D-4631-A44C-F56171CE0842}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE3CCB00-991D-4631-A44C-F56171CE0842}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE3CCB00-991D-4631-A44C-F56171CE0842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
