@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpModule } from '@angular/http';
 
+import * as jmodule from 'jquery';
 import 'bootstrap';
 import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
@@ -57,10 +58,8 @@ import { UsersManagementComponent } from "./components/controls/users-management
 import { RolesManagementComponent } from "./components/controls/roles-management.component";
 import { RoleEditorComponent } from "./components/controls/role-editor.component";
 
-
-import { BlogsComponent } from "./components/blogs/blogs.component";
-
-
+//ms-import
+import { CountDown } from 'ng2-date-countdown';
 
 @NgModule({
     imports: [
@@ -104,9 +103,7 @@ import { BlogsComponent } from "./components/blogs/blogs.component";
         BootstrapSelectDirective,
         BootstrapDatepickerDirective,
         GroupByPipe,
-
-        BlogsComponent
-
+        CountDown
     ],
     providers: [
         { provide: 'BASE_URL', useFactory: getBaseUrl },

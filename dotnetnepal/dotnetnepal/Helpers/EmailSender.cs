@@ -1,11 +1,11 @@
 ﻿
 using MailKit.Net.Smtp;
+using Microsoft.Extensions.Logging;
 using MimeKit;
 using System;
-using Microsoft.Extensions.Logging;
-using System.Threading.Tasks;
-using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
 
 namespace dotnetnepal.Helpers
 {
@@ -34,7 +34,6 @@ namespace dotnetnepal.Helpers
 
             return await EmailSender.SendEmailAsync(from, new MailboxAddress[] { to }, subject, body, config, isHtml);
         }
-
 
 
         public static async Task<(bool success, string errorMsg)> SendEmailAsync(MailboxAddress sender, MailboxAddress[] recepients, string subject, string body, SmtpConfig config = null, bool isHtml = true)
