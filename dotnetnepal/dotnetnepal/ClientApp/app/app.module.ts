@@ -62,7 +62,6 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
 import { CountDown } from 'ng2-date-countdown';
 import { BlogReadComponent } from "./components/blog-read/blog-read.component";
 
-import { BlogsComponent } from "./components/blogs/blogs.component";
 
 @NgModule({
     imports: [
