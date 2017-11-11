@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace dotnetnepal.ViewModels
 {
-    public class PostViewModel
+    public class CommentViewModel
     {
         [Required]
-        public string Title { get; set; }
+        [MaxLength(100, ErrorMessage = "You have exceeded the maximum length of 100 characters")]
+        public string AuthorName { get; set; }
         [Required]
+        [MaxLength(1000, ErrorMessage = "You have exceeded the maximum length of 1000 characters")]
         public string Body { get; set; }
-        public string Excerpt { get; set; }
-
-        public bool PublishPost { get; set; }
     }
 }
