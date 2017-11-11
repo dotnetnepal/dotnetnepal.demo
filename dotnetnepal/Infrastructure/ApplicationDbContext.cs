@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using Infrastructure.Models.Interfaces;
+using Infrastructure.Core.Domains;
 
 namespace Infrastructure
 {
@@ -32,7 +33,6 @@ namespace Infrastructure
 
 
             builder.Entity<Post>().HasMany(c=>c.Comments).WithOne();
-
 
         }
 
