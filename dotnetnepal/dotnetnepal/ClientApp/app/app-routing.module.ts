@@ -8,6 +8,8 @@ import { AboutComponent } from "./components/about/about.component";
 import { NotFoundComponent } from "./components/not-found/not-found.component";
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './services/auth-guard.service';
+import { BlogsComponent } from "./components/blogs/blogs.component";
+import { BlogReadComponent } from "./components/blog-read/blog-read.component";
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { AuthGuard } from './services/auth-guard.service';
             { path: "settings", component: SettingsComponent, canActivate: [AuthGuard], data: { title: "Settings" } },
             { path: "about", component: AboutComponent, data: { title: "About Us" } },
             { path: "home", redirectTo: "/", pathMatch: "full" },
+            { path: "blog", component: BlogsComponent, data: { title: "Blogs" } },
+            { path: "blog-read", component: BlogReadComponent, data: { title: "Blog Read" } },
             { path: "**", component: NotFoundComponent, data: { title: "Page Not Found" } },
         ])
     ],

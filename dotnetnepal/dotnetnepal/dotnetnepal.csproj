@@ -86,10 +86,13 @@
 
   <ItemGroup>
     <Folder Include="Helpers\Templates\" />
-    <Folder Include="node_modules\ng2-date-countdown\lib\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\js\master.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="node_modules\ng2-date-countdown\lib\countdown.ts" />
   </ItemGroup>
 </Project>
