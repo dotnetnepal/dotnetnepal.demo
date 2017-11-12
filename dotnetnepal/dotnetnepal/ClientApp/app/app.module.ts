@@ -45,6 +45,7 @@ import { LoginComponent } from "./components/login/login.component";
 import { HomeComponent } from "./components/home/home.component";
 import { SettingsComponent } from "./components/settings/settings.component";
 import { AboutComponent } from "./components/about/about.component";
+import { BlogsComponent } from "./components/blogs/blogs.component";
 import { NotFoundComponent } from "./components/not-found/not-found.component";
 
 import { TodoDemoComponent } from "./components/controls/todo-demo.component";
@@ -59,8 +60,8 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
 
 //ms-import
 import { CountDown } from 'ng2-date-countdown';
+import { BlogReadComponent } from "./components/blog-read/blog-read.component";
 
-import { BlogsComponent } from "./components/blogs/blogs.component";
 
 @NgModule({
     imports: [
@@ -89,6 +90,8 @@ import { BlogsComponent } from "./components/blogs/blogs.component";
         LoginComponent,
         HomeComponent,
         SettingsComponent,
+        BlogsComponent,
+        BlogReadComponent,
         UsersManagementComponent, UserInfoComponent, UserPreferencesComponent,
         RolesManagementComponent, RoleEditorComponent,
         AboutComponent,

@@ -70,7 +70,6 @@
 
   <ItemGroup>
     <None Remove="Helpers\Templates\TestEmail.template" />
-    <None Remove="Properties\PublishProfiles\dotnetnepalweb - Web Deploy.pubxml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -87,11 +86,13 @@
 
   <ItemGroup>
     <Folder Include="Helpers\Templates\" />
-    <Folder Include="node_modules\ng2-date-countdown\lib\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\js\master.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="node_modules\ng2-date-countdown\lib\countdown.ts" />
   </ItemGroup>
 </Project>

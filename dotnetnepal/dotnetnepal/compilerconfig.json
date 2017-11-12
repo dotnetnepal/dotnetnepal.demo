@@ -14,5 +14,13 @@
   {
     "outputFile": "ClientApp/app/components/app.component.css",
     "inputFile": "ClientApp/app/components/app.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/blogs/blogs.component.css",
+    "inputFile": "ClientApp/app/components/blogs/blogs.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/blog-read/blog-read.component.css",
+    "inputFile": "ClientApp/app/components/blog-read/blog-read.component.scss"
   }
 ]

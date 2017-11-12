@@ -2,10 +2,11 @@
 import { fadeInOut } from '../../services/animations';
 
 @Component({
-    selector: 'blogs',
+    selector: 'dotnetnepal-blogs',
     templateUrl: './blogs.component.html',
     styleUrls: ['./blogs.component.css'],
     animations: [fadeInOut]
 })
 export class BlogsComponent {
+    title = "Blogs"
 }

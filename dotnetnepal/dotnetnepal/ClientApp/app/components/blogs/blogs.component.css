@@ -1,1 +1,35 @@
-﻿
+﻿/*dark*/
+.page-title {
+  background: #CCCC14;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 12px black; }
+
+.page-body {
+  padding-top: 15px; }
+  .page-body .panel {
+    box-shadow: 1px 1px 12px 0px #d0d0d0; }
+    .page-body .panel:hover {
+      box-shadow: 1px 1px 20px 0px #b7b4b4; }
+    .page-body .panel .panel-heading {
+      background-color: #53a025;
+      color: white; }
+    .page-body .panel .panel-body {
+      text-align: center;
+      padding: 0; }
+      .page-body .panel .panel-body img {
+        background: #d0d0d0;
+        width: 100%; }
+      .page-body .panel .panel-body .blog-title {
+        font-size: 2rem; }
+      .page-body .panel .panel-body .blog-short-detail {
+        font-size: 1.3rem; }
+    .page-body .panel .panel-footer {
+      text-align: center;
+      border-top: none;
+      background: none; }
+
