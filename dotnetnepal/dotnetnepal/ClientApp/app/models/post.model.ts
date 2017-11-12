@@ -2,9 +2,9 @@
 export class Post {
        
     public id: number;
-    public header: string;
+    public title: string;
     public body: string;
-    public isRead: boolean;
-    public isPinned: boolean;
-    public date: Date;
+    public excerpt: string;
+    public publishPost: boolean;
+
 }

@@ -6,7 +6,7 @@
 
 <h2>Write a New Post</h2>
 
-<form method="POST" enctype="multipart/form-data">
+<form asp-controller="BlogsAdmin" asp-action="New" method="post" role="form" >
     <div class="col-md-12 well">
         <div class="form-group col-md-6">
             <label for="Title">Title</></label>
@@ -29,9 +29,10 @@
             </div>
         </div>
         <div class="col-md-12">
-            <input type="submit" name="save" class="btn btn-primary btn-sm" value="Save Draft" asp-page-handler="SaveDraft" />
-            <input type="submit" name="publish" class="btn btn-primary btn-sm" value="Publish" asp-page-handler="Publish" />
-        </div>
+            @*<input type="submit" name="publish" class="btn btn-primary btn-sm" value="Publish" />*@
+
+            <button type="submit" class="btn btn-primary btn-sm">Publish</button>
+         </div>
     </div>
 </form>
 

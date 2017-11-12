@@ -123,7 +123,7 @@ namespace dotnetnepal.Migrations
 
             modelBuilder.Entity("Infrastructure.Models.Comment", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Author");
@@ -138,7 +138,7 @@ namespace dotnetnepal.Migrations
 
                     b.Property<bool>("IsApproved");
 
-                    b.Property<Guid?>("PostId");
+                    b.Property<int?>("PostId");
 
                     b.Property<DateTime>("PubDate");
 
@@ -155,7 +155,7 @@ namespace dotnetnepal.Migrations
 
             modelBuilder.Entity("Infrastructure.Models.Post", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Body")

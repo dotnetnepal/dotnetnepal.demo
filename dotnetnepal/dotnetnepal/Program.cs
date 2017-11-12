@@ -41,6 +41,7 @@ namespace dotnetnepal
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+           // .UseEnvironment("Production")
                 .Build();
     }
 }

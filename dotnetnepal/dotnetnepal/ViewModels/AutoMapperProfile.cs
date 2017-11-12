@@ -43,7 +43,12 @@ namespace dotnetnepal.ViewModels
 
             CreateMap<IdentityRoleClaim<string>, PermissionViewModel>()
                 .ConvertUsing(s => Mapper.Map<PermissionViewModel>(ApplicationPermissions.GetPermissionByValue(s.ClaimValue)));
+            
+            CreateMap<Post, PostViewModel>()
+             .ReverseMap();
 
+            CreateMap<Post, PostSummaryModel>()
+             .ReverseMap();
         }
     }
 }

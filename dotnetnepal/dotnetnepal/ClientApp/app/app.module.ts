@@ -63,6 +63,10 @@ import { CountDown } from 'ng2-date-countdown';
 import { BlogReadComponent } from "./components/blog-read/blog-read.component";
 
 
+import { BlogsService } from './services/blog.service';
+
+
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -123,7 +127,8 @@ import { BlogReadComponent } from "./components/blog-read/blog-read.component";
         AccountService,
         AccountEndpoint,
         LocalStoreManager,
-        EndpointFactory
+        EndpointFactory,
+        BlogsService
     ],
     bootstrap: [AppComponent]
 })

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace dotnetnepal.Controllers
 {
     public class BlogsAdminController : Controller
-    {
+    {   
         private readonly IUnitOfWork _unitOfWork;
 
         private readonly SlugGenerator _slugGenerator;
@@ -29,7 +29,8 @@ namespace dotnetnepal.Controllers
         {
             Func<Post, bool> postFilter = p => p.IsPublic;
             Func<Post, bool> deletedPostFilter = p => !p.IsDeleted;
-            IEnumerable<Post> postModels = _unitOfWork.Posts.GetAllPostsData().Where(postFilter).Where(deletedPostFilter);
+            //            IEnumerable<Post> postModels = _unitOfWork.Posts.GetAllPostsData().Where(postFilter).Where(deletedPostFilter);
+            IEnumerable<Post> postModels = _unitOfWork.Posts.GetAllPostsData();
 
             IEnumerable<PostSummaryModel> PostSummaries = postModels.Select(p => new PostSummaryModel
             {
@@ -52,6 +53,15 @@ namespace dotnetnepal.Controllers
             return View(post);
         }
 
+
+        public IActionResult New()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult New(PostViewModel postViewModel)
         {
             if (ModelState.IsValid)
@@ -76,8 +86,10 @@ namespace dotnetnepal.Controllers
                     post.PubDate = DateTimeOffset.Now;
                     post.IsPublic = true;
                 }
+
                 _unitOfWork.Posts.SavePost(post);
-                RedirectToAction(nameof(Index));
+
+               return RedirectToAction(nameof(Index));
             }
 
             return View(postViewModel);

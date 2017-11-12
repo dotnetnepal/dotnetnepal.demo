@@ -9,10 +9,10 @@ namespace dotnetnepal.ViewModels
 {
     public class PostViewModel
     {
-        [Required]
+        public int Id { get; set; }
+
         public string Title { get; set; }
-        [Required]
-        public string Body { get; set; }
+            public string Body { get; set; }
         public string Excerpt { get; set; }
 
         public bool PublishPost { get; set; }

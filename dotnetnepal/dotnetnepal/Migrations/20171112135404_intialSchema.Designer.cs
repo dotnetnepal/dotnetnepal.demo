@@ -11,8 +11,8 @@ using System;
 namespace dotnetnepal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20171111120305_initialSchema")]
-    partial class initialSchema
+    [Migration("20171112135404_intialSchema")]
+    partial class intialSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -124,7 +124,7 @@ namespace dotnetnepal.Migrations
 
             modelBuilder.Entity("Infrastructure.Models.Comment", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Author");
@@ -139,7 +139,7 @@ namespace dotnetnepal.Migrations
 
                     b.Property<bool>("IsApproved");
 
-                    b.Property<Guid?>("PostId");
+                    b.Property<int?>("PostId");
 
                     b.Property<DateTime>("PubDate");
 
@@ -156,7 +156,7 @@ namespace dotnetnepal.Migrations
 
             modelBuilder.Entity("Infrastructure.Models.Post", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Body")

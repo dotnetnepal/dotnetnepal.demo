@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace dotnetnepal.Migrations
 {
-    public partial class initialSchema : Migration
+    public partial class intialSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -97,7 +97,8 @@ namespace dotnetnepal.Migrations
                 name: "Posts",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Body = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Excerpt = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
@@ -245,14 +246,15 @@ namespace dotnetnepal.Migrations
                 name: "Comments",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Content = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Ip = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsAdmin = table.Column<bool>(type: "bit", nullable: false),
                     IsApproved = table.Column<bool>(type: "bit", nullable: false),
-                    PostId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    PostId = table.Column<int>(type: "int", nullable: true),
                     PubDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UserAgent = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Website = table.Column<string>(type: "nvarchar(max)", nullable: true)

@@ -38,10 +38,13 @@ namespace Infrastructure.Repositories
         public void SavePost(Post post)
         {
             appContext.Add(post);
+            appContext.SaveChanges();
         }
         public void DeletePost(Guid Id)
         {
             appContext.Remove(GetPost(Id));
+            appContext.SaveChanges();
+
         }
 
         private ApplicationDbContext appContext
