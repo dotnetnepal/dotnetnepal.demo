@@ -78,7 +78,81 @@
         margin-top: 25px; }
 
 .ms-slide.two {
-  background: #256CA0; }
+  background: fixed;
+  background-image: url(../../assets/images/backgrounds/laptop.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .ms-slide.two .ms-cap .carousel-caption {
+    /*.ms-cap-body {
+                display: flex;
+                position: relative;
+
+                .ms-cap-body-info {
+                    //flex: 1;
+                    padding: 0 15px 0 15px;
+                    display: flex;
+                    align-content: center;
+
+                    .b-center {
+
+                        .title {
+                            font-size: 2rem;
+                            padding: 5px;
+                            background: $yellow;
+                        }
+
+                        ul {
+                            padding: 15px;
+                            list-style-position: inside;
+                            list-style-type: armenian;
+
+                            li {
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+
+                .ms-cap-body-img {
+                    //flex: 1;
+                    img {
+                        height: 250px;
+                        width: auto;
+                    }
+                }
+            }*/ }
+    .ms-slide.two .ms-cap .carousel-caption.two {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /*left: 0;
+                right: 0px;
+                height: 100%;
+                width:100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;*/ }
+    .ms-slide.two .ms-cap .carousel-caption .ms-cap-body {
+      flex: 1; }
+      .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center {
+        padding: 15px;
+        background-color: rgba(87, 198, 212, 0.5);
+        border: 1em solid; }
+        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center .title {
+          padding: 5px;
+          font-size: 3.5rem; }
+        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul {
+          list-style: none;
+          list-style-position: outside; }
+          .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li {
+            text-align: left;
+            padding: 15px 10px;
+            margin: 15px; }
+            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.one {
+              background-image: url(../../assets/images/listjoin.png); }
+            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.two {
+              background-image: url(../../assets/images/listjoininv.png); }
 
 .ms-slide.three {
   background: #256CA0; }

@@ -15,10 +15,10 @@
     "@angular/platform-server": "4.3.6",
     "@angular/router": "4.3.6",
     "@ngtools/webpack": "1.7.1",
-    "@types/webpack-env": "1.13.1",
     "@ngx-translate/core": "8.0.0",
     "@swimlane/ngx-datatable": "10.2.3",
     "@types/jquery": "3.2.12",
+    "@types/webpack-env": "1.13.1",
     "angular2-template-loader": "0.6.2",
     "aspnet-webpack": "2.0.1",
     "awesome-typescript-loader": "3.2.3",
@@ -40,9 +40,9 @@
     "jquery": "3.2.1",
     "json-loader": "0.5.7",
     "ng2-charts": "1.6.0",
+    "ng2-date-countdown": "0.0.4",
     "ng2-toasty": "4.0.3",
     "ngx-bootstrap": "1.9.3",
-    "node-sass": "4.5.3",
     "raw-loader": "0.5.1",
     "rxjs": "5.4.3",
     "sass-loader": "6.0.6",
@@ -54,8 +54,7 @@
     "webpack": "3.6.0",
     "webpack-hot-middleware": "2.19.1",
     "webpack-merge": "4.1.0",
-    "zone.js": "0.8.17",
-    "ng2-date-countdown": "0.0.4"
+    "zone.js": "0.8.17"
   },
   "devDependencies": {
     "@types/chai": "4.0.4",

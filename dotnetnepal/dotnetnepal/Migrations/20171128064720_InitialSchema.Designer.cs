@@ -11,8 +11,8 @@ using System;
 namespace dotnetnepal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20171112135404_intialSchema")]
-    partial class intialSchema
+    [Migration("20171128064720_InitialSchema")]
+    partial class InitialSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
