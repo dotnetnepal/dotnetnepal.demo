@@ -157,7 +157,7 @@
                 }
             }*/
             .ms-cap-body {
-               flex:1;
+                flex: 1;
 
                 .ms-cap-body-info {
                     .b-center {
@@ -170,23 +170,34 @@
                             //background:$yellow;
                             font-size: 3.5rem;
                             //text-align: left;
+                            color: rgba(77, 61, 158, 0.99);
                         }
 
                         ul {
                             list-style: none;
                             list-style-position: outside;
+                            padding-left: 0;
+                            text-align: center;
 
                             li {
-                                text-align: left;
+                                text-align: center;
                                 padding: 15px 10px;
                                 margin: 15px;
+                                font-size: 2.3rem;
+
+                                &:before {
+                                    content: url(https://cdn.iconscout.com/public/images/icon/premium/png-512/office-hand-finger-pointing-right-thumb-addressing-3ce3848165e198ac-512x512.png);
+                                    max-height:10px;
+                                    width:auto;
+                                    color:white;
+                                }
 
                                 &.one {
-                                    background-image: url(../../assets/images/listjoin.png);
+                                    // background-image: url(../../assets/images/listjoin.png);
                                 }
 
                                 &.two {
-                                    background-image: url(../../assets/images/listjoininv.png);
+                                    // background-image: url(../../assets/images/listjoininv.png);
                                 }
                             }
                         }

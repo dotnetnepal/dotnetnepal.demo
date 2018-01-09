@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "7e13edea2391536f233f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2dbe9738d7a635ae3a47"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -721,7 +721,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(85)(__webpack_require__.s = 85);
+/******/ 	return hotCreateRequire(86)(__webpack_require__.s = 86);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1583,15 +1583,15 @@ var TranslateLanguageLoader = /** @class */ (function () {
         //Note Dynamic require(variable) will not work. Require is always at compile time
         switch (lang) {
             case "en":
-                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(151));
-            case "fr":
                 return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(152));
-            case "de":
+            case "fr":
                 return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(153));
-            case "ar":
+            case "de":
                 return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(154));
-            case "ko":
+            case "ar":
                 return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(155));
+            case "ko":
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(156));
             default:
         }
     };
@@ -1619,7 +1619,7 @@ var TranslateLanguageLoader = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__account_endpoint_service__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__account_endpoint_service__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__auth_service__ = __webpack_require__(14);
 // ======================================
 // Author: Ebenezer Monney
@@ -4118,33 +4118,33 @@ Observable_1.Observable.prototype.map = map_1.map;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__);
@@ -4153,7 +4153,7 @@ Observable_1.Observable.prototype.map = map_1.map;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__);
 
 /**
@@ -10467,7 +10467,7 @@ module.exports = (__webpack_require__(1))(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__endpoint_factory_service__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__db_Keys__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jwt_helper__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jwt_helper__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utilities__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__models_user_model__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10997,19 +10997,19 @@ var Permission = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__translate_store__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__translate_loader__ = __webpack_require__(37);
@@ -13961,7 +13961,7 @@ exports.EmptyError = EmptyError;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_login_model__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_login_model__ = __webpack_require__(158);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -14086,8 +14086,8 @@ var LoginComponent = /** @class */ (function () {
     LoginComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "app-login",
-            template: __webpack_require__(158),
-            styles: [__webpack_require__(159)]
+            template: __webpack_require__(159),
+            styles: [__webpack_require__(160)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_3__services_configuration_service__["a" /* ConfigurationService */]])
     ], LoginComponent);
@@ -14108,13 +14108,13 @@ var LoginComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__ = __webpack_require__(151);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__auth_service__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__configuration_service__ = __webpack_require__(15);
@@ -14284,7 +14284,7 @@ Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__notification_endpoint_service__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__notification_endpoint_service__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_notification_model__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -20811,7 +20811,7 @@ ReactiveFormsModule.ctorParameters = function () { return []; };
 
 "use strict";
 
-var ForkJoinObservable_1 = __webpack_require__(108);
+var ForkJoinObservable_1 = __webpack_require__(109);
 exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
 //# sourceMappingURL=forkJoin.js.map
 
@@ -21258,7 +21258,7 @@ module.exports = (__webpack_require__(1))(43);
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var switchMap_1 = __webpack_require__(116);
+var switchMap_1 = __webpack_require__(117);
 Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
 //# sourceMappingURL=switchMap.js.map
 
@@ -21872,7 +21872,7 @@ var HomeComponent = /** @class */ (function () {
     HomeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'home',
-            template: __webpack_require__(161),
+            template: __webpack_require__(162),
             styles: [__webpack_require__(163)],
             animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
         }),
@@ -21885,6 +21885,12 @@ var HomeComponent = /** @class */ (function () {
 
 /***/ }),
 /* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "1e308592d1044ac45adb2ce2821808c7.png";
+
+/***/ }),
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21894,7 +21900,7 @@ var HomeComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_animations__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_tab_directive__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_tab_directive__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
@@ -22030,7 +22036,7 @@ var SettingsComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22111,13 +22117,13 @@ var BootstrapTabDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(17);
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22416,7 +22422,7 @@ var AccountEndpoint = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22448,7 +22454,7 @@ var AboutComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22487,7 +22493,7 @@ var NotFoundComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22495,7 +22501,7 @@ var NotFoundComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_blog_service__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_blog_service__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -22540,7 +22546,7 @@ var BlogsComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22634,7 +22640,7 @@ var BlogsService = /** @class */ (function () {
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22667,7 +22673,7 @@ var BlogReadComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22737,7 +22743,7 @@ var AppTitleService = /** @class */ (function () {
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22877,7 +22883,7 @@ var NotificationEndpoint = /** @class */ (function () {
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22990,7 +22996,7 @@ var BootstrapSelectDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23330,7 +23336,7 @@ var UserInfoComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23517,22 +23523,22 @@ var RoleEditorComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(86);
 __webpack_require__(87);
-module.exports = __webpack_require__(100);
+__webpack_require__(88);
+module.exports = __webpack_require__(101);
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(242);
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__resourceQuery, module) {/*eslint-env browser*/
@@ -23549,7 +23555,7 @@ var options = {
   autoConnect: true
 };
 if (true) {
-  var querystring = __webpack_require__(89);
+  var querystring = __webpack_require__(90);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   setOverrides(overrides);
 }
@@ -23683,11 +23689,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(92);
+  var strip = __webpack_require__(93);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(94);
+    overlay = __webpack_require__(95);
   }
 
   var styles = {
@@ -23740,7 +23746,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(99);
+var processUpdate = __webpack_require__(100);
 
 var customHandler;
 var subscribeAllHandler;
@@ -23806,27 +23812,27 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(88)(module)))
-
-/***/ }),
-/* 88 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(279);
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(89)(module)))
 
 /***/ }),
 /* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-exports.decode = exports.parse = __webpack_require__(90);
-exports.encode = exports.stringify = __webpack_require__(91);
-
+module.exports = (__webpack_require__(1))(279);
 
 /***/ }),
 /* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.decode = exports.parse = __webpack_require__(91);
+exports.encode = exports.stringify = __webpack_require__(92);
+
+
+/***/ }),
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23917,7 +23923,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24009,12 +24015,12 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ansiRegex = __webpack_require__(93)();
+var ansiRegex = __webpack_require__(94)();
 
 module.exports = function (str) {
 	return typeof str === 'string' ? str.replace(ansiRegex, '') : str;
@@ -24022,7 +24028,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24033,7 +24039,7 @@ module.exports = function () {
 
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -24062,7 +24068,7 @@ for (var key in styles) {
   clientOverlay.style[key] = styles[key];
 }
 
-var ansiHTML = __webpack_require__(95);
+var ansiHTML = __webpack_require__(96);
 var colors = {
   reset: ['transparent', 'transparent'],
   black: '181818',
@@ -24077,7 +24083,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(96).AllHtmlEntities;
+var Entities = __webpack_require__(97).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -24118,7 +24124,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24301,19 +24307,19 @@ ansiHTML.reset()
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(97),
-  Html4Entities: __webpack_require__(98),
+  XmlEntities: __webpack_require__(98),
+  Html4Entities: __webpack_require__(99),
   Html5Entities: __webpack_require__(50),
   AllHtmlEntities: __webpack_require__(50)
 };
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -24474,7 +24480,7 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -24627,7 +24633,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -24765,22 +24771,22 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_web_animations_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_zone_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_bootstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_dynamic__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_app_module__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_dynamic__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_app_module__ = __webpack_require__(108);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -24816,19 +24822,19 @@ var modulePromise = Object(__WEBPACK_IMPORTED_MODULE_5__angular_platform_browser
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(237);
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(241);
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
@@ -27665,16 +27671,16 @@ Zone.__load_patch('util', function (global, Zone, api) {
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(104)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(105)))
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(37);
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27684,7 +27690,7 @@ module.exports = (__webpack_require__(1))(37);
 /* unused harmony export ɵINTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS */
 /* unused harmony export ɵResourceLoaderImpl */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(9);
@@ -27857,7 +27863,7 @@ var platformBrowserDynamic = Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__[
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55728,7 +55734,7 @@ function _mergeArrays(parts) {
 //# sourceMappingURL=compiler.es5.js.map
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55737,60 +55743,60 @@ function _mergeArrays(parts) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bootstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_toasty__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ngx_bootstrap_modal__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_bootstrap_tooltip__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ngx_bootstrap_popover__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_bootstrap_dropdown__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_carousel__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_bootstrap_tooltip__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ngx_bootstrap_popover__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_bootstrap_dropdown__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_carousel__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_ng2_charts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_routing_module__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_routing_module__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__app_error_handler__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_app_title_service__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_app_title_service__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_local_store_manager_service__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_endpoint_factory_service__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_notification_service__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_notification_endpoint_service__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_notification_endpoint_service__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_account_endpoint_service__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_account_endpoint_service__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__directives_equal_validator_directive__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__directives_last_element_directive__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__directives_autofocus_directive__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__directives_bootstrap_tab_directive__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__directives_bootstrap_tab_directive__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__directives_bootstrap_toggle_directive__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_app_component__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_login_login_component__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_home_home_component__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_settings_settings_component__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_about_about_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_blogs_blogs_component__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_not_found_not_found_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_settings_settings_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_about_about_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_blogs_blogs_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_not_found_not_found_component__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_controls_todo_demo_component__ = __webpack_require__(234);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_controls_statistics_demo_component__ = __webpack_require__(238);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_controls_notifications_viewer_component__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_controls_search_box_component__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_controls_user_info_component__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_controls_user_info_component__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_controls_user_preferences_component__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__ = __webpack_require__(259);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51_ng2_date_countdown__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_blog_read_blog_read_component__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__services_blog_service__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_blog_read_blog_read_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__services_blog_service__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -55930,7 +55936,7 @@ function getBaseUrl() {
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56048,7 +56054,7 @@ var ForkJoinSubscriber = (function (_super) {
 //# sourceMappingURL=ForkJoinObservable.js.map
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56069,7 +56075,7 @@ var ForkJoinSubscriber = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_animations__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_animations_browser__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_animations_browser__ = __webpack_require__(111);
 
 /**
  * @license Angular v4.3.6
@@ -56814,7 +56820,7 @@ NoopAnimationsModule.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62027,7 +62033,7 @@ function supportsWebAnimations() {
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62038,41 +62044,41 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var share_1 = __webpack_require__(113);
+var share_1 = __webpack_require__(114);
 Observable_1.Observable.prototype.share = share_1.share;
 //# sourceMappingURL=share.js.map
-
-/***/ }),
-/* 113 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(211);
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-var Observable_1 = __webpack_require__(2);
-var merge_1 = __webpack_require__(115);
-Observable_1.Observable.prototype.merge = merge_1.merge;
-//# sourceMappingURL=merge.js.map
+module.exports = (__webpack_require__(1))(211);
 
 /***/ }),
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(1))(200);
+"use strict";
+
+var Observable_1 = __webpack_require__(2);
+var merge_1 = __webpack_require__(116);
+Observable_1.Observable.prototype.merge = merge_1.merge;
+//# sourceMappingURL=merge.js.map
 
 /***/ }),
 /* 116 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(200);
+
+/***/ }),
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62218,18 +62224,18 @@ var SwitchMapSubscriber = (function (_super) {
 //# sourceMappingURL=switchMap.js.map
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var toArray_1 = __webpack_require__(118);
+var toArray_1 = __webpack_require__(119);
 Observable_1.Observable.prototype.toArray = toArray_1.toArray;
 //# sourceMappingURL=toArray.js.map
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62280,18 +62286,18 @@ var ToArraySubscriber = (function (_super) {
 //# sourceMappingURL=toArray.js.map
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var take_1 = __webpack_require__(120);
+var take_1 = __webpack_require__(121);
 Observable_1.Observable.prototype.take = take_1.take;
 //# sourceMappingURL=take.js.map
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62302,7 +62308,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var ArgumentOutOfRangeError_1 = __webpack_require__(121);
+var ArgumentOutOfRangeError_1 = __webpack_require__(122);
 var EmptyObservable_1 = __webpack_require__(24);
 /**
  * Emits only the first `count` values emitted by the source Observable.
@@ -62386,7 +62392,7 @@ var TakeSubscriber = (function (_super) {
 //# sourceMappingURL=take.js.map
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62420,7 +62426,7 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
 //# sourceMappingURL=ArgumentOutOfRangeError.js.map
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -70374,37 +70380,37 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__angular_platform_browser__;
 //# sourceMappingURL=index.map
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(219);
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(222);
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(224);
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(228);
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(247);
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70413,13 +70419,13 @@ module.exports = (__webpack_require__(1))(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_login_login_component__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_home_home_component__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_settings_settings_component__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_about_about_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_not_found_not_found_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_settings_settings_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_about_about_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_not_found_not_found_component__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_auth_service__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_auth_guard_service__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_blogs_blogs_component__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_blog_read_blog_read_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_blogs_blogs_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_blog_read_blog_read_component__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -70468,7 +70474,7 @@ var AppRoutingModule = /** @class */ (function () {
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70479,7 +70485,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(13);
-var ObjectUnsubscribedError_1 = __webpack_require__(130);
+var ObjectUnsubscribedError_1 = __webpack_require__(131);
 /**
  * @class BehaviorSubject<T>
  */
@@ -70523,23 +70529,23 @@ exports.BehaviorSubject = BehaviorSubject;
 //# sourceMappingURL=BehaviorSubject.js.map
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(214);
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromObservable_1 = __webpack_require__(132);
+var FromObservable_1 = __webpack_require__(133);
 exports.from = FromObservable_1.FromObservable.create;
 //# sourceMappingURL=from.js.map
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70550,16 +70556,16 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var isArray_1 = __webpack_require__(34);
-var isArrayLike_1 = __webpack_require__(133);
-var isPromise_1 = __webpack_require__(134);
+var isArrayLike_1 = __webpack_require__(134);
+var isPromise_1 = __webpack_require__(135);
 var PromiseObservable_1 = __webpack_require__(55);
-var IteratorObservable_1 = __webpack_require__(135);
+var IteratorObservable_1 = __webpack_require__(136);
 var ArrayObservable_1 = __webpack_require__(28);
-var ArrayLikeObservable_1 = __webpack_require__(136);
+var ArrayLikeObservable_1 = __webpack_require__(137);
 var iterator_1 = __webpack_require__(65);
 var Observable_1 = __webpack_require__(2);
-var observeOn_1 = __webpack_require__(137);
-var observable_1 = __webpack_require__(139);
+var observeOn_1 = __webpack_require__(138);
+var observable_1 = __webpack_require__(140);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -70667,19 +70673,19 @@ exports.FromObservable = FromObservable;
 //# sourceMappingURL=FromObservable.js.map
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(207);
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(208);
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70848,7 +70854,7 @@ function sign(value) {
 //# sourceMappingURL=IteratorObservable.js.map
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70924,7 +70930,7 @@ exports.ArrayLikeObservable = ArrayLikeObservable;
 //# sourceMappingURL=ArrayLikeObservable.js.map
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70935,7 +70941,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var Notification_1 = __webpack_require__(138);
+var Notification_1 = __webpack_require__(139);
 /**
  *
  * Re-emits all notifications from source Observable with specified scheduler.
@@ -71043,7 +71049,7 @@ exports.ObserveOnMessage = ObserveOnMessage;
 //# sourceMappingURL=observeOn.js.map
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71176,13 +71182,13 @@ exports.Notification = Notification;
 //# sourceMappingURL=Notification.js.map
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(42);
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71255,7 +71261,7 @@ exports.concatMap = concatMap;
 //# sourceMappingURL=concatMap.js.map
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71335,7 +71341,7 @@ var EverySubscriber = (function (_super) {
 //# sourceMappingURL=every.js.map
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71493,7 +71499,7 @@ var FirstSubscriber = (function (_super) {
 //# sourceMappingURL=first.js.map
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71618,7 +71624,7 @@ var LastSubscriber = (function (_super) {
 //# sourceMappingURL=last.js.map
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71750,7 +71756,7 @@ exports.ReduceSubscriber = ReduceSubscriber;
 //# sourceMappingURL=reduce.js.map
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71812,21 +71818,10 @@ exports.concatAll = concatAll;
 //# sourceMappingURL=concatAll.js.map
 
 /***/ }),
-/* 146 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(226);
-
-/***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-var Observable_1 = __webpack_require__(2);
-var throw_1 = __webpack_require__(148);
-Observable_1.Observable.throw = throw_1._throw;
-//# sourceMappingURL=throw.js.map
+module.exports = (__webpack_require__(1))(226);
 
 /***/ }),
 /* 148 */
@@ -71834,12 +71829,23 @@ Observable_1.Observable.throw = throw_1._throw;
 
 "use strict";
 
-var ErrorObservable_1 = __webpack_require__(149);
-exports._throw = ErrorObservable_1.ErrorObservable.create;
+var Observable_1 = __webpack_require__(2);
+var throw_1 = __webpack_require__(149);
+Observable_1.Observable.throw = throw_1._throw;
 //# sourceMappingURL=throw.js.map
 
 /***/ }),
 /* 149 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ErrorObservable_1 = __webpack_require__(150);
+exports._throw = ErrorObservable_1.ErrorObservable.create;
+//# sourceMappingURL=throw.js.map
+
+/***/ }),
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71928,7 +71934,7 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71940,37 +71946,37 @@ Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Welcome","Notifications":"Notifications","New":"New"},"mainMenu":{"Appointments":"Appointments","Customers":"Customers","Products":"Products","Orders":"Orders","About":"About","Logout":"Logout"},"pageHeader":{"Dashboard":"Dashboard","Customers":"Customers","Products":"Products","Orders":"Orders","NotFound":"Not-Found","About":"About","Settings":"Settings"},"home":{"NoWidgets1":"You have no widgets displayed. Goto","NoWidgets2":"to configure available widgets","StatisticsTitle":"Some Important Stuff"},"notFound":{"404":"404","pageNotFound":"The page you are looking for does not exist","backToHome":"Back to home"},"settings":{"tab":{"Profile":"Profile","Preferences":"Preferences","Users":"Users","Roles":"Roles"},"header":{"UserProfile":"User Profile","UserPreferences":"User Preferences","UserDepartments":"User Departments","UsersManagements":"Users Managements","RolesManagement":"Roles Management"}},"preferences":{"ReloadPreferences":"Reload Preferences:","ReloadPreferencesHint":"Load default preferences (local changes are discarded)","Language":"Language:","English":"English","French":"French","German":"German","Arabic":"Arabic","Korean":"Korean","LanguageHint":"Select the preferred language for your account","HomePage":"Home Page:","Dashboard":"Dashboard","Customers":"Customers","Products":"Products","Orders":"Orders","About":"About","Settings":"Settings","HomePageHint":"Select the default page to navigate to on login","Theme":"Theme:","DefaultColor":"<span class='default-theme-option'>Default</span>","RedColor":"<span class='red-theme-option'>Red</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Green</span>","GrayColor":"<span class='gray-theme-option'>Gray</span>","BlackColor":"<span class='black-theme-option'>Black</span>","ThemeHint":"Select the default color theme for your account","DashboardStatistics":"Dashboard Statistics:","DashboardStatisticsHint":"Show demo graph widget on the dashboard","DashboardNotifications":"Dashboard Notifications:","DashboardNotificationsHint":"Show application notifications on the dashboard","DashboardTodo":"Dashboard Todo:","DashboardTodoHint":"Shows demo todo widget on the dashboard","DashboardBanner":"Dashboard Banner:","DashboardBannerHint":"Show demo information banner widget on the dashboard","ResetDefault":"Reset default","SetDefault":"Set as default"},"users":{"management":{"Search":"Search for user...","NewUser":"New User","Edit":"Edit","Delete":"Delete","EditUser":"Edit User \"{{name}}\"","Title":"Title","UserName":"User Name","FullName":"Full Name","Email":"Email","Roles":"Roles","PhoneNumber":"Phone Number"},"editor":{"JobTitle":"Job Title: ","UserName":"User Name:","UserNameRequired":"User name is required (minimum of 2 and maximum of 200 characters)","Password":"Password:","PasswordHint":"Your password is required when changing user name","CurrentPasswordRequired":"Current password is required","Email":"Email:","EmailRequired":"Email address is required (maximum of 200 characters)","InvalidEmail":"Specified email is not valid","ChangePassword":"Change Password","CurrentPassword":"Current Password:","NewPassword":"New Password:","NewPasswordRequired":"New password is required (minimum of 6 characters)","ConfirmPassword":"Confirm Password:","ConfirmationPasswordRequired":"Confirmation password is required","PasswordMismatch":"New password and confirmation password do not match","Roles":"Roles:","FullName":" Full Name:","RoleRequired":" Role is required","PhoneNumber":"Phone #:","Enabled":"Enabled","Unblock":"Unblock","Close":"Close","Edit":"Edit","Cancel":"Cancel","Save":"Save","Saving":"Saving..."}},"roles":{"management":{"Search":"Search for role...","NewRole":"New Role","Edit":"Edit","Details":"Details","Delete":"Delete","RoleDetails":"Role Details","EditRole":"Edit Role \"{{name}}\"","Name":"Name","Description":"Description","Users":"Users"},"editor":{"Name":"Name:","Description":"Description:","RoleNameRequired":"Role name is required (minimum of 2 and maximum of 200 characters)","SelectAll":"Select all","SelectNone":"Select none","Close":"Close","Cancel":"Cancel","Save":"Save","Saving":"Saving..."}},"notifications":{"Delete":"Delete notification","Pin":"Pin notification","Date":"Date","Notification":"Notification"},"todoDemo":{"management":{"Search":"Search for task...","HideCompleted":"Hide Completed","AddTask":"Add Task","Delete":"Delete task","Important":"Mark as important","Task":"Task","Description":"Description"},"editor":{"NewTask":"New Task","Name":"Name","TaskNameRequired":"Task name is required","Description":"Description","Important":"Mark as important","AddTask":"Add Task"}}}
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Bienvenue","Notifications":"Notifications","New":"Nouveau"},"mainMenu":{"Appointments":"Rendez-vous","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","About":"À Propos","Logout":"Se Déconnecter"},"pageHeader":{"Dashboard":"Tableau de bord","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","NotFound":"Pas trouvé","About":"À Propos","Settings":"Paramètres"},"home":{"NoWidgets1":"Vous n'avez pas de widgets affichés. Aller à","NoWidgets2":"Configurer les widgets disponibles","StatisticsTitle":"Quelques trucs importants"},"notFound":{"404":"404","pageNotFound":"La page que vous recherchez n'existe pas","backToHome":"De retour à la page d'accueil"},"settings":{"tab":{"Profile":"Profil","Preferences":"Préférences","Users":"Utilisateurs","Roles":"Rôles"},"header":{"UserProfile":"Profil de l'utilisateur","UserPreferences":"Préférences de l'utilisateur","UserDepartments":"Départements d'utilisateurs","UsersManagements":"Gestion des utilisateurs","RolesManagement":"Gestion des rôles"}},"preferences":{"ReloadPreferences":"Recharger les préférences:","ReloadPreferencesHint":"Charger les préférences par défaut (les modifications locales sont rejetées)","Language":"La langue:","English":"Anglais","French":"Français","German":"Allemand","Arabic":"Arabe","Korean":"Coréen","LanguageHint":"Sélectionnez la langue préférée pour votre compte","HomePage":"Page d'accueil:","Dashboard":"Tableau de bord","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","About":"À propos","Settings":"Paramètres","HomePageHint":"Sélectionnez la page par défaut pour naviguer jusqu'à la connexion","Theme":"Thème:","DefaultColor":"<span class='default-theme-option'>Défaut</span>","RedColor":"<span class='red-theme-option'>Rouge</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Vert</span>","GrayColor":"<span class='gray-theme-option'>Gris</span>","BlackColor":"<span class='black-theme-option'>Noir</span>","ThemeHint":"Sélectionnez le thème de couleur par défaut pour votre compte","DashboardStatistics":"Statistiques du tableau de bord:","DashboardStatisticsHint":"Afficher le widget de graphique de démonstration sur le tableau de bord","DashboardNotifications":"Notifications du tableau de bord:","DashboardNotificationsHint":"Afficher les notifications d'application sur le tableau de bord","DashboardTodo":"Tableau de bord à faire:","DashboardTodoHint":"Afficher le widget de démon tout sur le tableau de bord","DashboardBanner":"Bannière de Tableau de Bord:","DashboardBannerHint":"Afficher le widget de bannière d'information de démonstration sur le tableau de bord","ResetDefault":"Réinitialiser par défaut","SetDefault":"Définir par défaut"},"users":{"management":{"Search":"Rechercher un utilisateur...","NewUser":"Nouvel utilisateur","Edit":"Modif.","Delete":"Supp.","EditUser":"Modifier Utilisateur \"{{name}}\"","Title":"Titre","UserName":"Nom d'utilisateur","FullName":"Nom Complet","Email":"Adresse électronique","Roles":"Les rôles","PhoneNumber":"Numéro de téléphone"},"editor":{"JobTitle":"Profession: ","UserName":"Nom d'utilisateur:","UserNameRequired":"Le nom d'utilisateur est requis (minimum de 2 et maximum de 200 caractères)","Password":"Mot de passe:","PasswordHint":"Votre mot de passe est nécessaire lors de la modification du nom d'utilisateur","CurrentPasswordRequired":"Le mot de passe actuel est requis","Email":"Adresse électronique:","EmailRequired":"L'adresse de courrier électronique est requise (maximum de 200 caractères)","InvalidEmail":"Le courrier électronique spécifié n'est pas valide","ChangePassword":"Changer le mot de passe","CurrentPassword":"Mot de passe actuel:","NewPassword":"Nouveau mot de passe:","NewPasswordRequired":"Un nouveau mot de passe est nécessaire (minimum de 6 caractères)","ConfirmPassword":"Confirmez le mot de passe:","ConfirmationPasswordRequired":"Le mot de passe de confirmation est requis","PasswordMismatch":"Le nouveau mot de passe et le mot de passe de confirmation ne correspondent pas","Roles":"Les rôles:","FullName":" Nom complet:","RoleRequired":"Rôle requis ","PhoneNumber":"Téléphone #:","Enabled":"Activée","Unblock":"Débloquer","Close":"Fermer","Edit":"Modifier","Cancel":"Annuler","Save":"Enregistrer","Saving":"En cours d'enregistrement..."}},"roles":{"management":{"Search":"Recherche rôle...","NewRole":"Nouveau rôle","Edit":"Modifier","Details":"Détails","Delete":"Effacer","RoleDetails":"Détails des rôles ","EditRole":"Modifier Rôle \"{{name}}\"","Name":"Nom","Description":"La description","Users":"Utilisateurs"},"editor":{"Name":"Nom:","Description":"La description:","RoleNameRequired":"Le nom du rôle est requis (minimum de 2 et maximum de 200 caractères)","SelectAll":"Tout sélectionner","SelectNone":"Ne rien sélectionner","Close":"Fermer","Cancel":"Annuler","Save":"Enregistrer","Saving":"En cours d'enregistrement..."}},"notifications":{"Delete":"Supprimer notification","Pin":"Épingler notification","Date":"Date","Notification":"Notification"},"todoDemo":{"management":{"Search":"Rechercher une tâche...","HideCompleted":"Masquer complété","AddTask":"Ajouter une tâche","Delete":"Supprimer la tâche","Important":"Marquer comme important","Task":"Tâche","Description":"Description"},"editor":{"NewTask":"Nouvelle tâche","Name":"Nom","TaskNameRequired":"Le nom de la tâche est requis","Description":"Description","Important":"Marquer comme important","AddTask":"Ajouter une tâche"}}}
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Willkommen","Notifications":"Benachrichtigungen","New":"Neu"},"mainMenu":{"Appointments":"Termine","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","About":"Über","Logout":"Abmelden"},"pageHeader":{"Dashboard":"Übersicht","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","NotFound":"Nicht gefunden","About":"Über","Settings":"Einstellungen"},"home":{"NoWidgets1":"Keine Elemente zur Anzeige vorhanden. Gehe zu","NoWidgets2":"um die Anzeige zu konfigurieren","StatisticsTitle":"Irgendwas ganz Wichtiges"},"notFound":{"404":"404","pageNotFound":"Die angeforderte Seite wurde nicht gefunden","backToHome":"Zurück zur Startseite"},"settings":{"tab":{"Profile":"Profil","Preferences":"Einstellungen","Users":"Benutzer","Roles":"Rollen"},"header":{"UserProfile":"Benutzerprofil","UserPreferences":"Benutzereinstellungen","UserDepartments":"Benutzerabteilungen","UsersManagements":"Benutzerverwaltung","RolesManagement":"Rollenverwaltung"}},"preferences":{"ReloadPreferences":"Einstellungen aktualisieren:","ReloadPreferencesHint":"Vorgabeeinstellungen laden (lokale Einstellungen überschreiben)","Language":"Sprache:","English":"English","French":"Französisch","German":"Deutsch","Arabic":"Arabisch","Korean":"Koreanisch","LanguageHint":"Die bevorzugte Anzeigesprache auswählen","HomePage":"Startseite:","Dashboard":"Dashboard","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","About":"Über","Settings":"Einstellungen","HomePageHint":"Die Standardseite zur Anzeige nach der Anmeldung wählen","Theme":"Farbschema:","DefaultColor":"<span class='default-theme-option'>Standard</span>","RedColor":"<span class='red-theme-option'>Rot</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Grün</span>","GrayColor":"<span class='gray-theme-option'>Grau</span>","BlackColor":"<span class='black-theme-option'>Schwarz</span>","ThemeHint":"Das bevorzugte Farbschema wählen","DashboardStatistics":"Dashboard Statistiken:","DashboardStatisticsHint":"Zeigt das Demo-Statistik Element auf dem Dashboard","DashboardNotifications":"Dashboard Benachrichtigungen:","DashboardNotificationsHint":"Zeige Anwendungsbenachrichtigungen auf dem Dashboard","DashboardTodo":"Dashboard Beispielaufgaben:","DashboardTodoHint":"Zeigt das Beispielaufgaben Element auf dem Dashboard","DashboardBanner":"Dashboard Banner:","DashboardBannerHint":"Zeigt das Info-Banner Element auf dem Dashboard","ResetDefault":"Vorgabeeinstellungen","SetDefault":"Als Standard setzen"},"users":{"management":{"Search":"Benutzer suchen...","NewUser":"Neuer Benutzer","Edit":"Bearb.","Delete":"Entf.","EditUser":"Benutzer \"{{name}}\" bearbeiten","Title":"Titel","UserName":"Benutzername","FullName":"Vor- und Nachname","Email":"Email","Roles":"Rollen","PhoneNumber":"Telefon"},"editor":{"JobTitle":"Beruf: ","UserName":"Benutzername:","UserNameRequired":"Ein Benutzername ist erforderlich (mindestens 2, maximal 200 Zeichen)","Password":"Passwort:","PasswordHint":"Passworteingabe ist erforderlich, wenn der Benutzername geändert werden soll","CurrentPasswordRequired":"Aktuelles Passwort ist erforderlich","Email":"Email:","EmailRequired":"Email Adresse ist erforderlich (maximal 200 Zeichen)","InvalidEmail":"Angegebene Email-Adresse ist ungültig","ChangePassword":"Passwort ändern","CurrentPassword":"Aktuelles Passwort:","NewPassword":"Neues Passwort:","NewPasswordRequired":"Neues Passwort ist erforderlich (mindestens 6 Zeichen)","ConfirmPassword":"Passwort bestätigen:","ConfirmationPasswordRequired":"Passwort Bestätigung ist erforderlich","PasswordMismatch":"Die angegebenen Passwörter stimmen nicht überein","Roles":"Rollen:","FullName":"Vollständiger Name:","RoleRequired":" Rolle ist erforderlich","PhoneNumber":"Telefon #:","Enabled":"Aktiviert","Unblock":"Entsperren","Close":"Schliessen","Edit":"Bearbeiten","Cancel":"Abbrechen","Save":"Speichern","Saving":"Speichere..."}},"roles":{"management":{"Search":"Suche nach Rollen...","NewRole":"Neue Rolle","Edit":"Bearb.","Details":"Details","Delete":"Entf.","RoleDetails":"Rollen Details","EditRole":"Rolle \"{{name}}\" bearbeiten","Name":"Name","Description":"Beschreibung","Users":"Benutzer"},"editor":{"Name":"Name:","Description":"Beschreibung:","RoleNameRequired":"Ein Rollenname ist erforderlich (mindestens 2, maximal 200 Zeichen)","SelectAll":"Alle auswählen","SelectNone":"Auswahl aufheben","Close":"Schliessen","Cancel":"Abbrechen","Save":"Speichern","Saving":"Speichere..."}},"notifications":{"Delete":"Benachrichtigung löschen","Pin":"Benachrichtigung anheften","Date":"Datum","Notification":"Benachrichtigung"},"todoDemo":{"management":{"Search":"Suche nach Aufgaben...","HideCompleted":"Abgeschlossene ausblenden","AddTask":"Aufgabe hinzufügen","Delete":"Aufgabe löschen","Important":"Als wichtig markieren","Task":"Aufgabe","Description":"Beschreibung"},"editor":{"NewTask":"Neue Aufgabe","Name":"Name","TaskNameRequired":"Aufgabenname ist erforderlich","Description":"Beschreibung","Important":"Als wichtig markieren","AddTask":"Aufgabe hinzufügen"}}}
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"أهلا بك","Notifications":"إعلام","New":"جديد"},"mainMenu":{"Appointments":"المواعيد","Customers":"الزبائن","Products":"المنتجات","Orders":"الأوامر","About":"حول منجز التطبيق","Logout":"الخروج"},"pageHeader":{"Dashboard":"لوحة القيادة","Customers":"الزبائن","Products":"المنتجات","Orders":"الأوامر","NotFound":"لا يوجد","About":"حول منجز التطبيق","Settings":"إعدادات"},"home":{"NoWidgets1":"لم يتم عرض أية أدوات. اذهب إلى","NoWidgets2":"لتكوين الأدوات المتاحة","StatisticsTitle":"بعض الاشياء الهامة"},"notFound":{"404":"404","pageNotFound":"الصفحة التي تبحث عنها غير موجودة","backToHome":"العودة إلى لوحة الإستقبال"},"settings":{"tab":{"Profile":"الملف الشخصي","Preferences":"التفضيلات","Users":"المستخدمين","Roles":"الأدوار"},"header":{"UserProfile":"ملف تعريفي للمستخدم","UserPreferences":"خيارات المستخدم","UserDepartments":"أقسام المستخدم","UsersManagements":"إدارة المستخدمين","RolesManagement":"إدارة الأدوار"}},"preferences":{"ReloadPreferences":"إعادة تحميل التفضيلات:","ReloadPreferencesHint":"(تحميل التفضيلات الافتراضية (يتم تجاهل التغييرات المحلية","Language":"لغة:","English":"الإنجليزية","French":"الفرنسية","German":"الألمانية","Arabic":"العربية","Korean":"الكورية","LanguageHint":"اختيار اللغة المفضلة لحسابك","HomePage":"الصفحة الرئيسية:","Dashboard":"لوحة القيادة","Customers":"الزبائن","Products":"منتجات","Orders":"أوامر","About":"حول","Settings":"إعدادات","HomePageHint":"حدد الصفحة الافتراضية للانتقال إلى تسجيل الدخول","Theme":"فكرة رئيسية:","DefaultColor":"<span class='default-theme-option'>اللون المفضل</span>","RedColor":"<span class='red-theme-option'>الأحمر</span>","OrangeColor":"<span class='orange-theme-option'>البرتقالي</span>","GreenColor":"<span class='green-theme-option'>الأخضر</span>","GrayColor":"<span class='gray-theme-option'>الرمادي</span>","BlackColor":"<span class='black-theme-option'>الأسود</span>","ThemeHint":"حدد اللون الافتراضي لحسابك","DashboardStatistics":"إحصائيات لوحة التحكم:","DashboardStatisticsHint":"عرض الرسم البياني التجريبي على لوحة القيادة","DashboardNotifications":"إشعارات لوحة التحكم:","DashboardNotificationsHint":"عرض إشعارات التطبيق على لوحة التحكم","DashboardTodo":"لوحة التحكم للواجبات:","DashboardTodoHint":"يظهر الوحة التجريبية للواجبات على لوحة القيادة","DashboardBanner":"شعار لوحة التحكم:","DashboardBannerHint":"عرض معلومات الراية التجريبية على لوحة القيادة","ResetDefault":"اعادة تشغيل الأصل","SetDefault":"تعيين الأصل"},"users":{"management":{"Search":"البحث عن المستخدم...","NewUser":"مستخدم جديد","Edit":"تصحيح","Delete":"حذف","EditUser":"تحرير العضو \"{{name}}\"","Title":"عنوان","UserName":"اسم المستخدم","FullName":"الإسم الكامل","Email":"البريد الإلكتروني","Roles":"الأدوار","PhoneNumber":"رقم الهاتف"},"editor":{"JobTitle":"المسمى الوظيفي: ","UserName":"اسم المستخدم:","UserNameRequired":"(مطلوب اسم المستخدم (الحد الأدنى من 2 والحد الأقصى 200 حرفا","Password":"كلمة المرور:","PasswordHint":"كلمة المرور مطلوبة عند تغيير اسم المستخدم","CurrentPasswordRequired":"كلمة المرور الحالية مطلوبة","Email":"البريد الإلكتروني:","EmailRequired":"(عنوان البريد الإلكتروني مطلوب (بحد أقصى 200 حرف","InvalidEmail":"البريد الإلكتروني المحدد غير صالح","ChangePassword":"غير كلمة المرور","CurrentPassword":"كلمة المرور الحالية:","NewPassword":"كلمة مرور جديدة:","NewPasswordRequired":"الحد الأدنى من 6 أحرف) مطلوب كلمة مرور)","ConfirmPassword":"تأكيد كلمة المرور:","ConfirmationPasswordRequired":"مطلوب كلمة مرور التأكيد","PasswordMismatch":"لا تتطابق كلمة المرور الجديدة وكلمة مرور التأكيد","Roles":"الأدوار:","FullName":" الإسم الكامل:","RoleRequired":" مطلوب دور","PhoneNumber":"الهاتف #:","Enabled":"تمكين","Unblock":"رفع الحظر","Close":"إغلاق","Edit":"تصحيح","Cancel":"إلغاء","Save":"حفظ","Saving":"جار الحفظ..."}},"roles":{"management":{"Search":"البحث عن دور...","NewRole":"دور جديد","Edit":"تصحيح","Details":"تفاصيل","Delete":"حذف","RoleDetails":"تفاصيل الدور","EditRole":"  تحرير الدور\"{{name}}\"","Name":"اسم","Description":"وصف","Users":"المستخدمين"},"editor":{"Name":"اسم:","Description":"وصف:","RoleNameRequired":"(اسم الدور مطلوب (بحد أدنى 2 و 200 حرف كحد أقصى","SelectAll":"اختر الكل","SelectNone":"لا تختر شيء","Close":"إغلاق","Cancel":"إلغاء","Save":"حفظ","Saving":"جار الحفظ..."}},"notifications":{"Delete":"حذف الإشعار","Pin":"رفع الأولوية","Date":"تاريخ","Notification":"إعلام"},"todoDemo":{"management":{"Search":"البحث عن مهمة...","HideCompleted":"إكتمال الإخفاء","AddTask":"إضافة مهمة","Delete":"حذف المهمة","Important":"وضع علامة كمهمة","Task":"مهمة","Description":"وصف"},"editor":{"NewTask":"مهمة جديدة","Name":"اسم","TaskNameRequired":"مطلوب اسم المهمة","Description":"وصف","Important":"وضع علامة لإظهار الأهمية","AddTask":"إضافة مهمة"}}}
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"환영","Notifications":"알림","New":"새로운"},"mainMenu":{"Appointments":"설비","Customers":"고객","Products":"제작품","Orders":"명령","About":"약","Logout":"로그 아웃"},"pageHeader":{"Dashboard":"계기반","Customers":"고객","Products":"제작품","Orders":"명령","NotFound":"발견되지 않음","About":"약","Settings":"설정"},"home":{"NoWidgets1":"위젯이 표시되지 않았습니다. 고토","NoWidgets2":"사용 가능한 위젯을 구성하는 방법","StatisticsTitle":"중요한 것들"},"notFound":{"404":"404","pageNotFound":"찾고있는 페이지가 존재하지 않습니다.","backToHome":"홈으로"},"settings":{"tab":{"Profile":"윤곽","Preferences":"환경 설정","Users":"사용자","Roles":"역할"},"header":{"UserProfile":"유저 프로필","UserPreferences":"사용자 환경 설정","UserDepartments":"사용자 부서","UsersManagements":"사용자 관리","RolesManagement":"역할 관리"}},"preferences":{"ReloadPreferences":"환경 설정 새로 고침 :","ReloadPreferencesHint":"기본 환경 설정로드 (로컬 변경 사항은 무시됩니다)","Language":"언어:","English":"영어","French":"프랑스 국민","German":"독일어","Arabic":"아라비아 말","Korean":"한국어","LanguageHint":"계정의 기본 언어 선택","HomePage":"홈페이지 :","Dashboard":"계기반","Customers":"고객","Products":"제작품","Orders":"명령","About":"약","Settings":"설정","HomePageHint":"로그인시 이동할 기본 페이지를 선택하십시오.","Theme":"테마:","DefaultColor":"<span class='default-theme-option'>태만</span>","RedColor":"<span class='red-theme-option'>빨간</span>","OrangeColor":"\"<span class='orange-theme-option'>주황색</span>","GreenColor":"<span class='green-theme-option'>녹색</span>","GrayColor":"<span class='gray-theme-option'>회색</span>","BlackColor":"<span class='black-theme-option'>검은</span>","ThemeHint":"계정의 기본 색상 테마 선택","DashboardStatistics":"대시 보드 통계:","DashboardStatisticsHint":"데모 그래프 위젯을 대시 보드에 표시하십시오.","DashboardNotifications":"대시 보드 알림 :","DashboardNotificationsHint":"대시 보드에 애플리케이션 알림 표시","DashboardTodo":"대시 보드 할일:","DashboardTodoHint":"대시 보드에서 데모 할 일 위젯 표시","DashboardBanner":"대시 보드 배너 :","DashboardBannerHint":"데모 정보 배너 위젯을 대시 보드에 표시하십시오.","ResetDefault":"기본값 재설정","SetDefault":"기본값으로 설정"},"users":{"management":{"Search":"사용자 검색...","NewUser":"새로운 사용자","Edit":"편집하다","Delete":"지우다","EditUser":"사용자 편집 \"{{name}}\"","Title":"표제","UserName":"사용자 이름","FullName":"성명","Email":"이메일","Roles":"역할","PhoneNumber":"전화 번호"},"editor":{"JobTitle":"직위: ","UserName":"사용자 이름: ","UserNameRequired":"사용자 이름이 필요합니다 (최소 2 자, 최대 200 자).","Password":"암호:","PasswordHint":"사용자 이름을 변경할 때 암호가 필요합니다.","CurrentPasswordRequired":"현재 비밀번호가 필요합니다.","Email":"이메일:","EmailRequired":"이메일 주소는 필수 사항입니다 (최대 200 자).","InvalidEmail":"지정된 이메일이 유효하지 않습니다.","ChangePassword":"비밀번호 변경","CurrentPassword":"현재 비밀번호:","NewPassword":"새 비밀번호:","NewPasswordRequired":"새 암호가 필요합니다 (최소 6 자).","ConfirmPassword":"비밀번호 확인:","ConfirmationPasswordRequired":"확인 암호가 필요합니다.","PasswordMismatch":"새 비밀번호와 확인 비밀번호가 일치하지 않습니다.","Roles":"역할 :","FullName":"성명 :","RoleRequired":"역할이 필요합니다.","PhoneNumber":"전화 #:","Enabled":"사용","Unblock":"차단 해제","Close":"닫기","Edit":"편집하다","Cancel":"취소","Save":"구하다","Saving":"절약..."}},"roles":{"management":{"Search":"역할 검색...","NewRole":"새로운 역할","Edit":"편집하다","Details":"세부","Delete":"지우다","RoleDetails":"역할 세부 정보","EditRole":"역할 편집 \"{{name}}\"","Name":"이름","Description":"기술","Users":"사용자"},"editor":{"Name":"이름:","Description":"기술:","RoleNameRequired":"역할 이름은 필수 항목입니다 (최소 2 자, 최대 200 자).","SelectAll":"모두 선택","SelectNone":"없음 선택","Close":"닫기","Cancel":"취소","Save":"구하다","Saving":"절약..."}},"notifications":{"Delete":"알림 삭제","Pin":"핀 알림","Date":"날짜","Notification":"공고"},"todoDemo":{"management":{"Search":"할 일 검색...","HideCompleted":"완료 안함","AddTask":"할 일 추가","Delete":"작업 삭제","Important":"중요한 것으로 표시","Task":"태스크","Description":"기술"},"editor":{"NewTask":"새 작업","Name":"이름","TaskNameRequired":"작업 이름이 필요합니다.","Description":"기술","Important":"중요한 것으로 표시","AddTask":"할 일 추가"}}}
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72061,7 +72067,7 @@ var JwtHelper = /** @class */ (function () {
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72078,17 +72084,17 @@ var UserLogin = /** @class */ (function () {
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"vertical-center-flex\">\n    <div class=\"login-container center-block\">\n        <div class=\"panel panel-primary boxshadow\">\n            <div class=\"panel-heading\">\n                <span class=\"glyphicon glyphicon-lock\"></span> Login\n                <button *ngIf=\"isModal\" type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\n                    <span aria-hidden=\"true\">&times;</span>\n                </button>\n            </div>\n            <div class=\"panel-body\">\n                <div class=\"col-md-8 col-md-offset-2\">\n                    <form *ngIf=\"formResetToggle\" class=\"form-horizontal login\" name=\"loginForm\" #f=\"ngForm\" novalidate\n                          (ngSubmit)=\"f.form.valid ? login() :\n                          (!email.valid && showErrorAlert('Email is required', 'Please enter a valid email'));\n                          (!password.valid && showErrorAlert('Password is required', 'Please enter a valid password'))\">\n                        <div class=\"form-group has-feedback\">\n                            <label class=\"control-label col-md-2\" for=\"login-email\">Email:</label>\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && email.valid, 'has-error' : f.submitted && !email.valid}\">\n                                <input type=\"text\" id=\"login-email\" name=\"email\" placeholder=\"Enter email or username\" class=\"form-control\" [(ngModel)]=\"userLogin.email\" #email=\"ngModel\" required />\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': email.valid, 'glyphicon-remove' : !email.valid}\" aria-hidden=\"true\"></span>\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !email.valid\">\n                                    Email is required\n                                </span>\n                            </div>\n                        </div>\n                        <div class=\"form-group has-feedback\">\n                            <label class=\"control-label col-md-2\" for=\"login-password\">Password:</label>\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && password.valid, 'has-error' : f.submitted && !password.valid}\">\n                                <input type=\"password\" id=\"login-password\" name=\"password\" placeholder=\"Enter password\" class=\"form-control\" [(ngModel)]=\"userLogin.password\" #password=\"ngModel\" required />\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': password.valid, 'glyphicon-remove' : !password.valid}\" aria-hidden=\"true\"></span>\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !password.valid\">\n                                    Password is required\n                                </span>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <div class=\"col-md-offset-2 col-md-10\">\n                                <div class=\"checkbox\">\n                                    <label><input type=\"checkbox\" name=\"rememberMe\" [(ngModel)]=\"userLogin.rememberMe\"> Remember me</label>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <div class=\"col-md-offset-2 col-md-10\">\n                                <button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isLoading\"><i *ngIf=\"isLoading\" class='fa fa-circle-o-notch fa-spin'></i> {{isLoading ? 'Loggin in...' : 'Login'}}</button>\n                            </div>\n                        </div>\n\n                        <!--<div *ngIf=\"!isModal\" class=\"col-md-12\">\n                            <hr class=\"separator-hr\" />\n                        </div>\n\n                        <div *ngIf=\"!isModal\" class=\"col-md-12 last-control-group\">\n                            <span>Don't have an account?</span><a href=\"javascript:;\" class=\"btn btn-link\" (click)=\"signUp()\">Sign Up</a>\n                        </div>-->\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(160);
+        var result = __webpack_require__(161);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -72098,7 +72104,7 @@ module.exports = "<div class=\"vertical-center-flex\">\n    <div class=\"login-c
     
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -72112,16 +72118,10 @@ exports.push([module.i, ".boxshadow {\n    position: relative;\n    -moz-box-sha
 
 
 /***/ }),
-/* 161 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = "<!--<div class=\"container\">\n    <header class=\"pageHeader\">\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\n    </header>\n\n    <div [@fadeInOut]>\n      \n    </div>\n</div>-->\n\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"false\">\n    <!-- Indicators -->\n    <ol class=\"carousel-indicators\">\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\n    </ol>\n\n    <!-- Wrapper for slides -->\n    <div class=\"carousel-inner\" role=\"listbox\">\n        <div class=\"item active ms-slide one\">\n            <div class=\"ms-cap\">\n                <div class=\"carousel-caption\">\n                    <div class=\"ms-cap-heading\">\n                        dotNetNepal\n                    </div>\n                    <div class=\"ms-cap-body\">\n                        <h3>dotConf v1</h3>\n                        <p>Hold on <span>dot</span> is coming.</p>\n                        <countdown [text]=\"text\" units=\"Year | Month | Days | Hours | Minutes | Seconds\" end=\"December 31,2017\" ></countdown>\n                    </div>\n                    <div class=\"ms-cap-footer\">\n                        <a routerLink=\"/eventdetail\" class=\"btn tn-btn btn-primary\">Event Detail</a>\n                    </div>\n                </div>\n            </div>\n          \n        </div>\n        <div class=\"item ms-slide two\">\n            <div class=\"ms-cap\">\n                <div class=\"carousel-caption two\">\n                    <div class=\"ms-cap-body\">\n                        <div class=\"ms-cap-body-info\">\n                            <div class=\"b-center\">\n                                <div class=\"title\">Join dotNetNepal</div>\r\n                                <ul>\r\n                                    <li class=\"one\">Group Of Developers with Working Experience</li>\r\n                                    <li class=\"two\">Run by developers for to be and already became developers</li>\r\n                                </ul>\n                            </div>\n                         \n                        </div>\n                        <!--<div class=\"ms-cap-body-img\">\n                            <img class=\"\" src=\"" + __webpack_require__(162) + "\" alt=\"Alternate Text\" />\n                        </div>-->\n                    </div>\n                </div>\n\n            </div>\n        </div>\n        <div class=\"item ms-slide three\">\n            <div class=\"carousel-caption\">\n                <h3>Caption heading 3</h3>\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\n            </div>\n        </div>\n    </div>\n\n    <!-- Controls -->\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\n        <span class=\"material-icons\">navigate_before</span>\n        <span class=\"sr-only\">Previous</span>\n    </a>\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\n        <span class=\"material-icons\">navigate_next</span>\n        <span class=\"sr-only\">Next</span>\n    </a>\n</div>\n<section class=\"\" id=\"whowe\">\n    <div class=\"container\">\n        <div class=\"row\">\n\n            <div class=\"row whowe-content\">\n                <div class=\"col-md-12\">\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\n                    <hr class=\"sec-hr\" />\n                </div>\n                <div class=\"col-md-12\">\n                    <div>\n                        <div class=\"whowe-detail\">\n                            <div class=\"animated slideInDown\">\n                                A dotNet Community based in Nepal.\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\n                            </div>\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\n\n                        </div>\n                    </div>\n                   \n\n                </div>\n\n            </div> <!-- row -->\n\n        </div>\n    </div>\n</section>\n<section id=\"whatwe\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\n                <hr class=\"sec-hr wow fadeInDown\" />\n            </div>\n            <div class=\"col-md-12\">\n                <div class=\"whatwe-content\">\n                    <div class=\"descript wow fadeInDown\">\n                        <div class=\"descriptbox\">\n                            <div class=\"learn\">\n                            </div>\n                            <p>Learn</p>\n                        </div>\n                        <div class=\"descriptbox\">\n                            <div class=\"share\">\n                            </div>\n                            <p>Share</p>\n                        </div>\n                        \n                        <div class=\"descriptbox\">\n                            <div class=\"collab\">\n                            </div>\n\n                            <p>Collab</p>\n                        </div>\n                       \n                        <div class=\"descriptbox\">\n                            <div class=\"repeat\">\n                            </div>\n                            <p>Repeat</p>\n                        </div>\n                        <hr class=\"hr\" />\n                    </div>\n                    <div class=\"text-center\">\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>\n<section id=\"supporters\">\n    <div class=\"container\">\n        <div class=\"sup-content\">\n            <div class=\"content-title\">\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\n                <hr class=\"sec-hr\" />\n            </div>\n            <div class=\"content-body\">\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n                <a href=\"#\">\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\n                    <div class=\"name\">\n                        Supporter 1\n                    </div>\n                </a>\n\n            </div>\n\n        </div>\n\n    </div>\n\n</section>\n\n<section id=\"joinus\">\n    <div class=\"container\">\n        <div class=\"content\">\n            <div class=\"wow fadeInDown animation-delay-3\">\n                Like our work ?\n            </div>\n            <div>\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\n            </div>\n        </div>\n\n\n\n    </div>\n</section>";
-
-/***/ }),
 /* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1e308592d1044ac45adb2ce2821808c7.png";
+module.exports = "<!--<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut]>\r\n      \r\n    </div>\r\n</div>-->\r\n\r\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"false\">\r\n    <!-- Indicators -->\r\n    <ol class=\"carousel-indicators\">\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\r\n    </ol>\r\n\r\n    <!-- Wrapper for slides -->\r\n    <div class=\"carousel-inner\" role=\"listbox\">\r\n        <div class=\"item active ms-slide one\">\r\n            <div class=\"ms-cap\">\r\n                <div class=\"carousel-caption\">\r\n                    <div class=\"ms-cap-heading\">\r\n                        dotNetNepal\r\n                    </div>\r\n                    <div class=\"ms-cap-body\">\r\n                        <h3>dotConf v1</h3>\r\n                        <p>Hold on <span>dot</span> is coming.</p>\r\n                        <countdown [text]=\"text\" units=\"Year | Month | Days | Hours | Minutes | Seconds\" end=\"December 31,2017\" ></countdown>\r\n                    </div>\r\n                    <div class=\"ms-cap-footer\">\r\n                        <a routerLink=\"/eventdetail\" class=\"btn tn-btn btn-primary\">Event Detail</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n          \r\n        </div>\r\n        <div class=\"item ms-slide two\">\r\n            <div class=\"ms-cap\">\r\n                <div class=\"carousel-caption two\">\r\n                    <div class=\"ms-cap-body\">\r\n                        <div class=\"ms-cap-body-info\">\r\n                            <div class=\"b-center\">\r\n                                <div class=\"title\">Join dotNetNepal</div>\r\n                                <ul>\r\n                                    <li class=\"one\">Group Of Developers with Working Experience</li>\r\n                                    <li class=\"two\">Run by developers for to be and already became developers</li>\r\n                                </ul>\r\n                            </div>\r\n                         \r\n                        </div>\r\n                        <!--<div class=\"ms-cap-body-img\">\r\n                            <img class=\"\" src=\"" + __webpack_require__(71) + "\" alt=\"Alternate Text\" />\r\n                        </div>-->\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n        <!--<div class=\"item ms-slide three\">\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 3</h3>\r\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\r\n            </div>\r\n        </div>-->\r\n    </div>\r\n\r\n    <!-- Controls -->\r\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\r\n        <span class=\"material-icons\">navigate_before</span>\r\n        <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\r\n        <span class=\"material-icons\">navigate_next</span>\r\n        <span class=\"sr-only\">Next</span>\r\n    </a>\r\n</div>\r\n<section class=\"\" id=\"whowe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"row whowe-content\">\r\n                <div class=\"col-md-12\">\r\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\r\n                    <hr class=\"sec-hr\" />\r\n                </div>\r\n                <div class=\"col-md-12\">\r\n                    <div>\r\n                        <div class=\"whowe-detail\">\r\n                            <div class=\"animated slideInDown\">\r\n                                A dotNet Community based in Nepal.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                            </div>\r\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\r\n\r\n                        </div>\r\n                    </div>\r\n                   \r\n\r\n                </div>\r\n\r\n            </div> <!-- row -->\r\n\r\n        </div>\r\n    </div>\r\n</section>\r\n<section id=\"whatwe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\r\n                <hr class=\"sec-hr wow fadeInDown\" />\r\n            </div>\r\n            <div class=\"col-md-12\">\r\n                <div class=\"whatwe-content\">\r\n                    <div class=\"descript wow fadeInDown\">\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"learn\">\r\n                            </div>\r\n                            <p>Learn</p>\r\n                        </div>\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"share\">\r\n                            </div>\r\n                            <p>Share</p>\r\n                        </div>\r\n                        \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"collab\">\r\n                            </div>\r\n\r\n                            <p>Collab</p>\r\n                        </div>\r\n                       \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"repeat\">\r\n                            </div>\r\n                            <p>Repeat</p>\r\n                        </div>\r\n                        <hr class=\"hr\" />\r\n                    </div>\r\n                    <div class=\"text-center\">\r\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n<section id=\"supporters\">\r\n    <div class=\"container\">\r\n        <div class=\"sup-content\">\r\n            <div class=\"content-title\">\r\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\r\n                <hr class=\"sec-hr\" />\r\n            </div>\r\n            <div class=\"content-body\">\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </div>\r\n\r\n</section>\r\n\r\n<section id=\"joinus\">\r\n    <div class=\"container\">\r\n        <div class=\"content\">\r\n            <div class=\"wow fadeInDown animation-delay-3\">\r\n                Like our work ?\r\n            </div>\r\n            <div>\r\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n</section>";
 
 /***/ }),
 /* 163 */
@@ -72146,7 +72146,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/*dark*/\n/*dark*/\n.tn-btn {\n  border: none;\n  border-radius: 0; }\n\n.tn-btn-pad {\n  padding: 10px 40px; }\n\n.btn-primary:hover {\n  background-color: #256ca0;\n  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }\n\n.bottom-space {\n  margin-bottom: 40px; }\n\n.no-bottom-space {\n  margin-bottom: 0; }\n\n.todo-close-btn {\n  margin: 0 10px -25px 0;\n  position: relative;\n  z-index: 1; }\n\n.banner-close-btn {\n  margin: 0 10px -25px 0;\n  position: relative;\n  z-index: 1; }\n\n/*carousel*/\n.carousel-control {\n  background-image: none; }\n\n.carousel-control .material-icons {\n  position: absolute;\n  top: 50%; }\n\n.item.ms-slide {\n  min-height: 100vh;\n  min-width: 100%; }\n\n.carousel-caption {\n  bottom: auto; }\n\n.ms-slide.one {\n  background: #256CA0;\n  position: relative;\n  width: 100%;\n  top: 0;\n  height: 100%; }\n  .ms-slide.one .ms-cap {\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n    .ms-slide.one .ms-cap .carousel-caption {\n      position: absolute; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-heading {\n        font-size: 7rem;\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\n        color: #EAF900; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-body {\n        font-size: 2rem;\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\n        color: #256ca0; }\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body h3 {\n          font-size: 5rem;\n          padding: 15px 20px;\n          background: #EAF900;\n          text-shadow: none; }\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p {\n          color: white; }\n          .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {\n            color: #EAF900; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-footer {\n        margin-top: 25px; }\n\n.ms-slide.two {\n  background: fixed;\n  background-image: url(" + __webpack_require__(162) + ");\n  background-size: cover;\n  background-repeat: no-repeat; }\n  .ms-slide.two .ms-cap .carousel-caption {\n    /*.ms-cap-body {\r\n                display: flex;\r\n                position: relative;\r\n\r\n                .ms-cap-body-info {\r\n                    //flex: 1;\r\n                    padding: 0 15px 0 15px;\r\n                    display: flex;\r\n                    align-content: center;\r\n\r\n                    .b-center {\r\n\r\n                        .title {\r\n                            font-size: 2rem;\r\n                            padding: 5px;\r\n                            background: $yellow;\r\n                        }\r\n\r\n                        ul {\r\n                            padding: 15px;\r\n                            list-style-position: inside;\r\n                            list-style-type: armenian;\r\n\r\n                            li {\r\n                                list-style: none;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                .ms-cap-body-img {\r\n                    //flex: 1;\r\n                    img {\r\n                        height: 250px;\r\n                        width: auto;\r\n                    }\r\n                }\r\n            }*/ }\n    .ms-slide.two .ms-cap .carousel-caption.two {\n      height: 100%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      /*left: 0;\r\n                right: 0px;\r\n                height: 100%;\r\n                width:100%;\r\n                display: flex;\r\n                align-items: center;\r\n                justify-content: center;*/ }\n    .ms-slide.two .ms-cap .carousel-caption .ms-cap-body {\n      flex: 1; }\n      .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center {\n        padding: 15px;\n        background-color: rgba(87, 198, 212, 0.5);\n        border: 1em solid; }\n        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center .title {\n          padding: 5px;\n          font-size: 3.5rem; }\n        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul {\n          list-style: none;\n          list-style-position: outside; }\n          .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li {\n            text-align: left;\n            padding: 15px 10px;\n            margin: 15px; }\n            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.one {\n              background-image: url(" + __webpack_require__(275) + "); }\n            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.two {\n              background-image: url(" + __webpack_require__(276) + "); }\n\n.ms-slide.three {\n  background: #256CA0; }\n\n/*carousel*/\n.sec-title {\n  text-transform: uppercase;\n  text-align: center;\n  color: #256ca0;\n  font-weight: 500;\n  font-size: 2.5rem; }\n\n.sec-hr {\n  text-align: center;\n  width: 25%;\n  margin: auto;\n  margin-bottom: 20px;\n  border: 2px solid #256ca0; }\n\n#whowe {\n  /*background-color:$yellow;*/\n  background-image: url(" + __webpack_require__(165) + ");\n  background-position: center;\n  background-size: cover;\n  /*transform:rotate(-15deg) translate(a);*/ }\n  #whowe .whowe-content {\n    padding-bottom: 20px;\n    /*transform:rotate(15deg);*/ }\n    #whowe .whowe-content .whowe-detail {\n      text-align: center;\n      font-weight: lighter;\n      font-size: 2rem;\n      text-align: justify;\n      text-align-last: center; }\n      #whowe .whowe-content .whowe-detail a {\n        margin-top: 10px;\n        text-align: center; }\n\n/*who we*/\n/*whatwe*/\n#whatwe {\n  background: #53a025;\n  padding: 15px 0;\n  min-height: 100%; }\n  #whatwe .sec-title {\n    color: white; }\n  #whatwe .sec-hr {\n    border-color: white; }\n  #whatwe .whatwe-content .descript {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 10px;\n    position: relative; }\n    #whatwe .whatwe-content .descript:before {\n      content: '';\n      border: 1px solid red; }\n    #whatwe .whatwe-content .descript .descriptbox {\n      height: 100px;\n      width: 100px;\n      border-radius: 5px;\n      margin-left: 15px;\n      padding: 15px;\n      padding-bottom: 0;\n      background: #079007;\n      color: white;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      flex-direction: column;\n      /*border: 1px solid white;*/\n      z-index: 2; }\n      #whatwe .whatwe-content .descript .descriptbox:not(:first-child) {\n        margin-left: 10px; }\n      #whatwe .whatwe-content .descript .descriptbox .learn {\n        background: url(" + __webpack_require__(166) + ");\n        background-repeat: no-repeat;\n        padding: 25px;\n        filter: invert(90%);\n        /*//filter:drop-shadow(16px 16px 20px black);*/ }\n      #whatwe .whatwe-content .descript .descriptbox .share {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(167) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox .collab {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(168) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox .repeat {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(169) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox p {\n        font-size: 2rem; }\n    #whatwe .whatwe-content .descript .hr {\n      position: absolute;\n      min-width: 50%;\n      bottom: 30%;\n      border-top: 2px solid white; }\n\n/*joinus*/\n#joinus {\n  padding: 20px;\n  background-color: #53a025;\n  /*// background:url(../images/backgrounds/sunrise.jpeg);*/\n  background-position-y: 50%;\n  margin-bottom: -30px;\n  min-height: 180px;\n  display: flex;\n  align-items: center; }\n  #joinus .content {\n    text-align: center;\n    font-size: 25px;\n    font-weight: lighter;\n    color: white;\n    /*span{\r\n            padding:10px 15px;\r\n            background:$yellow;\r\n        }*/ }\n    #joinus .content button {\n      margin-top: 10px; }\n\n/*joinus*/\n/*supporter*/\n#supporters .sup-content .content-title {\n  font-size: 3rem; }\n\n#supporters .sup-content .content-body {\n  padding: 15px 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center; }\n  #supporters .sup-content .content-body a {\n    margin: 0 15px;\n    margin-bottom: 15px;\n    flex-basis: auto;\n    text-decoration: none; }\n    #supporters .sup-content .content-body a img {\n      height: 150px;\n      border-radius: 50%; }\n    #supporters .sup-content .content-body a .name {\n      text-align: center;\n      font-size: 2rem;\n      color: #53a025;\n      padding-top: 10px; }\n      #supporters .sup-content .content-body a .name:hover {\n        color: rgba(0, 0, 0, 0.5); }\n\n/*supporter*/\n/*footer*/\n.footer {\n  padding-top: 30px; }\n\n/*footer*/\n\n", ""]);
+exports.push([module.i, "/*dark*/\n/*dark*/\n.tn-btn {\n  border: none;\n  border-radius: 0; }\n\n.tn-btn-pad {\n  padding: 10px 40px; }\n\n.btn-primary:hover {\n  background-color: #256ca0;\n  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }\n\n.bottom-space {\n  margin-bottom: 40px; }\n\n.no-bottom-space {\n  margin-bottom: 0; }\n\n.todo-close-btn {\n  margin: 0 10px -25px 0;\n  position: relative;\n  z-index: 1; }\n\n.banner-close-btn {\n  margin: 0 10px -25px 0;\n  position: relative;\n  z-index: 1; }\n\n/*carousel*/\n.carousel-control {\n  background-image: none; }\n\n.carousel-control .material-icons {\n  position: absolute;\n  top: 50%; }\n\n.item.ms-slide {\n  min-height: 100vh;\n  min-width: 100%; }\n\n.carousel-caption {\n  bottom: auto; }\n\n.ms-slide.one {\n  background: #256CA0;\n  position: relative;\n  width: 100%;\n  top: 0;\n  height: 100%; }\n  .ms-slide.one .ms-cap {\n    position: absolute;\n    width: 100%;\n    min-height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n    .ms-slide.one .ms-cap .carousel-caption {\n      position: absolute; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-heading {\n        font-size: 7rem;\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\n        color: #EAF900; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-body {\n        font-size: 2rem;\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\n        color: #256ca0; }\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body h3 {\n          font-size: 5rem;\n          padding: 15px 20px;\n          background: #EAF900;\n          text-shadow: none; }\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p {\n          color: white; }\n          .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {\n            color: #EAF900; }\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-footer {\n        margin-top: 25px; }\n\n.ms-slide.two {\n  background: fixed;\n  background-image: url(" + __webpack_require__(71) + ");\n  background-size: cover;\n  background-repeat: no-repeat; }\n  .ms-slide.two .ms-cap .carousel-caption {\n    /*.ms-cap-body {\r\n                display: flex;\r\n                position: relative;\r\n\r\n                .ms-cap-body-info {\r\n                    //flex: 1;\r\n                    padding: 0 15px 0 15px;\r\n                    display: flex;\r\n                    align-content: center;\r\n\r\n                    .b-center {\r\n\r\n                        .title {\r\n                            font-size: 2rem;\r\n                            padding: 5px;\r\n                            background: $yellow;\r\n                        }\r\n\r\n                        ul {\r\n                            padding: 15px;\r\n                            list-style-position: inside;\r\n                            list-style-type: armenian;\r\n\r\n                            li {\r\n                                list-style: none;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                .ms-cap-body-img {\r\n                    //flex: 1;\r\n                    img {\r\n                        height: 250px;\r\n                        width: auto;\r\n                    }\r\n                }\r\n            }*/ }\n    .ms-slide.two .ms-cap .carousel-caption.two {\n      height: 100%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      /*left: 0;\r\n                right: 0px;\r\n                height: 100%;\r\n                width:100%;\r\n                display: flex;\r\n                align-items: center;\r\n                justify-content: center;*/ }\n    .ms-slide.two .ms-cap .carousel-caption .ms-cap-body {\n      flex: 1; }\n      .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center {\n        padding: 15px;\n        background-color: rgba(87, 198, 212, 0.5);\n        border: 1em solid; }\n        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center .title {\n          padding: 5px;\n          font-size: 3.5rem;\n          color: rgba(77, 61, 158, 0.99); }\n        .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul {\n          list-style: none;\n          list-style-position: outside;\n          padding-left: 0;\n          text-align: center; }\n          .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li {\n            text-align: center;\n            padding: 15px 10px;\n            margin: 15px;\n            font-size: 2.3rem; }\n            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li:before {\n              content: url(https://cdn.iconscout.com/public/images/icon/premium/png-512/office-hand-finger-pointing-right-thumb-addressing-3ce3848165e198ac-512x512.png);\n              max-height: 10px;\n              width: auto;\n              color: white; }\n\n.ms-slide.three {\n  background: #256CA0; }\n\n/*carousel*/\n.sec-title {\n  text-transform: uppercase;\n  text-align: center;\n  color: #256ca0;\n  font-weight: 500;\n  font-size: 2.5rem; }\n\n.sec-hr {\n  text-align: center;\n  width: 25%;\n  margin: auto;\n  margin-bottom: 20px;\n  border: 2px solid #256ca0; }\n\n#whowe {\n  /*background-color:$yellow;*/\n  background-image: url(" + __webpack_require__(165) + ");\n  background-position: center;\n  background-size: cover;\n  /*transform:rotate(-15deg) translate(a);*/ }\n  #whowe .whowe-content {\n    padding-bottom: 20px;\n    /*transform:rotate(15deg);*/ }\n    #whowe .whowe-content .whowe-detail {\n      text-align: center;\n      font-weight: lighter;\n      font-size: 2rem;\n      text-align: justify;\n      text-align-last: center; }\n      #whowe .whowe-content .whowe-detail a {\n        margin-top: 10px;\n        text-align: center; }\n\n/*who we*/\n/*whatwe*/\n#whatwe {\n  background: #53a025;\n  padding: 15px 0;\n  min-height: 100%; }\n  #whatwe .sec-title {\n    color: white; }\n  #whatwe .sec-hr {\n    border-color: white; }\n  #whatwe .whatwe-content .descript {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 10px;\n    position: relative; }\n    #whatwe .whatwe-content .descript:before {\n      content: '';\n      border: 1px solid red; }\n    #whatwe .whatwe-content .descript .descriptbox {\n      height: 100px;\n      width: 100px;\n      border-radius: 5px;\n      margin-left: 15px;\n      padding: 15px;\n      padding-bottom: 0;\n      background: #079007;\n      color: white;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      flex-direction: column;\n      /*border: 1px solid white;*/\n      z-index: 2; }\n      #whatwe .whatwe-content .descript .descriptbox:not(:first-child) {\n        margin-left: 10px; }\n      #whatwe .whatwe-content .descript .descriptbox .learn {\n        background: url(" + __webpack_require__(166) + ");\n        background-repeat: no-repeat;\n        padding: 25px;\n        filter: invert(90%);\n        /*//filter:drop-shadow(16px 16px 20px black);*/ }\n      #whatwe .whatwe-content .descript .descriptbox .share {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(167) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox .collab {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(168) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox .repeat {\n        background-repeat: no-repeat;\n        padding: 25px;\n        background: url(" + __webpack_require__(169) + ");\n        filter: invert(90%); }\n      #whatwe .whatwe-content .descript .descriptbox p {\n        font-size: 2rem; }\n    #whatwe .whatwe-content .descript .hr {\n      position: absolute;\n      min-width: 50%;\n      bottom: 30%;\n      border-top: 2px solid white; }\n\n/*joinus*/\n#joinus {\n  padding: 20px;\n  background-color: #53a025;\n  /*// background:url(../images/backgrounds/sunrise.jpeg);*/\n  background-position-y: 50%;\n  margin-bottom: -30px;\n  min-height: 180px;\n  display: flex;\n  align-items: center; }\n  #joinus .content {\n    text-align: center;\n    font-size: 25px;\n    font-weight: lighter;\n    color: white;\n    /*span{\r\n            padding:10px 15px;\r\n            background:$yellow;\r\n        }*/ }\n    #joinus .content button {\n      margin-top: 10px; }\n\n/*joinus*/\n/*supporter*/\n#supporters .sup-content .content-title {\n  font-size: 3rem; }\n\n#supporters .sup-content .content-body {\n  padding: 15px 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center; }\n  #supporters .sup-content .content-body a {\n    margin: 0 15px;\n    margin-bottom: 15px;\n    flex-basis: auto;\n    text-decoration: none; }\n    #supporters .sup-content .content-body a img {\n      height: 150px;\n      border-radius: 50%; }\n    #supporters .sup-content .content-body a .name {\n      text-align: center;\n      font-size: 2rem;\n      color: #53a025;\n      padding-top: 10px; }\n      #supporters .sup-content .content-body a .name:hover {\n        color: rgba(0, 0, 0, 0.5); }\n\n/*supporter*/\n/*footer*/\n.footer {\n  padding-top: 30px; }\n\n/*footer*/\n\n", ""]);
 
 // exports
 
@@ -72206,7 +72206,7 @@ var Observable_1 = __webpack_require__(2);
 var tryCatch_1 = __webpack_require__(172);
 var isFunction_1 = __webpack_require__(173);
 var errorObject_1 = __webpack_require__(174);
-var Subscription_1 = __webpack_require__(73);
+var Subscription_1 = __webpack_require__(74);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
     return !!sourceObj && typeof sourceObj.addListener === 'function' && typeof sourceObj.removeListener === 'function';
@@ -73233,7 +73233,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscription_1 = __webpack_require__(73);
+var Subscription_1 = __webpack_require__(74);
 /**
  * A unit of work to be executed in a {@link Scheduler}. An action is typically
  * created from within a Scheduler and an RxJS user does not need to concern
@@ -76011,7 +76011,7 @@ var GroupByPipe = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_local_store_manager_service__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_app_title_service__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_app_title_service__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_auth_service__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_login_login_component__ = __webpack_require__(45);
@@ -77918,7 +77918,7 @@ exports.push([module.i, ".row:not(:last-child) {\n    /*border-bottom: 1px solid
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_select_directive__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_select_directive__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_utilities__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
@@ -78097,7 +78097,7 @@ exports.push([module.i, "\n.separator-hr {\n    margin: 7px 5px;\n    border-top
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_utilities__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_user_model__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__user_info_component__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__user_info_component__ = __webpack_require__(84);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -78346,7 +78346,7 @@ exports.push([module.i, "\n.user-role {\n    font-size: 0.8em !important;\n    m
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_utilities__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__role_editor_component__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__role_editor_component__ = __webpack_require__(85);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -78766,18 +78766,6 @@ exports.push([module.i, ".countdown {\n  display: flex;\n  align-items: center;\
 
 // exports
 
-
-/***/ }),
-/* 275 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2d65b34661b3ec832861eef02824752c.png";
-
-/***/ }),
-/* 276 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ce3d1e796a42fd401ff785d291163fde.png";
 
 /***/ })
 /******/ ]);

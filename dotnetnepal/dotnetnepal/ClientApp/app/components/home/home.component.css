@@ -141,18 +141,23 @@
         border: 1em solid; }
         .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center .title {
           padding: 5px;
-          font-size: 3.5rem; }
+          font-size: 3.5rem;
+          color: rgba(77, 61, 158, 0.99); }
         .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul {
           list-style: none;
-          list-style-position: outside; }
+          list-style-position: outside;
+          padding-left: 0;
+          text-align: center; }
           .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li {
-            text-align: left;
+            text-align: center;
             padding: 15px 10px;
-            margin: 15px; }
-            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.one {
-              background-image: url(../../assets/images/listjoin.png); }
-            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li.two {
-              background-image: url(../../assets/images/listjoininv.png); }
+            margin: 15px;
+            font-size: 2.3rem; }
+            .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center ul li:before {
+              content: url(https://cdn.iconscout.com/public/images/icon/premium/png-512/office-hand-finger-pointing-right-thumb-addressing-3ce3848165e198ac-512x512.png);
+              max-height: 10px;
+              width: auto;
+              color: white; }
 
 .ms-slide.three {
   background: #256CA0; }
