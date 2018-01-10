@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4d774b07ebd2e40809f7"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d54d49a90104db2cd391"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -721,7 +721,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(81)(__webpack_require__.s = 81);
+/******/ 	return hotCreateRequire(85)(__webpack_require__.s = 85);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -831,7 +831,7 @@ function toComment(sourceMap) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Utilities; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1282,8 +1282,8 @@ var Utilities = /** @class */ (function () {
 /* unused harmony export AlertMessage */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MessageSeverity; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_utilities__ = __webpack_require__(4);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1488,12 +1488,12 @@ module.exports = (__webpack_require__(1))(10);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppTranslationService; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TranslateLanguageLoader; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_of__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_of__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_of__);
 // ======================================
 // Author: Ebenezer Monney
@@ -1583,15 +1583,15 @@ var TranslateLanguageLoader = /** @class */ (function () {
         //Note Dynamic require(variable) will not work. Require is always at compile time
         switch (lang) {
             case "en":
-                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(147));
-            case "fr":
-                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(148));
-            case "de":
-                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(149));
-            case "ar":
-                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(150));
-            case "ko":
                 return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(151));
+            case "fr":
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(152));
+            case "de":
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(153));
+            case "ar":
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(154));
+            case "ko":
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of(__webpack_require__(155));
             default:
         }
     };
@@ -1607,20 +1607,20 @@ var TranslateLanguageLoader = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__ = __webpack_require__(174);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__account_endpoint_service__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__auth_service__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__account_endpoint_service__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__auth_service__ = __webpack_require__(14);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -1818,527 +1818,6 @@ module.exports = (__webpack_require__(1))(245);
 
 /***/ }),
 /* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(2);
-var map_1 = __webpack_require__(34);
-Observable_1.Observable.prototype.map = map_1.map;
-//# sourceMappingURL=map.js.map
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(18);
-
-/***/ }),
-/* 12 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__local_store_manager_service__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__endpoint_factory_service__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__configuration_service__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__db_Keys__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jwt_helper__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__models_user_model__ = __webpack_require__(28);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-var AuthService = /** @class */ (function () {
-    function AuthService(router, configurations, endpointFactory, localStorage) {
-        this.router = router;
-        this.configurations = configurations;
-        this.endpointFactory = endpointFactory;
-        this.localStorage = localStorage;
-        this.previousIsLoggedInCheck = false;
-        this._loginStatus = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__["Subject"]();
-        this.initializeLoginStatus();
-    }
-    Object.defineProperty(AuthService.prototype, "loginUrl", {
-        get: function () { return this.configurations.loginUrl; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "homeUrl", {
-        get: function () { return this.configurations.homeUrl; },
-        enumerable: true,
-        configurable: true
-    });
-    AuthService.prototype.initializeLoginStatus = function () {
-        var _this = this;
-        this.localStorage.getInitEvent().subscribe(function () {
-            _this.reevaluateLoginStatus();
-        });
-    };
-    AuthService.prototype.gotoPage = function (page, preserveParams) {
-        if (preserveParams === void 0) { preserveParams = true; }
-        var navigationExtras = {
-            queryParamsHandling: preserveParams ? "merge" : "", preserveFragment: preserveParams
-        };
-        this.router.navigate([page], navigationExtras);
-    };
-    AuthService.prototype.redirectLoginUser = function () {
-        var redirect = this.loginRedirectUrl && this.loginRedirectUrl != '/' && this.loginRedirectUrl != __WEBPACK_IMPORTED_MODULE_6__configuration_service__["a" /* ConfigurationService */].defaultHomeUrl ? this.loginRedirectUrl : this.homeUrl;
-        this.loginRedirectUrl = null;
-        var urlParamsAndFragment = __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].splitInTwo(redirect, '#');
-        var urlAndParams = __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].splitInTwo(urlParamsAndFragment.firstPart, '?');
-        var navigationExtras = {
-            fragment: urlParamsAndFragment.secondPart,
-            queryParams: __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].getQueryParamsFromString(urlAndParams.secondPart),
-            queryParamsHandling: "merge"
-        };
-        this.router.navigate([urlAndParams.firstPart], navigationExtras);
-    };
-    AuthService.prototype.redirectLogoutUser = function () {
-        var redirect = this.logoutRedirectUrl ? this.logoutRedirectUrl : this.loginUrl;
-        this.logoutRedirectUrl = null;
-        this.router.navigate([redirect]);
-    };
-    AuthService.prototype.redirectForLogin = function () {
-        this.loginRedirectUrl = this.router.url;
-        this.router.navigate([this.loginUrl]);
-    };
-    AuthService.prototype.reLogin = function () {
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
-        if (this.reLoginDelegate) {
-            this.reLoginDelegate();
-        }
-        else {
-            this.redirectForLogin();
-        }
-    };
-    AuthService.prototype.refreshLogin = function () {
-        var _this = this;
-        return this.endpointFactory.getRefreshLoginEndpoint()
-            .map(function (response) { return _this.processLoginResponse(response, _this.rememberMe); });
-    };
-    AuthService.prototype.login = function (userName, password, rememberMe) {
-        var _this = this;
-        if (this.isLoggedIn)
-            this.logout();
-        return this.endpointFactory.getLoginEndpoint(userName, password)
-            .map(function (response) { return _this.processLoginResponse(response, rememberMe); });
-    };
-    AuthService.prototype.processLoginResponse = function (response, rememberMe) {
-        var response_token = response.json();
-        var accessToken = response_token.access_token;
-        if (accessToken == null)
-            throw new Error("Received accessToken was empty");
-        var idToken = response_token.id_token;
-        var refreshToken = response_token.refresh_token;
-        var expiresIn = response_token.expires_in;
-        var tokenExpiryDate = new Date();
-        tokenExpiryDate.setSeconds(tokenExpiryDate.getSeconds() + expiresIn);
-        var accessTokenExpiry = tokenExpiryDate;
-        var jwtHelper = new __WEBPACK_IMPORTED_MODULE_8__jwt_helper__["a" /* JwtHelper */]();
-        var decodedIdToken = jwtHelper.decodeToken(response_token.id_token);
-        var permissions = Array.isArray(decodedIdToken.permission) ? decodedIdToken.permission : [decodedIdToken.permission];
-        if (!this.isLoggedIn)
-            this.configurations.import(decodedIdToken.configuration);
-        var user = new __WEBPACK_IMPORTED_MODULE_10__models_user_model__["a" /* User */](decodedIdToken.sub, decodedIdToken.name, decodedIdToken.fullname, decodedIdToken.email, decodedIdToken.jobtitle, decodedIdToken.phone, Array.isArray(decodedIdToken.role) ? decodedIdToken.role : [decodedIdToken.role]);
-        user.isEnabled = true;
-        this.saveUserDetails(user, permissions, accessToken, idToken, refreshToken, accessTokenExpiry, rememberMe);
-        this.reevaluateLoginStatus(user);
-        return user;
-    };
-    AuthService.prototype.saveUserDetails = function (user, permissions, accessToken, idToken, refreshToken, expiresIn, rememberMe) {
-        if (rememberMe) {
-            this.localStorage.savePermanentData(accessToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
-            this.localStorage.savePermanentData(idToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
-            this.localStorage.savePermanentData(refreshToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
-            this.localStorage.savePermanentData(expiresIn, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
-            this.localStorage.savePermanentData(permissions, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
-            this.localStorage.savePermanentData(user, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
-        }
-        else {
-            this.localStorage.saveSyncedSessionData(accessToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
-            this.localStorage.saveSyncedSessionData(idToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
-            this.localStorage.saveSyncedSessionData(refreshToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
-            this.localStorage.saveSyncedSessionData(expiresIn, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
-            this.localStorage.saveSyncedSessionData(permissions, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
-            this.localStorage.saveSyncedSessionData(user, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
-        }
-        this.localStorage.savePermanentData(rememberMe, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REMEMBER_ME);
-    };
-    AuthService.prototype.logout = function () {
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
-        this.configurations.clearLocalChanges();
-        this.reevaluateLoginStatus();
-    };
-    AuthService.prototype.reevaluateLoginStatus = function (currentUser) {
-        var _this = this;
-        var user = currentUser || this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
-        var isLoggedIn = user != null;
-        if (this.previousIsLoggedInCheck != isLoggedIn) {
-            setTimeout(function () {
-                _this._loginStatus.next(isLoggedIn);
-            });
-        }
-        this.previousIsLoggedInCheck = isLoggedIn;
-    };
-    AuthService.prototype.getLoginStatusEvent = function () {
-        return this._loginStatus.asObservable();
-    };
-    Object.defineProperty(AuthService.prototype, "currentUser", {
-        get: function () {
-            var user = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
-            this.reevaluateLoginStatus(user);
-            return user;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "userPermissions", {
-        get: function () {
-            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS) || [];
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "accessToken", {
-        get: function () {
-            this.reevaluateLoginStatus();
-            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "accessTokenExpiryDate", {
-        get: function () {
-            this.reevaluateLoginStatus();
-            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN, true);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "isSessionExpired", {
-        get: function () {
-            if (this.accessTokenExpiryDate == null) {
-                return true;
-            }
-            return !(this.accessTokenExpiryDate.valueOf() > new Date().valueOf());
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "idToken", {
-        get: function () {
-            this.reevaluateLoginStatus();
-            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "refreshToken", {
-        get: function () {
-            this.reevaluateLoginStatus();
-            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "isLoggedIn", {
-        get: function () {
-            return this.currentUser != null;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AuthService.prototype, "rememberMe", {
-        get: function () {
-            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REMEMBER_ME) == true;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    AuthService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */], __WEBPACK_IMPORTED_MODULE_6__configuration_service__["a" /* ConfigurationService */], __WEBPACK_IMPORTED_MODULE_5__endpoint_factory_service__["a" /* EndpointFactory */], __WEBPACK_IMPORTED_MODULE_4__local_store_manager_service__["a" /* LocalStoreManager */]])
-    ], AuthService);
-    return AuthService;
-}());
-
-
-
-/***/ }),
-/* 13 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConfigurationService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_store_manager_service__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__db_Keys__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utilities__ = __webpack_require__(4);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var ConfigurationService = /** @class */ (function () {
-    function ConfigurationService(localStorage, translationService) {
-        this.localStorage = localStorage;
-        this.translationService = translationService;
-        this.baseUrl = __WEBPACK_IMPORTED_MODULE_4__utilities__["a" /* Utilities */].baseUrl().replace(/\/$/, '');
-        this.fallbackBaseUrl = "http://ebenmonney.com/demo/quickapp";
-        this.loginUrl = "/Login";
-        //***End of defaults***  
-        this._language = null;
-        this._homeUrl = null;
-        this._theme = null;
-        this._showDashboardStatistics = null;
-        this._showDashboardNotifications = null;
-        this._showDashboardTodo = null;
-        this._showDashboardBanner = null;
-        this.loadLocalChanges();
-    }
-    ConfigurationService_1 = ConfigurationService;
-    ConfigurationService.prototype.loadLocalChanges = function () {
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE)) {
-            this._language = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
-            this.translationService.changeLanguage(this._language);
-        }
-        else {
-            this.resetLanguage();
-        }
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL))
-            this._homeUrl = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME))
-            this._theme = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS))
-            this._showDashboardStatistics = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS))
-            this._showDashboardNotifications = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO))
-            this._showDashboardTodo = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
-        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER))
-            this._showDashboardBanner = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
-    };
-    ConfigurationService.prototype.saveToLocalStore = function (data, key) {
-        var _this = this;
-        setTimeout(function () { return _this.localStorage.savePermanentData(data, key); });
-    };
-    ConfigurationService.prototype.import = function (jsonValue) {
-        this.clearLocalChanges();
-        if (!jsonValue)
-            return;
-        var importValue = __WEBPACK_IMPORTED_MODULE_4__utilities__["a" /* Utilities */].JSonTryParse(jsonValue);
-        if (importValue.language != null)
-            this.language = importValue.language;
-        if (importValue.homeUrl != null)
-            this.homeUrl = importValue.homeUrl;
-        if (importValue.theme != null)
-            this.theme = importValue.theme;
-        if (importValue.showDashboardStatistics != null)
-            this.showDashboardStatistics = importValue.showDashboardStatistics;
-        if (importValue.showDashboardNotifications != null)
-            this.showDashboardNotifications = importValue.showDashboardNotifications;
-        if (importValue.showDashboardTodo != null)
-            this.showDashboardTodo = importValue.showDashboardTodo;
-        if (importValue.showDashboardBanner != null)
-            this.showDashboardBanner = importValue.showDashboardBanner;
-    };
-    ConfigurationService.prototype.export = function (changesOnly) {
-        if (changesOnly === void 0) { changesOnly = true; }
-        var exportValue = {
-            language: changesOnly ? this._language : this.language,
-            homeUrl: changesOnly ? this._homeUrl : this.homeUrl,
-            theme: changesOnly ? this._theme : this.theme,
-            showDashboardStatistics: changesOnly ? this._showDashboardStatistics : this.showDashboardStatistics,
-            showDashboardNotifications: changesOnly ? this._showDashboardNotifications : this.showDashboardNotifications,
-            showDashboardTodo: changesOnly ? this._showDashboardTodo : this.showDashboardTodo,
-            showDashboardBanner: changesOnly ? this._showDashboardBanner : this.showDashboardBanner
-        };
-        return JSON.stringify(exportValue);
-    };
-    ConfigurationService.prototype.clearLocalChanges = function () {
-        this._language = null;
-        this._homeUrl = null;
-        this._theme = null;
-        this._showDashboardStatistics = null;
-        this._showDashboardNotifications = null;
-        this._showDashboardTodo = null;
-        this._showDashboardBanner = null;
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
-        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
-        this.resetLanguage();
-    };
-    ConfigurationService.prototype.resetLanguage = function () {
-        var language = this.translationService.useBrowserLanguage();
-        if (language) {
-            this._language = language;
-        }
-        else {
-            this._language = this.translationService.changeLanguage();
-        }
-    };
-    Object.defineProperty(ConfigurationService.prototype, "language", {
-        get: function () {
-            if (this._language != null)
-                return this._language;
-            return ConfigurationService_1.defaultLanguage;
-        },
-        set: function (value) {
-            this._language = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
-            this.translationService.changeLanguage(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "homeUrl", {
-        get: function () {
-            if (this._homeUrl != null)
-                return this._homeUrl;
-            return ConfigurationService_1.defaultHomeUrl;
-        },
-        set: function (value) {
-            this._homeUrl = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "theme", {
-        get: function () {
-            if (this._theme != null)
-                return this._theme;
-            return ConfigurationService_1.defaultTheme;
-        },
-        set: function (value) {
-            this._theme = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "showDashboardStatistics", {
-        get: function () {
-            if (this._showDashboardStatistics != null)
-                return this._showDashboardStatistics;
-            return ConfigurationService_1.defaultShowDashboardStatistics;
-        },
-        set: function (value) {
-            this._showDashboardStatistics = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "showDashboardNotifications", {
-        get: function () {
-            if (this._showDashboardNotifications != null)
-                return this._showDashboardNotifications;
-            return ConfigurationService_1.defaultShowDashboardNotifications;
-        },
-        set: function (value) {
-            this._showDashboardNotifications = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "showDashboardTodo", {
-        get: function () {
-            if (this._showDashboardTodo != null)
-                return this._showDashboardTodo;
-            return ConfigurationService_1.defaultShowDashboardTodo;
-        },
-        set: function (value) {
-            this._showDashboardTodo = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConfigurationService.prototype, "showDashboardBanner", {
-        get: function () {
-            if (this._showDashboardBanner != null)
-                return this._showDashboardBanner;
-            return ConfigurationService_1.defaultShowDashboardBanner;
-        },
-        set: function (value) {
-            this._showDashboardBanner = value;
-            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    ConfigurationService.appVersion = "1.0.0";
-    //***Specify default configurations here***
-    ConfigurationService.defaultLanguage = "en";
-    ConfigurationService.defaultHomeUrl = "/";
-    ConfigurationService.defaultTheme = "Default";
-    ConfigurationService.defaultShowDashboardStatistics = true;
-    ConfigurationService.defaultShowDashboardNotifications = true;
-    ConfigurationService.defaultShowDashboardTodo = false;
-    ConfigurationService.defaultShowDashboardBanner = true;
-    ConfigurationService = ConfigurationService_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__local_store_manager_service__["a" /* LocalStoreManager */], __WEBPACK_IMPORTED_MODULE_1__app_translation_service__["a" /* AppTranslationService */]])
-    ], ConfigurationService);
-    return ConfigurationService;
-    var ConfigurationService_1;
-}());
-
-
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(25);
-
-/***/ }),
-/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2375,7 +1854,7 @@ module.exports = (__webpack_require__(1))(25);
 /* unused harmony export ɵb */
 /* unused harmony export ɵc */
 /* unused harmony export ɵd */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
@@ -4566,7 +4045,18 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Version"]('4.3.6'
 
 
 /***/ }),
-/* 16 */
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(2);
+var map_1 = __webpack_require__(35);
+Observable_1.Observable.prototype.map = map_1.map;
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4625,45 +4115,45 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Version"]('4.3.6'
 /* unused harmony export ɵe */
 /* unused harmony export ɵk */
 /* unused harmony export ɵl */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_rxjs_observable_fromPromise__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_rxjs_observable_fromPromise__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19_rxjs_operator_mergeAll__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21_rxjs_operator_filter__);
 
 /**
@@ -10956,7 +10446,523 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_2__angular_core__["Version"]('4.3.6'
 
 
 /***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(18);
+
+/***/ }),
+/* 14 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__local_store_manager_service__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__endpoint_factory_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__configuration_service__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__db_Keys__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jwt_helper__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utilities__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__models_user_model__ = __webpack_require__(31);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+var AuthService = /** @class */ (function () {
+    function AuthService(router, configurations, endpointFactory, localStorage) {
+        this.router = router;
+        this.configurations = configurations;
+        this.endpointFactory = endpointFactory;
+        this.localStorage = localStorage;
+        this.previousIsLoggedInCheck = false;
+        this._loginStatus = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__["Subject"]();
+        this.initializeLoginStatus();
+    }
+    Object.defineProperty(AuthService.prototype, "loginUrl", {
+        get: function () { return this.configurations.loginUrl; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "homeUrl", {
+        get: function () { return this.configurations.homeUrl; },
+        enumerable: true,
+        configurable: true
+    });
+    AuthService.prototype.initializeLoginStatus = function () {
+        var _this = this;
+        this.localStorage.getInitEvent().subscribe(function () {
+            _this.reevaluateLoginStatus();
+        });
+    };
+    AuthService.prototype.gotoPage = function (page, preserveParams) {
+        if (preserveParams === void 0) { preserveParams = true; }
+        var navigationExtras = {
+            queryParamsHandling: preserveParams ? "merge" : "", preserveFragment: preserveParams
+        };
+        this.router.navigate([page], navigationExtras);
+    };
+    AuthService.prototype.redirectLoginUser = function () {
+        var redirect = this.loginRedirectUrl && this.loginRedirectUrl != '/' && this.loginRedirectUrl != __WEBPACK_IMPORTED_MODULE_6__configuration_service__["a" /* ConfigurationService */].defaultHomeUrl ? this.loginRedirectUrl : this.homeUrl;
+        this.loginRedirectUrl = null;
+        var urlParamsAndFragment = __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].splitInTwo(redirect, '#');
+        var urlAndParams = __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].splitInTwo(urlParamsAndFragment.firstPart, '?');
+        var navigationExtras = {
+            fragment: urlParamsAndFragment.secondPart,
+            queryParams: __WEBPACK_IMPORTED_MODULE_9__utilities__["a" /* Utilities */].getQueryParamsFromString(urlAndParams.secondPart),
+            queryParamsHandling: "merge"
+        };
+        this.router.navigate([urlAndParams.firstPart], navigationExtras);
+    };
+    AuthService.prototype.redirectLogoutUser = function () {
+        var redirect = this.logoutRedirectUrl ? this.logoutRedirectUrl : this.loginUrl;
+        this.logoutRedirectUrl = null;
+        this.router.navigate([redirect]);
+    };
+    AuthService.prototype.redirectForLogin = function () {
+        this.loginRedirectUrl = this.router.url;
+        this.router.navigate([this.loginUrl]);
+    };
+    AuthService.prototype.reLogin = function () {
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
+        if (this.reLoginDelegate) {
+            this.reLoginDelegate();
+        }
+        else {
+            this.redirectForLogin();
+        }
+    };
+    AuthService.prototype.refreshLogin = function () {
+        var _this = this;
+        return this.endpointFactory.getRefreshLoginEndpoint()
+            .map(function (response) { return _this.processLoginResponse(response, _this.rememberMe); });
+    };
+    AuthService.prototype.login = function (userName, password, rememberMe) {
+        var _this = this;
+        if (this.isLoggedIn)
+            this.logout();
+        return this.endpointFactory.getLoginEndpoint(userName, password)
+            .map(function (response) { return _this.processLoginResponse(response, rememberMe); });
+    };
+    AuthService.prototype.processLoginResponse = function (response, rememberMe) {
+        var response_token = response.json();
+        var accessToken = response_token.access_token;
+        if (accessToken == null)
+            throw new Error("Received accessToken was empty");
+        var idToken = response_token.id_token;
+        var refreshToken = response_token.refresh_token;
+        var expiresIn = response_token.expires_in;
+        var tokenExpiryDate = new Date();
+        tokenExpiryDate.setSeconds(tokenExpiryDate.getSeconds() + expiresIn);
+        var accessTokenExpiry = tokenExpiryDate;
+        var jwtHelper = new __WEBPACK_IMPORTED_MODULE_8__jwt_helper__["a" /* JwtHelper */]();
+        var decodedIdToken = jwtHelper.decodeToken(response_token.id_token);
+        var permissions = Array.isArray(decodedIdToken.permission) ? decodedIdToken.permission : [decodedIdToken.permission];
+        if (!this.isLoggedIn)
+            this.configurations.import(decodedIdToken.configuration);
+        var user = new __WEBPACK_IMPORTED_MODULE_10__models_user_model__["a" /* User */](decodedIdToken.sub, decodedIdToken.name, decodedIdToken.fullname, decodedIdToken.email, decodedIdToken.jobtitle, decodedIdToken.phone, Array.isArray(decodedIdToken.role) ? decodedIdToken.role : [decodedIdToken.role]);
+        user.isEnabled = true;
+        this.saveUserDetails(user, permissions, accessToken, idToken, refreshToken, accessTokenExpiry, rememberMe);
+        this.reevaluateLoginStatus(user);
+        return user;
+    };
+    AuthService.prototype.saveUserDetails = function (user, permissions, accessToken, idToken, refreshToken, expiresIn, rememberMe) {
+        if (rememberMe) {
+            this.localStorage.savePermanentData(accessToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
+            this.localStorage.savePermanentData(idToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
+            this.localStorage.savePermanentData(refreshToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
+            this.localStorage.savePermanentData(expiresIn, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
+            this.localStorage.savePermanentData(permissions, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
+            this.localStorage.savePermanentData(user, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
+        }
+        else {
+            this.localStorage.saveSyncedSessionData(accessToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
+            this.localStorage.saveSyncedSessionData(idToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
+            this.localStorage.saveSyncedSessionData(refreshToken, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
+            this.localStorage.saveSyncedSessionData(expiresIn, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
+            this.localStorage.saveSyncedSessionData(permissions, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
+            this.localStorage.saveSyncedSessionData(user, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
+        }
+        this.localStorage.savePermanentData(rememberMe, __WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REMEMBER_ME);
+    };
+    AuthService.prototype.logout = function () {
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
+        this.configurations.clearLocalChanges();
+        this.reevaluateLoginStatus();
+    };
+    AuthService.prototype.reevaluateLoginStatus = function (currentUser) {
+        var _this = this;
+        var user = currentUser || this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
+        var isLoggedIn = user != null;
+        if (this.previousIsLoggedInCheck != isLoggedIn) {
+            setTimeout(function () {
+                _this._loginStatus.next(isLoggedIn);
+            });
+        }
+        this.previousIsLoggedInCheck = isLoggedIn;
+    };
+    AuthService.prototype.getLoginStatusEvent = function () {
+        return this._loginStatus.asObservable();
+    };
+    Object.defineProperty(AuthService.prototype, "currentUser", {
+        get: function () {
+            var user = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].CURRENT_USER);
+            this.reevaluateLoginStatus(user);
+            return user;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "userPermissions", {
+        get: function () {
+            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].USER_PERMISSIONS) || [];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "accessToken", {
+        get: function () {
+            this.reevaluateLoginStatus();
+            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ACCESS_TOKEN);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "accessTokenExpiryDate", {
+        get: function () {
+            this.reevaluateLoginStatus();
+            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].TOKEN_EXPIRES_IN, true);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "isSessionExpired", {
+        get: function () {
+            if (this.accessTokenExpiryDate == null) {
+                return true;
+            }
+            return !(this.accessTokenExpiryDate.valueOf() > new Date().valueOf());
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "idToken", {
+        get: function () {
+            this.reevaluateLoginStatus();
+            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].ID_TOKEN);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "refreshToken", {
+        get: function () {
+            this.reevaluateLoginStatus();
+            return this.localStorage.getData(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REFRESH_TOKEN);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "isLoggedIn", {
+        get: function () {
+            return this.currentUser != null;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AuthService.prototype, "rememberMe", {
+        get: function () {
+            return this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_7__db_Keys__["a" /* DBkeys */].REMEMBER_ME) == true;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    AuthService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */], __WEBPACK_IMPORTED_MODULE_6__configuration_service__["a" /* ConfigurationService */], __WEBPACK_IMPORTED_MODULE_5__endpoint_factory_service__["a" /* EndpointFactory */], __WEBPACK_IMPORTED_MODULE_4__local_store_manager_service__["a" /* LocalStoreManager */]])
+    ], AuthService);
+    return AuthService;
+}());
+
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConfigurationService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_translation_service__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_store_manager_service__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__db_Keys__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utilities__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var ConfigurationService = /** @class */ (function () {
+    function ConfigurationService(localStorage, translationService) {
+        this.localStorage = localStorage;
+        this.translationService = translationService;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_4__utilities__["a" /* Utilities */].baseUrl().replace(/\/$/, '');
+        this.fallbackBaseUrl = "http://ebenmonney.com/demo/quickapp";
+        this.loginUrl = "/Login";
+        //***End of defaults***  
+        this._language = null;
+        this._homeUrl = null;
+        this._theme = null;
+        this._showDashboardStatistics = null;
+        this._showDashboardNotifications = null;
+        this._showDashboardTodo = null;
+        this._showDashboardBanner = null;
+        this.loadLocalChanges();
+    }
+    ConfigurationService_1 = ConfigurationService;
+    ConfigurationService.prototype.loadLocalChanges = function () {
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE)) {
+            this._language = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
+            this.translationService.changeLanguage(this._language);
+        }
+        else {
+            this.resetLanguage();
+        }
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL))
+            this._homeUrl = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME))
+            this._theme = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS))
+            this._showDashboardStatistics = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS))
+            this._showDashboardNotifications = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO))
+            this._showDashboardTodo = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
+        if (this.localStorage.exists(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER))
+            this._showDashboardBanner = this.localStorage.getDataObject(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
+    };
+    ConfigurationService.prototype.saveToLocalStore = function (data, key) {
+        var _this = this;
+        setTimeout(function () { return _this.localStorage.savePermanentData(data, key); });
+    };
+    ConfigurationService.prototype.import = function (jsonValue) {
+        this.clearLocalChanges();
+        if (!jsonValue)
+            return;
+        var importValue = __WEBPACK_IMPORTED_MODULE_4__utilities__["a" /* Utilities */].JSonTryParse(jsonValue);
+        if (importValue.language != null)
+            this.language = importValue.language;
+        if (importValue.homeUrl != null)
+            this.homeUrl = importValue.homeUrl;
+        if (importValue.theme != null)
+            this.theme = importValue.theme;
+        if (importValue.showDashboardStatistics != null)
+            this.showDashboardStatistics = importValue.showDashboardStatistics;
+        if (importValue.showDashboardNotifications != null)
+            this.showDashboardNotifications = importValue.showDashboardNotifications;
+        if (importValue.showDashboardTodo != null)
+            this.showDashboardTodo = importValue.showDashboardTodo;
+        if (importValue.showDashboardBanner != null)
+            this.showDashboardBanner = importValue.showDashboardBanner;
+    };
+    ConfigurationService.prototype.export = function (changesOnly) {
+        if (changesOnly === void 0) { changesOnly = true; }
+        var exportValue = {
+            language: changesOnly ? this._language : this.language,
+            homeUrl: changesOnly ? this._homeUrl : this.homeUrl,
+            theme: changesOnly ? this._theme : this.theme,
+            showDashboardStatistics: changesOnly ? this._showDashboardStatistics : this.showDashboardStatistics,
+            showDashboardNotifications: changesOnly ? this._showDashboardNotifications : this.showDashboardNotifications,
+            showDashboardTodo: changesOnly ? this._showDashboardTodo : this.showDashboardTodo,
+            showDashboardBanner: changesOnly ? this._showDashboardBanner : this.showDashboardBanner
+        };
+        return JSON.stringify(exportValue);
+    };
+    ConfigurationService.prototype.clearLocalChanges = function () {
+        this._language = null;
+        this._homeUrl = null;
+        this._theme = null;
+        this._showDashboardStatistics = null;
+        this._showDashboardNotifications = null;
+        this._showDashboardTodo = null;
+        this._showDashboardBanner = null;
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
+        this.localStorage.deleteData(__WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
+        this.resetLanguage();
+    };
+    ConfigurationService.prototype.resetLanguage = function () {
+        var language = this.translationService.useBrowserLanguage();
+        if (language) {
+            this._language = language;
+        }
+        else {
+            this._language = this.translationService.changeLanguage();
+        }
+    };
+    Object.defineProperty(ConfigurationService.prototype, "language", {
+        get: function () {
+            if (this._language != null)
+                return this._language;
+            return ConfigurationService_1.defaultLanguage;
+        },
+        set: function (value) {
+            this._language = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].LANGUAGE);
+            this.translationService.changeLanguage(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "homeUrl", {
+        get: function () {
+            if (this._homeUrl != null)
+                return this._homeUrl;
+            return ConfigurationService_1.defaultHomeUrl;
+        },
+        set: function (value) {
+            this._homeUrl = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].HOME_URL);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "theme", {
+        get: function () {
+            if (this._theme != null)
+                return this._theme;
+            return ConfigurationService_1.defaultTheme;
+        },
+        set: function (value) {
+            this._theme = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].THEME);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "showDashboardStatistics", {
+        get: function () {
+            if (this._showDashboardStatistics != null)
+                return this._showDashboardStatistics;
+            return ConfigurationService_1.defaultShowDashboardStatistics;
+        },
+        set: function (value) {
+            this._showDashboardStatistics = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_STATISTICS);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "showDashboardNotifications", {
+        get: function () {
+            if (this._showDashboardNotifications != null)
+                return this._showDashboardNotifications;
+            return ConfigurationService_1.defaultShowDashboardNotifications;
+        },
+        set: function (value) {
+            this._showDashboardNotifications = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_NOTIFICATIONS);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "showDashboardTodo", {
+        get: function () {
+            if (this._showDashboardTodo != null)
+                return this._showDashboardTodo;
+            return ConfigurationService_1.defaultShowDashboardTodo;
+        },
+        set: function (value) {
+            this._showDashboardTodo = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_TODO);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConfigurationService.prototype, "showDashboardBanner", {
+        get: function () {
+            if (this._showDashboardBanner != null)
+                return this._showDashboardBanner;
+            return ConfigurationService_1.defaultShowDashboardBanner;
+        },
+        set: function (value) {
+            this._showDashboardBanner = value;
+            this.saveToLocalStore(value, __WEBPACK_IMPORTED_MODULE_3__db_Keys__["a" /* DBkeys */].SHOW_DASHBOARD_BANNER);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ConfigurationService.appVersion = "1.0.0";
+    //***Specify default configurations here***
+    ConfigurationService.defaultLanguage = "en";
+    ConfigurationService.defaultHomeUrl = "/";
+    ConfigurationService.defaultTheme = "Default";
+    ConfigurationService.defaultShowDashboardStatistics = true;
+    ConfigurationService.defaultShowDashboardNotifications = true;
+    ConfigurationService.defaultShowDashboardTodo = false;
+    ConfigurationService.defaultShowDashboardBanner = true;
+    ConfigurationService = ConfigurationService_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__local_store_manager_service__["a" /* LocalStoreManager */], __WEBPACK_IMPORTED_MODULE_1__app_translation_service__["a" /* AppTranslationService */]])
+    ], ConfigurationService);
+    return ConfigurationService;
+    var ConfigurationService_1;
+}());
+
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAAAz1BMVEUAAADUBy/DDi7dAzDdAzDdAzDdAzDDDi7DDi7DDi7dAzDdAzDdAzDDDi7DDi7DDi7dAzDdAzDdAzDDDi7DDi7DDi7dAzDdAzDDDi7DDi7dAzDdAzDDDi7DDi7dAzDDDi7fEz3HHTvugZjhh5f97/L78PLqYn7////aaHz74OX44eXmQmTSSmL3wMvww8vhI0rLLEjyobHppbHdAzDDDi7jMlfOO1XoUnHWWW/50Nj00tjscYvdd4nwkaTllqT0sL7stL7hRGPXBjDWBi/FDS4+JsiBAAAARXRSTlMAMDAwj9///9+PIHDPz3AgEGC/v2AQUK+vUJ/v75+AgP////////////////////////9AQP//////////////////r6+TKVt1AAAH7ElEQVR4AezUtaHDUBTA0I9mZtx/zHDMWOY+nQ3U6AsAAAAAAAAAAAAA8Em+f9Ts/v3713TDVK7esh3tRr9xPV+d7iCMtCf9KU5SJcKzXOvonaIU313VmjZK7zRtKXtsY/qI1OlZ9rN7Jb2rlza9IHS0JfoSV9D0wlxboa8oElljO5HeTU/C2E6kC5heN7Yz6QKm143tTLqA6QXrYzub/pxeKmFsV2buQllxZQ3DcJZ1jwuMS7AYGmx84Jy97/+exjNGWLv+zvst+O7gKfnrha6Kna4/ethhq9wUvdIf99G7EV8407xp1zpHevTuff8JrqN//3H/8PgPG0/njx5/2Hg6f/T4w8bTj/bo3ahKNWjdXpC76ty7B/9vMXz9Qbic+0cTOGz2JanRChw94LC55svyvPDNd5VH7+zrQQc2zPORJ/bi5ekhD5t94/zLJoAcOHrEYTNs+pU+M/CAowccNmBl/m1zD646evxhQ7f4Tl96cvzRW1WHjVs3/7HfswY6emv+v0Vy/Yo+oOnUP5rVT1F8SUVPeTnz8/bMaZZV8ipr+J1GDSeiD3/RRyJ61HTW+2bImWoTifxFY3pLQp/+Tp9J6G2eDuZMtflx0mMFffEnfamgd0g6nzNk1vD0R8qcUWZN86BdKXNGmTXr5jknzBlp1gC/4YQ5I82aqPkuZDkjzZprAL0lyxlp1rQB+mNY/iqv3WuY/gSgx6qc0WZNB6DflDWstGbvAPSVKGfEWbM+Ono32UdPezAdmCZn1FkTERPlDJ81PP0WKH+TX7K3oPw2Qm8pckadNW2Efi7IGXnWXEfosSBn5FnTQej3+ZzRZ80DhL7ic0afNWuEfsbnjD5rTiNkfM7osyZi9pzOGX3WvIDoLTpn9FnTJul8zvBZw9NjOmf0WdNh6XzOLJZs1vD0R6qcGU9UWfMUoq9EOfPO+feirFlD9HuinMmcL4CsYZ9e+Kb5sGtMus730nxnH4mioXYhyZmNc95vJVlzDaO3JA1bfqXPJTXbxuiPFTkzdV/pfqbImicYPVa8ML75Tn+reHvsYPSbgpwZuu90PxJkzR2MvhLkTL+iDwRZsz4a+qZG163ovXx3W4AOjc+ZhavofslnTcQNz5l8/Is+ybms4em36Jx5537R/Xs6a26D9BadM9nv9ILOmjZIfwbnTNL9nd5L4ax5CdJjOGcW7ne6X8JZ0wHp9+HHpvJP+hx+hHoA0ldszkzdn3Q/Y7NmDdLP2JzJ/qYXbNacRuDQnBnufrVghGZNRA7Nmf4ufUBlDU9vkY9N5S59Tj5CtVk6mDMLt0v3SyhreHoMPjaN6+gT8BGqw9K5nBm6OrofAVmD0YEHmP/VeLJ6epHv7v/804t9Kyxnkm49vZdiWbNG6Tewhl24erpfYjV7N0JH5Uxe7qPPcyprInYXzAtjle+79PqQH/BPL+a1oJzJ9tMLKGvaMP0xkzNDt5/uR0zWPIHpsZ3+ri7f6+n7Q/69nd6h6UjO5OVl9HkOZA1PXyE5s3CX0f0SyZo1TSdyJh9fTp/kQNbg9IjImaG7nO5HRNZE9Iicyf6LXgBZw9NvWXMG2wB9etE3zZCjj/RFQz7AZDm4wvj0Qi825gw4W9Z0cPp9W86gm9ieXuitbDmDzpQ1a5x+ZsoZeHP+6cUye85ws2RNdEh6N8fXOyi9pc8ZImvaB6UnPD09KD3W5wyRNR09nW9YpmYV9Ed8zlg24Z9e8KaZaugzumgMu6HPGSJr7kaC6XOGyJpIsQs+Z/isuSaht4Jzpj+u3z+TPRsEZ01bQn8cmjOJ27N/9wrS0Kx5IqHHoTmzsdO3oVnT0dMtOVPa6XN71ijpq8CcmTo73c8Cs2atpxtyJguhF/asEdKjsJxJXAjdp2FZE2kWljObMPrWnjVC+q2gnCnD6HN71tBPL4am6RuOXEU3HroBXzTIA0xiOHIV3XjoUvLpxbA4IGcSF0r3aUDWdET0+wE5swmnbwOy5oGIvgr42FAZTp8HfK5oLaKf2XNm6sLpfmbPmtNINPvHhrIm9ML+uaJINXPOJK4J3afmrJHRW8aGzTfN6NvcWLNtHd362FQ2o8+tj1A6emz8duLUNaP7mfErjJ0D0DPDkTPQC+MjlI7+yJYziWtK96kta57K6Ctbzmya07e2rFnL6Ddsj01lc/rc9gh1N5LNlDNT15zuZ6asiXS7sDw2ZQS9sDxCXRPSW4acSRxB96kha9pC+mNDzmwY+taQNU+E9NjwKeiSoc8NH5fuXDW97NctcwzdF4O6za+avvrcnl3Y6A5DQRS+PzMzF5FUMO/139KSeJmONdLe08EIvsR29+e9Of3n1TkdyXt6kI1OvtPP00CbX12n3zZBNzw6Tr/MokTV0m36qo5SbTtO0/uHYAO8k79ulHfy143yTv66Ud6J183VO/G6uXonWDfeu1P56WdWN9478brhtZYlp6+a4VTVKTW9X4dbi1OJ6ed1/DwD78Tr5uqdeN1cvROvm6t34nVz9U68bq7eidfN1Tvxurl6J0A3h6rxb0yfELrxLTo/nd5ndDPwTj66AeOP359+YYfzDZffm74CWTfwTrxurt6J183VO/G6uXonXjdX78Tr5uqdeN1cvROvm6t3ctYNGN9+ffoAGG7XcPdy+t5aN+BxWvxjsat3InTz79E7PekWQPbeyV83qOG//7PI/mhZlmVZlmVZlmVZlmXZPZmSvHpA7pEOAAAAAElFTkSuQmCC"
+
+/***/ }),
 /* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(25);
+
+/***/ }),
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10979,7 +10985,7 @@ var Permission = /** @class */ (function () {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10989,28 +10995,28 @@ var Permission = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_concat__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_share__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_toArray__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__translate_store__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__translate_loader__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__translate_compiler__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__missing_translation_handler__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__translate_parser__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__translate_store__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__translate_loader__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__translate_compiler__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__missing_translation_handler__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__translate_parser__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util__ = __webpack_require__(29);
 
 
 
@@ -11559,13 +11565,43 @@ TranslateService.ctorParameters = function () { return [
 
 
 /***/ }),
-/* 19 */
+/* 20 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return fadeInOut; });
+/* unused harmony export flyInOut */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__(36);
+// ======================================
+// Author: Ebenezer Monney
+// Email:  info@ebenmonney.com
+// Copyright (c) 2017 www.ebenmonney.com
+// 
+// ==> Gun4Hire: contact@ebenmonney.com
+// ======================================
+
+var fadeInOut = Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('fadeInOut', [
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':enter', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s ease-in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1 }))]),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':leave', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s 10ms ease-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }))])
+]);
+function flyInOut(duration) {
+    if (duration === void 0) { duration = 0.2; }
+    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('flyInOut', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["g" /* state */])('in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1, transform: 'translateX(0)' })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('void => *', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(-100%)' }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s ease-in")]),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('* => void', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s 10ms ease-out", Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(100%)' }))])
+    ]);
+}
+
+
+/***/ }),
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalStoreManager; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utilities__ = __webpack_require__(4);
 // ======================================
@@ -11855,43 +11891,49 @@ var LocalStoreManager = /** @class */ (function () {
 
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a09ecfb7fbf6bd73833c2814875511b2.png";
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(4);
 
 /***/ }),
-/* 22 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(203);
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(206);
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(205);
 
 /***/ }),
-/* 25 */
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(12);
+
+/***/ }),
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(201);
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11989,13 +12031,13 @@ function mergeDeep(target, source) {
 
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(194);
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12027,61 +12069,25 @@ var User = /** @class */ (function () {
 
 
 /***/ }),
-/* 29 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return fadeInOut; });
-/* unused harmony export flyInOut */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__(35);
-// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
-
-var fadeInOut = Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('fadeInOut', [
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':enter', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s ease-in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1 }))]),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])(':leave', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('0.4s 10ms ease-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0 }))])
-]);
-function flyInOut(duration) {
-    if (duration === void 0) { duration = 0.2; }
-    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* trigger */])('flyInOut', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["g" /* state */])('in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 1, transform: 'translateX(0)' })),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('void => *', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(-100%)' }), Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s ease-in")]),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* transition */])('* => void', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])(duration + "s 10ms ease-out", Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* style */])({ opacity: 0, transform: 'translateX(100%)' }))])
-    ]);
-}
-
-
-/***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6da1d37ad57534e8e2fc985f5b901665.png";
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(15);
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(196);
 
 /***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(1))(12);
-
-/***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12174,7 +12180,7 @@ var MapSubscriber = (function (_super) {
 //# sourceMappingURL=map.js.map
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13496,7 +13502,7 @@ var ɵPRE_STYLE = '!';
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13545,24 +13551,24 @@ TranslateFakeLoader.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var of_1 = __webpack_require__(56);
+var of_1 = __webpack_require__(57);
 Observable_1.Observable.of = of_1.of;
 //# sourceMappingURL=of.js.map
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(204);
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13611,7 +13617,7 @@ TranslateFakeCompiler.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13645,14 +13651,14 @@ FakeMissingTranslationHandler.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TranslateParser; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslateDefaultParser; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(29);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -13734,7 +13740,7 @@ TranslateDefaultParser.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13744,8 +13750,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var subscribeToResult_1 = __webpack_require__(23);
-var OuterSubscriber_1 = __webpack_require__(24);
+var subscribeToResult_1 = __webpack_require__(25);
+var OuterSubscriber_1 = __webpack_require__(26);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -13911,7 +13917,7 @@ exports.MergeMapSubscriber = MergeMapSubscriber;
 //# sourceMappingURL=mergeMap.js.map
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13945,17 +13951,17 @@ exports.EmptyError = EmptyError;
 //# sourceMappingURL=EmptyError.js.map
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_login_model__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_login_model__ = __webpack_require__(157);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -14080,8 +14086,8 @@ var LoginComponent = /** @class */ (function () {
     LoginComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "app-login",
-            template: __webpack_require__(154),
-            styles: [__webpack_require__(155)]
+            template: __webpack_require__(158),
+            styles: [__webpack_require__(159)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_3__services_configuration_service__["a" /* ConfigurationService */]])
     ], LoginComponent);
@@ -14091,27 +14097,27 @@ var LoginComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EndpointFactory; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__auth_service__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__auth_service__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__configuration_service__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -14252,18 +14258,18 @@ var EndpointFactory = /** @class */ (function () {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var fromEvent_1 = __webpack_require__(165);
+var fromEvent_1 = __webpack_require__(169);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14271,15 +14277,15 @@ Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_interval__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_interval__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_interval___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_interval__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_startWith__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_startWith__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_startWith__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__notification_endpoint_service__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_notification_model__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__notification_endpoint_service__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_notification_model__ = __webpack_require__(210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -14403,7 +14409,7 @@ var NotificationService = /** @class */ (function () {
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14420,7 +14426,7 @@ var Role = /** @class */ (function () {
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 var ENTITIES = [['Aacute', [193]], ['aacute', [225]], ['Abreve', [258]], ['abreve', [259]], ['ac', [8766]], ['acd', [8767]], ['acE', [8766, 819]], ['Acirc', [194]], ['acirc', [226]], ['acute', [180]], ['Acy', [1040]], ['acy', [1072]], ['AElig', [198]], ['aelig', [230]], ['af', [8289]], ['Afr', [120068]], ['afr', [120094]], ['Agrave', [192]], ['agrave', [224]], ['alefsym', [8501]], ['aleph', [8501]], ['Alpha', [913]], ['alpha', [945]], ['Amacr', [256]], ['amacr', [257]], ['amalg', [10815]], ['amp', [38]], ['AMP', [38]], ['andand', [10837]], ['And', [10835]], ['and', [8743]], ['andd', [10844]], ['andslope', [10840]], ['andv', [10842]], ['ang', [8736]], ['ange', [10660]], ['angle', [8736]], ['angmsdaa', [10664]], ['angmsdab', [10665]], ['angmsdac', [10666]], ['angmsdad', [10667]], ['angmsdae', [10668]], ['angmsdaf', [10669]], ['angmsdag', [10670]], ['angmsdah', [10671]], ['angmsd', [8737]], ['angrt', [8735]], ['angrtvb', [8894]], ['angrtvbd', [10653]], ['angsph', [8738]], ['angst', [197]], ['angzarr', [9084]], ['Aogon', [260]], ['aogon', [261]], ['Aopf', [120120]], ['aopf', [120146]], ['apacir', [10863]], ['ap', [8776]], ['apE', [10864]], ['ape', [8778]], ['apid', [8779]], ['apos', [39]], ['ApplyFunction', [8289]], ['approx', [8776]], ['approxeq', [8778]], ['Aring', [197]], ['aring', [229]], ['Ascr', [119964]], ['ascr', [119990]], ['Assign', [8788]], ['ast', [42]], ['asymp', [8776]], ['asympeq', [8781]], ['Atilde', [195]], ['atilde', [227]], ['Auml', [196]], ['auml', [228]], ['awconint', [8755]], ['awint', [10769]], ['backcong', [8780]], ['backepsilon', [1014]], ['backprime', [8245]], ['backsim', [8765]], ['backsimeq', [8909]], ['Backslash', [8726]], ['Barv', [10983]], ['barvee', [8893]], ['barwed', [8965]], ['Barwed', [8966]], ['barwedge', [8965]], ['bbrk', [9141]], ['bbrktbrk', [9142]], ['bcong', [8780]], ['Bcy', [1041]], ['bcy', [1073]], ['bdquo', [8222]], ['becaus', [8757]], ['because', [8757]], ['Because', [8757]], ['bemptyv', [10672]], ['bepsi', [1014]], ['bernou', [8492]], ['Bernoullis', [8492]], ['Beta', [914]], ['beta', [946]], ['beth', [8502]], ['between', [8812]], ['Bfr', [120069]], ['bfr', [120095]], ['bigcap', [8898]], ['bigcirc', [9711]], ['bigcup', [8899]], ['bigodot', [10752]], ['bigoplus', [10753]], ['bigotimes', [10754]], ['bigsqcup', [10758]], ['bigstar', [9733]], ['bigtriangledown', [9661]], ['bigtriangleup', [9651]], ['biguplus', [10756]], ['bigvee', [8897]], ['bigwedge', [8896]], ['bkarow', [10509]], ['blacklozenge', [10731]], ['blacksquare', [9642]], ['blacktriangle', [9652]], ['blacktriangledown', [9662]], ['blacktriangleleft', [9666]], ['blacktriangleright', [9656]], ['blank', [9251]], ['blk12', [9618]], ['blk14', [9617]], ['blk34', [9619]], ['block', [9608]], ['bne', [61, 8421]], ['bnequiv', [8801, 8421]], ['bNot', [10989]], ['bnot', [8976]], ['Bopf', [120121]], ['bopf', [120147]], ['bot', [8869]], ['bottom', [8869]], ['bowtie', [8904]], ['boxbox', [10697]], ['boxdl', [9488]], ['boxdL', [9557]], ['boxDl', [9558]], ['boxDL', [9559]], ['boxdr', [9484]], ['boxdR', [9554]], ['boxDr', [9555]], ['boxDR', [9556]], ['boxh', [9472]], ['boxH', [9552]], ['boxhd', [9516]], ['boxHd', [9572]], ['boxhD', [9573]], ['boxHD', [9574]], ['boxhu', [9524]], ['boxHu', [9575]], ['boxhU', [9576]], ['boxHU', [9577]], ['boxminus', [8863]], ['boxplus', [8862]], ['boxtimes', [8864]], ['boxul', [9496]], ['boxuL', [9563]], ['boxUl', [9564]], ['boxUL', [9565]], ['boxur', [9492]], ['boxuR', [9560]], ['boxUr', [9561]], ['boxUR', [9562]], ['boxv', [9474]], ['boxV', [9553]], ['boxvh', [9532]], ['boxvH', [9578]], ['boxVh', [9579]], ['boxVH', [9580]], ['boxvl', [9508]], ['boxvL', [9569]], ['boxVl', [9570]], ['boxVL', [9571]], ['boxvr', [9500]], ['boxvR', [9566]], ['boxVr', [9567]], ['boxVR', [9568]], ['bprime', [8245]], ['breve', [728]], ['Breve', [728]], ['brvbar', [166]], ['bscr', [119991]], ['Bscr', [8492]], ['bsemi', [8271]], ['bsim', [8765]], ['bsime', [8909]], ['bsolb', [10693]], ['bsol', [92]], ['bsolhsub', [10184]], ['bull', [8226]], ['bullet', [8226]], ['bump', [8782]], ['bumpE', [10926]], ['bumpe', [8783]], ['Bumpeq', [8782]], ['bumpeq', [8783]], ['Cacute', [262]], ['cacute', [263]], ['capand', [10820]], ['capbrcup', [10825]], ['capcap', [10827]], ['cap', [8745]], ['Cap', [8914]], ['capcup', [10823]], ['capdot', [10816]], ['CapitalDifferentialD', [8517]], ['caps', [8745, 65024]], ['caret', [8257]], ['caron', [711]], ['Cayleys', [8493]], ['ccaps', [10829]], ['Ccaron', [268]], ['ccaron', [269]], ['Ccedil', [199]], ['ccedil', [231]], ['Ccirc', [264]], ['ccirc', [265]], ['Cconint', [8752]], ['ccups', [10828]], ['ccupssm', [10832]], ['Cdot', [266]], ['cdot', [267]], ['cedil', [184]], ['Cedilla', [184]], ['cemptyv', [10674]], ['cent', [162]], ['centerdot', [183]], ['CenterDot', [183]], ['cfr', [120096]], ['Cfr', [8493]], ['CHcy', [1063]], ['chcy', [1095]], ['check', [10003]], ['checkmark', [10003]], ['Chi', [935]], ['chi', [967]], ['circ', [710]], ['circeq', [8791]], ['circlearrowleft', [8634]], ['circlearrowright', [8635]], ['circledast', [8859]], ['circledcirc', [8858]], ['circleddash', [8861]], ['CircleDot', [8857]], ['circledR', [174]], ['circledS', [9416]], ['CircleMinus', [8854]], ['CirclePlus', [8853]], ['CircleTimes', [8855]], ['cir', [9675]], ['cirE', [10691]], ['cire', [8791]], ['cirfnint', [10768]], ['cirmid', [10991]], ['cirscir', [10690]], ['ClockwiseContourIntegral', [8754]], ['clubs', [9827]], ['clubsuit', [9827]], ['colon', [58]], ['Colon', [8759]], ['Colone', [10868]], ['colone', [8788]], ['coloneq', [8788]], ['comma', [44]], ['commat', [64]], ['comp', [8705]], ['compfn', [8728]], ['complement', [8705]], ['complexes', [8450]], ['cong', [8773]], ['congdot', [10861]], ['Congruent', [8801]], ['conint', [8750]], ['Conint', [8751]], ['ContourIntegral', [8750]], ['copf', [120148]], ['Copf', [8450]], ['coprod', [8720]], ['Coproduct', [8720]], ['copy', [169]], ['COPY', [169]], ['copysr', [8471]], ['CounterClockwiseContourIntegral', [8755]], ['crarr', [8629]], ['cross', [10007]], ['Cross', [10799]], ['Cscr', [119966]], ['cscr', [119992]], ['csub', [10959]], ['csube', [10961]], ['csup', [10960]], ['csupe', [10962]], ['ctdot', [8943]], ['cudarrl', [10552]], ['cudarrr', [10549]], ['cuepr', [8926]], ['cuesc', [8927]], ['cularr', [8630]], ['cularrp', [10557]], ['cupbrcap', [10824]], ['cupcap', [10822]], ['CupCap', [8781]], ['cup', [8746]], ['Cup', [8915]], ['cupcup', [10826]], ['cupdot', [8845]], ['cupor', [10821]], ['cups', [8746, 65024]], ['curarr', [8631]], ['curarrm', [10556]], ['curlyeqprec', [8926]], ['curlyeqsucc', [8927]], ['curlyvee', [8910]], ['curlywedge', [8911]], ['curren', [164]], ['curvearrowleft', [8630]], ['curvearrowright', [8631]], ['cuvee', [8910]], ['cuwed', [8911]], ['cwconint', [8754]], ['cwint', [8753]], ['cylcty', [9005]], ['dagger', [8224]], ['Dagger', [8225]], ['daleth', [8504]], ['darr', [8595]], ['Darr', [8609]], ['dArr', [8659]], ['dash', [8208]], ['Dashv', [10980]], ['dashv', [8867]], ['dbkarow', [10511]], ['dblac', [733]], ['Dcaron', [270]], ['dcaron', [271]], ['Dcy', [1044]], ['dcy', [1076]], ['ddagger', [8225]], ['ddarr', [8650]], ['DD', [8517]], ['dd', [8518]], ['DDotrahd', [10513]], ['ddotseq', [10871]], ['deg', [176]], ['Del', [8711]], ['Delta', [916]], ['delta', [948]], ['demptyv', [10673]], ['dfisht', [10623]], ['Dfr', [120071]], ['dfr', [120097]], ['dHar', [10597]], ['dharl', [8643]], ['dharr', [8642]], ['DiacriticalAcute', [180]], ['DiacriticalDot', [729]], ['DiacriticalDoubleAcute', [733]], ['DiacriticalGrave', [96]], ['DiacriticalTilde', [732]], ['diam', [8900]], ['diamond', [8900]], ['Diamond', [8900]], ['diamondsuit', [9830]], ['diams', [9830]], ['die', [168]], ['DifferentialD', [8518]], ['digamma', [989]], ['disin', [8946]], ['div', [247]], ['divide', [247]], ['divideontimes', [8903]], ['divonx', [8903]], ['DJcy', [1026]], ['djcy', [1106]], ['dlcorn', [8990]], ['dlcrop', [8973]], ['dollar', [36]], ['Dopf', [120123]], ['dopf', [120149]], ['Dot', [168]], ['dot', [729]], ['DotDot', [8412]], ['doteq', [8784]], ['doteqdot', [8785]], ['DotEqual', [8784]], ['dotminus', [8760]], ['dotplus', [8724]], ['dotsquare', [8865]], ['doublebarwedge', [8966]], ['DoubleContourIntegral', [8751]], ['DoubleDot', [168]], ['DoubleDownArrow', [8659]], ['DoubleLeftArrow', [8656]], ['DoubleLeftRightArrow', [8660]], ['DoubleLeftTee', [10980]], ['DoubleLongLeftArrow', [10232]], ['DoubleLongLeftRightArrow', [10234]], ['DoubleLongRightArrow', [10233]], ['DoubleRightArrow', [8658]], ['DoubleRightTee', [8872]], ['DoubleUpArrow', [8657]], ['DoubleUpDownArrow', [8661]], ['DoubleVerticalBar', [8741]], ['DownArrowBar', [10515]], ['downarrow', [8595]], ['DownArrow', [8595]], ['Downarrow', [8659]], ['DownArrowUpArrow', [8693]], ['DownBreve', [785]], ['downdownarrows', [8650]], ['downharpoonleft', [8643]], ['downharpoonright', [8642]], ['DownLeftRightVector', [10576]], ['DownLeftTeeVector', [10590]], ['DownLeftVectorBar', [10582]], ['DownLeftVector', [8637]], ['DownRightTeeVector', [10591]], ['DownRightVectorBar', [10583]], ['DownRightVector', [8641]], ['DownTeeArrow', [8615]], ['DownTee', [8868]], ['drbkarow', [10512]], ['drcorn', [8991]], ['drcrop', [8972]], ['Dscr', [119967]], ['dscr', [119993]], ['DScy', [1029]], ['dscy', [1109]], ['dsol', [10742]], ['Dstrok', [272]], ['dstrok', [273]], ['dtdot', [8945]], ['dtri', [9663]], ['dtrif', [9662]], ['duarr', [8693]], ['duhar', [10607]], ['dwangle', [10662]], ['DZcy', [1039]], ['dzcy', [1119]], ['dzigrarr', [10239]], ['Eacute', [201]], ['eacute', [233]], ['easter', [10862]], ['Ecaron', [282]], ['ecaron', [283]], ['Ecirc', [202]], ['ecirc', [234]], ['ecir', [8790]], ['ecolon', [8789]], ['Ecy', [1069]], ['ecy', [1101]], ['eDDot', [10871]], ['Edot', [278]], ['edot', [279]], ['eDot', [8785]], ['ee', [8519]], ['efDot', [8786]], ['Efr', [120072]], ['efr', [120098]], ['eg', [10906]], ['Egrave', [200]], ['egrave', [232]], ['egs', [10902]], ['egsdot', [10904]], ['el', [10905]], ['Element', [8712]], ['elinters', [9191]], ['ell', [8467]], ['els', [10901]], ['elsdot', [10903]], ['Emacr', [274]], ['emacr', [275]], ['empty', [8709]], ['emptyset', [8709]], ['EmptySmallSquare', [9723]], ['emptyv', [8709]], ['EmptyVerySmallSquare', [9643]], ['emsp13', [8196]], ['emsp14', [8197]], ['emsp', [8195]], ['ENG', [330]], ['eng', [331]], ['ensp', [8194]], ['Eogon', [280]], ['eogon', [281]], ['Eopf', [120124]], ['eopf', [120150]], ['epar', [8917]], ['eparsl', [10723]], ['eplus', [10865]], ['epsi', [949]], ['Epsilon', [917]], ['epsilon', [949]], ['epsiv', [1013]], ['eqcirc', [8790]], ['eqcolon', [8789]], ['eqsim', [8770]], ['eqslantgtr', [10902]], ['eqslantless', [10901]], ['Equal', [10869]], ['equals', [61]], ['EqualTilde', [8770]], ['equest', [8799]], ['Equilibrium', [8652]], ['equiv', [8801]], ['equivDD', [10872]], ['eqvparsl', [10725]], ['erarr', [10609]], ['erDot', [8787]], ['escr', [8495]], ['Escr', [8496]], ['esdot', [8784]], ['Esim', [10867]], ['esim', [8770]], ['Eta', [919]], ['eta', [951]], ['ETH', [208]], ['eth', [240]], ['Euml', [203]], ['euml', [235]], ['euro', [8364]], ['excl', [33]], ['exist', [8707]], ['Exists', [8707]], ['expectation', [8496]], ['exponentiale', [8519]], ['ExponentialE', [8519]], ['fallingdotseq', [8786]], ['Fcy', [1060]], ['fcy', [1092]], ['female', [9792]], ['ffilig', [64259]], ['fflig', [64256]], ['ffllig', [64260]], ['Ffr', [120073]], ['ffr', [120099]], ['filig', [64257]], ['FilledSmallSquare', [9724]], ['FilledVerySmallSquare', [9642]], ['fjlig', [102, 106]], ['flat', [9837]], ['fllig', [64258]], ['fltns', [9649]], ['fnof', [402]], ['Fopf', [120125]], ['fopf', [120151]], ['forall', [8704]], ['ForAll', [8704]], ['fork', [8916]], ['forkv', [10969]], ['Fouriertrf', [8497]], ['fpartint', [10765]], ['frac12', [189]], ['frac13', [8531]], ['frac14', [188]], ['frac15', [8533]], ['frac16', [8537]], ['frac18', [8539]], ['frac23', [8532]], ['frac25', [8534]], ['frac34', [190]], ['frac35', [8535]], ['frac38', [8540]], ['frac45', [8536]], ['frac56', [8538]], ['frac58', [8541]], ['frac78', [8542]], ['frasl', [8260]], ['frown', [8994]], ['fscr', [119995]], ['Fscr', [8497]], ['gacute', [501]], ['Gamma', [915]], ['gamma', [947]], ['Gammad', [988]], ['gammad', [989]], ['gap', [10886]], ['Gbreve', [286]], ['gbreve', [287]], ['Gcedil', [290]], ['Gcirc', [284]], ['gcirc', [285]], ['Gcy', [1043]], ['gcy', [1075]], ['Gdot', [288]], ['gdot', [289]], ['ge', [8805]], ['gE', [8807]], ['gEl', [10892]], ['gel', [8923]], ['geq', [8805]], ['geqq', [8807]], ['geqslant', [10878]], ['gescc', [10921]], ['ges', [10878]], ['gesdot', [10880]], ['gesdoto', [10882]], ['gesdotol', [10884]], ['gesl', [8923, 65024]], ['gesles', [10900]], ['Gfr', [120074]], ['gfr', [120100]], ['gg', [8811]], ['Gg', [8921]], ['ggg', [8921]], ['gimel', [8503]], ['GJcy', [1027]], ['gjcy', [1107]], ['gla', [10917]], ['gl', [8823]], ['glE', [10898]], ['glj', [10916]], ['gnap', [10890]], ['gnapprox', [10890]], ['gne', [10888]], ['gnE', [8809]], ['gneq', [10888]], ['gneqq', [8809]], ['gnsim', [8935]], ['Gopf', [120126]], ['gopf', [120152]], ['grave', [96]], ['GreaterEqual', [8805]], ['GreaterEqualLess', [8923]], ['GreaterFullEqual', [8807]], ['GreaterGreater', [10914]], ['GreaterLess', [8823]], ['GreaterSlantEqual', [10878]], ['GreaterTilde', [8819]], ['Gscr', [119970]], ['gscr', [8458]], ['gsim', [8819]], ['gsime', [10894]], ['gsiml', [10896]], ['gtcc', [10919]], ['gtcir', [10874]], ['gt', [62]], ['GT', [62]], ['Gt', [8811]], ['gtdot', [8919]], ['gtlPar', [10645]], ['gtquest', [10876]], ['gtrapprox', [10886]], ['gtrarr', [10616]], ['gtrdot', [8919]], ['gtreqless', [8923]], ['gtreqqless', [10892]], ['gtrless', [8823]], ['gtrsim', [8819]], ['gvertneqq', [8809, 65024]], ['gvnE', [8809, 65024]], ['Hacek', [711]], ['hairsp', [8202]], ['half', [189]], ['hamilt', [8459]], ['HARDcy', [1066]], ['hardcy', [1098]], ['harrcir', [10568]], ['harr', [8596]], ['hArr', [8660]], ['harrw', [8621]], ['Hat', [94]], ['hbar', [8463]], ['Hcirc', [292]], ['hcirc', [293]], ['hearts', [9829]], ['heartsuit', [9829]], ['hellip', [8230]], ['hercon', [8889]], ['hfr', [120101]], ['Hfr', [8460]], ['HilbertSpace', [8459]], ['hksearow', [10533]], ['hkswarow', [10534]], ['hoarr', [8703]], ['homtht', [8763]], ['hookleftarrow', [8617]], ['hookrightarrow', [8618]], ['hopf', [120153]], ['Hopf', [8461]], ['horbar', [8213]], ['HorizontalLine', [9472]], ['hscr', [119997]], ['Hscr', [8459]], ['hslash', [8463]], ['Hstrok', [294]], ['hstrok', [295]], ['HumpDownHump', [8782]], ['HumpEqual', [8783]], ['hybull', [8259]], ['hyphen', [8208]], ['Iacute', [205]], ['iacute', [237]], ['ic', [8291]], ['Icirc', [206]], ['icirc', [238]], ['Icy', [1048]], ['icy', [1080]], ['Idot', [304]], ['IEcy', [1045]], ['iecy', [1077]], ['iexcl', [161]], ['iff', [8660]], ['ifr', [120102]], ['Ifr', [8465]], ['Igrave', [204]], ['igrave', [236]], ['ii', [8520]], ['iiiint', [10764]], ['iiint', [8749]], ['iinfin', [10716]], ['iiota', [8489]], ['IJlig', [306]], ['ijlig', [307]], ['Imacr', [298]], ['imacr', [299]], ['image', [8465]], ['ImaginaryI', [8520]], ['imagline', [8464]], ['imagpart', [8465]], ['imath', [305]], ['Im', [8465]], ['imof', [8887]], ['imped', [437]], ['Implies', [8658]], ['incare', [8453]], ['in', [8712]], ['infin', [8734]], ['infintie', [10717]], ['inodot', [305]], ['intcal', [8890]], ['int', [8747]], ['Int', [8748]], ['integers', [8484]], ['Integral', [8747]], ['intercal', [8890]], ['Intersection', [8898]], ['intlarhk', [10775]], ['intprod', [10812]], ['InvisibleComma', [8291]], ['InvisibleTimes', [8290]], ['IOcy', [1025]], ['iocy', [1105]], ['Iogon', [302]], ['iogon', [303]], ['Iopf', [120128]], ['iopf', [120154]], ['Iota', [921]], ['iota', [953]], ['iprod', [10812]], ['iquest', [191]], ['iscr', [119998]], ['Iscr', [8464]], ['isin', [8712]], ['isindot', [8949]], ['isinE', [8953]], ['isins', [8948]], ['isinsv', [8947]], ['isinv', [8712]], ['it', [8290]], ['Itilde', [296]], ['itilde', [297]], ['Iukcy', [1030]], ['iukcy', [1110]], ['Iuml', [207]], ['iuml', [239]], ['Jcirc', [308]], ['jcirc', [309]], ['Jcy', [1049]], ['jcy', [1081]], ['Jfr', [120077]], ['jfr', [120103]], ['jmath', [567]], ['Jopf', [120129]], ['jopf', [120155]], ['Jscr', [119973]], ['jscr', [119999]], ['Jsercy', [1032]], ['jsercy', [1112]], ['Jukcy', [1028]], ['jukcy', [1108]], ['Kappa', [922]], ['kappa', [954]], ['kappav', [1008]], ['Kcedil', [310]], ['kcedil', [311]], ['Kcy', [1050]], ['kcy', [1082]], ['Kfr', [120078]], ['kfr', [120104]], ['kgreen', [312]], ['KHcy', [1061]], ['khcy', [1093]], ['KJcy', [1036]], ['kjcy', [1116]], ['Kopf', [120130]], ['kopf', [120156]], ['Kscr', [119974]], ['kscr', [120000]], ['lAarr', [8666]], ['Lacute', [313]], ['lacute', [314]], ['laemptyv', [10676]], ['lagran', [8466]], ['Lambda', [923]], ['lambda', [955]], ['lang', [10216]], ['Lang', [10218]], ['langd', [10641]], ['langle', [10216]], ['lap', [10885]], ['Laplacetrf', [8466]], ['laquo', [171]], ['larrb', [8676]], ['larrbfs', [10527]], ['larr', [8592]], ['Larr', [8606]], ['lArr', [8656]], ['larrfs', [10525]], ['larrhk', [8617]], ['larrlp', [8619]], ['larrpl', [10553]], ['larrsim', [10611]], ['larrtl', [8610]], ['latail', [10521]], ['lAtail', [10523]], ['lat', [10923]], ['late', [10925]], ['lates', [10925, 65024]], ['lbarr', [10508]], ['lBarr', [10510]], ['lbbrk', [10098]], ['lbrace', [123]], ['lbrack', [91]], ['lbrke', [10635]], ['lbrksld', [10639]], ['lbrkslu', [10637]], ['Lcaron', [317]], ['lcaron', [318]], ['Lcedil', [315]], ['lcedil', [316]], ['lceil', [8968]], ['lcub', [123]], ['Lcy', [1051]], ['lcy', [1083]], ['ldca', [10550]], ['ldquo', [8220]], ['ldquor', [8222]], ['ldrdhar', [10599]], ['ldrushar', [10571]], ['ldsh', [8626]], ['le', [8804]], ['lE', [8806]], ['LeftAngleBracket', [10216]], ['LeftArrowBar', [8676]], ['leftarrow', [8592]], ['LeftArrow', [8592]], ['Leftarrow', [8656]], ['LeftArrowRightArrow', [8646]], ['leftarrowtail', [8610]], ['LeftCeiling', [8968]], ['LeftDoubleBracket', [10214]], ['LeftDownTeeVector', [10593]], ['LeftDownVectorBar', [10585]], ['LeftDownVector', [8643]], ['LeftFloor', [8970]], ['leftharpoondown', [8637]], ['leftharpoonup', [8636]], ['leftleftarrows', [8647]], ['leftrightarrow', [8596]], ['LeftRightArrow', [8596]], ['Leftrightarrow', [8660]], ['leftrightarrows', [8646]], ['leftrightharpoons', [8651]], ['leftrightsquigarrow', [8621]], ['LeftRightVector', [10574]], ['LeftTeeArrow', [8612]], ['LeftTee', [8867]], ['LeftTeeVector', [10586]], ['leftthreetimes', [8907]], ['LeftTriangleBar', [10703]], ['LeftTriangle', [8882]], ['LeftTriangleEqual', [8884]], ['LeftUpDownVector', [10577]], ['LeftUpTeeVector', [10592]], ['LeftUpVectorBar', [10584]], ['LeftUpVector', [8639]], ['LeftVectorBar', [10578]], ['LeftVector', [8636]], ['lEg', [10891]], ['leg', [8922]], ['leq', [8804]], ['leqq', [8806]], ['leqslant', [10877]], ['lescc', [10920]], ['les', [10877]], ['lesdot', [10879]], ['lesdoto', [10881]], ['lesdotor', [10883]], ['lesg', [8922, 65024]], ['lesges', [10899]], ['lessapprox', [10885]], ['lessdot', [8918]], ['lesseqgtr', [8922]], ['lesseqqgtr', [10891]], ['LessEqualGreater', [8922]], ['LessFullEqual', [8806]], ['LessGreater', [8822]], ['lessgtr', [8822]], ['LessLess', [10913]], ['lesssim', [8818]], ['LessSlantEqual', [10877]], ['LessTilde', [8818]], ['lfisht', [10620]], ['lfloor', [8970]], ['Lfr', [120079]], ['lfr', [120105]], ['lg', [8822]], ['lgE', [10897]], ['lHar', [10594]], ['lhard', [8637]], ['lharu', [8636]], ['lharul', [10602]], ['lhblk', [9604]], ['LJcy', [1033]], ['ljcy', [1113]], ['llarr', [8647]], ['ll', [8810]], ['Ll', [8920]], ['llcorner', [8990]], ['Lleftarrow', [8666]], ['llhard', [10603]], ['lltri', [9722]], ['Lmidot', [319]], ['lmidot', [320]], ['lmoustache', [9136]], ['lmoust', [9136]], ['lnap', [10889]], ['lnapprox', [10889]], ['lne', [10887]], ['lnE', [8808]], ['lneq', [10887]], ['lneqq', [8808]], ['lnsim', [8934]], ['loang', [10220]], ['loarr', [8701]], ['lobrk', [10214]], ['longleftarrow', [10229]], ['LongLeftArrow', [10229]], ['Longleftarrow', [10232]], ['longleftrightarrow', [10231]], ['LongLeftRightArrow', [10231]], ['Longleftrightarrow', [10234]], ['longmapsto', [10236]], ['longrightarrow', [10230]], ['LongRightArrow', [10230]], ['Longrightarrow', [10233]], ['looparrowleft', [8619]], ['looparrowright', [8620]], ['lopar', [10629]], ['Lopf', [120131]], ['lopf', [120157]], ['loplus', [10797]], ['lotimes', [10804]], ['lowast', [8727]], ['lowbar', [95]], ['LowerLeftArrow', [8601]], ['LowerRightArrow', [8600]], ['loz', [9674]], ['lozenge', [9674]], ['lozf', [10731]], ['lpar', [40]], ['lparlt', [10643]], ['lrarr', [8646]], ['lrcorner', [8991]], ['lrhar', [8651]], ['lrhard', [10605]], ['lrm', [8206]], ['lrtri', [8895]], ['lsaquo', [8249]], ['lscr', [120001]], ['Lscr', [8466]], ['lsh', [8624]], ['Lsh', [8624]], ['lsim', [8818]], ['lsime', [10893]], ['lsimg', [10895]], ['lsqb', [91]], ['lsquo', [8216]], ['lsquor', [8218]], ['Lstrok', [321]], ['lstrok', [322]], ['ltcc', [10918]], ['ltcir', [10873]], ['lt', [60]], ['LT', [60]], ['Lt', [8810]], ['ltdot', [8918]], ['lthree', [8907]], ['ltimes', [8905]], ['ltlarr', [10614]], ['ltquest', [10875]], ['ltri', [9667]], ['ltrie', [8884]], ['ltrif', [9666]], ['ltrPar', [10646]], ['lurdshar', [10570]], ['luruhar', [10598]], ['lvertneqq', [8808, 65024]], ['lvnE', [8808, 65024]], ['macr', [175]], ['male', [9794]], ['malt', [10016]], ['maltese', [10016]], ['Map', [10501]], ['map', [8614]], ['mapsto', [8614]], ['mapstodown', [8615]], ['mapstoleft', [8612]], ['mapstoup', [8613]], ['marker', [9646]], ['mcomma', [10793]], ['Mcy', [1052]], ['mcy', [1084]], ['mdash', [8212]], ['mDDot', [8762]], ['measuredangle', [8737]], ['MediumSpace', [8287]], ['Mellintrf', [8499]], ['Mfr', [120080]], ['mfr', [120106]], ['mho', [8487]], ['micro', [181]], ['midast', [42]], ['midcir', [10992]], ['mid', [8739]], ['middot', [183]], ['minusb', [8863]], ['minus', [8722]], ['minusd', [8760]], ['minusdu', [10794]], ['MinusPlus', [8723]], ['mlcp', [10971]], ['mldr', [8230]], ['mnplus', [8723]], ['models', [8871]], ['Mopf', [120132]], ['mopf', [120158]], ['mp', [8723]], ['mscr', [120002]], ['Mscr', [8499]], ['mstpos', [8766]], ['Mu', [924]], ['mu', [956]], ['multimap', [8888]], ['mumap', [8888]], ['nabla', [8711]], ['Nacute', [323]], ['nacute', [324]], ['nang', [8736, 8402]], ['nap', [8777]], ['napE', [10864, 824]], ['napid', [8779, 824]], ['napos', [329]], ['napprox', [8777]], ['natural', [9838]], ['naturals', [8469]], ['natur', [9838]], ['nbsp', [160]], ['nbump', [8782, 824]], ['nbumpe', [8783, 824]], ['ncap', [10819]], ['Ncaron', [327]], ['ncaron', [328]], ['Ncedil', [325]], ['ncedil', [326]], ['ncong', [8775]], ['ncongdot', [10861, 824]], ['ncup', [10818]], ['Ncy', [1053]], ['ncy', [1085]], ['ndash', [8211]], ['nearhk', [10532]], ['nearr', [8599]], ['neArr', [8663]], ['nearrow', [8599]], ['ne', [8800]], ['nedot', [8784, 824]], ['NegativeMediumSpace', [8203]], ['NegativeThickSpace', [8203]], ['NegativeThinSpace', [8203]], ['NegativeVeryThinSpace', [8203]], ['nequiv', [8802]], ['nesear', [10536]], ['nesim', [8770, 824]], ['NestedGreaterGreater', [8811]], ['NestedLessLess', [8810]], ['nexist', [8708]], ['nexists', [8708]], ['Nfr', [120081]], ['nfr', [120107]], ['ngE', [8807, 824]], ['nge', [8817]], ['ngeq', [8817]], ['ngeqq', [8807, 824]], ['ngeqslant', [10878, 824]], ['nges', [10878, 824]], ['nGg', [8921, 824]], ['ngsim', [8821]], ['nGt', [8811, 8402]], ['ngt', [8815]], ['ngtr', [8815]], ['nGtv', [8811, 824]], ['nharr', [8622]], ['nhArr', [8654]], ['nhpar', [10994]], ['ni', [8715]], ['nis', [8956]], ['nisd', [8954]], ['niv', [8715]], ['NJcy', [1034]], ['njcy', [1114]], ['nlarr', [8602]], ['nlArr', [8653]], ['nldr', [8229]], ['nlE', [8806, 824]], ['nle', [8816]], ['nleftarrow', [8602]], ['nLeftarrow', [8653]], ['nleftrightarrow', [8622]], ['nLeftrightarrow', [8654]], ['nleq', [8816]], ['nleqq', [8806, 824]], ['nleqslant', [10877, 824]], ['nles', [10877, 824]], ['nless', [8814]], ['nLl', [8920, 824]], ['nlsim', [8820]], ['nLt', [8810, 8402]], ['nlt', [8814]], ['nltri', [8938]], ['nltrie', [8940]], ['nLtv', [8810, 824]], ['nmid', [8740]], ['NoBreak', [8288]], ['NonBreakingSpace', [160]], ['nopf', [120159]], ['Nopf', [8469]], ['Not', [10988]], ['not', [172]], ['NotCongruent', [8802]], ['NotCupCap', [8813]], ['NotDoubleVerticalBar', [8742]], ['NotElement', [8713]], ['NotEqual', [8800]], ['NotEqualTilde', [8770, 824]], ['NotExists', [8708]], ['NotGreater', [8815]], ['NotGreaterEqual', [8817]], ['NotGreaterFullEqual', [8807, 824]], ['NotGreaterGreater', [8811, 824]], ['NotGreaterLess', [8825]], ['NotGreaterSlantEqual', [10878, 824]], ['NotGreaterTilde', [8821]], ['NotHumpDownHump', [8782, 824]], ['NotHumpEqual', [8783, 824]], ['notin', [8713]], ['notindot', [8949, 824]], ['notinE', [8953, 824]], ['notinva', [8713]], ['notinvb', [8951]], ['notinvc', [8950]], ['NotLeftTriangleBar', [10703, 824]], ['NotLeftTriangle', [8938]], ['NotLeftTriangleEqual', [8940]], ['NotLess', [8814]], ['NotLessEqual', [8816]], ['NotLessGreater', [8824]], ['NotLessLess', [8810, 824]], ['NotLessSlantEqual', [10877, 824]], ['NotLessTilde', [8820]], ['NotNestedGreaterGreater', [10914, 824]], ['NotNestedLessLess', [10913, 824]], ['notni', [8716]], ['notniva', [8716]], ['notnivb', [8958]], ['notnivc', [8957]], ['NotPrecedes', [8832]], ['NotPrecedesEqual', [10927, 824]], ['NotPrecedesSlantEqual', [8928]], ['NotReverseElement', [8716]], ['NotRightTriangleBar', [10704, 824]], ['NotRightTriangle', [8939]], ['NotRightTriangleEqual', [8941]], ['NotSquareSubset', [8847, 824]], ['NotSquareSubsetEqual', [8930]], ['NotSquareSuperset', [8848, 824]], ['NotSquareSupersetEqual', [8931]], ['NotSubset', [8834, 8402]], ['NotSubsetEqual', [8840]], ['NotSucceeds', [8833]], ['NotSucceedsEqual', [10928, 824]], ['NotSucceedsSlantEqual', [8929]], ['NotSucceedsTilde', [8831, 824]], ['NotSuperset', [8835, 8402]], ['NotSupersetEqual', [8841]], ['NotTilde', [8769]], ['NotTildeEqual', [8772]], ['NotTildeFullEqual', [8775]], ['NotTildeTilde', [8777]], ['NotVerticalBar', [8740]], ['nparallel', [8742]], ['npar', [8742]], ['nparsl', [11005, 8421]], ['npart', [8706, 824]], ['npolint', [10772]], ['npr', [8832]], ['nprcue', [8928]], ['nprec', [8832]], ['npreceq', [10927, 824]], ['npre', [10927, 824]], ['nrarrc', [10547, 824]], ['nrarr', [8603]], ['nrArr', [8655]], ['nrarrw', [8605, 824]], ['nrightarrow', [8603]], ['nRightarrow', [8655]], ['nrtri', [8939]], ['nrtrie', [8941]], ['nsc', [8833]], ['nsccue', [8929]], ['nsce', [10928, 824]], ['Nscr', [119977]], ['nscr', [120003]], ['nshortmid', [8740]], ['nshortparallel', [8742]], ['nsim', [8769]], ['nsime', [8772]], ['nsimeq', [8772]], ['nsmid', [8740]], ['nspar', [8742]], ['nsqsube', [8930]], ['nsqsupe', [8931]], ['nsub', [8836]], ['nsubE', [10949, 824]], ['nsube', [8840]], ['nsubset', [8834, 8402]], ['nsubseteq', [8840]], ['nsubseteqq', [10949, 824]], ['nsucc', [8833]], ['nsucceq', [10928, 824]], ['nsup', [8837]], ['nsupE', [10950, 824]], ['nsupe', [8841]], ['nsupset', [8835, 8402]], ['nsupseteq', [8841]], ['nsupseteqq', [10950, 824]], ['ntgl', [8825]], ['Ntilde', [209]], ['ntilde', [241]], ['ntlg', [8824]], ['ntriangleleft', [8938]], ['ntrianglelefteq', [8940]], ['ntriangleright', [8939]], ['ntrianglerighteq', [8941]], ['Nu', [925]], ['nu', [957]], ['num', [35]], ['numero', [8470]], ['numsp', [8199]], ['nvap', [8781, 8402]], ['nvdash', [8876]], ['nvDash', [8877]], ['nVdash', [8878]], ['nVDash', [8879]], ['nvge', [8805, 8402]], ['nvgt', [62, 8402]], ['nvHarr', [10500]], ['nvinfin', [10718]], ['nvlArr', [10498]], ['nvle', [8804, 8402]], ['nvlt', [60, 8402]], ['nvltrie', [8884, 8402]], ['nvrArr', [10499]], ['nvrtrie', [8885, 8402]], ['nvsim', [8764, 8402]], ['nwarhk', [10531]], ['nwarr', [8598]], ['nwArr', [8662]], ['nwarrow', [8598]], ['nwnear', [10535]], ['Oacute', [211]], ['oacute', [243]], ['oast', [8859]], ['Ocirc', [212]], ['ocirc', [244]], ['ocir', [8858]], ['Ocy', [1054]], ['ocy', [1086]], ['odash', [8861]], ['Odblac', [336]], ['odblac', [337]], ['odiv', [10808]], ['odot', [8857]], ['odsold', [10684]], ['OElig', [338]], ['oelig', [339]], ['ofcir', [10687]], ['Ofr', [120082]], ['ofr', [120108]], ['ogon', [731]], ['Ograve', [210]], ['ograve', [242]], ['ogt', [10689]], ['ohbar', [10677]], ['ohm', [937]], ['oint', [8750]], ['olarr', [8634]], ['olcir', [10686]], ['olcross', [10683]], ['oline', [8254]], ['olt', [10688]], ['Omacr', [332]], ['omacr', [333]], ['Omega', [937]], ['omega', [969]], ['Omicron', [927]], ['omicron', [959]], ['omid', [10678]], ['ominus', [8854]], ['Oopf', [120134]], ['oopf', [120160]], ['opar', [10679]], ['OpenCurlyDoubleQuote', [8220]], ['OpenCurlyQuote', [8216]], ['operp', [10681]], ['oplus', [8853]], ['orarr', [8635]], ['Or', [10836]], ['or', [8744]], ['ord', [10845]], ['order', [8500]], ['orderof', [8500]], ['ordf', [170]], ['ordm', [186]], ['origof', [8886]], ['oror', [10838]], ['orslope', [10839]], ['orv', [10843]], ['oS', [9416]], ['Oscr', [119978]], ['oscr', [8500]], ['Oslash', [216]], ['oslash', [248]], ['osol', [8856]], ['Otilde', [213]], ['otilde', [245]], ['otimesas', [10806]], ['Otimes', [10807]], ['otimes', [8855]], ['Ouml', [214]], ['ouml', [246]], ['ovbar', [9021]], ['OverBar', [8254]], ['OverBrace', [9182]], ['OverBracket', [9140]], ['OverParenthesis', [9180]], ['para', [182]], ['parallel', [8741]], ['par', [8741]], ['parsim', [10995]], ['parsl', [11005]], ['part', [8706]], ['PartialD', [8706]], ['Pcy', [1055]], ['pcy', [1087]], ['percnt', [37]], ['period', [46]], ['permil', [8240]], ['perp', [8869]], ['pertenk', [8241]], ['Pfr', [120083]], ['pfr', [120109]], ['Phi', [934]], ['phi', [966]], ['phiv', [981]], ['phmmat', [8499]], ['phone', [9742]], ['Pi', [928]], ['pi', [960]], ['pitchfork', [8916]], ['piv', [982]], ['planck', [8463]], ['planckh', [8462]], ['plankv', [8463]], ['plusacir', [10787]], ['plusb', [8862]], ['pluscir', [10786]], ['plus', [43]], ['plusdo', [8724]], ['plusdu', [10789]], ['pluse', [10866]], ['PlusMinus', [177]], ['plusmn', [177]], ['plussim', [10790]], ['plustwo', [10791]], ['pm', [177]], ['Poincareplane', [8460]], ['pointint', [10773]], ['popf', [120161]], ['Popf', [8473]], ['pound', [163]], ['prap', [10935]], ['Pr', [10939]], ['pr', [8826]], ['prcue', [8828]], ['precapprox', [10935]], ['prec', [8826]], ['preccurlyeq', [8828]], ['Precedes', [8826]], ['PrecedesEqual', [10927]], ['PrecedesSlantEqual', [8828]], ['PrecedesTilde', [8830]], ['preceq', [10927]], ['precnapprox', [10937]], ['precneqq', [10933]], ['precnsim', [8936]], ['pre', [10927]], ['prE', [10931]], ['precsim', [8830]], ['prime', [8242]], ['Prime', [8243]], ['primes', [8473]], ['prnap', [10937]], ['prnE', [10933]], ['prnsim', [8936]], ['prod', [8719]], ['Product', [8719]], ['profalar', [9006]], ['profline', [8978]], ['profsurf', [8979]], ['prop', [8733]], ['Proportional', [8733]], ['Proportion', [8759]], ['propto', [8733]], ['prsim', [8830]], ['prurel', [8880]], ['Pscr', [119979]], ['pscr', [120005]], ['Psi', [936]], ['psi', [968]], ['puncsp', [8200]], ['Qfr', [120084]], ['qfr', [120110]], ['qint', [10764]], ['qopf', [120162]], ['Qopf', [8474]], ['qprime', [8279]], ['Qscr', [119980]], ['qscr', [120006]], ['quaternions', [8461]], ['quatint', [10774]], ['quest', [63]], ['questeq', [8799]], ['quot', [34]], ['QUOT', [34]], ['rAarr', [8667]], ['race', [8765, 817]], ['Racute', [340]], ['racute', [341]], ['radic', [8730]], ['raemptyv', [10675]], ['rang', [10217]], ['Rang', [10219]], ['rangd', [10642]], ['range', [10661]], ['rangle', [10217]], ['raquo', [187]], ['rarrap', [10613]], ['rarrb', [8677]], ['rarrbfs', [10528]], ['rarrc', [10547]], ['rarr', [8594]], ['Rarr', [8608]], ['rArr', [8658]], ['rarrfs', [10526]], ['rarrhk', [8618]], ['rarrlp', [8620]], ['rarrpl', [10565]], ['rarrsim', [10612]], ['Rarrtl', [10518]], ['rarrtl', [8611]], ['rarrw', [8605]], ['ratail', [10522]], ['rAtail', [10524]], ['ratio', [8758]], ['rationals', [8474]], ['rbarr', [10509]], ['rBarr', [10511]], ['RBarr', [10512]], ['rbbrk', [10099]], ['rbrace', [125]], ['rbrack', [93]], ['rbrke', [10636]], ['rbrksld', [10638]], ['rbrkslu', [10640]], ['Rcaron', [344]], ['rcaron', [345]], ['Rcedil', [342]], ['rcedil', [343]], ['rceil', [8969]], ['rcub', [125]], ['Rcy', [1056]], ['rcy', [1088]], ['rdca', [10551]], ['rdldhar', [10601]], ['rdquo', [8221]], ['rdquor', [8221]], ['CloseCurlyDoubleQuote', [8221]], ['rdsh', [8627]], ['real', [8476]], ['realine', [8475]], ['realpart', [8476]], ['reals', [8477]], ['Re', [8476]], ['rect', [9645]], ['reg', [174]], ['REG', [174]], ['ReverseElement', [8715]], ['ReverseEquilibrium', [8651]], ['ReverseUpEquilibrium', [10607]], ['rfisht', [10621]], ['rfloor', [8971]], ['rfr', [120111]], ['Rfr', [8476]], ['rHar', [10596]], ['rhard', [8641]], ['rharu', [8640]], ['rharul', [10604]], ['Rho', [929]], ['rho', [961]], ['rhov', [1009]], ['RightAngleBracket', [10217]], ['RightArrowBar', [8677]], ['rightarrow', [8594]], ['RightArrow', [8594]], ['Rightarrow', [8658]], ['RightArrowLeftArrow', [8644]], ['rightarrowtail', [8611]], ['RightCeiling', [8969]], ['RightDoubleBracket', [10215]], ['RightDownTeeVector', [10589]], ['RightDownVectorBar', [10581]], ['RightDownVector', [8642]], ['RightFloor', [8971]], ['rightharpoondown', [8641]], ['rightharpoonup', [8640]], ['rightleftarrows', [8644]], ['rightleftharpoons', [8652]], ['rightrightarrows', [8649]], ['rightsquigarrow', [8605]], ['RightTeeArrow', [8614]], ['RightTee', [8866]], ['RightTeeVector', [10587]], ['rightthreetimes', [8908]], ['RightTriangleBar', [10704]], ['RightTriangle', [8883]], ['RightTriangleEqual', [8885]], ['RightUpDownVector', [10575]], ['RightUpTeeVector', [10588]], ['RightUpVectorBar', [10580]], ['RightUpVector', [8638]], ['RightVectorBar', [10579]], ['RightVector', [8640]], ['ring', [730]], ['risingdotseq', [8787]], ['rlarr', [8644]], ['rlhar', [8652]], ['rlm', [8207]], ['rmoustache', [9137]], ['rmoust', [9137]], ['rnmid', [10990]], ['roang', [10221]], ['roarr', [8702]], ['robrk', [10215]], ['ropar', [10630]], ['ropf', [120163]], ['Ropf', [8477]], ['roplus', [10798]], ['rotimes', [10805]], ['RoundImplies', [10608]], ['rpar', [41]], ['rpargt', [10644]], ['rppolint', [10770]], ['rrarr', [8649]], ['Rrightarrow', [8667]], ['rsaquo', [8250]], ['rscr', [120007]], ['Rscr', [8475]], ['rsh', [8625]], ['Rsh', [8625]], ['rsqb', [93]], ['rsquo', [8217]], ['rsquor', [8217]], ['CloseCurlyQuote', [8217]], ['rthree', [8908]], ['rtimes', [8906]], ['rtri', [9657]], ['rtrie', [8885]], ['rtrif', [9656]], ['rtriltri', [10702]], ['RuleDelayed', [10740]], ['ruluhar', [10600]], ['rx', [8478]], ['Sacute', [346]], ['sacute', [347]], ['sbquo', [8218]], ['scap', [10936]], ['Scaron', [352]], ['scaron', [353]], ['Sc', [10940]], ['sc', [8827]], ['sccue', [8829]], ['sce', [10928]], ['scE', [10932]], ['Scedil', [350]], ['scedil', [351]], ['Scirc', [348]], ['scirc', [349]], ['scnap', [10938]], ['scnE', [10934]], ['scnsim', [8937]], ['scpolint', [10771]], ['scsim', [8831]], ['Scy', [1057]], ['scy', [1089]], ['sdotb', [8865]], ['sdot', [8901]], ['sdote', [10854]], ['searhk', [10533]], ['searr', [8600]], ['seArr', [8664]], ['searrow', [8600]], ['sect', [167]], ['semi', [59]], ['seswar', [10537]], ['setminus', [8726]], ['setmn', [8726]], ['sext', [10038]], ['Sfr', [120086]], ['sfr', [120112]], ['sfrown', [8994]], ['sharp', [9839]], ['SHCHcy', [1065]], ['shchcy', [1097]], ['SHcy', [1064]], ['shcy', [1096]], ['ShortDownArrow', [8595]], ['ShortLeftArrow', [8592]], ['shortmid', [8739]], ['shortparallel', [8741]], ['ShortRightArrow', [8594]], ['ShortUpArrow', [8593]], ['shy', [173]], ['Sigma', [931]], ['sigma', [963]], ['sigmaf', [962]], ['sigmav', [962]], ['sim', [8764]], ['simdot', [10858]], ['sime', [8771]], ['simeq', [8771]], ['simg', [10910]], ['simgE', [10912]], ['siml', [10909]], ['simlE', [10911]], ['simne', [8774]], ['simplus', [10788]], ['simrarr', [10610]], ['slarr', [8592]], ['SmallCircle', [8728]], ['smallsetminus', [8726]], ['smashp', [10803]], ['smeparsl', [10724]], ['smid', [8739]], ['smile', [8995]], ['smt', [10922]], ['smte', [10924]], ['smtes', [10924, 65024]], ['SOFTcy', [1068]], ['softcy', [1100]], ['solbar', [9023]], ['solb', [10692]], ['sol', [47]], ['Sopf', [120138]], ['sopf', [120164]], ['spades', [9824]], ['spadesuit', [9824]], ['spar', [8741]], ['sqcap', [8851]], ['sqcaps', [8851, 65024]], ['sqcup', [8852]], ['sqcups', [8852, 65024]], ['Sqrt', [8730]], ['sqsub', [8847]], ['sqsube', [8849]], ['sqsubset', [8847]], ['sqsubseteq', [8849]], ['sqsup', [8848]], ['sqsupe', [8850]], ['sqsupset', [8848]], ['sqsupseteq', [8850]], ['square', [9633]], ['Square', [9633]], ['SquareIntersection', [8851]], ['SquareSubset', [8847]], ['SquareSubsetEqual', [8849]], ['SquareSuperset', [8848]], ['SquareSupersetEqual', [8850]], ['SquareUnion', [8852]], ['squarf', [9642]], ['squ', [9633]], ['squf', [9642]], ['srarr', [8594]], ['Sscr', [119982]], ['sscr', [120008]], ['ssetmn', [8726]], ['ssmile', [8995]], ['sstarf', [8902]], ['Star', [8902]], ['star', [9734]], ['starf', [9733]], ['straightepsilon', [1013]], ['straightphi', [981]], ['strns', [175]], ['sub', [8834]], ['Sub', [8912]], ['subdot', [10941]], ['subE', [10949]], ['sube', [8838]], ['subedot', [10947]], ['submult', [10945]], ['subnE', [10955]], ['subne', [8842]], ['subplus', [10943]], ['subrarr', [10617]], ['subset', [8834]], ['Subset', [8912]], ['subseteq', [8838]], ['subseteqq', [10949]], ['SubsetEqual', [8838]], ['subsetneq', [8842]], ['subsetneqq', [10955]], ['subsim', [10951]], ['subsub', [10965]], ['subsup', [10963]], ['succapprox', [10936]], ['succ', [8827]], ['succcurlyeq', [8829]], ['Succeeds', [8827]], ['SucceedsEqual', [10928]], ['SucceedsSlantEqual', [8829]], ['SucceedsTilde', [8831]], ['succeq', [10928]], ['succnapprox', [10938]], ['succneqq', [10934]], ['succnsim', [8937]], ['succsim', [8831]], ['SuchThat', [8715]], ['sum', [8721]], ['Sum', [8721]], ['sung', [9834]], ['sup1', [185]], ['sup2', [178]], ['sup3', [179]], ['sup', [8835]], ['Sup', [8913]], ['supdot', [10942]], ['supdsub', [10968]], ['supE', [10950]], ['supe', [8839]], ['supedot', [10948]], ['Superset', [8835]], ['SupersetEqual', [8839]], ['suphsol', [10185]], ['suphsub', [10967]], ['suplarr', [10619]], ['supmult', [10946]], ['supnE', [10956]], ['supne', [8843]], ['supplus', [10944]], ['supset', [8835]], ['Supset', [8913]], ['supseteq', [8839]], ['supseteqq', [10950]], ['supsetneq', [8843]], ['supsetneqq', [10956]], ['supsim', [10952]], ['supsub', [10964]], ['supsup', [10966]], ['swarhk', [10534]], ['swarr', [8601]], ['swArr', [8665]], ['swarrow', [8601]], ['swnwar', [10538]], ['szlig', [223]], ['Tab', [9]], ['target', [8982]], ['Tau', [932]], ['tau', [964]], ['tbrk', [9140]], ['Tcaron', [356]], ['tcaron', [357]], ['Tcedil', [354]], ['tcedil', [355]], ['Tcy', [1058]], ['tcy', [1090]], ['tdot', [8411]], ['telrec', [8981]], ['Tfr', [120087]], ['tfr', [120113]], ['there4', [8756]], ['therefore', [8756]], ['Therefore', [8756]], ['Theta', [920]], ['theta', [952]], ['thetasym', [977]], ['thetav', [977]], ['thickapprox', [8776]], ['thicksim', [8764]], ['ThickSpace', [8287, 8202]], ['ThinSpace', [8201]], ['thinsp', [8201]], ['thkap', [8776]], ['thksim', [8764]], ['THORN', [222]], ['thorn', [254]], ['tilde', [732]], ['Tilde', [8764]], ['TildeEqual', [8771]], ['TildeFullEqual', [8773]], ['TildeTilde', [8776]], ['timesbar', [10801]], ['timesb', [8864]], ['times', [215]], ['timesd', [10800]], ['tint', [8749]], ['toea', [10536]], ['topbot', [9014]], ['topcir', [10993]], ['top', [8868]], ['Topf', [120139]], ['topf', [120165]], ['topfork', [10970]], ['tosa', [10537]], ['tprime', [8244]], ['trade', [8482]], ['TRADE', [8482]], ['triangle', [9653]], ['triangledown', [9663]], ['triangleleft', [9667]], ['trianglelefteq', [8884]], ['triangleq', [8796]], ['triangleright', [9657]], ['trianglerighteq', [8885]], ['tridot', [9708]], ['trie', [8796]], ['triminus', [10810]], ['TripleDot', [8411]], ['triplus', [10809]], ['trisb', [10701]], ['tritime', [10811]], ['trpezium', [9186]], ['Tscr', [119983]], ['tscr', [120009]], ['TScy', [1062]], ['tscy', [1094]], ['TSHcy', [1035]], ['tshcy', [1115]], ['Tstrok', [358]], ['tstrok', [359]], ['twixt', [8812]], ['twoheadleftarrow', [8606]], ['twoheadrightarrow', [8608]], ['Uacute', [218]], ['uacute', [250]], ['uarr', [8593]], ['Uarr', [8607]], ['uArr', [8657]], ['Uarrocir', [10569]], ['Ubrcy', [1038]], ['ubrcy', [1118]], ['Ubreve', [364]], ['ubreve', [365]], ['Ucirc', [219]], ['ucirc', [251]], ['Ucy', [1059]], ['ucy', [1091]], ['udarr', [8645]], ['Udblac', [368]], ['udblac', [369]], ['udhar', [10606]], ['ufisht', [10622]], ['Ufr', [120088]], ['ufr', [120114]], ['Ugrave', [217]], ['ugrave', [249]], ['uHar', [10595]], ['uharl', [8639]], ['uharr', [8638]], ['uhblk', [9600]], ['ulcorn', [8988]], ['ulcorner', [8988]], ['ulcrop', [8975]], ['ultri', [9720]], ['Umacr', [362]], ['umacr', [363]], ['uml', [168]], ['UnderBar', [95]], ['UnderBrace', [9183]], ['UnderBracket', [9141]], ['UnderParenthesis', [9181]], ['Union', [8899]], ['UnionPlus', [8846]], ['Uogon', [370]], ['uogon', [371]], ['Uopf', [120140]], ['uopf', [120166]], ['UpArrowBar', [10514]], ['uparrow', [8593]], ['UpArrow', [8593]], ['Uparrow', [8657]], ['UpArrowDownArrow', [8645]], ['updownarrow', [8597]], ['UpDownArrow', [8597]], ['Updownarrow', [8661]], ['UpEquilibrium', [10606]], ['upharpoonleft', [8639]], ['upharpoonright', [8638]], ['uplus', [8846]], ['UpperLeftArrow', [8598]], ['UpperRightArrow', [8599]], ['upsi', [965]], ['Upsi', [978]], ['upsih', [978]], ['Upsilon', [933]], ['upsilon', [965]], ['UpTeeArrow', [8613]], ['UpTee', [8869]], ['upuparrows', [8648]], ['urcorn', [8989]], ['urcorner', [8989]], ['urcrop', [8974]], ['Uring', [366]], ['uring', [367]], ['urtri', [9721]], ['Uscr', [119984]], ['uscr', [120010]], ['utdot', [8944]], ['Utilde', [360]], ['utilde', [361]], ['utri', [9653]], ['utrif', [9652]], ['uuarr', [8648]], ['Uuml', [220]], ['uuml', [252]], ['uwangle', [10663]], ['vangrt', [10652]], ['varepsilon', [1013]], ['varkappa', [1008]], ['varnothing', [8709]], ['varphi', [981]], ['varpi', [982]], ['varpropto', [8733]], ['varr', [8597]], ['vArr', [8661]], ['varrho', [1009]], ['varsigma', [962]], ['varsubsetneq', [8842, 65024]], ['varsubsetneqq', [10955, 65024]], ['varsupsetneq', [8843, 65024]], ['varsupsetneqq', [10956, 65024]], ['vartheta', [977]], ['vartriangleleft', [8882]], ['vartriangleright', [8883]], ['vBar', [10984]], ['Vbar', [10987]], ['vBarv', [10985]], ['Vcy', [1042]], ['vcy', [1074]], ['vdash', [8866]], ['vDash', [8872]], ['Vdash', [8873]], ['VDash', [8875]], ['Vdashl', [10982]], ['veebar', [8891]], ['vee', [8744]], ['Vee', [8897]], ['veeeq', [8794]], ['vellip', [8942]], ['verbar', [124]], ['Verbar', [8214]], ['vert', [124]], ['Vert', [8214]], ['VerticalBar', [8739]], ['VerticalLine', [124]], ['VerticalSeparator', [10072]], ['VerticalTilde', [8768]], ['VeryThinSpace', [8202]], ['Vfr', [120089]], ['vfr', [120115]], ['vltri', [8882]], ['vnsub', [8834, 8402]], ['vnsup', [8835, 8402]], ['Vopf', [120141]], ['vopf', [120167]], ['vprop', [8733]], ['vrtri', [8883]], ['Vscr', [119985]], ['vscr', [120011]], ['vsubnE', [10955, 65024]], ['vsubne', [8842, 65024]], ['vsupnE', [10956, 65024]], ['vsupne', [8843, 65024]], ['Vvdash', [8874]], ['vzigzag', [10650]], ['Wcirc', [372]], ['wcirc', [373]], ['wedbar', [10847]], ['wedge', [8743]], ['Wedge', [8896]], ['wedgeq', [8793]], ['weierp', [8472]], ['Wfr', [120090]], ['wfr', [120116]], ['Wopf', [120142]], ['wopf', [120168]], ['wp', [8472]], ['wr', [8768]], ['wreath', [8768]], ['Wscr', [119986]], ['wscr', [120012]], ['xcap', [8898]], ['xcirc', [9711]], ['xcup', [8899]], ['xdtri', [9661]], ['Xfr', [120091]], ['xfr', [120117]], ['xharr', [10231]], ['xhArr', [10234]], ['Xi', [926]], ['xi', [958]], ['xlarr', [10229]], ['xlArr', [10232]], ['xmap', [10236]], ['xnis', [8955]], ['xodot', [10752]], ['Xopf', [120143]], ['xopf', [120169]], ['xoplus', [10753]], ['xotime', [10754]], ['xrarr', [10230]], ['xrArr', [10233]], ['Xscr', [119987]], ['xscr', [120013]], ['xsqcup', [10758]], ['xuplus', [10756]], ['xutri', [9651]], ['xvee', [8897]], ['xwedge', [8896]], ['Yacute', [221]], ['yacute', [253]], ['YAcy', [1071]], ['yacy', [1103]], ['Ycirc', [374]], ['ycirc', [375]], ['Ycy', [1067]], ['ycy', [1099]], ['yen', [165]], ['Yfr', [120092]], ['yfr', [120118]], ['YIcy', [1031]], ['yicy', [1111]], ['Yopf', [120144]], ['yopf', [120170]], ['Yscr', [119988]], ['yscr', [120014]], ['YUcy', [1070]], ['yucy', [1102]], ['yuml', [255]], ['Yuml', [376]], ['Zacute', [377]], ['zacute', [378]], ['Zcaron', [381]], ['zcaron', [382]], ['Zcy', [1047]], ['zcy', [1079]], ['Zdot', [379]], ['zdot', [380]], ['zeetrf', [8488]], ['ZeroWidthSpace', [8203]], ['Zeta', [918]], ['zeta', [950]], ['zfr', [120119]], ['Zfr', [8488]], ['ZHcy', [1046]], ['zhcy', [1078]], ['zigrarr', [8669]], ['zopf', [120171]], ['Zopf', [8484]], ['Zscr', [119989]], ['zscr', [120015]], ['zwj', [8205]], ['zwnj', [8204]]];
@@ -14616,13 +14622,13 @@ module.exports = Html5Entities;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(180);
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14697,13 +14703,13 @@ module.exports = (__webpack_require__(1))(180);
 /* unused harmony export ɵu */
 /* unused harmony export ɵw */
 /* unused harmony export ɵr */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__(9);
 
@@ -20800,27 +20806,27 @@ ReactiveFormsModule.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ForkJoinObservable_1 = __webpack_require__(104);
-exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
-//# sourceMappingURL=forkJoin.js.map
-
-/***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var PromiseObservable_1 = __webpack_require__(54);
+var ForkJoinObservable_1 = __webpack_require__(108);
+exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
+//# sourceMappingURL=forkJoin.js.map
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var PromiseObservable_1 = __webpack_require__(55);
 exports.fromPromise = PromiseObservable_1.PromiseObservable.create;
 //# sourceMappingURL=fromPromise.js.map
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20830,7 +20836,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var root_1 = __webpack_require__(33);
+var root_1 = __webpack_require__(27);
 var Observable_1 = __webpack_require__(2);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -20947,20 +20953,20 @@ function dispatchError(arg) {
 //# sourceMappingURL=PromiseObservable.js.map
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TranslateModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_translate_loader__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_translate_service__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_missing_translation_handler__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_translate_parser__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_translate_compiler__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_translate_directive__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_translate_pipe__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_translate_store__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_translate_loader__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_translate_service__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_missing_translation_handler__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_translate_parser__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_translate_compiler__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_translate_directive__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_translate_pipe__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_translate_store__ = __webpack_require__(61);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_translate_loader__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_translate_service__["a"]; });
 /* unused harmony namespace reexport */
@@ -21050,25 +21056,25 @@ TranslateModule.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ArrayObservable_1 = __webpack_require__(25);
-exports.of = ArrayObservable_1.ArrayObservable.of;
-//# sourceMappingURL=of.js.map
-
-/***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+var ArrayObservable_1 = __webpack_require__(28);
+exports.of = ArrayObservable_1.ArrayObservable.of;
+//# sourceMappingURL=of.js.map
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 var Observable_1 = __webpack_require__(2);
-var isScheduler_1 = __webpack_require__(58);
-var ArrayObservable_1 = __webpack_require__(25);
-var mergeAll_1 = __webpack_require__(38);
+var isScheduler_1 = __webpack_require__(59);
+var ArrayObservable_1 = __webpack_require__(28);
+var mergeAll_1 = __webpack_require__(39);
 /* tslint:enable:max-line-length */
 /**
  * Creates an output Observable which sequentially emits all values from every
@@ -21240,24 +21246,24 @@ exports.concatStatic = concatStatic;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(43);
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var switchMap_1 = __webpack_require__(112);
+var switchMap_1 = __webpack_require__(116);
 Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
 //# sourceMappingURL=switchMap.js.map
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21312,14 +21318,14 @@ var TranslateStore = (function () {
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslateDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__translate_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__translate_service__ = __webpack_require__(19);
 
 
 
@@ -21488,14 +21494,14 @@ TranslateDirective.propDecorators = {
 
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslatePipe; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__translate_service__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__translate_service__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(29);
 
 
 
@@ -21631,25 +21637,25 @@ TranslatePipe.ctorParameters = function () { return [
 
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(244);
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(209);
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(202);
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21659,8 +21665,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(24);
-var subscribeToResult_1 = __webpack_require__(23);
+var OuterSubscriber_1 = __webpack_require__(26);
+var subscribeToResult_1 = __webpack_require__(25);
 /**
  * Catches errors on the observable to be handled by returning a new observable or throwing an error.
  *
@@ -21771,19 +21777,19 @@ var CatchSubscriber = (function (_super) {
 //# sourceMappingURL=catch.js.map
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var mergeMap_1 = __webpack_require__(42);
+var mergeMap_1 = __webpack_require__(43);
 Observable_1.Observable.prototype.mergeMap = mergeMap_1.mergeMap;
 Observable_1.Observable.prototype.flatMap = mergeMap_1.mergeMap;
 //# sourceMappingURL=mergeMap.js.map
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21829,14 +21835,14 @@ var DBkeys = /** @class */ (function () {
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -21852,22 +21858,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HomeComponent = /** @class */ (function () {
     function HomeComponent(configurations) {
         this.configurations = configurations;
-        this.text = {
-            Year: 'Year',
-            Month: 'Month',
-            Weeks: "Weeks",
-            Days: "Days",
-            Hours: "Hours",
-            Minutes: "Minutes",
-            Seconds: "Seconds",
-            MilliSeconds: "MilliSeconds"
-        };
     }
     HomeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'home',
-            template: __webpack_require__(157),
-            styles: [__webpack_require__(158)],
+            template: __webpack_require__(161),
+            styles: [__webpack_require__(162)],
             animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_configuration_service__["a" /* ConfigurationService */]])
@@ -21878,20 +21874,20 @@ var HomeComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_animations__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_tab_directive__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_animations__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_tab_directive__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -22012,8 +22008,8 @@ var SettingsComponent = /** @class */ (function () {
     SettingsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'settings',
-            template: __webpack_require__(173),
-            styles: [__webpack_require__(174)],
+            template: __webpack_require__(177),
+            styles: [__webpack_require__(178)],
             animations: [__WEBPACK_IMPORTED_MODULE_3__services_animations__["a" /* fadeInOut */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_6__services_account_service__["a" /* AccountService */]])
@@ -22024,7 +22020,7 @@ var SettingsComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22032,9 +22028,9 @@ var SettingsComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
 // ======================================
 // Author: Ebenezer Monney
@@ -22105,23 +22101,23 @@ var BootstrapTabDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(17);
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountEndpoint; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__endpoint_factory_service__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__endpoint_factory_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__configuration_service__ = __webpack_require__(15);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -22410,13 +22406,13 @@ var AccountEndpoint = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -22431,8 +22427,8 @@ var AboutComponent = /** @class */ (function () {
     AboutComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'about',
-            template: __webpack_require__(176),
-            styles: [__webpack_require__(177)],
+            template: __webpack_require__(180),
+            styles: [__webpack_require__(181)],
             animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
         })
     ], AboutComponent);
@@ -22442,13 +22438,13 @@ var AboutComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotFoundComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -22470,8 +22466,8 @@ var NotFoundComponent = /** @class */ (function () {
     NotFoundComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'not-found',
-            template: __webpack_require__(179),
-            styles: [__webpack_require__(180)],
+            template: __webpack_require__(183),
+            styles: [__webpack_require__(184)],
             animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
         })
     ], NotFoundComponent);
@@ -22481,19 +22477,199 @@ var NotFoundComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 76 */
+/* 77 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_blog_service__ = __webpack_require__(78);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var BlogsComponent = /** @class */ (function () {
+    function BlogsComponent(router, blogService) {
+        this.router = router;
+        this.blogService = blogService;
+        this.title = "Blogs";
+    }
+    BlogsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.blogService.getPosts()
+            .then(function (posts) { return _this.posts = posts; });
+    };
+    BlogsComponent.prototype.gotoDetail = function (post) {
+        var link = ['/blog-read', post.id];
+        this.router.navigate(link);
+    };
+    BlogsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'dotnetnepal-blogs',
+            template: __webpack_require__(190),
+            styles: [__webpack_require__(191)],
+            animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_router__["d" /* Router */],
+            __WEBPACK_IMPORTED_MODULE_3__services_blog_service__["a" /* BlogsService */]])
+    ], BlogsComponent);
+    return BlogsComponent;
+}());
+
+
+
+/***/ }),
+/* 78 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_post_model__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var httpOptions = {
+    headers: new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/json' })
+};
+var BlogsService = /** @class */ (function () {
+    function BlogsService(http) {
+        this.http = http;
+        this.blogUrl = 'http://dotnetnepal.azurewebsites.net/api/blogs';
+    }
+    BlogsService.prototype.getPosts = function () {
+        return this.http
+            .get(this.blogUrl)
+            .toPromise()
+            .then(function (response) {
+            return response.json().data;
+        })
+            .catch(this.handleError);
+    };
+    BlogsService.prototype.getPost = function (id) {
+        return this.getPosts()
+            .then(function (post) { return post.find(function (post) { return post.id === id; }); });
+    };
+    BlogsService.prototype.save = function (post) {
+        if (post.id) {
+            return this.put(post);
+        }
+        return this.post(post);
+    };
+    BlogsService.prototype.delete = function (post) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        var url = this.blogUrl + "/" + post.id;
+        return this.http
+            .delete(url, { headers: headers })
+            .toPromise()
+            .catch(this.handleError);
+    };
+    BlogsService.prototype.post = function (post) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            'Content-Type': 'application/json'
+        });
+        return this.http
+            .post(this.blogUrl, JSON.stringify(__WEBPACK_IMPORTED_MODULE_2__models_post_model__["a" /* Post */]), { headers: headers })
+            .toPromise()
+            .then(function (res) { return res.json().data; })
+            .catch(this.handleError);
+    };
+    // Update existing Hero
+    BlogsService.prototype.put = function (post) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        var url = this.blogUrl + "/" + post.id;
+        return this.http
+            .put(url, JSON.stringify(post), { headers: headers })
+            .toPromise()
+            .then(function () { return post; })
+            .catch(this.handleError);
+    };
+    BlogsService.prototype.handleError = function (error) {
+        console.error('An error occurred', error);
+        return Promise.reject(error.message || error);
+    };
+    BlogsService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+    ], BlogsService);
+    return BlogsService;
+}());
+
+
+
+/***/ }),
+/* 79 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogReadComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_animations__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var BlogReadComponent = /** @class */ (function () {
+    function BlogReadComponent() {
+        this.title = "Blog Read";
+    }
+    BlogReadComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'dotnetnepal-blog-read',
+            template: __webpack_require__(193),
+            styles: [__webpack_require__(195)],
+            animations: [__WEBPACK_IMPORTED_MODULE_1__services_animations__["a" /* fadeInOut */]]
+        })
+    ], BlogReadComponent);
+    return BlogReadComponent;
+}());
+
+
+
+/***/ }),
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppTitleService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_filter__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_filter__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_filter__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utilities__ = __webpack_require__(4);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -22551,18 +22727,18 @@ var AppTitleService = /** @class */ (function () {
 
 
 /***/ }),
-/* 77 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotificationEndpoint; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 // ======================================
 // Author: Ebenezer Monney
@@ -22691,15 +22867,15 @@ var NotificationEndpoint = /** @class */ (function () {
 
 
 /***/ }),
-/* 78 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BootstrapSelectDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bootstrap_select_dist_js_bootstrap_select__);
 // ======================================
 // Author: Ebenezer Monney
@@ -22804,7 +22980,7 @@ var BootstrapSelectDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 79 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22813,10 +22989,10 @@ var BootstrapSelectDirective = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_user_model__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_edit_model__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_user_model__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_user_edit_model__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -23133,8 +23309,8 @@ var UserInfoComponent = /** @class */ (function () {
     UserInfoComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'user-info',
-            template: __webpack_require__(239),
-            styles: [__webpack_require__(240)]
+            template: __webpack_require__(251),
+            styles: [__webpack_require__(252)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_2__services_account_service__["a" /* AccountService */]])
     ], UserInfoComponent);
@@ -23144,7 +23320,7 @@ var UserInfoComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 80 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23152,8 +23328,8 @@ var UserInfoComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__models_role_model__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_permission_model__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__models_role_model__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__models_permission_model__ = __webpack_require__(18);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -23320,8 +23496,8 @@ var RoleEditorComponent = /** @class */ (function () {
     RoleEditorComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'role-editor',
-            template: __webpack_require__(251),
-            styles: [__webpack_require__(252)]
+            template: __webpack_require__(263),
+            styles: [__webpack_require__(264)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_2__services_account_service__["a" /* AccountService */]])
     ], RoleEditorComponent);
@@ -23331,22 +23507,22 @@ var RoleEditorComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 81 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(82);
-__webpack_require__(83);
-module.exports = __webpack_require__(96);
+__webpack_require__(86);
+__webpack_require__(87);
+module.exports = __webpack_require__(100);
 
 
 /***/ }),
-/* 82 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(242);
 
 /***/ }),
-/* 83 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__resourceQuery, module) {/*eslint-env browser*/
@@ -23363,7 +23539,7 @@ var options = {
   autoConnect: true
 };
 if (true) {
-  var querystring = __webpack_require__(85);
+  var querystring = __webpack_require__(89);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   setOverrides(overrides);
 }
@@ -23497,11 +23673,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(88);
+  var strip = __webpack_require__(92);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(90);
+    overlay = __webpack_require__(94);
   }
 
   var styles = {
@@ -23554,7 +23730,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(95);
+var processUpdate = __webpack_require__(99);
 
 var customHandler;
 var subscribeAllHandler;
@@ -23620,27 +23796,27 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(84)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(88)(module)))
 
 /***/ }),
-/* 84 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(279);
 
 /***/ }),
-/* 85 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(86);
-exports.encode = exports.stringify = __webpack_require__(87);
+exports.decode = exports.parse = __webpack_require__(90);
+exports.encode = exports.stringify = __webpack_require__(91);
 
 
 /***/ }),
-/* 86 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23731,7 +23907,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 87 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23823,12 +23999,12 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 88 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ansiRegex = __webpack_require__(89)();
+var ansiRegex = __webpack_require__(93)();
 
 module.exports = function (str) {
 	return typeof str === 'string' ? str.replace(ansiRegex, '') : str;
@@ -23836,7 +24012,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 89 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23847,7 +24023,7 @@ module.exports = function () {
 
 
 /***/ }),
-/* 90 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -23876,7 +24052,7 @@ for (var key in styles) {
   clientOverlay.style[key] = styles[key];
 }
 
-var ansiHTML = __webpack_require__(91);
+var ansiHTML = __webpack_require__(95);
 var colors = {
   reset: ['transparent', 'transparent'],
   black: '181818',
@@ -23891,7 +24067,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(92).AllHtmlEntities;
+var Entities = __webpack_require__(96).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -23932,7 +24108,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 91 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24115,19 +24291,19 @@ ansiHTML.reset()
 
 
 /***/ }),
-/* 92 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(93),
-  Html4Entities: __webpack_require__(94),
-  Html5Entities: __webpack_require__(49),
-  AllHtmlEntities: __webpack_require__(49)
+  XmlEntities: __webpack_require__(97),
+  Html4Entities: __webpack_require__(98),
+  Html5Entities: __webpack_require__(50),
+  AllHtmlEntities: __webpack_require__(50)
 };
 
 
 /***/ }),
-/* 93 */
+/* 97 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -24288,7 +24464,7 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 94 */
+/* 98 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -24441,7 +24617,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 95 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -24579,22 +24755,22 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 96 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_client_shim___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_client_shim__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_web_animations_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_zone_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_zone_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_bootstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_dynamic__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_app_module__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_dynamic__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_app_module__ = __webpack_require__(107);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -24630,19 +24806,19 @@ var modulePromise = Object(__WEBPACK_IMPORTED_MODULE_5__angular_platform_browser
 
 
 /***/ }),
-/* 97 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(237);
 
 /***/ }),
-/* 98 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(241);
 
 /***/ }),
-/* 99 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
@@ -27479,16 +27655,16 @@ Zone.__load_patch('util', function (global, Zone, api) {
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(100)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(104)))
 
 /***/ }),
-/* 100 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(37);
 
 /***/ }),
-/* 101 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27497,10 +27673,10 @@ module.exports = (__webpack_require__(1))(37);
 /* unused harmony export VERSION */
 /* unused harmony export ɵINTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS */
 /* unused harmony export ɵResourceLoaderImpl */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(9);
 
 /**
@@ -27671,7 +27847,7 @@ var platformBrowserDynamic = Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__[
 
 
 /***/ }),
-/* 102 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27901,7 +28077,7 @@ var platformBrowserDynamic = Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__[
 /* unused harmony export splitClasses */
 /* unused harmony export createElementCssSelector */
 /* unused harmony export removeSummaryDuplicates */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 
 /**
@@ -55542,67 +55718,68 @@ function _mergeArrays(parts) {
 //# sourceMappingURL=compiler.es5.js.map
 
 /***/ }),
-/* 103 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* unused harmony export getBaseUrl */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bootstrap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__swimlane_ngx_datatable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_toasty__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ngx_bootstrap_modal__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_bootstrap_tooltip__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ngx_bootstrap_popover__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_bootstrap_dropdown__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_carousel__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_toasty__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ngx_bootstrap_modal__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_bootstrap_tooltip__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ngx_bootstrap_popover__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_bootstrap_dropdown__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_carousel__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_ng2_charts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_routing_module__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__app_error_handler__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_app_title_service__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_routing_module__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__app_error_handler__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_app_title_service__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_alert_service__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_local_store_manager_service__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_endpoint_factory_service__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_notification_service__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_notification_endpoint_service__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_local_store_manager_service__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_endpoint_factory_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_notification_service__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_notification_endpoint_service__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_account_endpoint_service__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__directives_equal_validator_directive__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__directives_last_element_directive__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__directives_autofocus_directive__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__directives_bootstrap_tab_directive__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__directives_bootstrap_toggle_directive__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_app_component__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_login_login_component__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_home_home_component__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_settings_settings_component__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_about_about_component__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_not_found_not_found_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_controls_banner_demo_component__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_controls_todo_demo_component__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_controls_statistics_demo_component__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_controls_notifications_viewer_component__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_controls_search_box_component__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_controls_user_info_component__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_controls_user_preferences_component__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51_ng2_date_countdown__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_account_endpoint_service__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__directives_equal_validator_directive__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__directives_last_element_directive__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__directives_autofocus_directive__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__directives_bootstrap_tab_directive__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__directives_bootstrap_toggle_directive__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_app_component__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_login_login_component__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_home_home_component__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_settings_settings_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_about_about_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_blogs_blogs_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_not_found_not_found_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_controls_todo_demo_component__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_controls_statistics_demo_component__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_controls_notifications_viewer_component__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_controls_search_box_component__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_controls_user_info_component__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_controls_user_preferences_component__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_blog_read_blog_read_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__services_blog_service__ = __webpack_require__(78);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -55662,6 +55839,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 //ms-import
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -55693,13 +55871,15 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_36__components_login_login_component__["a" /* LoginComponent */],
                 __WEBPACK_IMPORTED_MODULE_37__components_home_home_component__["a" /* HomeComponent */],
                 __WEBPACK_IMPORTED_MODULE_38__components_settings_settings_component__["a" /* SettingsComponent */],
+                __WEBPACK_IMPORTED_MODULE_40__components_blogs_blogs_component__["a" /* BlogsComponent */],
+                __WEBPACK_IMPORTED_MODULE_51__components_blog_read_blog_read_component__["a" /* BlogReadComponent */],
                 __WEBPACK_IMPORTED_MODULE_48__components_controls_users_management_component__["a" /* UsersManagementComponent */], __WEBPACK_IMPORTED_MODULE_46__components_controls_user_info_component__["a" /* UserInfoComponent */], __WEBPACK_IMPORTED_MODULE_47__components_controls_user_preferences_component__["a" /* UserPreferencesComponent */],
                 __WEBPACK_IMPORTED_MODULE_49__components_controls_roles_management_component__["a" /* RolesManagementComponent */], __WEBPACK_IMPORTED_MODULE_50__components_controls_role_editor_component__["a" /* RoleEditorComponent */],
                 __WEBPACK_IMPORTED_MODULE_39__components_about_about_component__["a" /* AboutComponent */],
-                __WEBPACK_IMPORTED_MODULE_40__components_not_found_not_found_component__["a" /* NotFoundComponent */],
+                __WEBPACK_IMPORTED_MODULE_41__components_not_found_not_found_component__["a" /* NotFoundComponent */],
                 __WEBPACK_IMPORTED_MODULE_44__components_controls_notifications_viewer_component__["a" /* NotificationsViewerComponent */],
                 __WEBPACK_IMPORTED_MODULE_45__components_controls_search_box_component__["a" /* SearchBoxComponent */],
-                __WEBPACK_IMPORTED_MODULE_43__components_controls_statistics_demo_component__["a" /* StatisticsDemoComponent */], __WEBPACK_IMPORTED_MODULE_42__components_controls_todo_demo_component__["a" /* TodoDemoComponent */], __WEBPACK_IMPORTED_MODULE_41__components_controls_banner_demo_component__["a" /* BannerDemoComponent */],
+                __WEBPACK_IMPORTED_MODULE_43__components_controls_statistics_demo_component__["a" /* StatisticsDemoComponent */], __WEBPACK_IMPORTED_MODULE_42__components_controls_todo_demo_component__["a" /* TodoDemoComponent */],
                 __WEBPACK_IMPORTED_MODULE_27__directives_equal_validator_directive__["a" /* EqualValidator */],
                 __WEBPACK_IMPORTED_MODULE_28__directives_last_element_directive__["a" /* LastElementDirective */],
                 __WEBPACK_IMPORTED_MODULE_29__directives_autofocus_directive__["a" /* AutofocusDirective */],
@@ -55708,7 +55888,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_32__directives_bootstrap_select_directive__["a" /* BootstrapSelectDirective */],
                 __WEBPACK_IMPORTED_MODULE_33__directives_bootstrap_datepicker_directive__["a" /* BootstrapDatepickerDirective */],
                 __WEBPACK_IMPORTED_MODULE_34__pipes_group_by_pipe__["a" /* GroupByPipe */],
-                __WEBPACK_IMPORTED_MODULE_51_ng2_date_countdown__["a" /* CountDown */]
+                __WEBPACK_IMPORTED_MODULE_40__components_blogs_blogs_component__["a" /* BlogsComponent */]
             ],
             providers: [
                 { provide: 'BASE_URL', useFactory: getBaseUrl },
@@ -55722,7 +55902,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_25__services_account_service__["a" /* AccountService */],
                 __WEBPACK_IMPORTED_MODULE_26__services_account_endpoint_service__["a" /* AccountEndpoint */],
                 __WEBPACK_IMPORTED_MODULE_21__services_local_store_manager_service__["a" /* LocalStoreManager */],
-                __WEBPACK_IMPORTED_MODULE_22__services_endpoint_factory_service__["a" /* EndpointFactory */]
+                __WEBPACK_IMPORTED_MODULE_22__services_endpoint_factory_service__["a" /* EndpointFactory */],
+                __WEBPACK_IMPORTED_MODULE_52__services_blog_service__["a" /* BlogsService */]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_35__components_app_component__["a" /* AppComponent */]]
         })
@@ -55736,7 +55917,7 @@ function getBaseUrl() {
 
 
 /***/ }),
-/* 104 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55747,10 +55928,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(2);
-var EmptyObservable_1 = __webpack_require__(22);
-var isArray_1 = __webpack_require__(32);
-var subscribeToResult_1 = __webpack_require__(23);
-var OuterSubscriber_1 = __webpack_require__(24);
+var EmptyObservable_1 = __webpack_require__(24);
+var isArray_1 = __webpack_require__(34);
+var subscribeToResult_1 = __webpack_require__(25);
+var OuterSubscriber_1 = __webpack_require__(26);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -55854,7 +56035,7 @@ var ForkJoinSubscriber = (function (_super) {
 //# sourceMappingURL=ForkJoinObservable.js.map
 
 /***/ }),
-/* 105 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55871,11 +56052,11 @@ var ForkJoinSubscriber = (function (_super) {
 /* unused harmony export ɵd */
 /* unused harmony export ɵe */
 /* unused harmony export ɵc */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_animations__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_animations_browser__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_animations__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_animations_browser__ = __webpack_require__(110);
 
 /**
  * @license Angular v4.3.6
@@ -56620,7 +56801,7 @@ NoopAnimationsModule.ctorParameters = function () { return []; };
 
 
 /***/ }),
-/* 106 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56634,8 +56815,8 @@ NoopAnimationsModule.ctorParameters = function () { return []; };
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return WebAnimationsDriver; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return supportsWebAnimations; });
 /* unused harmony export ɵWebAnimationsPlayer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__(36);
 
 /**
  * @license Angular v4.3.6
@@ -61833,52 +62014,52 @@ function supportsWebAnimations() {
 
 
 /***/ }),
-/* 107 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var concat_1 = __webpack_require__(57);
+var concat_1 = __webpack_require__(58);
 Observable_1.Observable.prototype.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 108 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var share_1 = __webpack_require__(109);
+var share_1 = __webpack_require__(113);
 Observable_1.Observable.prototype.share = share_1.share;
 //# sourceMappingURL=share.js.map
 
 /***/ }),
-/* 109 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(211);
 
 /***/ }),
-/* 110 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var merge_1 = __webpack_require__(111);
+var merge_1 = __webpack_require__(115);
 Observable_1.Observable.prototype.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
 /***/ }),
-/* 111 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(200);
 
 /***/ }),
-/* 112 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61888,8 +62069,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(24);
-var subscribeToResult_1 = __webpack_require__(23);
+var OuterSubscriber_1 = __webpack_require__(26);
+var subscribeToResult_1 = __webpack_require__(25);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -62024,18 +62205,18 @@ var SwitchMapSubscriber = (function (_super) {
 //# sourceMappingURL=switchMap.js.map
 
 /***/ }),
-/* 113 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var toArray_1 = __webpack_require__(114);
+var toArray_1 = __webpack_require__(118);
 Observable_1.Observable.prototype.toArray = toArray_1.toArray;
 //# sourceMappingURL=toArray.js.map
 
 /***/ }),
-/* 114 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62086,18 +62267,18 @@ var ToArraySubscriber = (function (_super) {
 //# sourceMappingURL=toArray.js.map
 
 /***/ }),
-/* 115 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var take_1 = __webpack_require__(116);
+var take_1 = __webpack_require__(120);
 Observable_1.Observable.prototype.take = take_1.take;
 //# sourceMappingURL=take.js.map
 
 /***/ }),
-/* 116 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62108,8 +62289,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var ArgumentOutOfRangeError_1 = __webpack_require__(117);
-var EmptyObservable_1 = __webpack_require__(22);
+var ArgumentOutOfRangeError_1 = __webpack_require__(121);
+var EmptyObservable_1 = __webpack_require__(24);
 /**
  * Emits only the first `count` values emitted by the source Observable.
  *
@@ -62192,7 +62373,7 @@ var TakeSubscriber = (function (_super) {
 //# sourceMappingURL=take.js.map
 
 /***/ }),
-/* 117 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62226,7 +62407,7 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
 //# sourceMappingURL=ArgumentOutOfRangeError.js.map
 
 /***/ }),
-/* 118 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -62236,7 +62417,7 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(true)
-		module.exports = factory(__webpack_require__(31), __webpack_require__(0), __webpack_require__(9));
+		module.exports = factory(__webpack_require__(33), __webpack_require__(0), __webpack_require__(9));
 	else if(typeof define === 'function' && define.amd)
 		define("ngxDatatable", ["@angular/common", "@angular/core", "@angular/platform-browser"], factory);
 	else if(typeof exports === 'object')
@@ -70180,56 +70361,60 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__angular_platform_browser__;
 //# sourceMappingURL=index.map
 
 /***/ }),
-/* 119 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(219);
 
 /***/ }),
-/* 120 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(222);
 
 /***/ }),
-/* 121 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(224);
 
 /***/ }),
-/* 122 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(228);
 
 /***/ }),
-/* 123 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(247);
 
 /***/ }),
-/* 124 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_login_login_component__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_home_home_component__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_settings_settings_component__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_about_about_component__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_not_found_not_found_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_auth_service__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_auth_guard_service__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_login_login_component__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_home_home_component__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_settings_settings_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_about_about_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_not_found_not_found_component__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_auth_service__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_auth_guard_service__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_blogs_blogs_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_blog_read_blog_read_component__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -70251,6 +70436,8 @@ var AppRoutingModule = /** @class */ (function () {
                     { path: "settings", component: __WEBPACK_IMPORTED_MODULE_4__components_settings_settings_component__["a" /* SettingsComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_8__services_auth_guard_service__["a" /* AuthGuard */]], data: { title: "Settings" } },
                     { path: "about", component: __WEBPACK_IMPORTED_MODULE_5__components_about_about_component__["a" /* AboutComponent */], data: { title: "About Us" } },
                     { path: "home", redirectTo: "/", pathMatch: "full" },
+                    { path: "blog", component: __WEBPACK_IMPORTED_MODULE_9__components_blogs_blogs_component__["a" /* BlogsComponent */], data: { title: "Blogs" } },
+                    { path: "blog-read", component: __WEBPACK_IMPORTED_MODULE_10__components_blog_read_blog_read_component__["a" /* BlogReadComponent */], data: { title: "Blog Read" } },
                     { path: "**", component: __WEBPACK_IMPORTED_MODULE_6__components_not_found_not_found_component__["a" /* NotFoundComponent */], data: { title: "Page Not Found" } },
                 ])
             ],
@@ -70268,7 +70455,7 @@ var AppRoutingModule = /** @class */ (function () {
 
 
 /***/ }),
-/* 125 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70278,8 +70465,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subject_1 = __webpack_require__(11);
-var ObjectUnsubscribedError_1 = __webpack_require__(126);
+var Subject_1 = __webpack_require__(13);
+var ObjectUnsubscribedError_1 = __webpack_require__(130);
 /**
  * @class BehaviorSubject<T>
  */
@@ -70323,23 +70510,23 @@ exports.BehaviorSubject = BehaviorSubject;
 //# sourceMappingURL=BehaviorSubject.js.map
 
 /***/ }),
-/* 126 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(214);
 
 /***/ }),
-/* 127 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromObservable_1 = __webpack_require__(128);
+var FromObservable_1 = __webpack_require__(132);
 exports.from = FromObservable_1.FromObservable.create;
 //# sourceMappingURL=from.js.map
 
 /***/ }),
-/* 128 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70349,17 +70536,17 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isArray_1 = __webpack_require__(32);
-var isArrayLike_1 = __webpack_require__(129);
-var isPromise_1 = __webpack_require__(130);
-var PromiseObservable_1 = __webpack_require__(54);
-var IteratorObservable_1 = __webpack_require__(131);
-var ArrayObservable_1 = __webpack_require__(25);
-var ArrayLikeObservable_1 = __webpack_require__(132);
-var iterator_1 = __webpack_require__(64);
+var isArray_1 = __webpack_require__(34);
+var isArrayLike_1 = __webpack_require__(133);
+var isPromise_1 = __webpack_require__(134);
+var PromiseObservable_1 = __webpack_require__(55);
+var IteratorObservable_1 = __webpack_require__(135);
+var ArrayObservable_1 = __webpack_require__(28);
+var ArrayLikeObservable_1 = __webpack_require__(136);
+var iterator_1 = __webpack_require__(65);
 var Observable_1 = __webpack_require__(2);
-var observeOn_1 = __webpack_require__(133);
-var observable_1 = __webpack_require__(135);
+var observeOn_1 = __webpack_require__(137);
+var observable_1 = __webpack_require__(139);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -70467,19 +70654,19 @@ exports.FromObservable = FromObservable;
 //# sourceMappingURL=FromObservable.js.map
 
 /***/ }),
-/* 129 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(207);
 
 /***/ }),
-/* 130 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(208);
 
 /***/ }),
-/* 131 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70489,9 +70676,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var root_1 = __webpack_require__(33);
+var root_1 = __webpack_require__(27);
 var Observable_1 = __webpack_require__(2);
-var iterator_1 = __webpack_require__(64);
+var iterator_1 = __webpack_require__(65);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -70648,7 +70835,7 @@ function sign(value) {
 //# sourceMappingURL=IteratorObservable.js.map
 
 /***/ }),
-/* 132 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70659,8 +70846,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(2);
-var ScalarObservable_1 = __webpack_require__(65);
-var EmptyObservable_1 = __webpack_require__(22);
+var ScalarObservable_1 = __webpack_require__(66);
+var EmptyObservable_1 = __webpack_require__(24);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -70724,7 +70911,7 @@ exports.ArrayLikeObservable = ArrayLikeObservable;
 //# sourceMappingURL=ArrayLikeObservable.js.map
 
 /***/ }),
-/* 133 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70735,7 +70922,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var Notification_1 = __webpack_require__(134);
+var Notification_1 = __webpack_require__(138);
 /**
  *
  * Re-emits all notifications from source Observable with specified scheduler.
@@ -70843,7 +71030,7 @@ exports.ObserveOnMessage = ObserveOnMessage;
 //# sourceMappingURL=observeOn.js.map
 
 /***/ }),
-/* 134 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70976,18 +71163,18 @@ exports.Notification = Notification;
 //# sourceMappingURL=Notification.js.map
 
 /***/ }),
-/* 135 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(42);
 
 /***/ }),
-/* 136 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var mergeMap_1 = __webpack_require__(42);
+var mergeMap_1 = __webpack_require__(43);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -71055,7 +71242,7 @@ exports.concatMap = concatMap;
 //# sourceMappingURL=concatMap.js.map
 
 /***/ }),
-/* 137 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71135,7 +71322,7 @@ var EverySubscriber = (function (_super) {
 //# sourceMappingURL=every.js.map
 
 /***/ }),
-/* 138 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71146,7 +71333,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var EmptyError_1 = __webpack_require__(43);
+var EmptyError_1 = __webpack_require__(44);
 /**
  * Emits only the first value (or the first value that meets some condition)
  * emitted by the source Observable.
@@ -71293,7 +71480,7 @@ var FirstSubscriber = (function (_super) {
 //# sourceMappingURL=first.js.map
 
 /***/ }),
-/* 139 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71304,7 +71491,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var EmptyError_1 = __webpack_require__(43);
+var EmptyError_1 = __webpack_require__(44);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits only the last item emitted by the source Observable.
@@ -71418,7 +71605,7 @@ var LastSubscriber = (function (_super) {
 //# sourceMappingURL=last.js.map
 
 /***/ }),
-/* 140 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71550,12 +71737,12 @@ exports.ReduceSubscriber = ReduceSubscriber;
 //# sourceMappingURL=reduce.js.map
 
 /***/ }),
-/* 141 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var mergeAll_1 = __webpack_require__(38);
+var mergeAll_1 = __webpack_require__(39);
 /* tslint:enable:max-line-length */
 /**
  * Converts a higher-order Observable into a first-order Observable by
@@ -71612,34 +71799,34 @@ exports.concatAll = concatAll;
 //# sourceMappingURL=concatAll.js.map
 
 /***/ }),
-/* 142 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(226);
 
 /***/ }),
-/* 143 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var throw_1 = __webpack_require__(144);
+var throw_1 = __webpack_require__(148);
 Observable_1.Observable.throw = throw_1._throw;
 //# sourceMappingURL=throw.js.map
 
 /***/ }),
-/* 144 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ErrorObservable_1 = __webpack_require__(145);
+var ErrorObservable_1 = __webpack_require__(149);
 exports._throw = ErrorObservable_1.ErrorObservable.create;
 //# sourceMappingURL=throw.js.map
 
 /***/ }),
-/* 145 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71728,49 +71915,49 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ }),
-/* 146 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var catch_1 = __webpack_require__(66);
+var catch_1 = __webpack_require__(67);
 Observable_1.Observable.prototype.catch = catch_1._catch;
 Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
 
 /***/ }),
-/* 147 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Welcome","Notifications":"Notifications","New":"New"},"mainMenu":{"Appointments":"Appointments","Customers":"Customers","Products":"Products","Orders":"Orders","About":"About","Logout":"Logout"},"pageHeader":{"Dashboard":"Dashboard","Customers":"Customers","Products":"Products","Orders":"Orders","NotFound":"Not-Found","About":"About","Settings":"Settings"},"home":{"NoWidgets1":"You have no widgets displayed. Goto","NoWidgets2":"to configure available widgets","StatisticsTitle":"Some Important Stuff"},"notFound":{"404":"404","pageNotFound":"The page you are looking for does not exist","backToHome":"Back to home"},"settings":{"tab":{"Profile":"Profile","Preferences":"Preferences","Users":"Users","Roles":"Roles"},"header":{"UserProfile":"User Profile","UserPreferences":"User Preferences","UserDepartments":"User Departments","UsersManagements":"Users Managements","RolesManagement":"Roles Management"}},"preferences":{"ReloadPreferences":"Reload Preferences:","ReloadPreferencesHint":"Load default preferences (local changes are discarded)","Language":"Language:","English":"English","French":"French","German":"German","Arabic":"Arabic","Korean":"Korean","LanguageHint":"Select the preferred language for your account","HomePage":"Home Page:","Dashboard":"Dashboard","Customers":"Customers","Products":"Products","Orders":"Orders","About":"About","Settings":"Settings","HomePageHint":"Select the default page to navigate to on login","Theme":"Theme:","DefaultColor":"<span class='default-theme-option'>Default</span>","RedColor":"<span class='red-theme-option'>Red</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Green</span>","GrayColor":"<span class='gray-theme-option'>Gray</span>","BlackColor":"<span class='black-theme-option'>Black</span>","ThemeHint":"Select the default color theme for your account","DashboardStatistics":"Dashboard Statistics:","DashboardStatisticsHint":"Show demo graph widget on the dashboard","DashboardNotifications":"Dashboard Notifications:","DashboardNotificationsHint":"Show application notifications on the dashboard","DashboardTodo":"Dashboard Todo:","DashboardTodoHint":"Shows demo todo widget on the dashboard","DashboardBanner":"Dashboard Banner:","DashboardBannerHint":"Show demo information banner widget on the dashboard","ResetDefault":"Reset default","SetDefault":"Set as default"},"users":{"management":{"Search":"Search for user...","NewUser":"New User","Edit":"Edit","Delete":"Delete","EditUser":"Edit User \"{{name}}\"","Title":"Title","UserName":"User Name","FullName":"Full Name","Email":"Email","Roles":"Roles","PhoneNumber":"Phone Number"},"editor":{"JobTitle":"Job Title: ","UserName":"User Name:","UserNameRequired":"User name is required (minimum of 2 and maximum of 200 characters)","Password":"Password:","PasswordHint":"Your password is required when changing user name","CurrentPasswordRequired":"Current password is required","Email":"Email:","EmailRequired":"Email address is required (maximum of 200 characters)","InvalidEmail":"Specified email is not valid","ChangePassword":"Change Password","CurrentPassword":"Current Password:","NewPassword":"New Password:","NewPasswordRequired":"New password is required (minimum of 6 characters)","ConfirmPassword":"Confirm Password:","ConfirmationPasswordRequired":"Confirmation password is required","PasswordMismatch":"New password and confirmation password do not match","Roles":"Roles:","FullName":" Full Name:","RoleRequired":" Role is required","PhoneNumber":"Phone #:","Enabled":"Enabled","Unblock":"Unblock","Close":"Close","Edit":"Edit","Cancel":"Cancel","Save":"Save","Saving":"Saving..."}},"roles":{"management":{"Search":"Search for role...","NewRole":"New Role","Edit":"Edit","Details":"Details","Delete":"Delete","RoleDetails":"Role Details","EditRole":"Edit Role \"{{name}}\"","Name":"Name","Description":"Description","Users":"Users"},"editor":{"Name":"Name:","Description":"Description:","RoleNameRequired":"Role name is required (minimum of 2 and maximum of 200 characters)","SelectAll":"Select all","SelectNone":"Select none","Close":"Close","Cancel":"Cancel","Save":"Save","Saving":"Saving..."}},"notifications":{"Delete":"Delete notification","Pin":"Pin notification","Date":"Date","Notification":"Notification"},"todoDemo":{"management":{"Search":"Search for task...","HideCompleted":"Hide Completed","AddTask":"Add Task","Delete":"Delete task","Important":"Mark as important","Task":"Task","Description":"Description"},"editor":{"NewTask":"New Task","Name":"Name","TaskNameRequired":"Task name is required","Description":"Description","Important":"Mark as important","AddTask":"Add Task"}}}
 
 /***/ }),
-/* 148 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Bienvenue","Notifications":"Notifications","New":"Nouveau"},"mainMenu":{"Appointments":"Rendez-vous","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","About":"À Propos","Logout":"Se Déconnecter"},"pageHeader":{"Dashboard":"Tableau de bord","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","NotFound":"Pas trouvé","About":"À Propos","Settings":"Paramètres"},"home":{"NoWidgets1":"Vous n'avez pas de widgets affichés. Aller à","NoWidgets2":"Configurer les widgets disponibles","StatisticsTitle":"Quelques trucs importants"},"notFound":{"404":"404","pageNotFound":"La page que vous recherchez n'existe pas","backToHome":"De retour à la page d'accueil"},"settings":{"tab":{"Profile":"Profil","Preferences":"Préférences","Users":"Utilisateurs","Roles":"Rôles"},"header":{"UserProfile":"Profil de l'utilisateur","UserPreferences":"Préférences de l'utilisateur","UserDepartments":"Départements d'utilisateurs","UsersManagements":"Gestion des utilisateurs","RolesManagement":"Gestion des rôles"}},"preferences":{"ReloadPreferences":"Recharger les préférences:","ReloadPreferencesHint":"Charger les préférences par défaut (les modifications locales sont rejetées)","Language":"La langue:","English":"Anglais","French":"Français","German":"Allemand","Arabic":"Arabe","Korean":"Coréen","LanguageHint":"Sélectionnez la langue préférée pour votre compte","HomePage":"Page d'accueil:","Dashboard":"Tableau de bord","Customers":"Les clients","Products":"Les produits","Orders":"Les ordres","About":"À propos","Settings":"Paramètres","HomePageHint":"Sélectionnez la page par défaut pour naviguer jusqu'à la connexion","Theme":"Thème:","DefaultColor":"<span class='default-theme-option'>Défaut</span>","RedColor":"<span class='red-theme-option'>Rouge</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Vert</span>","GrayColor":"<span class='gray-theme-option'>Gris</span>","BlackColor":"<span class='black-theme-option'>Noir</span>","ThemeHint":"Sélectionnez le thème de couleur par défaut pour votre compte","DashboardStatistics":"Statistiques du tableau de bord:","DashboardStatisticsHint":"Afficher le widget de graphique de démonstration sur le tableau de bord","DashboardNotifications":"Notifications du tableau de bord:","DashboardNotificationsHint":"Afficher les notifications d'application sur le tableau de bord","DashboardTodo":"Tableau de bord à faire:","DashboardTodoHint":"Afficher le widget de démon tout sur le tableau de bord","DashboardBanner":"Bannière de Tableau de Bord:","DashboardBannerHint":"Afficher le widget de bannière d'information de démonstration sur le tableau de bord","ResetDefault":"Réinitialiser par défaut","SetDefault":"Définir par défaut"},"users":{"management":{"Search":"Rechercher un utilisateur...","NewUser":"Nouvel utilisateur","Edit":"Modif.","Delete":"Supp.","EditUser":"Modifier Utilisateur \"{{name}}\"","Title":"Titre","UserName":"Nom d'utilisateur","FullName":"Nom Complet","Email":"Adresse électronique","Roles":"Les rôles","PhoneNumber":"Numéro de téléphone"},"editor":{"JobTitle":"Profession: ","UserName":"Nom d'utilisateur:","UserNameRequired":"Le nom d'utilisateur est requis (minimum de 2 et maximum de 200 caractères)","Password":"Mot de passe:","PasswordHint":"Votre mot de passe est nécessaire lors de la modification du nom d'utilisateur","CurrentPasswordRequired":"Le mot de passe actuel est requis","Email":"Adresse électronique:","EmailRequired":"L'adresse de courrier électronique est requise (maximum de 200 caractères)","InvalidEmail":"Le courrier électronique spécifié n'est pas valide","ChangePassword":"Changer le mot de passe","CurrentPassword":"Mot de passe actuel:","NewPassword":"Nouveau mot de passe:","NewPasswordRequired":"Un nouveau mot de passe est nécessaire (minimum de 6 caractères)","ConfirmPassword":"Confirmez le mot de passe:","ConfirmationPasswordRequired":"Le mot de passe de confirmation est requis","PasswordMismatch":"Le nouveau mot de passe et le mot de passe de confirmation ne correspondent pas","Roles":"Les rôles:","FullName":" Nom complet:","RoleRequired":"Rôle requis ","PhoneNumber":"Téléphone #:","Enabled":"Activée","Unblock":"Débloquer","Close":"Fermer","Edit":"Modifier","Cancel":"Annuler","Save":"Enregistrer","Saving":"En cours d'enregistrement..."}},"roles":{"management":{"Search":"Recherche rôle...","NewRole":"Nouveau rôle","Edit":"Modifier","Details":"Détails","Delete":"Effacer","RoleDetails":"Détails des rôles ","EditRole":"Modifier Rôle \"{{name}}\"","Name":"Nom","Description":"La description","Users":"Utilisateurs"},"editor":{"Name":"Nom:","Description":"La description:","RoleNameRequired":"Le nom du rôle est requis (minimum de 2 et maximum de 200 caractères)","SelectAll":"Tout sélectionner","SelectNone":"Ne rien sélectionner","Close":"Fermer","Cancel":"Annuler","Save":"Enregistrer","Saving":"En cours d'enregistrement..."}},"notifications":{"Delete":"Supprimer notification","Pin":"Épingler notification","Date":"Date","Notification":"Notification"},"todoDemo":{"management":{"Search":"Rechercher une tâche...","HideCompleted":"Masquer complété","AddTask":"Ajouter une tâche","Delete":"Supprimer la tâche","Important":"Marquer comme important","Task":"Tâche","Description":"Description"},"editor":{"NewTask":"Nouvelle tâche","Name":"Nom","TaskNameRequired":"Le nom de la tâche est requis","Description":"Description","Important":"Marquer comme important","AddTask":"Ajouter une tâche"}}}
 
 /***/ }),
-/* 149 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"Willkommen","Notifications":"Benachrichtigungen","New":"Neu"},"mainMenu":{"Appointments":"Termine","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","About":"Über","Logout":"Abmelden"},"pageHeader":{"Dashboard":"Übersicht","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","NotFound":"Nicht gefunden","About":"Über","Settings":"Einstellungen"},"home":{"NoWidgets1":"Keine Elemente zur Anzeige vorhanden. Gehe zu","NoWidgets2":"um die Anzeige zu konfigurieren","StatisticsTitle":"Irgendwas ganz Wichtiges"},"notFound":{"404":"404","pageNotFound":"Die angeforderte Seite wurde nicht gefunden","backToHome":"Zurück zur Startseite"},"settings":{"tab":{"Profile":"Profil","Preferences":"Einstellungen","Users":"Benutzer","Roles":"Rollen"},"header":{"UserProfile":"Benutzerprofil","UserPreferences":"Benutzereinstellungen","UserDepartments":"Benutzerabteilungen","UsersManagements":"Benutzerverwaltung","RolesManagement":"Rollenverwaltung"}},"preferences":{"ReloadPreferences":"Einstellungen aktualisieren:","ReloadPreferencesHint":"Vorgabeeinstellungen laden (lokale Einstellungen überschreiben)","Language":"Sprache:","English":"English","French":"Französisch","German":"Deutsch","Arabic":"Arabisch","Korean":"Koreanisch","LanguageHint":"Die bevorzugte Anzeigesprache auswählen","HomePage":"Startseite:","Dashboard":"Dashboard","Customers":"Kunden","Products":"Produkte","Orders":"Bestellungen","About":"Über","Settings":"Einstellungen","HomePageHint":"Die Standardseite zur Anzeige nach der Anmeldung wählen","Theme":"Farbschema:","DefaultColor":"<span class='default-theme-option'>Standard</span>","RedColor":"<span class='red-theme-option'>Rot</span>","OrangeColor":"<span class='orange-theme-option'>Orange</span>","GreenColor":"<span class='green-theme-option'>Grün</span>","GrayColor":"<span class='gray-theme-option'>Grau</span>","BlackColor":"<span class='black-theme-option'>Schwarz</span>","ThemeHint":"Das bevorzugte Farbschema wählen","DashboardStatistics":"Dashboard Statistiken:","DashboardStatisticsHint":"Zeigt das Demo-Statistik Element auf dem Dashboard","DashboardNotifications":"Dashboard Benachrichtigungen:","DashboardNotificationsHint":"Zeige Anwendungsbenachrichtigungen auf dem Dashboard","DashboardTodo":"Dashboard Beispielaufgaben:","DashboardTodoHint":"Zeigt das Beispielaufgaben Element auf dem Dashboard","DashboardBanner":"Dashboard Banner:","DashboardBannerHint":"Zeigt das Info-Banner Element auf dem Dashboard","ResetDefault":"Vorgabeeinstellungen","SetDefault":"Als Standard setzen"},"users":{"management":{"Search":"Benutzer suchen...","NewUser":"Neuer Benutzer","Edit":"Bearb.","Delete":"Entf.","EditUser":"Benutzer \"{{name}}\" bearbeiten","Title":"Titel","UserName":"Benutzername","FullName":"Vor- und Nachname","Email":"Email","Roles":"Rollen","PhoneNumber":"Telefon"},"editor":{"JobTitle":"Beruf: ","UserName":"Benutzername:","UserNameRequired":"Ein Benutzername ist erforderlich (mindestens 2, maximal 200 Zeichen)","Password":"Passwort:","PasswordHint":"Passworteingabe ist erforderlich, wenn der Benutzername geändert werden soll","CurrentPasswordRequired":"Aktuelles Passwort ist erforderlich","Email":"Email:","EmailRequired":"Email Adresse ist erforderlich (maximal 200 Zeichen)","InvalidEmail":"Angegebene Email-Adresse ist ungültig","ChangePassword":"Passwort ändern","CurrentPassword":"Aktuelles Passwort:","NewPassword":"Neues Passwort:","NewPasswordRequired":"Neues Passwort ist erforderlich (mindestens 6 Zeichen)","ConfirmPassword":"Passwort bestätigen:","ConfirmationPasswordRequired":"Passwort Bestätigung ist erforderlich","PasswordMismatch":"Die angegebenen Passwörter stimmen nicht überein","Roles":"Rollen:","FullName":"Vollständiger Name:","RoleRequired":" Rolle ist erforderlich","PhoneNumber":"Telefon #:","Enabled":"Aktiviert","Unblock":"Entsperren","Close":"Schliessen","Edit":"Bearbeiten","Cancel":"Abbrechen","Save":"Speichern","Saving":"Speichere..."}},"roles":{"management":{"Search":"Suche nach Rollen...","NewRole":"Neue Rolle","Edit":"Bearb.","Details":"Details","Delete":"Entf.","RoleDetails":"Rollen Details","EditRole":"Rolle \"{{name}}\" bearbeiten","Name":"Name","Description":"Beschreibung","Users":"Benutzer"},"editor":{"Name":"Name:","Description":"Beschreibung:","RoleNameRequired":"Ein Rollenname ist erforderlich (mindestens 2, maximal 200 Zeichen)","SelectAll":"Alle auswählen","SelectNone":"Auswahl aufheben","Close":"Schliessen","Cancel":"Abbrechen","Save":"Speichern","Saving":"Speichere..."}},"notifications":{"Delete":"Benachrichtigung löschen","Pin":"Benachrichtigung anheften","Date":"Datum","Notification":"Benachrichtigung"},"todoDemo":{"management":{"Search":"Suche nach Aufgaben...","HideCompleted":"Abgeschlossene ausblenden","AddTask":"Aufgabe hinzufügen","Delete":"Aufgabe löschen","Important":"Als wichtig markieren","Task":"Aufgabe","Description":"Beschreibung"},"editor":{"NewTask":"Neue Aufgabe","Name":"Name","TaskNameRequired":"Aufgabenname ist erforderlich","Description":"Beschreibung","Important":"Als wichtig markieren","AddTask":"Aufgabe hinzufügen"}}}
 
 /***/ }),
-/* 150 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"أهلا بك","Notifications":"إعلام","New":"جديد"},"mainMenu":{"Appointments":"المواعيد","Customers":"الزبائن","Products":"المنتجات","Orders":"الأوامر","About":"حول منجز التطبيق","Logout":"الخروج"},"pageHeader":{"Dashboard":"لوحة القيادة","Customers":"الزبائن","Products":"المنتجات","Orders":"الأوامر","NotFound":"لا يوجد","About":"حول منجز التطبيق","Settings":"إعدادات"},"home":{"NoWidgets1":"لم يتم عرض أية أدوات. اذهب إلى","NoWidgets2":"لتكوين الأدوات المتاحة","StatisticsTitle":"بعض الاشياء الهامة"},"notFound":{"404":"404","pageNotFound":"الصفحة التي تبحث عنها غير موجودة","backToHome":"العودة إلى لوحة الإستقبال"},"settings":{"tab":{"Profile":"الملف الشخصي","Preferences":"التفضيلات","Users":"المستخدمين","Roles":"الأدوار"},"header":{"UserProfile":"ملف تعريفي للمستخدم","UserPreferences":"خيارات المستخدم","UserDepartments":"أقسام المستخدم","UsersManagements":"إدارة المستخدمين","RolesManagement":"إدارة الأدوار"}},"preferences":{"ReloadPreferences":"إعادة تحميل التفضيلات:","ReloadPreferencesHint":"(تحميل التفضيلات الافتراضية (يتم تجاهل التغييرات المحلية","Language":"لغة:","English":"الإنجليزية","French":"الفرنسية","German":"الألمانية","Arabic":"العربية","Korean":"الكورية","LanguageHint":"اختيار اللغة المفضلة لحسابك","HomePage":"الصفحة الرئيسية:","Dashboard":"لوحة القيادة","Customers":"الزبائن","Products":"منتجات","Orders":"أوامر","About":"حول","Settings":"إعدادات","HomePageHint":"حدد الصفحة الافتراضية للانتقال إلى تسجيل الدخول","Theme":"فكرة رئيسية:","DefaultColor":"<span class='default-theme-option'>اللون المفضل</span>","RedColor":"<span class='red-theme-option'>الأحمر</span>","OrangeColor":"<span class='orange-theme-option'>البرتقالي</span>","GreenColor":"<span class='green-theme-option'>الأخضر</span>","GrayColor":"<span class='gray-theme-option'>الرمادي</span>","BlackColor":"<span class='black-theme-option'>الأسود</span>","ThemeHint":"حدد اللون الافتراضي لحسابك","DashboardStatistics":"إحصائيات لوحة التحكم:","DashboardStatisticsHint":"عرض الرسم البياني التجريبي على لوحة القيادة","DashboardNotifications":"إشعارات لوحة التحكم:","DashboardNotificationsHint":"عرض إشعارات التطبيق على لوحة التحكم","DashboardTodo":"لوحة التحكم للواجبات:","DashboardTodoHint":"يظهر الوحة التجريبية للواجبات على لوحة القيادة","DashboardBanner":"شعار لوحة التحكم:","DashboardBannerHint":"عرض معلومات الراية التجريبية على لوحة القيادة","ResetDefault":"اعادة تشغيل الأصل","SetDefault":"تعيين الأصل"},"users":{"management":{"Search":"البحث عن المستخدم...","NewUser":"مستخدم جديد","Edit":"تصحيح","Delete":"حذف","EditUser":"تحرير العضو \"{{name}}\"","Title":"عنوان","UserName":"اسم المستخدم","FullName":"الإسم الكامل","Email":"البريد الإلكتروني","Roles":"الأدوار","PhoneNumber":"رقم الهاتف"},"editor":{"JobTitle":"المسمى الوظيفي: ","UserName":"اسم المستخدم:","UserNameRequired":"(مطلوب اسم المستخدم (الحد الأدنى من 2 والحد الأقصى 200 حرفا","Password":"كلمة المرور:","PasswordHint":"كلمة المرور مطلوبة عند تغيير اسم المستخدم","CurrentPasswordRequired":"كلمة المرور الحالية مطلوبة","Email":"البريد الإلكتروني:","EmailRequired":"(عنوان البريد الإلكتروني مطلوب (بحد أقصى 200 حرف","InvalidEmail":"البريد الإلكتروني المحدد غير صالح","ChangePassword":"غير كلمة المرور","CurrentPassword":"كلمة المرور الحالية:","NewPassword":"كلمة مرور جديدة:","NewPasswordRequired":"الحد الأدنى من 6 أحرف) مطلوب كلمة مرور)","ConfirmPassword":"تأكيد كلمة المرور:","ConfirmationPasswordRequired":"مطلوب كلمة مرور التأكيد","PasswordMismatch":"لا تتطابق كلمة المرور الجديدة وكلمة مرور التأكيد","Roles":"الأدوار:","FullName":" الإسم الكامل:","RoleRequired":" مطلوب دور","PhoneNumber":"الهاتف #:","Enabled":"تمكين","Unblock":"رفع الحظر","Close":"إغلاق","Edit":"تصحيح","Cancel":"إلغاء","Save":"حفظ","Saving":"جار الحفظ..."}},"roles":{"management":{"Search":"البحث عن دور...","NewRole":"دور جديد","Edit":"تصحيح","Details":"تفاصيل","Delete":"حذف","RoleDetails":"تفاصيل الدور","EditRole":"  تحرير الدور\"{{name}}\"","Name":"اسم","Description":"وصف","Users":"المستخدمين"},"editor":{"Name":"اسم:","Description":"وصف:","RoleNameRequired":"(اسم الدور مطلوب (بحد أدنى 2 و 200 حرف كحد أقصى","SelectAll":"اختر الكل","SelectNone":"لا تختر شيء","Close":"إغلاق","Cancel":"إلغاء","Save":"حفظ","Saving":"جار الحفظ..."}},"notifications":{"Delete":"حذف الإشعار","Pin":"رفع الأولوية","Date":"تاريخ","Notification":"إعلام"},"todoDemo":{"management":{"Search":"البحث عن مهمة...","HideCompleted":"إكتمال الإخفاء","AddTask":"إضافة مهمة","Delete":"حذف المهمة","Important":"وضع علامة كمهمة","Task":"مهمة","Description":"وصف"},"editor":{"NewTask":"مهمة جديدة","Name":"اسم","TaskNameRequired":"مطلوب اسم المهمة","Description":"وصف","Important":"وضع علامة لإظهار الأهمية","AddTask":"إضافة مهمة"}}}
 
 /***/ }),
-/* 151 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {"app":{"Welcome":"환영","Notifications":"알림","New":"새로운"},"mainMenu":{"Appointments":"설비","Customers":"고객","Products":"제작품","Orders":"명령","About":"약","Logout":"로그 아웃"},"pageHeader":{"Dashboard":"계기반","Customers":"고객","Products":"제작품","Orders":"명령","NotFound":"발견되지 않음","About":"약","Settings":"설정"},"home":{"NoWidgets1":"위젯이 표시되지 않았습니다. 고토","NoWidgets2":"사용 가능한 위젯을 구성하는 방법","StatisticsTitle":"중요한 것들"},"notFound":{"404":"404","pageNotFound":"찾고있는 페이지가 존재하지 않습니다.","backToHome":"홈으로"},"settings":{"tab":{"Profile":"윤곽","Preferences":"환경 설정","Users":"사용자","Roles":"역할"},"header":{"UserProfile":"유저 프로필","UserPreferences":"사용자 환경 설정","UserDepartments":"사용자 부서","UsersManagements":"사용자 관리","RolesManagement":"역할 관리"}},"preferences":{"ReloadPreferences":"환경 설정 새로 고침 :","ReloadPreferencesHint":"기본 환경 설정로드 (로컬 변경 사항은 무시됩니다)","Language":"언어:","English":"영어","French":"프랑스 국민","German":"독일어","Arabic":"아라비아 말","Korean":"한국어","LanguageHint":"계정의 기본 언어 선택","HomePage":"홈페이지 :","Dashboard":"계기반","Customers":"고객","Products":"제작품","Orders":"명령","About":"약","Settings":"설정","HomePageHint":"로그인시 이동할 기본 페이지를 선택하십시오.","Theme":"테마:","DefaultColor":"<span class='default-theme-option'>태만</span>","RedColor":"<span class='red-theme-option'>빨간</span>","OrangeColor":"\"<span class='orange-theme-option'>주황색</span>","GreenColor":"<span class='green-theme-option'>녹색</span>","GrayColor":"<span class='gray-theme-option'>회색</span>","BlackColor":"<span class='black-theme-option'>검은</span>","ThemeHint":"계정의 기본 색상 테마 선택","DashboardStatistics":"대시 보드 통계:","DashboardStatisticsHint":"데모 그래프 위젯을 대시 보드에 표시하십시오.","DashboardNotifications":"대시 보드 알림 :","DashboardNotificationsHint":"대시 보드에 애플리케이션 알림 표시","DashboardTodo":"대시 보드 할일:","DashboardTodoHint":"대시 보드에서 데모 할 일 위젯 표시","DashboardBanner":"대시 보드 배너 :","DashboardBannerHint":"데모 정보 배너 위젯을 대시 보드에 표시하십시오.","ResetDefault":"기본값 재설정","SetDefault":"기본값으로 설정"},"users":{"management":{"Search":"사용자 검색...","NewUser":"새로운 사용자","Edit":"편집하다","Delete":"지우다","EditUser":"사용자 편집 \"{{name}}\"","Title":"표제","UserName":"사용자 이름","FullName":"성명","Email":"이메일","Roles":"역할","PhoneNumber":"전화 번호"},"editor":{"JobTitle":"직위: ","UserName":"사용자 이름: ","UserNameRequired":"사용자 이름이 필요합니다 (최소 2 자, 최대 200 자).","Password":"암호:","PasswordHint":"사용자 이름을 변경할 때 암호가 필요합니다.","CurrentPasswordRequired":"현재 비밀번호가 필요합니다.","Email":"이메일:","EmailRequired":"이메일 주소는 필수 사항입니다 (최대 200 자).","InvalidEmail":"지정된 이메일이 유효하지 않습니다.","ChangePassword":"비밀번호 변경","CurrentPassword":"현재 비밀번호:","NewPassword":"새 비밀번호:","NewPasswordRequired":"새 암호가 필요합니다 (최소 6 자).","ConfirmPassword":"비밀번호 확인:","ConfirmationPasswordRequired":"확인 암호가 필요합니다.","PasswordMismatch":"새 비밀번호와 확인 비밀번호가 일치하지 않습니다.","Roles":"역할 :","FullName":"성명 :","RoleRequired":"역할이 필요합니다.","PhoneNumber":"전화 #:","Enabled":"사용","Unblock":"차단 해제","Close":"닫기","Edit":"편집하다","Cancel":"취소","Save":"구하다","Saving":"절약..."}},"roles":{"management":{"Search":"역할 검색...","NewRole":"새로운 역할","Edit":"편집하다","Details":"세부","Delete":"지우다","RoleDetails":"역할 세부 정보","EditRole":"역할 편집 \"{{name}}\"","Name":"이름","Description":"기술","Users":"사용자"},"editor":{"Name":"이름:","Description":"기술:","RoleNameRequired":"역할 이름은 필수 항목입니다 (최소 2 자, 최대 200 자).","SelectAll":"모두 선택","SelectNone":"없음 선택","Close":"닫기","Cancel":"취소","Save":"구하다","Saving":"절약..."}},"notifications":{"Delete":"알림 삭제","Pin":"핀 알림","Date":"날짜","Notification":"공고"},"todoDemo":{"management":{"Search":"할 일 검색...","HideCompleted":"완료 안함","AddTask":"할 일 추가","Delete":"작업 삭제","Important":"중요한 것으로 표시","Task":"태스크","Description":"기술"},"editor":{"NewTask":"새 작업","Name":"이름","TaskNameRequired":"작업 이름이 필요합니다.","Description":"기술","Important":"중요한 것으로 표시","AddTask":"할 일 추가"}}}
 
 /***/ }),
-/* 152 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71861,7 +72048,7 @@ var JwtHelper = /** @class */ (function () {
 
 
 /***/ }),
-/* 153 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71878,115 +72065,115 @@ var UserLogin = /** @class */ (function () {
 
 
 /***/ }),
-/* 154 */
+/* 158 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"vertical-center-flex\">\n    <div class=\"login-container center-block\">\n        <div class=\"panel panel-primary boxshadow\">\n            <div class=\"panel-heading\">\n                <span class=\"glyphicon glyphicon-lock\"></span> Login\n                <button *ngIf=\"isModal\" type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\n                    <span aria-hidden=\"true\">&times;</span>\n                </button>\n            </div>\n            <div class=\"panel-body\">\n                <div class=\"col-md-8 col-md-offset-2\">\n                    <form *ngIf=\"formResetToggle\" class=\"form-horizontal login\" name=\"loginForm\" #f=\"ngForm\" novalidate\n                          (ngSubmit)=\"f.form.valid ? login() :\n                          (!email.valid && showErrorAlert('Email is required', 'Please enter a valid email'));\n                          (!password.valid && showErrorAlert('Password is required', 'Please enter a valid password'))\">\n                        <div class=\"form-group has-feedback\">\n                            <label class=\"control-label col-md-2\" for=\"login-email\">Email:</label>\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && email.valid, 'has-error' : f.submitted && !email.valid}\">\n                                <input type=\"text\" id=\"login-email\" name=\"email\" placeholder=\"Enter email or username\" class=\"form-control\" [(ngModel)]=\"userLogin.email\" #email=\"ngModel\" required />\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': email.valid, 'glyphicon-remove' : !email.valid}\" aria-hidden=\"true\"></span>\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !email.valid\">\n                                    Email is required\n                                </span>\n                            </div>\n                        </div>\n                        <div class=\"form-group has-feedback\">\n                            <label class=\"control-label col-md-2\" for=\"login-password\">Password:</label>\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && password.valid, 'has-error' : f.submitted && !password.valid}\">\n                                <input type=\"password\" id=\"login-password\" name=\"password\" placeholder=\"Enter password\" class=\"form-control\" [(ngModel)]=\"userLogin.password\" #password=\"ngModel\" required />\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': password.valid, 'glyphicon-remove' : !password.valid}\" aria-hidden=\"true\"></span>\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !password.valid\">\n                                    Password is required\n                                </span>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <div class=\"col-md-offset-2 col-md-10\">\n                                <div class=\"checkbox\">\n                                    <label><input type=\"checkbox\" name=\"rememberMe\" [(ngModel)]=\"userLogin.rememberMe\"> Remember me</label>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <div class=\"col-md-offset-2 col-md-10\">\n                                <button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isLoading\"><i *ngIf=\"isLoading\" class='fa fa-circle-o-notch fa-spin'></i> {{isLoading ? 'Loggin in...' : 'Login'}}</button>\n                            </div>\n                        </div>\n\n                        <!--<div *ngIf=\"!isModal\" class=\"col-md-12\">\n                            <hr class=\"separator-hr\" />\n                        </div>\n\n                        <div *ngIf=\"!isModal\" class=\"col-md-12 last-control-group\">\n                            <span>Don't have an account?</span><a href=\"javascript:;\" class=\"btn btn-link\" (click)=\"signUp()\">Sign Up</a>\n                        </div>-->\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
-
-/***/ }),
-/* 155 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(156);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-/* 156 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".boxshadow {\n    position: relative;\n    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);\n    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\n    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\n    padding: 10px;\n    background: white;\n}\n\n\n    .boxshadow::after {\n        content: '';\n        position: absolute;\n        z-index: -1; /* hide shadow behind image */\n        -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\n        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\n        width: 70%;\n        left: 15%; /* one half of the remaining 30% */\n        height: 100px;\n        bottom: 0;\n    }\n\n\n.cardshadow {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n}\n\n\n.separator-hr {\n    margin: 0;\n}\n\n.last-control-group {\n    margin-bottom: -25px;\n}\n\n\n\n@media (min-width: 768px) {\n    .login-container {\n        width: 700px;\n    }\n}\n\n/*@media (min-width: 992px) {\n    .login-container {\n        width: 700px;\n    }\n}*/\n\n@media (min-width: 1200px) {\n    .login-container {\n        width: 730px;\n    }\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 157 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = "<!--<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut]>\r\n      \r\n    </div>\r\n</div>-->\r\n\r\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n    <!-- Indicators -->\r\n    <ol class=\"carousel-indicators\">\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\r\n    </ol>\r\n\r\n    <!-- Wrapper for slides -->\r\n    <div class=\"carousel-inner\" role=\"listbox\">\r\n        <div class=\"item active ms-slide one\">\r\n            <div class=\"ms-cap\">\r\n                <!--<img alt=\"First slide\" src=\"http://placehold.it/1200x675&text=First+slide\">-->\r\n                <div class=\"carousel-caption\">\r\n                    <div class=\"ms-cap-heading\">\r\n                        dotNetNepal\r\n                    </div>\r\n                    <div class=\"ms-cap-body\">\r\n                        <h3>dotConf v1</h3>\r\n                        <p>Hold on <span>dot</span> is coming.</p>\r\n                        <countdown [text]=\"text\" units=\"Year | Month | Days | Hours | Minutes | Seconds\" end=\"December 31,2017\" ></countdown>\r\n                    </div>\r\n                    <div class=\"ms-cap-footer\">\r\n                        <a routerLink=\"/eventdetail\" class=\"btn tn-btn btn-primary\">Event Detail</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n          \r\n        </div>\r\n        <div class=\"item ms-slide two\">\r\n            <!--<img alt=\"Second slide\" src=\"http://placehold.it/1200x675&text=Second+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 2</h3>\r\n                <p>Morbi eget libero quis metus consectetur semper.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide three\">\r\n            <!--<img alt=\"Third slide\" src=\"http://placehold.it/1200x675&text=Third+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 3</h3>\r\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- Controls -->\r\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\r\n        <span class=\"material-icons\">navigate_before</span>\r\n        <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\r\n        <span class=\"material-icons\">navigate_next</span>\r\n        <span class=\"sr-only\">Next</span>\r\n    </a>\r\n</div>\r\n<section class=\"\" id=\"whowe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"row whowe-content\">\r\n                <div class=\"col-md-12\">\r\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\r\n                    <hr class=\"sec-hr\" />\r\n                </div>\r\n                <div class=\"col-md-12\">\r\n                    <div>\r\n                        <div class=\"whowe-detail\">\r\n                            <div class=\"animated slideInDown\">\r\n                                A dotNet Community based in Nepal.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                            </div>\r\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\r\n\r\n                        </div>\r\n                    </div>\r\n                   \r\n\r\n                </div>\r\n\r\n            </div> <!-- row -->\r\n\r\n        </div>\r\n    </div>\r\n</section>\r\n<section id=\"whatwe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\r\n                <hr class=\"sec-hr wow fadeInDown\" />\r\n            </div>\r\n            <div class=\"col-md-12\">\r\n                <div class=\"whatwe-content\">\r\n                    <div class=\"descript wow fadeInDown\">\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"learn\">\r\n                            </div>\r\n                            <p>Learn</p>\r\n                        </div>\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"share\">\r\n                            </div>\r\n                            <p>Share</p>\r\n                        </div>\r\n                        \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"collab\">\r\n                            </div>\r\n\r\n                            <p>Collab</p>\r\n                        </div>\r\n                       \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"repeat\">\r\n                            </div>\r\n                            <p>Repeat</p>\r\n                        </div>\r\n                        <hr class=\"hr\" />\r\n                    </div>\r\n                    <div class=\"text-center\">\r\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n<section id=\"supporters\">\r\n    <div class=\"container\">\r\n        <div class=\"sup-content\">\r\n            <div class=\"content-title\">\r\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\r\n                <hr class=\"sec-hr\" />\r\n            </div>\r\n            <div class=\"content-body\">\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(30) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(20) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </div>\r\n\r\n</section>\r\n\r\n<section id=\"joinus\">\r\n    <div class=\"container\">\r\n        <div class=\"content\">\r\n            <div class=\"wow fadeInDown animation-delay-3\">\r\n                Like our work ?\r\n            </div>\r\n            <div>\r\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n</section>";
-
-/***/ }),
-/* 158 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(159);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
+module.exports = "<div class=\"vertical-center-flex\">\r\n    <div class=\"login-container center-block\">\r\n        <div class=\"panel panel-primary boxshadow\">\r\n            <div class=\"panel-heading\">\r\n                <span class=\"glyphicon glyphicon-lock\"></span> Login\r\n                <button *ngIf=\"isModal\" type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"closeModal()\">\r\n                    <span aria-hidden=\"true\">&times;</span>\r\n                </button>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div class=\"col-md-8 col-md-offset-2\">\r\n                    <form *ngIf=\"formResetToggle\" class=\"form-horizontal login\" name=\"loginForm\" #f=\"ngForm\" novalidate\r\n                          (ngSubmit)=\"f.form.valid ? login() :\r\n                          (!email.valid && showErrorAlert('Email is required', 'Please enter a valid email'));\r\n                          (!password.valid && showErrorAlert('Password is required', 'Please enter a valid password'))\">\r\n                        <div class=\"form-group has-feedback\">\r\n                            <label class=\"control-label col-md-2\" for=\"login-email\">Email:</label>\r\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && email.valid, 'has-error' : f.submitted && !email.valid}\">\r\n                                <input type=\"text\" id=\"login-email\" name=\"email\" placeholder=\"Enter email or username\" class=\"form-control\" [(ngModel)]=\"userLogin.email\" #email=\"ngModel\" required />\r\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': email.valid, 'glyphicon-remove' : !email.valid}\" aria-hidden=\"true\"></span>\r\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !email.valid\">\r\n                                    Email is required\r\n                                </span>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group has-feedback\">\r\n                            <label class=\"control-label col-md-2\" for=\"login-password\">Password:</label>\r\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && password.valid, 'has-error' : f.submitted && !password.valid}\">\r\n                                <input type=\"password\" id=\"login-password\" name=\"password\" placeholder=\"Enter password\" class=\"form-control\" [(ngModel)]=\"userLogin.password\" #password=\"ngModel\" required />\r\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': password.valid, 'glyphicon-remove' : !password.valid}\" aria-hidden=\"true\"></span>\r\n                                <span class=\"errorMessage\" *ngIf=\"f.submitted && !password.valid\">\r\n                                    Password is required\r\n                                </span>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <div class=\"col-md-offset-2 col-md-10\">\r\n                                <div class=\"checkbox\">\r\n                                    <label><input type=\"checkbox\" name=\"rememberMe\" [(ngModel)]=\"userLogin.rememberMe\"> Remember me</label>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <div class=\"col-md-offset-2 col-md-10\">\r\n                                <button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isLoading\"><i *ngIf=\"isLoading\" class='fa fa-circle-o-notch fa-spin'></i> {{isLoading ? 'Loggin in...' : 'Login'}}</button>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!--<div *ngIf=\"!isModal\" class=\"col-md-12\">\r\n                            <hr class=\"separator-hr\" />\r\n                        </div>\r\n\r\n                        <div *ngIf=\"!isModal\" class=\"col-md-12 last-control-group\">\r\n                            <span>Don't have an account?</span><a href=\"javascript:;\" class=\"btn btn-link\" (click)=\"signUp()\">Sign Up</a>\r\n                        </div>-->\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
 
+        var result = __webpack_require__(160);
 
-// module
-exports.push([module.i, "/*dark*/\r\n/*dark*/\r\n.tn-btn {\r\n  border: none;\r\n  border-radius: 0; }\r\n\r\n.tn-btn-pad {\r\n  padding: 10px 40px; }\r\n\r\n.btn-primary:hover {\r\n  background-color: #256ca0;\r\n  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }\r\n\r\n.bottom-space {\r\n  margin-bottom: 40px; }\r\n\r\n.no-bottom-space {\r\n  margin-bottom: 0; }\r\n\r\n.todo-close-btn {\r\n  margin: 0 10px -25px 0;\r\n  position: relative;\r\n  z-index: 1; }\r\n\r\n.banner-close-btn {\r\n  margin: 0 10px -25px 0;\r\n  position: relative;\r\n  z-index: 1; }\r\n\r\n/*carousel*/\r\n.carousel-control {\r\n  background-image: none; }\r\n\r\n.carousel-control .material-icons {\r\n  position: absolute;\r\n  top: 50%; }\r\n\r\n.item.ms-slide {\r\n  min-height: 100vh;\r\n  min-width: 100%; }\r\n\r\n.carousel-caption {\r\n  bottom: auto; }\r\n\r\n.ms-slide.one {\r\n  background: #256CA0;\r\n  position: relative;\r\n  width: 100%;\r\n  top: 0;\r\n  height: 100%; }\r\n  .ms-slide.one .ms-cap {\r\n    position: absolute;\r\n    width: 100%;\r\n    min-height: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center; }\r\n    .ms-slide.one .ms-cap .carousel-caption {\r\n      position: absolute; }\r\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-heading {\r\n        font-size: 7rem;\r\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\r\n        color: #EAF900; }\r\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-body {\r\n        font-size: 2rem;\r\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\r\n        color: #256ca0; }\r\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body h3 {\r\n          font-size: 5rem;\r\n          padding: 15px 20px;\r\n          background: #EAF900;\r\n          text-shadow: none; }\r\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p {\r\n          color: white; }\r\n          .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {\r\n            color: #EAF900; }\r\n\r\n.ms-slide.two {\r\n  background: #256CA0; }\r\n\r\n.ms-slide.three {\r\n  background: #256CA0; }\r\n\r\n/*carousel*/\r\n.sec-title {\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n  color: #256ca0;\r\n  font-weight: 500;\r\n  font-size: 2.5rem; }\r\n\r\n.sec-hr {\r\n  text-align: center;\r\n  width: 25%;\r\n  margin: auto;\r\n  margin-bottom: 20px;\r\n  border: 2px solid #256ca0; }\r\n\r\n#whowe {\r\n  /*background-color:$yellow;*/\r\n  background-image: url(" + __webpack_require__(160) + ");\r\n  background-position: center;\r\n  background-size: cover;\r\n  /*transform:rotate(-15deg) translate(a);*/ }\r\n  #whowe .whowe-content {\r\n    padding-bottom: 20px;\r\n    /*transform:rotate(15deg);*/ }\r\n    #whowe .whowe-content .whowe-detail {\r\n      text-align: center;\r\n      font-weight: lighter;\r\n      font-size: 2rem;\r\n      text-align: justify;\r\n      text-align-last: center; }\r\n      #whowe .whowe-content .whowe-detail a {\r\n        margin-top: 10px;\r\n        text-align: center; }\r\n\r\n/*who we*/\r\n/*whatwe*/\r\n#whatwe {\r\n  background: #53a025;\r\n  padding: 15px 0;\r\n  min-height: 100%; }\r\n  #whatwe .sec-title {\r\n    color: white; }\r\n  #whatwe .sec-hr {\r\n    border-color: white; }\r\n  #whatwe .whatwe-content .descript {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin-bottom: 10px;\r\n    position: relative; }\r\n    #whatwe .whatwe-content .descript:before {\r\n      content: '';\r\n      border: 1px solid red; }\r\n    #whatwe .whatwe-content .descript .descriptbox {\r\n      height: 100px;\r\n      width: 100px;\r\n      border-radius: 5px;\r\n      margin-left: 15px;\r\n      padding: 15px;\r\n      padding-bottom: 0;\r\n      background: #079007;\r\n      color: white;\r\n      display: flex;\r\n      align-items: center;\r\n      justify-content: center;\r\n      flex-direction: column;\r\n      /*border: 1px solid white;*/\r\n      z-index: 2; }\r\n      #whatwe .whatwe-content .descript .descriptbox:not(:first-child) {\r\n        margin-left: 10px; }\r\n      #whatwe .whatwe-content .descript .descriptbox .learn {\r\n        background: url(" + __webpack_require__(161) + ");\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        filter: invert(90%);\r\n        /*//filter:drop-shadow(16px 16px 20px black);*/ }\r\n      #whatwe .whatwe-content .descript .descriptbox .share {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(162) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox .collab {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(163) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox .repeat {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(164) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox p {\r\n        font-size: 2rem; }\r\n    #whatwe .whatwe-content .descript .hr {\r\n      position: absolute;\r\n      min-width: 50%;\r\n      bottom: 30%;\r\n      border-top: 2px solid white; }\r\n\r\n/*joinus*/\r\n#joinus {\r\n  padding: 20px;\r\n  background-color: #53a025;\r\n  /*// background:url(../images/backgrounds/sunrise.jpeg);*/\r\n  background-position-y: 50%;\r\n  margin-bottom: -30px;\r\n  min-height: 180px;\r\n  display: flex;\r\n  align-items: center; }\r\n  #joinus .content {\r\n    text-align: center;\r\n    font-size: 25px;\r\n    font-weight: lighter;\r\n    color: white;\r\n    /*span{\r\n            padding:10px 15px;\r\n            background:$yellow;\r\n        }*/ }\r\n    #joinus .content button {\r\n      margin-top: 10px; }\r\n\r\n/*joinus*/\r\n/*supporter*/\r\n#supporters .sup-content .content-title {\r\n  font-size: 3rem; }\r\n\r\n#supporters .sup-content .content-body {\r\n  padding: 15px 0;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  align-items: center; }\r\n  #supporters .sup-content .content-body a {\r\n    margin: 0 15px;\r\n    margin-bottom: 15px;\r\n    flex-basis: auto;\r\n    text-decoration: none; }\r\n    #supporters .sup-content .content-body a img {\r\n      height: 150px;\r\n      border-radius: 50%; }\r\n    #supporters .sup-content .content-body a .name {\r\n      text-align: center;\r\n      font-size: 2rem;\r\n      color: #53a025;\r\n      padding-top: 10px; }\r\n      #supporters .sup-content .content-body a .name:hover {\r\n        color: rgba(0, 0, 0, 0.5); }\r\n\r\n/*supporter*/\r\n\r\n", ""]);
-
-// exports
-
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
 
 /***/ }),
 /* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f1bb862a039f3a919e908050e7a05f72.png";
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".boxshadow {\r\n    position: relative;\r\n    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);\r\n    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\r\n    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);\r\n    padding: 10px;\r\n    background: white;\r\n}\r\n\r\n\r\n    .boxshadow::after {\r\n        content: '';\r\n        position: absolute;\r\n        z-index: -1; /* hide shadow behind image */\r\n        -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\r\n        -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\r\n        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);\r\n        width: 70%;\r\n        left: 15%; /* one half of the remaining 30% */\r\n        height: 100px;\r\n        bottom: 0;\r\n    }\r\n\r\n\r\n.cardshadow {\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n}\r\n\r\n\r\n.separator-hr {\r\n    margin: 0;\r\n}\r\n\r\n.last-control-group {\r\n    margin-bottom: -25px;\r\n}\r\n\r\n\r\n\r\n@media (min-width: 768px) {\r\n    .login-container {\r\n        width: 700px;\r\n    }\r\n}\r\n\r\n/*@media (min-width: 992px) {\r\n    .login-container {\r\n        width: 700px;\r\n    }\r\n}*/\r\n\r\n@media (min-width: 1200px) {\r\n    .login-container {\r\n        width: 730px;\r\n    }\r\n}\r\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 161 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = "<!--<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-tachometer fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Dashboard' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut]>\r\n      \r\n    </div>\r\n</div>-->\r\n\r\n<div id=\"ms-dotCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n    <!-- Indicators -->\r\n    <ol class=\"carousel-indicators\">\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"0\" class=\"active\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"1\"></li>\r\n        <li data-target=\"#ms-dotCarousel\" data-slide-to=\"2\"></li>\r\n    </ol>\r\n\r\n    <!-- Wrapper for slides -->\r\n    <div class=\"carousel-inner\" role=\"listbox\">\r\n        <div class=\"item active ms-slide one\">\r\n            <div class=\"ms-cap\">\r\n                <!--<img alt=\"First slide\" src=\"http://placehold.it/1200x675&text=First+slide\">-->\r\n                <div class=\"carousel-caption\">\r\n                    <div class=\"ms-cap-heading\">\r\n                        dotNetNepal\r\n                    </div>\r\n                    <div class=\"ms-cap-body\">\r\n                        <h3>dotConf v1</h3>\r\n                        <p>Hold on <span>dot</span> is coming.</p>\r\n                    </div>\r\n                    <div class=\"ms-cap-footer\">\r\n                        <a routerLink=\"/eventdetail\" class=\"btn tn-btn btn-primary\">Event Detail</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n          \r\n        </div>\r\n        <div class=\"item ms-slide two\">\r\n            <!--<img alt=\"Second slide\" src=\"http://placehold.it/1200x675&text=Second+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 2</h3>\r\n                <p>Morbi eget libero quis metus consectetur semper.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"item ms-slide three\">\r\n            <!--<img alt=\"Third slide\" src=\"http://placehold.it/1200x675&text=Third+slide\">-->\r\n            <div class=\"carousel-caption\">\r\n                <h3>Caption heading 3</h3>\r\n                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- Controls -->\r\n    <a class=\"left carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"prev\">\r\n        <span class=\"material-icons\">navigate_before</span>\r\n        <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"right carousel-control\" href=\"#ms-dotCarousel\" role=\"button\" data-slide=\"next\">\r\n        <span class=\"material-icons\">navigate_next</span>\r\n        <span class=\"sr-only\">Next</span>\r\n    </a>\r\n</div>\r\n<section class=\"\" id=\"whowe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"row whowe-content\">\r\n                <div class=\"col-md-12\">\r\n                    <h2 class=\"sec-title\">Who We Are <br> </h2>\r\n                    <hr class=\"sec-hr\" />\r\n                </div>\r\n                <div class=\"col-md-12\">\r\n                    <div>\r\n                        <div class=\"whowe-detail\">\r\n                            <div class=\"animated slideInDown\">\r\n                                A dotNet Community based in Nepal.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.\r\n                            </div>\r\n                            <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn animated-2x slideInDown\">Know More</a>\r\n\r\n                        </div>\r\n                    </div>\r\n                   \r\n\r\n                </div>\r\n\r\n            </div> <!-- row -->\r\n\r\n        </div>\r\n    </div>\r\n</section>\r\n<section id=\"whatwe\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <h2 class=\"sec-title wow fadeInDown\">What we do </h2>\r\n                <hr class=\"sec-hr wow fadeInDown\" />\r\n            </div>\r\n            <div class=\"col-md-12\">\r\n                <div class=\"whatwe-content\">\r\n                    <div class=\"descript wow fadeInDown\">\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"learn\">\r\n                            </div>\r\n                            <p>Learn</p>\r\n                        </div>\r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"share\">\r\n                            </div>\r\n                            <p>Share</p>\r\n                        </div>\r\n                        \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"collab\">\r\n                            </div>\r\n\r\n                            <p>Collab</p>\r\n                        </div>\r\n                       \r\n                        <div class=\"descriptbox\">\r\n                            <div class=\"repeat\">\r\n                            </div>\r\n                            <p>Repeat</p>\r\n                        </div>\r\n                        <hr class=\"hr\" />\r\n                    </div>\r\n                    <div class=\"text-center\">\r\n                        <a href=\"#!\" class=\"btn btn-primary btn-lg tn-btn tn-btn-pad wow fadeInDown\">More</a>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n<section id=\"supporters\">\r\n    <div class=\"container\">\r\n        <div class=\"sup-content\">\r\n            <div class=\"content-title\">\r\n                <h2 class=\"sec-title\">Our Supporters<br> </h2>\r\n                <hr class=\"sec-hr\" />\r\n            </div>\r\n            <div class=\"content-body\">\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(32) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n                <a href=\"#\">\r\n                    <img src=\"" + __webpack_require__(22) + "\" alt=\"\" />\r\n                    <div class=\"name\">\r\n                        Supporter 1\r\n                    </div>\r\n                </a>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </div>\r\n\r\n</section>\r\n\r\n<section id=\"joinus\">\r\n    <div class=\"container\">\r\n        <div class=\"content\">\r\n            <div class=\"wow fadeInDown animation-delay-3\">\r\n                Like our work ?\r\n            </div>\r\n            <div>\r\n                <button class=\"btn btn-primary tn-btn tn-btn-pad wow fadeInDown\">Join in</button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </div>\r\n</section>";
+
+/***/ }),
+/* 162 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(163);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 163 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/*dark*/\r\n/*dark*/\r\n.tn-btn {\r\n  border: none;\r\n  border-radius: 0; }\r\n\r\n.tn-btn-pad {\r\n  padding: 10px 40px; }\r\n\r\n.btn-primary:hover {\r\n  background-color: #256ca0;\r\n  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }\r\n\r\n.bottom-space {\r\n  margin-bottom: 40px; }\r\n\r\n.no-bottom-space {\r\n  margin-bottom: 0; }\r\n\r\n.todo-close-btn {\r\n  margin: 0 10px -25px 0;\r\n  position: relative;\r\n  z-index: 1; }\r\n\r\n.banner-close-btn {\r\n  margin: 0 10px -25px 0;\r\n  position: relative;\r\n  z-index: 1; }\r\n\r\n/*carousel*/\r\n.carousel-control {\r\n  background-image: none; }\r\n\r\n.carousel-control .material-icons {\r\n  position: absolute;\r\n  top: 50%; }\r\n\r\n.item.ms-slide {\r\n  min-height: 100vh;\r\n  min-width: 100%; }\r\n\r\n.carousel-caption {\r\n  bottom: auto; }\r\n\r\n.ms-slide.one {\r\n  background: #256CA0;\r\n  position: relative;\r\n  width: 100%;\r\n  top: 0;\r\n  height: 100%; }\r\n  .ms-slide.one .ms-cap {\r\n    position: absolute;\r\n    width: 100%;\r\n    min-height: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center; }\r\n    .ms-slide.one .ms-cap .carousel-caption {\r\n      position: absolute; }\r\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-heading {\r\n        font-size: 7rem;\r\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\r\n        color: #EAF900; }\r\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-body {\r\n        font-size: 2rem;\r\n        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.22);\r\n        color: #256ca0; }\r\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body h3 {\r\n          font-size: 5rem;\r\n          padding: 15px 20px;\r\n          background: #EAF900;\r\n          text-shadow: none; }\r\n        .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p {\r\n          color: white; }\r\n          .ms-slide.one .ms-cap .carousel-caption .ms-cap-body p span {\r\n            color: #EAF900; }\r\n      .ms-slide.one .ms-cap .carousel-caption .ms-cap-footer {\r\n        margin-top: 25px; }\r\n\r\n.ms-slide.two {\r\n  background: #256CA0; }\r\n\r\n.ms-slide.three {\r\n  background: #256CA0; }\r\n\r\n/*carousel*/\r\n.sec-title {\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n  color: #256ca0;\r\n  font-weight: 500;\r\n  font-size: 2.5rem; }\r\n\r\n.sec-hr {\r\n  text-align: center;\r\n  width: 25%;\r\n  margin: auto;\r\n  margin-bottom: 20px;\r\n  border: 2px solid #256ca0; }\r\n\r\n#whowe {\r\n  /*background-color:$yellow;*/\r\n  background-image: url(" + __webpack_require__(164) + ");\r\n  background-position: center;\r\n  background-size: cover;\r\n  /*transform:rotate(-15deg) translate(a);*/ }\r\n  #whowe .whowe-content {\r\n    padding-bottom: 20px;\r\n    /*transform:rotate(15deg);*/ }\r\n    #whowe .whowe-content .whowe-detail {\r\n      text-align: center;\r\n      font-weight: lighter;\r\n      font-size: 2rem;\r\n      text-align: justify;\r\n      text-align-last: center; }\r\n      #whowe .whowe-content .whowe-detail a {\r\n        margin-top: 10px;\r\n        text-align: center; }\r\n\r\n/*who we*/\r\n/*whatwe*/\r\n#whatwe {\r\n  background: #53a025;\r\n  padding: 15px 0;\r\n  min-height: 100%; }\r\n  #whatwe .sec-title {\r\n    color: white; }\r\n  #whatwe .sec-hr {\r\n    border-color: white; }\r\n  #whatwe .whatwe-content .descript {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin-bottom: 10px;\r\n    position: relative; }\r\n    #whatwe .whatwe-content .descript:before {\r\n      content: '';\r\n      border: 1px solid red; }\r\n    #whatwe .whatwe-content .descript .descriptbox {\r\n      height: 100px;\r\n      width: 100px;\r\n      border-radius: 5px;\r\n      margin-left: 15px;\r\n      padding: 15px;\r\n      padding-bottom: 0;\r\n      background: #079007;\r\n      color: white;\r\n      display: flex;\r\n      align-items: center;\r\n      justify-content: center;\r\n      flex-direction: column;\r\n      /*border: 1px solid white;*/\r\n      z-index: 2; }\r\n      #whatwe .whatwe-content .descript .descriptbox:not(:first-child) {\r\n        margin-left: 10px; }\r\n      #whatwe .whatwe-content .descript .descriptbox .learn {\r\n        background: url(" + __webpack_require__(165) + ");\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        filter: invert(90%);\r\n        /*//filter:drop-shadow(16px 16px 20px black);*/ }\r\n      #whatwe .whatwe-content .descript .descriptbox .share {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(166) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox .collab {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(167) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox .repeat {\r\n        background-repeat: no-repeat;\r\n        padding: 25px;\r\n        background: url(" + __webpack_require__(168) + ");\r\n        filter: invert(90%); }\r\n      #whatwe .whatwe-content .descript .descriptbox p {\r\n        font-size: 2rem; }\r\n    #whatwe .whatwe-content .descript .hr {\r\n      position: absolute;\r\n      min-width: 50%;\r\n      bottom: 30%;\r\n      border-top: 2px solid white; }\r\n\r\n/*joinus*/\r\n#joinus {\r\n  padding: 20px;\r\n  background-color: #53a025;\r\n  /*// background:url(../images/backgrounds/sunrise.jpeg);*/\r\n  background-position-y: 50%;\r\n  margin-bottom: -30px;\r\n  min-height: 180px;\r\n  display: flex;\r\n  align-items: center; }\r\n  #joinus .content {\r\n    text-align: center;\r\n    font-size: 25px;\r\n    font-weight: lighter;\r\n    color: white;\r\n    /*span{\r\n            padding:10px 15px;\r\n            background:$yellow;\r\n        }*/ }\r\n    #joinus .content button {\r\n      margin-top: 10px; }\r\n\r\n/*joinus*/\r\n/*supporter*/\r\n#supporters .sup-content .content-title {\r\n  font-size: 3rem; }\r\n\r\n#supporters .sup-content .content-body {\r\n  padding: 15px 0;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  align-items: center; }\r\n  #supporters .sup-content .content-body a {\r\n    margin: 0 15px;\r\n    margin-bottom: 15px;\r\n    flex-basis: auto;\r\n    text-decoration: none; }\r\n    #supporters .sup-content .content-body a img {\r\n      height: 150px;\r\n      border-radius: 50%; }\r\n    #supporters .sup-content .content-body a .name {\r\n      text-align: center;\r\n      font-size: 2rem;\r\n      color: #53a025;\r\n      padding-top: 10px; }\r\n      #supporters .sup-content .content-body a .name:hover {\r\n        color: rgba(0, 0, 0, 0.5); }\r\n\r\n/*supporter*/\r\n/*footer*/\r\n.footer {\r\n  padding-top: 30px; }\r\n\r\n/*footer*/\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 164 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f1bb862a039f3a919e908050e7a05f72.png";
+
+/***/ }),
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI5Ny4wMDEgMjk3LjAwMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjk3LjAwMSAyOTcuMDAxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTI4Ny4wMzQsNjAuODczbC0yMC44MTktMC4wMDFWMzkuMzIxYzAtNC45MzQtMy42MS05LjEyNi04LjQ5LTkuODU2Yy0wLjg1Mi0wLjEyOC0yMS4xMzQtMy4wNzQtNDUuNTU3LDEuMzcNCgkJCWMtMjcuMjI3LDQuOTU0LTQ4Ljk0MSwxNy4xNzEtNjMuNjY4LDM1LjY0Yy0xNC43MjgtMTguNDY5LTM2LjQ0Mi0zMC42ODYtNjMuNjY4LTM1LjY0Yy0yNC40MjQtNC40NDMtNDQuNzA2LTEuNDk4LTQ1LjU1Ny0xLjM3DQoJCQljLTQuODgsMC43MzEtOC40OSw0LjkyMy04LjQ5LDkuODU2djIxLjU1MUg5Ljk2NkM0LjQ2Myw2MC44NzIsMCw2NS4zMzUsMCw3MC44Mzl2MTg3LjgwNWMwLDMuMjI3LDEuNTYyLDYuMjU0LDQuMTkzLDguMTI0DQoJCQlzNi4wMDQsMi4zNSw5LjA1MSwxLjI4OGMwLjc0OC0wLjI1OSw3NS40MzEtMjUuNzQ3LDEzMS4xMi0wLjM0NWMyLjYyOCwxLjE5OSw1LjY0NSwxLjE5OSw4LjI3MywwDQoJCQljNTUuNTMzLTI1LjMzLDEzMC4zNzYsMC4wODgsMTMxLjEyLDAuMzQ1YzEuMDY4LDAuMzcyLDIuMTc0LDAuNTU1LDMuMjc2LDAuNTU1YzIuMDQzLDAsNC4wNjUtMC42MjgsNS43NzUtMS44NDINCgkJCWMyLjYzMS0xLjg3LDQuMTkzLTQuODk3LDQuMTkzLTguMTI0VjcwLjg0QzI5Nyw2NS4zMzYsMjkyLjUzOCw2MC44NzMsMjg3LjAzNCw2MC44NzN6IE0xOS45MzMsMjQ1LjMwOVY4MC44MDVoMTAuODUydjEzMi43MjYNCgkJCWMwLDIuODk2LDEuMjY3LDUuNjQ2LDMuNDU4LDcuNTM5YzIuMTkxLDEuODkzLDUuMTA1LDIuNzQyLDcuOTY5LDIuMzE5YzAuNTUtMC4wOCw0My44NDYtNi4wMjQsNzUuNDc4LDE1LjY3OQ0KCQkJQzc4LjcyNSwyMzIuNDA1LDM5LjcyNywyNDAuMTEyLDE5LjkzMywyNDUuMzA5eiBNMTM4LjUzNCwyMzAuMDhjLTEzLjkzMi0xMi41ODgtMzIuMDc5LTIxLjEtNTMuNzAyLTI1LjAzNA0KCQkJYy0xMC40MDYtMS44OTQtMjAuMDYtMi40NDYtMjcuNzgtMi40NDZjLTIuMjkyLDAtNC40MTQsMC4wNDktNi4zMzMsMC4xMjZWNDguNDczaC0wLjAwMWMxOS4xNTUtMC44NjQsNjUuNzUyLDEuMTg0LDg3LjgxNiwzOC41ODcNCgkJCVYyMzAuMDh6IE0xNTguNDY2LDg3LjA2MWMyMS45ODUtMzcuMjQzLDY4LjY1NS0zOS4zODQsODcuODE2LTM4LjU2M3YxNTQuMjI4Yy04LjM4My0wLjMzOC0yMC42Mi0wLjEzNi0zNC4xMTQsMi4zMg0KCQkJYy0yMS42MjMsMy45MzQtMzkuNzcsMTIuNDQ1LTUzLjcwMiwyNS4wMzRWODcuMDYxeiBNMTc5LjI3NywyMzkuMDc0YzMxLjYzNi0yMS43MTYsNzQuOTU1LTE1Ljc2Niw3NS40OTUtMTUuNjg2DQoJCQljMi44NzEsMC40MzEsNS43ODMtMC40MTMsNy45ODEtMi4zMDVjMi4xOTgtMS44OTQsMy40NjItNC42NSwzLjQ2Mi03LjU1MlY4MC44MDZoMTAuODUydjE2NC41MDMNCgkJCUMyNTcuMjY3LDI0MC4xMSwyMTguMjUzLDIzMi40LDE3OS4yNzcsMjM5LjA3NHoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 162 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTguOTk1IDU4Ljk5NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTguOTk1IDU4Ljk5NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZD0iTTM5LjkyNyw0MS45MjljLTAuNTI0LDAuNTI0LTAuOTc1LDEuMS0xLjM2NSwxLjcwOWwtMTcuMjgtMTAuNDg5YzAuNDU3LTEuMTQ0LDAuNzE2LTIuMzg4LDAuNzE2LTMuNjkzDQoJYzAtMS4zMDUtMC4yNTktMi41NDktMC43MTUtMy42OTNsMTcuMjg0LTEwLjQwOUM0MC4zNDIsMTguMTQyLDQzLjQ1NCwyMCw0Ni45OTgsMjBjNS41MTQsMCwxMC00LjQ4NiwxMC0xMHMtNC40ODYtMTAtMTAtMTANCglzLTEwLDQuNDg2LTEwLDEwYzAsMS4yNTYsMC4yNDMsMi40NTQsMC42NjcsMy41NjJMMjAuMzU4LDIzLjk4NWMtMS43ODgtMi43MjQtNC44NjYtNC41MjktOC4zNjEtNC41MjljLTUuNTE0LDAtMTAsNC40ODYtMTAsMTANCglzNC40ODYsMTAsMTAsMTBjMy40OTUsMCw2LjU3Mi0xLjgwNSw4LjM2LTQuNTI5TDM3LjY2MSw0NS40M2MtMC40MywxLjEyNi0wLjY2NCwyLjMyOS0wLjY2NCwzLjU3YzAsMi42NzEsMS4wNCw1LjE4MywyLjkyOSw3LjA3MQ0KCWMxLjk0OSwxLjk0OSw0LjUxLDIuOTI0LDcuMDcxLDIuOTI0czUuMTIyLTAuOTc1LDcuMDcxLTIuOTI0YzEuODg5LTEuODg5LDIuOTI5LTQuNCwyLjkyOS03LjA3MXMtMS4wNC01LjE4My0yLjkyOS03LjA3MQ0KCUM1MC4xNjksMzguMDI5LDQzLjgyNiwzOC4wMjksMzkuOTI3LDQxLjkyOXogTTQ2Ljk5OCwyYzQuNDExLDAsOCwzLjU4OSw4LDhzLTMuNTg5LDgtOCw4cy04LTMuNTg5LTgtOFM0Mi41ODYsMiw0Ni45OTgsMnoNCgkgTTExLjk5OCwzNy40NTZjLTQuNDExLDAtOC0zLjU4OS04LThzMy41ODktOCw4LThzOCwzLjU4OSw4LDhTMTYuNDA5LDM3LjQ1NiwxMS45OTgsMzcuNDU2eiBNNTIuNjU0LDU0LjY1Nw0KCWMtMy4xMTksMy4xMTktOC4xOTQsMy4xMTktMTEuMzEzLDBjLTEuNTExLTEuNTExLTIuMzQzLTMuNTIxLTIuMzQzLTUuNjU3czAuODMyLTQuMTQ2LDIuMzQzLTUuNjU3DQoJYzEuNTYtMS41NiwzLjYwOC0yLjMzOSw1LjY1Ny0yLjMzOXM0LjA5NywwLjc3OSw1LjY1NywyLjMzOWMxLjUxMSwxLjUxMSwyLjM0MywzLjUyMSwyLjM0Myw1LjY1N1M1NC4xNjYsNTMuMTQ2LDUyLjY1NCw1NC42NTd6Ii8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 163 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQ2OS4zMzMgNDY5LjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDY5LjMzMyA0NjkuMzMzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Zz4NCgkJPGc+DQoJCQk8cGF0aCBkPSJNMjM0LjY2NywxMDYuNjY3YzI5LjQwNiwwLDUzLjMzMy0yMy45MjcsNTMuMzMzLTUzLjMzM1MyNjQuMDczLDAsMjM0LjY2Nywwcy01My4zMzMsMjMuOTI3LTUzLjMzMyw1My4zMzMNCgkJCQlTMjA1LjI2LDEwNi42NjcsMjM0LjY2NywxMDYuNjY3eiBNMjM0LjY2NywyMS4zMzNjMTcuNjQ2LDAsMzIsMTQuMzU0LDMyLDMyYzAsMTcuNjQ2LTE0LjM1NCwzMi0zMiwzMnMtMzItMTQuMzU0LTMyLTMyDQoJCQkJQzIwMi42NjcsMzUuNjg3LDIxNy4wMjEsMjEuMzMzLDIzNC42NjcsMjEuMzMzeiIvPg0KCQkJPHBhdGggZD0iTTE2MS41MjEsMjEzLjMzM2gxNDYuMjkyYzEyLjYwNCwwLDIyLjg1NC0xMS4wNjMsMjIuODU0LTI0LjY2N3YtNi44MzNjMC0xNy44MjMtOC44MjMtMzQuMTA0LTIzLjA0Mi00Mi40OQ0KCQkJCWMtMTcuMDMxLTEwLjA0Mi00My41MS0yMi4wMS03Mi45NTgtMjIuMDFzLTU1LjkyNywxMS45NjktNzIuOTU4LDIyLjAxYy0xNC4yMTksOC4zODUtMjMuMDQyLDI0LjY2Ny0yMy4wNDIsNDIuNDl2Ni44MzMNCgkJCQlDMTM4LjY2NywyMDIuMjcxLDE0OC45MTcsMjEzLjMzMywxNjEuNTIxLDIxMy4zMzN6IE0xNjAsMTgxLjgzM2MwLTEwLjE1Niw0LjkyNy0xOS42MTUsMTIuNTQyLTI0LjExNQ0KCQkJCWMxNC43NC04LjY4OCwzNy40OS0xOS4wNTIsNjIuMTI1LTE5LjA1MnM0Ny4zODUsMTAuMzY1LDYyLjEyNSwxOS4wNTJjNy42MTUsNC41LDEyLjU0MiwxMy45NTgsMTIuNTQyLDI0LjExNXY2LjgzMw0KCQkJCWMwLDIuMjE5LTEuMjYsMy4zMzMtMS41MjEsMy4zMzNIMTYxLjUyMWMtMC4yNiwwLTEuNTIxLTEuMTE1LTEuNTIxLTMuMzMzVjE4MS44MzN6Ii8+DQoJCQk8cGF0aCBkPSJNOTYsMzYyLjY2N2MyOS40MDYsMCw1My4zMzMtMjMuOTI3LDUzLjMzMy01My4zMzNTMTI1LjQwNiwyNTYsOTYsMjU2cy01My4zMzMsMjMuOTI3LTUzLjMzMyw1My4zMzMNCgkJCQlTNjYuNTk0LDM2Mi42NjcsOTYsMzYyLjY2N3ogTTk2LDI3Ny4zMzNjMTcuNjQ2LDAsMzIsMTQuMzU0LDMyLDMyYzAsMTcuNjQ2LTE0LjM1NCwzMi0zMiwzMmMtMTcuNjQ2LDAtMzItMTQuMzU0LTMyLTMyDQoJCQkJQzY0LDI5MS42ODcsNzguMzU0LDI3Ny4zMzMsOTYsMjc3LjMzM3oiLz4NCgkJCTxwYXRoIGQ9Ik0xNjguOTU4LDM5NS4zNDRjLTE3LjAzMS0xMC4wNDItNDMuNTEtMjIuMDEtNzIuOTU4LTIyLjAxYy0yOS40NDgsMC01NS45MjcsMTEuOTY5LTcyLjk1OCwyMi4wMQ0KCQkJCUM4LjgyMyw0MDMuNzI5LDAsNDIwLjAxLDAsNDM3LjgzM3Y2LjgzM2MwLDEzLjYwNCwxMC4yNSwyNC42NjcsMjIuODU0LDI0LjY2N2gxNDYuMjkyYzEyLjYwNCwwLDIyLjg1NC0xMS4wNjMsMjIuODU0LTI0LjY2Nw0KCQkJCXYtNi44MzNDMTkyLDQyMC4wMSwxODMuMTc3LDQwMy43MjksMTY4Ljk1OCwzOTUuMzQ0eiBNMTcwLjY2Nyw0NDQuNjY3YzAsMi4yMTktMS4yNiwzLjMzMy0xLjUyMSwzLjMzM0gyMi44NTQNCgkJCQljLTAuMjYsMC0xLjUyMS0xLjExNS0xLjUyMS0zLjMzM3YtNi44MzNjMC0xMC4xNTYsNC45MjctMTkuNjE1LDEyLjU0Mi0yNC4xMTVjMTQuNzQtOC42ODgsMzcuNDktMTkuMDUyLDYyLjEyNS0xOS4wNTINCgkJCQljMjQuNjM1LDAsNDcuMzg1LDEwLjM2NSw2Mi4xMjUsMTkuMDUyYzcuNjE1LDQuNSwxMi41NDIsMTMuOTU4LDEyLjU0MiwyNC4xMTVWNDQ0LjY2N3oiLz4NCgkJCTxwYXRoIGQ9Ik0zNzMuMzMzLDM2Mi42NjdjMjkuNDA2LDAsNTMuMzMzLTIzLjkyNyw1My4zMzMtNTMuMzMzUzQwMi43NCwyNTYsMzczLjMzMywyNTZTMzIwLDI3OS45MjcsMzIwLDMwOS4zMzMNCgkJCQlTMzQzLjkyNywzNjIuNjY3LDM3My4zMzMsMzYyLjY2N3ogTTM3My4zMzMsMjc3LjMzM2MxNy42NDYsMCwzMiwxNC4zNTQsMzIsMzJjMCwxNy42NDYtMTQuMzU0LDMyLTMyLDMycy0zMi0xNC4zNTQtMzItMzINCgkJCQlDMzQxLjMzMywyOTEuNjg3LDM1NS42ODgsMjc3LjMzMywzNzMuMzMzLDI3Ny4zMzN6Ii8+DQoJCQk8cGF0aCBkPSJNNDQ2LjI5MiwzOTUuMzQ0Yy0xNy4wMzEtMTAuMDQyLTQzLjUxLTIyLjAxLTcyLjk1OC0yMi4wMXMtNTUuOTI3LDExLjk2OS03Mi45NTgsMjIuMDENCgkJCQljLTE0LjIxOSw4LjM4NS0yMy4wNDIsMjQuNjY3LTIzLjA0Miw0Mi40OXY2LjgzM2MwLDEzLjYwNCwxMC4yNSwyNC42NjcsMjIuODU0LDI0LjY2N2gxNDYuMjkyDQoJCQkJYzEyLjYwNCwwLDIyLjg1NC0xMS4wNjMsMjIuODU0LTI0LjY2N3YtNi44MzNDNDY5LjMzMyw0MjAuMDEsNDYwLjUxLDQwMy43MjksNDQ2LjI5MiwzOTUuMzQ0eiBNNDQ4LDQ0NC42NjcNCgkJCQljMCwyLjIxOS0xLjI2LDMuMzMzLTEuNTIxLDMuMzMzSDMwMC4xODdjLTAuMjYsMC0xLjUyMS0xLjExNS0xLjUyMS0zLjMzM3YtNi44MzNjMC0xMC4xNTYsNC45MjctMTkuNjE1LDEyLjU0Mi0yNC4xMTUNCgkJCQljMTQuNzQtOC42ODgsMzcuNDktMTkuMDUyLDYyLjEyNS0xOS4wNTJzNDcuMzg1LDEwLjM2NSw2Mi4xMjUsMTkuMDUyYzcuNjE1LDQuNSwxMi41NDIsMTMuOTU4LDEyLjU0MiwyNC4xMTVWNDQ0LjY2N3oiLz4NCgkJCTxwYXRoIGQ9Ik0yODcuOTksMzYyLjY2N2MzLjEzNSwwLDYuMjI5LTEuMzc1LDguMzQ0LTRjMy42NzctNC42MDQsMi45MjctMTEuMzEzLTEuNjY3LTE1bC00OS4zMzMtMzkuNDY2di01OC44NjcNCgkJCQljMC01Ljg5Ni00Ljc3MS0xMC42NjctMTAuNjY3LTEwLjY2N1MyMjQsMjM5LjQzNywyMjQsMjQ1LjMzM3Y1OC44NzVsLTQ5LjMzMywzOS40NThjLTQuNTk0LDMuNjg4LTUuMzQ0LDEwLjM5Ni0xLjY2NywxNQ0KCQkJCWMyLjExNSwyLjYyNSw1LjIwOCw0LDguMzQ0LDRjMi4zMzMsMCw0LjY4OC0wLjc2LDYuNjU2LTIuMzMzTDIzNC42NjcsMzIzbDQ2LjY2NiwzNy4zMzMNCgkJCQlDMjgzLjMwMiwzNjEuOTA2LDI4NS42NTYsMzYyLjY2NywyODcuOTksMzYyLjY2N3oiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 164 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDg5LjkzNSA0ODkuOTM1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODkuOTM1IDQ4OS45MzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0yNzguMjM1LDMzLjI2N2MtMTE2LjcsMC0yMTEuNiw5NS0yMTEuNiwyMTEuN3YwLjdsLTQxLjktNjMuMWMtNC4xLTYuMi0xMi41LTcuOS0xOC43LTMuOGMtNi4yLDQuMS03LjksMTIuNS0zLjgsMTguNw0KCQlsNjAuOCw5MS41YzIuMiwzLjMsNS43LDUuNCw5LjYsNS45YzAuNiwwLjEsMS4xLDAuMSwxLjcsMC4xYzMuMywwLDYuNS0xLjIsOS0zLjVsODQuNS03Ni4xYzUuNS01LDYtMTMuNSwxLTE5LjENCgkJYy01LTUuNS0xMy41LTYtMTkuMS0xbC01Ni4xLDUwLjd2LTFjMC0xMDEuOSw4Mi44LTE4NC43LDE4NC42LTE4NC43czE4NC43LDgyLjgsMTg0LjcsMTg0LjdzLTgyLjgsMTg0LjctMTg0LjYsMTg0LjcNCgkJYy00OS4zLDAtOTUuNy0xOS4yLTEzMC41LTU0LjFjLTUuMy01LjMtMTMuOC01LjMtMTkuMSwwYy01LjMsNS4zLTUuMywxMy44LDAsMTkuMWM0MCw0MCw5My4xLDYyLDE0OS42LDYyDQoJCWMxMTYuNiwwLDIxMS42LTk0LjksMjExLjYtMjExLjdTMzk0LjkzNSwzMy4yNjcsMjc4LjIzNSwzMy4yNjd6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 165 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventObservable_1 = __webpack_require__(166);
+var FromEventObservable_1 = __webpack_require__(170);
 exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
-/* 166 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71997,10 +72184,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(2);
-var tryCatch_1 = __webpack_require__(167);
-var isFunction_1 = __webpack_require__(168);
-var errorObject_1 = __webpack_require__(169);
-var Subscription_1 = __webpack_require__(72);
+var tryCatch_1 = __webpack_require__(171);
+var isFunction_1 = __webpack_require__(172);
+var errorObject_1 = __webpack_require__(173);
+var Subscription_1 = __webpack_require__(73);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
     return !!sourceObj && typeof sourceObj.addListener === 'function' && typeof sourceObj.removeListener === 'function';
@@ -72132,48 +72319,48 @@ exports.FromEventObservable = FromEventObservable;
 //# sourceMappingURL=FromEventObservable.js.map
 
 /***/ }),
-/* 167 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(197);
 
 /***/ }),
-/* 168 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(38);
 
 /***/ }),
-/* 169 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(40);
 
 /***/ }),
-/* 170 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var forkJoin_1 = __webpack_require__(52);
+var forkJoin_1 = __webpack_require__(53);
 Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
-/* 171 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var do_1 = __webpack_require__(172);
+var do_1 = __webpack_require__(176);
 Observable_1.Observable.prototype.do = do_1._do;
 Observable_1.Observable.prototype._do = do_1._do;
 //# sourceMappingURL=do.js.map
 
 /***/ }),
-/* 172 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72292,85 +72479,17 @@ var DoSubscriber = (function (_super) {
 //# sourceMappingURL=do.js.map
 
 /***/ }),
-/* 173 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <header class=\"pageHeader\">\n        <h3><i class=\"fa fa-cog fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Settings' | translate}}</h3>\n    </header>\n\n    <div [@fadeInOut] class=\"row\">\n        <div class=\"col-sm-2 side-menu\">\n            <ul bootstrapTab #tab=\"bootstrap-tab\" class=\"nav nav-tabs tabs-left\" (showBSTab)=\"onShowTab($event)\">\n                <li class=\"active\">\n                    <a id=\"profileTab\" [routerLink]=\"[]\" fragment=\"profile\" href=\"#profile\" data-toggle=\"tab\"><i class=\"fa fa-user-circle-o fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Profile' | translate}}</a>\n                </li>\n                <li>\n                    <a id=\"preferencesTab\" [routerLink]=\"[]\" fragment=\"preferences\" href=\"#preferences\" data-toggle=\"tab\"><i class=\"fa fa-sliders fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Preferences' | translate}}</a>\n                </li>\n                <li [hidden]=\"!canViewUsers\">\n                    <a id=\"usersTab\" [routerLink]=\"[]\" fragment=\"users\" href=\"#users\" data-toggle=\"tab\"><i class=\"fa fa-users fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Users' | translate}}</a>\n                </li>\n                <li [hidden]=\"!canViewRoles\">\n                    <a id=\"rolesTab\" [routerLink]=\"[]\" fragment=\"roles\" href=\"#roles\" data-toggle=\"tab\"><i class=\"fa fa-shield fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Roles' | translate}}</a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"col-sm-10\">\n            <div class=\"tab-content\">\n                <div class=\"tab-pane active\" id=\"profile\">\n                    <h4>{{'settings.header.UserProfile' | translate}}</h4>\n                    <hr class=\"separator-hr\" />\n                    <div [@fadeInOut] *ngIf=\"isProfileActived\" class=\"content-container\">\n                        <user-info></user-info>\n                    </div>\n                </div>\n\n                <div class=\"tab-pane\" id=\"preferences\">\n                    <h4>{{'settings.header.UserPreferences' | translate}}</h4>\n                    <hr class=\"separator-hr\" />\n                    <div [@fadeInOut] *ngIf=\"isPreferencesActived\" class=\"content-container\">\n                        <user-preferences></user-preferences>\n                    </div>\n                </div>\n\n                <div class=\"tab-pane\" id=\"users\">\n                    <h4>{{'settings.header.UsersManagements' | translate}}</h4>\n                    <hr class=\"separator-hr\" />\n                    <div [@fadeInOut] *ngIf=\"canViewUsers && isUsersActived\" class=\"content-container\">\n                        <users-management></users-management>\n                    </div>\n                </div>\n\n                <div class=\"tab-pane\" id=\"roles\">\n                    <h4>{{'settings.header.RolesManagement' | translate}}</h4>\n                    <hr class=\"separator-hr\" />\n                    <div [@fadeInOut] *ngIf=\"canViewRoles && isRolesActived\" class=\"content-container\">\n                        <roles-management></roles-management>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
-
-/***/ }),
-/* 174 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(175);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-/* 175 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".side-menu {\n    min-width: 120px;\n}\n\n.separator-hr {\n    margin-top: 0;\n    margin-bottom: 10px;\n}\n\n[hidden] {\n    display: none;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 176 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <header class=\"pageHeader\">\n        <h3><i class=\"fa fa-info-circle fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.About' | translate}}</h3>\n    </header>\n\n    \n</div>\n";
-
-/***/ }),
 /* 177 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-
-        var result = __webpack_require__(178);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
+module.exports = "<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-cog fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.Settings' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut] class=\"row\">\r\n        <div class=\"col-sm-2 side-menu\">\r\n            <ul bootstrapTab #tab=\"bootstrap-tab\" class=\"nav nav-tabs tabs-left\" (showBSTab)=\"onShowTab($event)\">\r\n                <li class=\"active\">\r\n                    <a id=\"profileTab\" [routerLink]=\"[]\" fragment=\"profile\" href=\"#profile\" data-toggle=\"tab\"><i class=\"fa fa-user-circle-o fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Profile' | translate}}</a>\r\n                </li>\r\n                <li>\r\n                    <a id=\"preferencesTab\" [routerLink]=\"[]\" fragment=\"preferences\" href=\"#preferences\" data-toggle=\"tab\"><i class=\"fa fa-sliders fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Preferences' | translate}}</a>\r\n                </li>\r\n                <li [hidden]=\"!canViewUsers\">\r\n                    <a id=\"usersTab\" [routerLink]=\"[]\" fragment=\"users\" href=\"#users\" data-toggle=\"tab\"><i class=\"fa fa-users fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Users' | translate}}</a>\r\n                </li>\r\n                <li [hidden]=\"!canViewRoles\">\r\n                    <a id=\"rolesTab\" [routerLink]=\"[]\" fragment=\"roles\" href=\"#roles\" data-toggle=\"tab\"><i class=\"fa fa-shield fa-fw\" aria-hidden=\"true\"></i> {{'settings.tab.Roles' | translate}}</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n        <div class=\"col-sm-10\">\r\n            <div class=\"tab-content\">\r\n                <div class=\"tab-pane active\" id=\"profile\">\r\n                    <h4>{{'settings.header.UserProfile' | translate}}</h4>\r\n                    <hr class=\"separator-hr\" />\r\n                    <div [@fadeInOut] *ngIf=\"isProfileActived\" class=\"content-container\">\r\n                        <user-info></user-info>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"tab-pane\" id=\"preferences\">\r\n                    <h4>{{'settings.header.UserPreferences' | translate}}</h4>\r\n                    <hr class=\"separator-hr\" />\r\n                    <div [@fadeInOut] *ngIf=\"isPreferencesActived\" class=\"content-container\">\r\n                        <user-preferences></user-preferences>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"tab-pane\" id=\"users\">\r\n                    <h4>{{'settings.header.UsersManagements' | translate}}</h4>\r\n                    <hr class=\"separator-hr\" />\r\n                    <div [@fadeInOut] *ngIf=\"canViewUsers && isUsersActived\" class=\"content-container\">\r\n                        <users-management></users-management>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"tab-pane\" id=\"roles\">\r\n                    <h4>{{'settings.header.RolesManagement' | translate}}</h4>\r\n                    <hr class=\"separator-hr\" />\r\n                    <div [@fadeInOut] *ngIf=\"canViewRoles && isRolesActived\" class=\"content-container\">\r\n                        <roles-management></roles-management>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
 
-
-// module
-exports.push([module.i, "\n.pageHeader {\n    margin-bottom: 30px;\n}\n\n.bg-grey {\n    background-color: #f6f6f6;\n}\n\n.logo {\n    font-size: 200px;\n}\n\n.quick-learn {\n    font-weight: bold;\n    margin-top: 4.7em;\n    text-align: right;\n}\n\n@media screen and (max-width: 768px) {\n    .col-sm-4 {\n        text-align: center;\n        margin: 25px 0;\n    }\n\n    .quick-learn {\n        margin-top: 0;\n        text-align: center;\n    }\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 179 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n    <header class=\"pageHeader\">\n        <h3><i class=\"fa fa-exclamation-circle fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.NotFound' | translate}}</h3>\n    </header>\n\n    <div [@fadeInOut] class=\"vertical-center-flex\">\n        <div class=\"center-block\">\n            <div class=\"icon-container\"><i class='fa fa-exclamation-circle'></i> {{'notFound.404' | translate}}</div>\n            <div class=\"text-muted error-description\">{{'notFound.pageNotFound' | translate}}</div>\n            <div><a class=\"btn btn-primary\" routerLink=\"/\"><i class='fa fa-home'></i> {{'notFound.backToHome' | translate}}</a></div>\n        </div>\n    </div>\n</div>\n";
-
-/***/ }),
-/* 180 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(181);
+        var result = __webpack_require__(179);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -72380,7 +72499,7 @@ module.exports = "<div class=\"container\">\n    <header class=\"pageHeader\">\n
     
 
 /***/ }),
-/* 181 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -72388,20 +72507,88 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".vertical-center-flex {\n    min-height: 60vh;\n}\n\n.icon-container {\n    font-size: 5em;\n}\n\n.error-description {\n    font-size: 1.5em;\n    padding-bottom: 10px;\n}\n", ""]);
+exports.push([module.i, ".side-menu {\r\n    min-width: 120px;\r\n}\r\n\r\n.separator-hr {\r\n    margin-top: 0;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n[hidden] {\r\n    display: none;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
+/* 180 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-info-circle fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.About' | translate}}</h3>\r\n    </header>\r\n\r\n    \r\n</div>\r\n";
+
+/***/ }),
+/* 181 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(182);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
 /* 182 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\r\n.pageHeader {\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.bg-grey {\r\n    background-color: #f6f6f6;\r\n}\r\n\r\n.logo {\r\n    font-size: 200px;\r\n}\r\n\r\n.quick-learn {\r\n    font-weight: bold;\r\n    margin-top: 4.7em;\r\n    text-align: right;\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n    .col-sm-4 {\r\n        text-align: center;\r\n        margin: 25px 0;\r\n    }\r\n\r\n    .quick-learn {\r\n        margin-top: 0;\r\n        text-align: center;\r\n    }\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 183 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\r\n    <header class=\"pageHeader\">\r\n        <h3><i class=\"fa fa-exclamation-circle fa-lg page-caption\" aria-hidden=\"true\"></i> {{'pageHeader.NotFound' | translate}}</h3>\r\n    </header>\r\n\r\n    <div [@fadeInOut] class=\"vertical-center-flex\">\r\n        <div class=\"center-block\">\r\n            <div class=\"icon-container\"><i class='fa fa-exclamation-circle'></i> {{'notFound.404' | translate}}</div>\r\n            <div class=\"text-muted error-description\">{{'notFound.pageNotFound' | translate}}</div>\r\n            <div><a class=\"btn btn-primary\" routerLink=\"/\"><i class='fa fa-home'></i> {{'notFound.backToHome' | translate}}</a></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+
+/***/ }),
+/* 184 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(185);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".vertical-center-flex {\r\n    min-height: 60vh;\r\n}\r\n\r\n.icon-container {\r\n    font-size: 5em;\r\n}\r\n\r\n.error-description {\r\n    font-size: 1.5em;\r\n    padding-bottom: 10px;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthGuard; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__auth_service__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__auth_service__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -72448,7 +72635,184 @@ var AuthGuard = /** @class */ (function () {
 
 
 /***/ }),
-/* 183 */
+/* 187 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Post; });
+var Post = /** @class */ (function () {
+    function Post() {
+    }
+    return Post;
+}());
+
+
+
+/***/ }),
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(2);
+var toPromise_1 = __webpack_require__(189);
+Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
+//# sourceMappingURL=toPromise.js.map
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(27);
+/* tslint:enable:max-line-length */
+/**
+ * Converts an Observable sequence to a ES2015 compliant promise.
+ *
+ * @example
+ * // Using normal ES2015
+ * let source = Rx.Observable
+ *   .of(42)
+ *   .toPromise();
+ *
+ * source.then((value) => console.log('Value: %s', value));
+ * // => Value: 42
+ *
+ * // Rejected Promise
+ * // Using normal ES2015
+ * let source = Rx.Observable
+ *   .throw(new Error('woops'))
+ *   .toPromise();
+ *
+ * source
+ *   .then((value) => console.log('Value: %s', value))
+ *   .catch((err) => console.log('Error: %s', err));
+ * // => Error: Error: woops
+ *
+ * // Setting via the config
+ * Rx.config.Promise = RSVP.Promise;
+ *
+ * let source = Rx.Observable
+ *   .of(42)
+ *   .toPromise();
+ *
+ * source.then((value) => console.log('Value: %s', value));
+ * // => Value: 42
+ *
+ * // Setting via the method
+ * let source = Rx.Observable
+ *   .of(42)
+ *   .toPromise(RSVP.Promise);
+ *
+ * source.then((value) => console.log('Value: %s', value));
+ * // => Value: 42
+ *
+ * @param {PromiseConstructor} [PromiseCtor] The constructor of the promise. If not provided,
+ * it will look for a constructor first in Rx.config.Promise then fall back to
+ * the native Promise constructor if available.
+ * @return {Promise<T>} An ES2015 compatible promise with the last value from
+ * the observable sequence.
+ * @method toPromise
+ * @owner Observable
+ */
+function toPromise(PromiseCtor) {
+    var _this = this;
+    if (!PromiseCtor) {
+        if (root_1.root.Rx && root_1.root.Rx.config && root_1.root.Rx.config.Promise) {
+            PromiseCtor = root_1.root.Rx.config.Promise;
+        }
+        else if (root_1.root.Promise) {
+            PromiseCtor = root_1.root.Promise;
+        }
+    }
+    if (!PromiseCtor) {
+        throw new Error('no Promise impl found');
+    }
+    return new PromiseCtor(function (resolve, reject) {
+        var value;
+        _this.subscribe(function (x) { return value = x; }, function (err) { return reject(err); }, function () { return resolve(value); });
+    });
+}
+exports.toPromise = toPromise;
+//# sourceMappingURL=toPromise.js.map
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = "\r\n<div class=\"page-title\">\r\n    {{title}}\r\n    <!--<div>\r\n        5 new post\r\n        50 active readers\r\n        5000 hits\r\n    </div>-->\r\n\r\n    {{id}} {{body}}\r\n</div>\r\n<div class=\"page-body\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n{{title}}                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n{{excerpt}}                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div><div class=\"col-md-4 col-sm-4 col-xs-6\">\r\n                <div class=\"panel\">\r\n                    <div class=\"panel-heading \">\r\n                        #.net  #angular4\r\n                    </div>\r\n                    <div class=\"panel-body\">\r\n                        <img src=\"" + __webpack_require__(16) + "\" alt=\"Alternate Text\" />\r\n                        <div class=\"blog-title\">\r\n                            Angular 4 forms\r\n                        </div>\r\n                        <div class=\"blog-short-detail\">\r\n                            <span class=\"text-left ab\">\r\n                                11 November 2017\r\n                            </span>\r\n                            <span class=\"text-right ab\">\r\n                                <a href=\"#\">Mahesh Sunuwar</a>\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"panel-footer\">\r\n                        <a routerLink=\"/blog-read\" class=\"btn btn-success tn-btn tn-btn-pad\">Read More</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n\r\n            <!--<div class=\"col-md-4 hidden-xs\">\r\n                asdf\r\n            </div>-->\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(192);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 192 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/*dark*/\r\n.page-title {\r\n  background: #CCCC14;\r\n  min-height: 200px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 5rem;\r\n  color: white;\r\n  text-shadow: 1px 1px 12px black; }\r\n\r\n.page-body {\r\n  padding-top: 15px; }\r\n  .page-body .panel {\r\n    box-shadow: 1px 1px 12px 0px #d0d0d0; }\r\n    .page-body .panel:hover {\r\n      box-shadow: 1px 1px 20px 0px #b7b4b4; }\r\n    .page-body .panel .panel-heading {\r\n      background-color: #53a025;\r\n      color: white; }\r\n    .page-body .panel .panel-body {\r\n      text-align: center;\r\n      padding: 0; }\r\n      .page-body .panel .panel-body img {\r\n        background: #d0d0d0;\r\n        width: 100%; }\r\n      .page-body .panel .panel-body .blog-title {\r\n        font-size: 2rem; }\r\n      .page-body .panel .panel-body .blog-short-detail {\r\n        font-size: 1.3rem; }\r\n    .page-body .panel .panel-footer {\r\n      text-align: center;\r\n      border-top: none;\r\n      background: none; }\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = "<div class=\"page-title\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-9\">\r\n\r\n                Angular 4 forms and the authorization\r\n                <!--<div>\r\n                    5 new post\r\n                    50 active readers\r\n                    5000 hits\r\n                </div>-->\r\n                <div class=\"ms-meta-detail\">\r\n                    date \r\n                    total hits\r\n                    total reading\r\n                </div>\r\n            </div>\r\n            <div class=\"col-md-3\">\r\n                <div class=\"ms-author\">\r\n                    <img src=\"" + __webpack_require__(194) + "\" height=\"150\" width=\"150\" alt=\"author name\" />\r\n                    <div class=\"ms-author-name\">\r\n                        Mahesh Sunuwar\r\n                    </div>\r\n                    <div class=\"ms-author-bio\">\r\n                        <span>\r\n                            #angular2/4 \r\n                        </span>\r\n                        <span>\r\n                            #front-end\r\n                        </span>\r\n                        <span>\r\n                            #ionic2/3\r\n                        </span>\r\n                        <span>#Learner</span>\r\n                    </div>\r\n                </div>\r\n               \r\n            </div>\r\n        </div>\r\n       \r\n    </div>\r\n</div>\r\n\r\n<div class=\"page-body\">\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12 col-sm-12 col-xs-12\">\r\n                                  <p> This example is using the HTTP module in a small component, that is displaying a list of courses. Let's break down this example step-by-step:\r\n                                      <br />\r\n                    We are using the new HttpClient client module, and injecting it in the constructor\r\n                    then we are calling the get() method, which is returning an Observable\r\n                    This observable returns an Object directly, so the HTTP library by default assumes that we have queried a JSON API and it internally parses the HTTP response body as JSON\r\n                    usually, we design our APIs so that they always send an object and not an array, to avoid an attack known as JSON Highjacking\r\n                    so we need to convert the object into a list, by taking only the object values\r\n                    We are then mapping the response we got from Firebase into an array, using the lodash values utility method\r\n                    this defines an observable named courses$, which is consumed by the template\r\n                    the async pipe will subscribe to the HTTP observable, and it's that implicit subscription that triggers the HTTP request\r\n                    The end result is that the descriptions of all the courses in the database will show up listed on the screen, in a bulleted list.\r\n                                      <br />\r\n                <b>Improved Type Safety</b>\r\n                                      <br />\r\n                    Notice in the call to get() that we are passing a generic parameter: we are specifying that the result of the get() call will be an Observable of Course[], meaning that this observable emits values which are arrays of courses.\r\n                                      \r\n                    If we don't specify a type parameter, then the result of the call to get() will be an Observable instead.\r\n                                      <br />\r\n                    <b> HTTP Request Parameters</b>\r\n                                      <br />\r\n                    The HTTP GET can also receive parameters, that correspond to the parameters in the HTTP url. Let's take for example the following URL with some pagination parameters:\r\n\r\n                    https://angular-http-guide.firebaseio.com/courses.json?orderBy=\"$key\"&limitToFirst=1\r\n                    This query will take the same results as before, but this time ordered by the $key property. The first URL parameter that we have in this URL is orderBy, and the second is limitToFirst.\r\n\r\n                    This is is how we would do this query using the Angular HTTP Client:\r\n                </p>\r\n            </div>\r\n           \r\n           \r\n            <!--<div class=\"col-md-4 hidden-xs\">\r\n                asdf\r\n            </div>-->\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ }),
+/* 194 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "245ee06f285cf0cbc93ad65a1ffc25ae.png";
+
+/***/ }),
+/* 195 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(196);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/*dark*/\r\n.page-title {\r\n  background: #CCCC14;\r\n  min-height: 200px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 5rem;\r\n  color: white;\r\n  text-shadow: 1px 1px 12px black; }\r\n  .page-title .ms-meta-detail {\r\n    font-size: 2rem; }\r\n  .page-title .ms-author {\r\n    padding-top: 10px;\r\n    display: block;\r\n    font-size: 1.6rem;\r\n    text-align: center; }\r\n    .page-title .ms-author img {\r\n      border-radius: 50%; }\r\n\r\n.page-body {\r\n  padding-top: 15px;\r\n  font-size: 1.8rem;\r\n  text-align: justify; }\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72500,34 +72864,34 @@ var AppErrorHandler = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 184 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(225);
 
 /***/ }),
-/* 185 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var interval_1 = __webpack_require__(186);
+var interval_1 = __webpack_require__(200);
 Observable_1.Observable.interval = interval_1.interval;
 //# sourceMappingURL=interval.js.map
 
 /***/ }),
-/* 186 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var IntervalObservable_1 = __webpack_require__(187);
+var IntervalObservable_1 = __webpack_require__(201);
 exports.interval = IntervalObservable_1.IntervalObservable.create;
 //# sourceMappingURL=interval.js.map
 
 /***/ }),
-/* 187 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72537,9 +72901,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(188);
+var isNumeric_1 = __webpack_require__(202);
 var Observable_1 = __webpack_require__(2);
-var async_1 = __webpack_require__(189);
+var async_1 = __webpack_require__(203);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -72621,12 +72985,12 @@ exports.IntervalObservable = IntervalObservable;
 //# sourceMappingURL=IntervalObservable.js.map
 
 /***/ }),
-/* 188 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var isArray_1 = __webpack_require__(32);
+var isArray_1 = __webpack_require__(34);
 function isNumeric(val) {
     // parseFloat NaNs numeric-cast false positives (null|true|false|"")
     // ...but misinterprets leading-number strings, particularly hex literals ("0x...")
@@ -72639,13 +73003,13 @@ exports.isNumeric = isNumeric;
 //# sourceMappingURL=isNumeric.js.map
 
 /***/ }),
-/* 189 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var AsyncAction_1 = __webpack_require__(190);
-var AsyncScheduler_1 = __webpack_require__(192);
+var AsyncAction_1 = __webpack_require__(204);
+var AsyncScheduler_1 = __webpack_require__(206);
 /**
  *
  * Async Scheduler
@@ -72692,7 +73056,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 //# sourceMappingURL=async.js.map
 
 /***/ }),
-/* 190 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72702,8 +73066,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var root_1 = __webpack_require__(33);
-var Action_1 = __webpack_require__(191);
+var root_1 = __webpack_require__(27);
+var Action_1 = __webpack_require__(205);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -72840,7 +73204,7 @@ exports.AsyncAction = AsyncAction;
 //# sourceMappingURL=AsyncAction.js.map
 
 /***/ }),
-/* 191 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72850,7 +73214,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscription_1 = __webpack_require__(72);
+var Subscription_1 = __webpack_require__(73);
 /**
  * A unit of work to be executed in a {@link Scheduler}. An action is typically
  * created from within a Scheduler and an RxJS user does not need to concern
@@ -72890,7 +73254,7 @@ exports.Action = Action;
 //# sourceMappingURL=Action.js.map
 
 /***/ }),
-/* 192 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72900,7 +73264,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(193);
+var Scheduler_1 = __webpack_require__(207);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -72947,7 +73311,7 @@ exports.AsyncScheduler = AsyncScheduler;
 //# sourceMappingURL=AsyncScheduler.js.map
 
 /***/ }),
-/* 193 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73002,27 +73366,27 @@ exports.Scheduler = Scheduler;
 //# sourceMappingURL=Scheduler.js.map
 
 /***/ }),
-/* 194 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(2);
-var startWith_1 = __webpack_require__(195);
+var startWith_1 = __webpack_require__(209);
 Observable_1.Observable.prototype.startWith = startWith_1.startWith;
 //# sourceMappingURL=startWith.js.map
 
 /***/ }),
-/* 195 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ArrayObservable_1 = __webpack_require__(25);
-var ScalarObservable_1 = __webpack_require__(65);
-var EmptyObservable_1 = __webpack_require__(22);
-var concat_1 = __webpack_require__(57);
-var isScheduler_1 = __webpack_require__(58);
+var ArrayObservable_1 = __webpack_require__(28);
+var ScalarObservable_1 = __webpack_require__(66);
+var EmptyObservable_1 = __webpack_require__(24);
+var concat_1 = __webpack_require__(58);
+var isScheduler_1 = __webpack_require__(59);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits the items you specify as arguments before it begins to emit
@@ -73065,7 +73429,7 @@ exports.startWith = startWith;
 //# sourceMappingURL=startWith.js.map
 
 /***/ }),
-/* 196 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73088,13 +73452,13 @@ var Notification = /** @class */ (function () {
 
 
 /***/ }),
-/* 197 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EqualValidator; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(52);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -73164,7 +73528,7 @@ var EqualValidator = /** @class */ (function () {
 
 
 /***/ }),
-/* 198 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73223,7 +73587,7 @@ var LastElementDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 199 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73267,7 +73631,7 @@ var AutofocusDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 200 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73275,11 +73639,11 @@ var AutofocusDirective = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_toggle_js_bootstrap_toggle__);
 // ======================================
 // Author: Ebenezer Monney
@@ -73371,19 +73735,19 @@ var BootstrapToggleDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 201 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(234);
 
 /***/ }),
-/* 202 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(236);
 
 /***/ }),
-/* 203 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73391,11 +73755,11 @@ module.exports = (__webpack_require__(1))(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_datepicker_dist_js_bootstrap_datepicker__);
 // ======================================
 // Author: Ebenezer Monney
@@ -73530,7 +73894,7 @@ var BootstrapDatepickerDirective = /** @class */ (function () {
 
 
 /***/ }),
-/* 204 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -73541,7 +73905,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 (function(factory){
     if (true) {
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(21)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(23)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -75569,7 +75933,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 205 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75615,23 +75979,23 @@ var GroupByPipe = /** @class */ (function () {
 
 
 /***/ }),
-/* 206 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng2_toasty__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng2_toasty__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_alert_service__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_notification_service__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_notification_service__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_local_store_manager_service__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_app_title_service__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_auth_service__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_configuration_service__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_login_login_component__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_local_store_manager_service__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_app_title_service__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_auth_service__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_configuration_service__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_login_login_component__ = __webpack_require__(45);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -75653,7 +76017,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var alertify = __webpack_require__(207);
+var alertify = __webpack_require__(221);
 /*var masterjs: any = require('../assets/scripts/master.js')*/ ;
 var AppComponent = /** @class */ (function () {
     function AppComponent(storageManager, toastyService, toastyConfig, accountService, alertService, notificationService, appTitleService, authService, translationService, configurations, router) {
@@ -75669,7 +76033,7 @@ var AppComponent = /** @class */ (function () {
         this.router = router;
         this.newNotificationCount = 0;
         this.appTitle = "dotNetNepal";
-        this.appLogo = __webpack_require__(208);
+        this.appLogo = __webpack_require__(222);
         this.stickyToasties = [];
         this.dataLoadingConsecutiveFailurs = 0;
         storageManager.initialiseStorageSyncListener();
@@ -75914,8 +76278,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "dotnetnepal",
-            template: __webpack_require__(209),
-            styles: [__webpack_require__(210), __webpack_require__(212), __webpack_require__(217)],
+            template: __webpack_require__(223),
+            styles: [__webpack_require__(224), __webpack_require__(226), __webpack_require__(231)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__services_local_store_manager_service__["a" /* LocalStoreManager */], __WEBPACK_IMPORTED_MODULE_2_ng2_toasty__["ToastyService"], __WEBPACK_IMPORTED_MODULE_2_ng2_toasty__["ToastyConfig"],
@@ -75928,7 +76292,7 @@ var AppComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 207 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// ======================================
@@ -76579,23 +76943,23 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// =============
 
 
 /***/ }),
-/* 208 */
+/* 222 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ8AAAD9CAYAAACiAvKYAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAACAASURBVHic7Z3rjyTndd5/3dMzsytrL9y5kBSXFKmQWtomBYuBowQQqRiilA+GINsUjMD+YMtCAuQP8gd/ceQYDowwiiX7m2VFtsggkEk71o3kUqIu1N5ndneWa3N359KdD6fOVk1NX+ryVnVV1/MDGrOXufR01/vUOc9533N6o9GIiB5wHHgMOAc8CnwE+BzwYWCZcOwBPwP+CvgxcAE4D/wcuAMcBPxZQogK6EXi0QNWgbPArwIvAQ8Da9HjAWAp4M89AG4C16PHVeCvgX/AhGQL2A/484QQgemNRqOkcHwC+CIWeaxhgrEE9DGBCcUIGGIi4kJyBfge8KfAG5iA1B2BjGZ/ihACYIClKh/ChOMPgKeBjej/QgpGkh6xMI2AB7Ho5hQmVH+EiUud0ccQS6d2o48SEiGm0BuNRk8DHwe+BPwi1QvHOEbR4x7wNvAXmBeyV+NzOAC2gXewKGi3xp8tROsYAM8Av009Ecck/OetYFHQf8RSmWGNz2EX+CHw58ANJB5CTGWApSsfBdaZj3A4PSxlOYOlLx6N1MVu9PMfBI4B71OveAnRKgbAbwCnma9wOEkvpG76WOT1IGYW38bSKCHEGPrYHo4Hoj93mSXsdXgB2+OyMt+nI0SzGRB281eb6WPp0jqWOnkkpqqLEGPoerSRxFOm5ejRhDROiMYi8ThMj8PRh6IyISbQJ65qKDyX7yFEZvrYRiwdRDMm+R5CiBQD4CdUc/itKMlzL3kjoh6xd1HkPM4k30NRmRApBsBfAr8OnCD8Abi8jLDzLDew07a3yLdRyyOHNYpHDmnf4z2030OIIwyAbwNPYgtmk/mF6i4cW9j5lq+R/2TtErbJ6/PYyeB18kdTSd/jB8AlJB5CHGGALZCXgZOYaMzrYJwLx1vAfwX+Mfp73sjjkejPX6JYKtbHdtxuYOKzEv2btqoLkWAAvIst3D7Wy2NEfM6l6jTGvYSkcPwxFg1dxO74efwGLz1fxVKeIl6F+x4PEJ+zyZs+CbHwDLC2fxeivw+BLwBPYQLi/TWq5ADzOM4DX8aE4wL5hQPiHiB7xFWkEfkF0MXjk8DrwGXU2UyIQwyI+2hcIO5pcQ74NYp5BnkYYadZrwBfxVKVIhFH8vu54bqNRQyrFE9dNrE06C1MZIUQEYPoowvIRazK8TNswZyh+shjF2t8fAVLXYoKR/r7fQvrUeLtFPOyhHVZO458DyGOMEj82aOAfeCnWKjuvkdVeKTg7f+GlN9TscfhyKOo79HHTOTT0ccdJB5C3Gcw5t+G2ELepZ6KS+gNWElBku8hREXMiipGNTxCM873KBIxpH0PHZITIsGinqpN+h43KX52Z5zvIYRgcRdDVb7Hor5eQuRmURfDJN8jL0tYxel5rGyt1EWIiEUXjxC+h5/5OYvEQ4j7LKp4QDjfY4CNYjiGfA8h7rPIC2EP2/C2he3RKFLd8f4gpzg8DlO0mNFoxHA45ODggOFwSDTsXeRk3D6PRcH3q9yNHvsUayuY3O/xGnZEX/s92kGfMY2hRqMRt2/f7o1Go1Gv1xueOHFiv9fraQNgThZZPMCijwvANcz3OEaxcy5J30PnXJpLUiyWsCpZskteD+iPRiNGo1Hv/Pnzo3Pnzl0ZjUZXsShVApKDLojHdeBV4FmKH/Qb53voQmsGLhQDTCRcLJajP3+GuMXEMtCL4Ny5c/d6vd4Per3en6GOcblZdPEYYhHHTeL9Hnm3qo/zPXTOZX5Mii7WsQZOn4n+voyV2R+KPt5PX3q9Xu/EiROj0Wh0r9frnez1eq9jVbmr6H3NTBfEI6Tv8QJ2zkW+R71Miy7WgRextHKdw2LhX3OoM14UeYyirz8L/Aesn8w2Eo/MLLp4QFjfYx075/Im8j2qJEt04Zv21rC+tT6k64hYRIyLNn0T4Dqa15ybroiHfI9mM83oXCGOLryvrEcXA+Lowg1RZ1Zq6v/vXsgyzRg90hq6IB4hfQ9vjLwG3EYGWxmyGp0uHhsUiy5msUQc1ZzG0lvdFDLQFfHYxdKMO4TxPTSSIT9Fjc4y0UUWBphf8iLwBvk79neWLogHWOpyEfM9dijveyQHSml74mSyRBcb0WOm0RkRukGVfI+CdEk8tol9jw3yi4dGUc6mSHThf69LLMZ9b/keBeiKeAyxTUA70UfvlapRlOUJWkalWrGYhHyPAnRJPJK+R5nOYl33Peoqo9bJAHue8j1y0BXxAPkeRZlHGbVu/KYg3yMHXRMP+R7ZyFNGddFoenQxibTvsYJ8j0x0STx8v8cN4uZA8j2MppZR62QJ+33XkO+Ria6Jxy4WfXiDoE3y32UWxfdoQxm1Tny/x2eQ75GJLokHhBlF2Vbfo21l1Lrxm4KLqHyPGXRNPEKNZGiL7zEpuljhcHTR5DJqHSR9jxXke2Sia+IRahRlU32PPGXUdSxMb6vRWQXue2i/Rwa6Kh7J6GOV9voeXSij1skAe61exN5X+R5T6Jp4QPt9jy6VUevGz7n46zbAIlQxhi6KR9t8D5VR68FfE0/pNjBRvoeij7F0UTza4HuojDo/Bthr+hmsY5xSlwl0WTya5HuojNocBthrrJLtDLooHhDO9/DOYu4xFGlN2I9+vncoW0Vl1Hnhr2EyJVXJdgJdFY+QvscD2MI+RbGB2ktYyfR3gHPYgT2VUeeLG6faqj6FropHKN8jOYrydeAy+Ucy9DGxeAb4t8AHkNE5b+R7ZKCr+dw436PIxeGpyyY2kmG5wPfoRV93DPgg8AvRnz3SSD5EPcj3yECXX5Sk7+GnbIuwBByPHu57FCEtFBKM+eCvu3yPGXRZPEL5Hn3gJBaBnKT4azpKPMT8SfseXV4rY+nyCzLJ98hL0vfwcyN58Z6qEo7mkPQ9ilTjFh6JRzN8jxEmYDLlmoN8jxl0/QUJ5XsMKOd7KGVpFvI9MtB18fA5tt5ZrMgC9gvtFHaHOkW+13WERRz7KH1pGvI9ptD1F8NbE96NHnn3aDhJ38O3jed5DjcxEbtR4jmI8Mj3mELXxQPikQxlfY9TmO9xlnzicYAJx9eBK0g8moR8jynoxYhHMoTwPY5Fjzy+h0ceW9Hz2EOpSxOQ7zEDiUc8kuEm8X6Pun2PfeKu7jcoLmAiPPI9JqAXohm+h6cuf4OJiFKX5iDfYwISD2MPuICNopyH7zHEqj0efSjyaA7yPSagF8Lwku2rzMf3IPqZu9FjH/keTcDTUR/JIN8jgcTDCOl7eIOgMiXbMgImwrNE3NlNvkeEXgQjtO/xAvAodrfKSrJke63EcxDh8VGULyLf4z4Sj5iQvkd6JEMW3Pe4jnkfijyag1dc1pHvcR+9CDG+3+MVipdLJ41kyIr7HnvI92gKSd9D+z0SSDxihtj4hJ3oo58zyUt6JIN8j8VAvkeKzr8ACdz3uBM9ynQWk++xeMj3SCHxOIyfc7mGRSDyPYQj3yNF51+AFO57lNnvId9j8Uj7Hiso8pB4pPD9HjeIxWNevsc2OufSNJaw91TnXOj4Lz8G9z18m3jR1CWE7/E3yPdoGu576JwLEo9xhGhNGML32MZERJFHc/Cbgs650PFffgIhR1GW8T28q7t8j2Yg3yOFxOMooUYyyPdYTOR7RHT2F59CqJEM8j0Wk7b7Hj6obCl69Ck4mbCrg65nkfQ9nqbYRTLJ98gSxcj3aC5t9D36xKmWD1A/gV2P97Br7B45I2yJx3iq9D2yfi/3PZL9Pfz7ivngr73392iq7+H+jAvGKiZ2jxKn0CeBc8DfAf8PuIRda5mReIxnku+Rd+GmfY/3MIXPQnokwwcoNo1OhGcJ69ni51zuMv9pf+nowjugPYo9100shV6P/u8Edl0/hN0gt5F4BGGc77FK/rtM0vf4AabuWcUjec7ll7A3WeIxP5IRo29V/zXge5gvVbd49IkFw0UjHV2sY9feZvRv3px7Cbux7QK3o/9fBd4nx+8h8ZhMU3wPjzzke9TPKPXnA+ymco+4aVSdJfRkdLFCfG09go063SCOLpaJu/mfZrJB+gB2bZ4iZ3FA4jGZJvke6ZKxfI9qSL8vHoF6CnsdizKuAZeB/xn9W1VRx7Towm9In8Qih+OYSKSji2kVlWTH/9ej3ylzZU/iMRn5Ht0gHV24WBxEjxvYJL9tTDS8fL4VPUKKR9roXMEEwaOLY8TRxQa28D2y8BtTnvJrP/razej7v4W1o8iExGMy8j0WkyzRxRXsffe/f514op83anKBKSsc04xO34zmqcgx4uginYpAsYh0CYtajhN3/M/0O0k8phPK9/CO6uvke4Pke5RnmlikowuPJr6OveZ7HO7sFkIwspRRk0anRxenKBZdzHoufaxsezr6mPkwqMRjOiF9j6LGlHyP/EwyOv2ji8W06GKHWCjKCkaeMuo0oxPCv++FfQ+Jx3RC+R5ljCn5HrOZlYrcwHwKHyS+TbXRRYgyaqjoIstzLeR7SDymE8r3KGNMyfcYT9bownuzuFjsEotFVdFFqDJqXQwo4HtIPGYTwveA4saUfA8jaxnVBaKOVKTKMmpduAfjYnaKjL6HxGM2oXyPwsYU3fQ98hidyTKqpyZVG51Vl1HrJJlWv4ZVBGem1RKP2cj3qI82GZ11lFHrwndCbwJnyZhWSzxmI9+jOrIYne5ZeG/ZrpRR62aACeAxMqbVEo9shPI9ChlTLJbvkdfo9FSkDqOzaWXUuijke0g8suEhsndU956ieS6WwsZURFt9j6Jl1HkYnU0ro9ZJbt9D4pENH8lwl/g0ZZ62gk4hYyrxHNrie+Q5LzKpjFrVFvBkGfUsh43OJpZR6yK37yHxyM4ecAG7S97CLrqiR/RzGVMRTfY9QpwXqbuM+jz2PiSNzkWPLmaRy/eQeGTHL/pXgWexi7Co75HLmIrwyMMX3F70PaD+C7zp50WylFH9qEDbjc5Q+Gvo57DWsEZBEw9xSjyy46MobxLv96jb99gnDvU9danrPVQZdfHJdQJc4pGd0L7HC9h+jzy+R3Ikw8ew1KWq91Bl1O6Rq/OdxCMfIX0PD6nfJLvvkRzJsEX4kq3KqN0mV+c7iUc+5u17gC3IXcKMZFAZVaTJ3PlO4pGPkL5HZmNqzHNIpgS/QL73UWVUMY3MvofEIx/ue9yJHiF8jzKtCZ9htu+hMqrIQ2bfQ+KRnz3gIhbO71De9ygzkmGbo76HyqiiDJl9D4lHfjz3d99jg/ziEWIkw270XNKzQ9pURt3AqiYqozaLTL6HxCM/Q+zF3Ik+DpnPSIYbxIv/WPT9/PyLyqiiDJnSaolHftK+R9FyaVnfYwv4H9jde4gtPK+MqIwqypAprZZ4FKMJvsd1bI/IHwIvRV/7v1EZVZQnU1ot8ShGE3yPfeBq9PFS9LU3URlVhGFmWi3xKIbv97iBLdZ5jKIEEwkfeejPS2VUEYKZabXEoxjue7i/sIMtqDpHUSafS1HBUBlVTGJmWi3xKE6oUZRFfY+iqIwqsjAzrZZ4FCfkKMqivkfWn6EyqijC1LRa4lGcUCMZyvoe41AZVYRgalot8ShOqJEMIXwP/z5J70JlVFGWqWm1xKMcTfE9+tHP/hDwBM2fjSrawdS0WuJRjqb4HkuYWPwutu/kgxz2LhRdiKJMTKslHuVoku+xjAnIU8TH9CUWoiwT0+r+lC8SsxnnexTZc5F8gx4lf4+QIdZQ6DXsvM0g+h4ecQhRFB+TuoHd3LzzncQjAEnfw3eb5mXiG5SRESZcOxRPn4QYh6e7yQ2CEo9AhPQ9jrxBGfEeHt7fIzmOUoiyJCcdugEv8QjAJN8jL2PfoJzPoWz6JMQ4PDLexI4tSDwCEWrhjn2DchAifRJiEkvYFoDjRGm1xCMMoRbukTcox9eGSJ+EGEcPuxZPYje4k0g8ghHK9zjyBuX4+lDpkxDjWCJuybAOLEs8wiDfQyw6vhN6E2sGtSLxCIN8D9EFkpMOVyUe4Qi1cAfI9xDNw1s7+BmpByQe4fB5KN5ZzEdR5iH9BhXZ7yHfQ1SFp9XPAw9LPMLhrQnvRo/9gt8n6XusId9DNIek7/GExCMsPpKhrO+RNKbke4gm4Wn1CYlHWHwkQwjfw40p+R6iKXha/QDwuMQjLD6S4SbxwpXvIRaJJSyd/nWJR1jke4hFx7cTKPKogD3gAjaKUr6HWESW0A7TSvCS7avM1/coWzYWIolfQ0Ps+tpVG8LwTPI98nT0Gud77JA9ihmXPuXtTiaEi4X7ZvvYdXgTeE/iEZ5QCzfZmvB1rHdkHg8lXTY+Rv7O7qJbpMXigPhGuIO1uLyGRdU7Eo9qSPseRRau+x4b2DmXN7E3L89z8LLxL2MH7SQeIk1SMA6II4tbHL6GtrDrz29Iijwqwl/0V4BnKL5wB9ggqaTvkSd1KZs+icVjWnRxA7vhfQu7fn3P0M8xD22XeAvAUOJRDUNsfMJO9HFIcd/DGyOvYR3Ss45kkO8hIDbKs0QX17AI4+eYaOxHDxeNQzcuiUc1+MK9Ez3KdBYrM4oyRPok2sc4o9Oji5tMjy7uEYvF1CqdxKM63LC8hil9Gd+j6CjKZNn4WeR7LCrToosdLPJ0o/M6JhqZootpSDyqw8NBX7gb5F+4ZUdRyvdYXKaVUW9i6YcbnXexCPR69Dm7ZIwupiHxqI4QvgeUG0Up32NxyFNG9aMJY41OAh1XkHhUh3wPUZaiZdRbHI4uKjnbJPGolqb4HiHKxqJ6gpVRqeEwpMSjWprie4RIn0R4Kiuj1oHEo1rcsLxBfEhuXr5H2fRJhKGWMmodSDyqxRfuNvEJ103yRx8hfI+y6ZMoxiyjs5Iyah1IPKon2VvjaWyn6Lx8jzLpk8hOHqOzkjJqHUg8qifUKMoQ+z3Kpk9iPK0yOkMh8aieST1F5+F7lE2fhNFqozMUEo/qGddTdJX6fY8Q6VOXWRijcwp94ig32bnOf2+v1AESj7poiu+hkQzZmXVe5B7xFvBWGZ0J/OT2MrbzeAU7xX2auGv/AbE4bmG/DyDxqIsm+B6h0qdFJmt04Uan7+hsk9HZJxaLQfQ4AzyK3ZjWsK79p7HrbQ94B3gZS5UlHjXTBN8jVPq0SBQto7bJ6OwTC4aLxhomFmeif1vH0uFNoiHWxJHHLvAB4P8AbwDvE/2uEo96kO/RHEKVUZsqFnA4ulghvuGcxfb4bGDX0Hr0ed5o26MN9zw82t0EHoo+/5+JrjmJR33I95gPXSijTosu/Fp5HhOBY5hIeHSxxGGTNB0NT7xhSTzqo+jCTV/8ZUZIdsH36EIZdZLRuY41y05GFxvY4j+DiYXfcCaJRRqfELcZfa9V4F9QD9Naybpwp90pb2Gh9A+J75R5RGRRfY+ulFFnGZ0uFqvE0UU6FYH8vXSXop+1SaKXrsSjPqYt3Kx5+DbxZq93oj/n5R7wLvBN4CnsoshyB2oSXSyjrpLd6MwbXcxibOoi8aiXcb4HxKIyKw/3i3+P+OLPyz5wBTgPvE0ckg5otohMii78dUu33Vu0MuoG9j5lMToh7PvoqctG9LNXgL7Eo168IfFV7CL/EHZM3iOJv2V2Hl724h9ii+tHWO0e4KMcNmGbICJZy6ivUFPbvQrIW0Y9Q3ajMyT+c5LeyS2JR734wr2K3fn97vlNzMf4KfXk4XvAZeDvsYV3Dvg08K+Yr4gUKaPW1nYvECHLqHXi4vFJbPzpZYlH/exiUcafY4v0FuZBXMUWRB0X/wgTqIuYWP0ME6+nqFdEVEYtV0atk2TV5RHgvMSjfvYwz+EGtjAPsIW8T70LYIQtwH0s4rkK/ITDIvIkdidM7ikp+zNBZdRQZdS6GQDHo8cxiUf9+KLdJd8Gr6rw4/r7mP+SFJFzwG9insgG8b6gPBe1yqjVlVHrJD3+9EGJx3zJuhh6iUf6uPQkkgs2y8IbJyLvYov59zAhue+0M/kizzK9zKMLlVGbKxbjcN/jU8C7Eo/mkr6bLWEXX/K49CS8c9hO9PGA7IsyKSI/IR4a9ZvALwEPczSNURl1fmXUuvANjSew32tN4tEs+thFucr4u9lpDh+XnoTf7V+NPo5LB2b5LMPocy4kPj4HfIG4tOtpl8qo8yujVsm4m4J3o9vqjUZNFfrO0MMuMA9/H2T83WxAfDfLGnm4EelvetKI9ArPHaaLiD+/Y9i+lH+DpTEPRf93G5VR511GDUWWvTWXgb8Avi/xmC8uGutYOvBhbIF+inJ3sywlUN9b8hOyi8gqtpCei57jm9H3VBl1MQQjy96an2PVwm2Jx3xws83v5h8DPoeV8lw0Qt7Nxl0gvqv1G8QicoV4r8m4C8MF5EFsAd2Jvldbjc5FKqNmJcTeml1gKPGoH1+AD2P7KH4R+Hz0Z09PqrxA/eJJHtJzETmPbVu/jPkckwQk2UckWdFpIl0oo06jsr01Eo/6SHsHvwq8RLyHwisY/rlVM05Efgh8BXgNOzl5l/aNp+xqGTVJLXtrVG2pB482Nog9AxcOjzbqvliTi8RTJfdYTmMC4qbnPs2NLEBl1LnsrVHkUT0uHI8A/5pYNMbtl5gnyX4jl7C+DX+GmaJXmZzGzAOVUcdHFy4YteytkXhUS7JC8Qngi8Q7NZdp3sXrF+QuJhhvAV/GTlFeZL4CojLq9DLqHeJO77XsrVHaUh1p4fgDrAFQ0TMideC+zCrmyywD/wl7vt8m3jBWh4CojJqvjHqHOLqoZW+NxKMaZglHky9mf27L2MLsYc8f7GKuKgJRGbVlLQokHuHpYRf+I9huzDYJh+PPcYA9b7CUy2v8lwhThVEZ1WhliwKJR3j62MX+cWzBtU04kviejg3s4nyJ+OJ9n/zRh8qoC9SiQOIRlh4WXp/FTqGeo73C4biArGNVoueIzbgs6UvysJ/KqOPLqONGWjYiupiGxCMsy9jW7V/Bdo76Ho42XvRplrHy8kvYRT/EDNRdpu9EPY4donsMlVEnlVEnjbSce3QxDYlHOHz36JPAZ7EFszLXZxQOr8KcwaKp3yc+1n+Z8f5HD0tJngKewdoabqAyaltbFBxB4hGGpEn6NO0dpjSNpP/h7Qk9vL7D0Tukp3AvYiVVf00WIbrIY3TOpYxaBxKPMHhI/3HgN2i/zzGJpP/xNPAsdhL3AkejD19gFzHRWMd8j7a+JmWMztZGF9OQeJQnma741nOPOhaVFSwt+yy2jd3vrsnoY8ThPL9tC6YLIy1LIfEozwBbSOew0HyRTNJxJP2PJzE/4xJHow+fDfMzLDrZoflDtbNGF23uxRoMiUc5PK9/HDMEqxaO9N1w3EWa7rJe1XPxHaifBr6LLaw7qc/xodyvYCKzXvFzykvWkZbpMurCpiJ5kHiUo49VFD4CPIFVEKpIV5IXuZf9bgDvcVQ8+sTVjKomvnn08QBWmn4MayR0j8OLaEi8rXoLe52WAz6PIhQZaTmujNo5sUgj8SjHCkdPc4ZcpC4MflT+OrYQr2B3c99vkWQpei7/nqMT3wj8/Lz68jAmIu9jiyv5/O9hzZavYIu07tSlVedF2oTEozh++O0xzPM4Tdiow1OSfewu+Dbwl9id8F3sYp8UeZzBjtOfw1ocuhcza2BTHjw1OoM1Q34D8z52U5/nd/NXserMBtWKR6vPi7QJiUdxfJFuEG9+CoULh8+1fRP4E+A7xP1F/eIe53m8F32dm5WfZ/LApjIkhx/74bV/4Wjq8h62gN9LPOfQEdpCnBdpExKP4vjIhOex3N83P5UlKRyXMTPyj7A7+xWiztUzvt7F5R7wz1ik8hzw29j+jFDGZTL62MT8n9vRz3W8udCd6BHiNK7KqA1A4lGcZeJRCaFTln2sk9d3gT/E9lJcI18vUZ/4dpn4DgzW3OckViUKgc8vfSF6npc4LB5gi/Qi9jvsRD87b+rShZGWrULiUQzfaeljIUPl8EmP400s4vgBJiT7Bb/fAWZkXgD+EYtg1jCfJkT64tUd7+6VHMvgFPE9spZR2zzSstVIPIrhpcrkXooQKYuXNn+I9Q59gzjiKMOIuOz4NeJDe+uUF770azEuAkv7HpPu/EXKqAt1XqRNSDyK0cNCf59YH8rrOMDunF/DzNErlBcOZ4gttO9G3z+ZboXwPtJimt6q7sKQTBtURm0xEo9ieJ7/75g9sT4P7nVcwLyKSb0yijCKvt9l4slwa5iIhIg+kqnLexz1PdIm5y4qo7YaiUcxPM/3BrwhzNIhtoiuYNWR9G7NEAyxcP+nwN9ih/jWKC8es0xT93LuYf6LD9ZWGbXFSDyKkwzTQ3CALaZXiRdSFexhC3MLu+v7oiyTumQxTXexYdrfxaKf11EZtdVIPMrRI5xZOuLoZqoq8H0Xd6PHPuU7nmUxTfewiORPsDL3bVRGbTUSj+YwyVSsgj3MV7mGeQ1F9l3k5QCLMm5gYuO/p6KLlrLIDWvEZNyY9D0SIXZ9ZmGIRTp70c+UcLQYiUc3GWHb1m9HH4XIjcSjm/SADwInoo9C5Ebi0U18dsrzxB3NyzCa8FEsMBKPcowIZ2561SbkdvdJLGNT7TYJt0/FN37tku8An2gpEo9i+FbqkKZfcsv7Sap7b/pYafZY9AhRcRtiVZtrWBWnqj0qokFIPIoxwhaL97YMISC+S/OTxC0Nq2AZ21W6gQlViCjnAKvavEK1G9xEg5B4FMPPZPzf6GOIUqc3FPa5rquEf398xszjWI9Tb2JUlro2uIkGIfEoRnqxhMrvB1gj4bNYy8AVwnkfPhLzYay36ZOEGU6V3NzmD/kdHUA7TIvhnoefxfAj5WUWurf0W8N6jm5j5uO0SfR56GPp0Mei7x9yJOYBlqrILO0QEo9i+ClR72B1izAdxbyp8keB3yNejJcotyh9ONVZ4m7qoUZiulm6hbX+k9/REZS2FGcXOw36Lew0bAjfIzmJ/mlMQJ4FPkSxIdEezXwAE47nsC7qISfb+Wng5LF60QEkHsXxUwHs+QAAA+1JREFUo+3XiM+HhNrvMcD2YPwy8F+AT2DNlvOYqP3o8x/GBOjTWPd091JC4OnbTcJWnkQLUNpSHO9OvkXcFTxEVy5ngC30AfCfsZ6m/0C2uS3LWJryMLHHkZzbEmrw0xD7va8RezQSj44g8SjHPSx1+TusgrFGuJ6gEA+T7gFfwtKNi9gwp+uY1zBpYtzjVDsxzn2fbeCbxN3PREeQeJTDe45exiKQJwi3ucsXuHsgS5iQ+KzaVxm/x6SuWbXe6f0drNt70fEQoqVIPMrhqYuPdfRBziGn0rsHso5t6nocE41nmRx5nIo+10Uj5POBw1HHN7D2gndQytIpJB7l2cXuut/ASqxnCDeNzfGqSR+LbFYxMRl3KK+X+vwqDtgp6hASjwAMsZTl+9gk+01sl2ioUmgS/35LVN82cBKKOgQg8QiBD5a+CHwVEw7vlzGvBV4Vvg3do463CTuYSrQI7fMIg0cf38EEZIvF3aa9hwnGX2MCchdFHZ1E4hEGn8Z2CRtQ/TYW1i+SgCTTlbeBf8JERDtKO4rSlnD4NLYfAV/Bqh1eJanKuKwLF44t4C3gf2EH9u6yOOIocqLIIyx72J6P14CXsUjET8S2dZGlhePL2E7XLZSudBqJR1iS5unrWAWmzWXMpEF6Hvhj4NvY73eP9gqiCIDSlvC4gFwA/ju2w9O3mVdRvq0Kj5bcy3kZ+Hvs95JwCEUeFeGjFd/Ewvy3OFyBafrC8+folZXvY6mYIg5xH0Ue1eHnXl7H9nt8EevRsUbYA2qh8VRlFxOO7wD/DQmHSNEbjXQtVEgP20r+CNaI57cwAfGj8U1LY5Id0i4B3wP+FIug2uzdiAqQeFSPC8gGsYh8ATsu731E/fPmhUcbyX0cLxOnKp5yCXEfpS3V4wbqJeyO7n04fp/5pzF+5/BoYwsTjq9w2OMI0WJRLBgSj3rwdn3vY82D3FP4LSwCeYjqjs9Pe07+PK5jp2O/iqUoPyLuWKbQVIxFaUv9pNOYXwE+izXuWeewiPjnh8Lf7CFWSbmJmaLnMeH4DhYh3Y3+XxeHmIjEYz74QOtj2CncJ7FeIJ8GPoKJyGlMRLwvh39dXjzC8AbN+1gzoW3gx9gBt38i9jbUh1RkQuIxX5LNih/CuoR9BPhU9HePRE4RH++f1OwnLRLJKOMWFmXsYL03rmGjEn6MpShXiU/H6oIQmZB4NIM+FmUcIx5C/Ri2K/V5LDpZjT53CYtK1jg8azY9AuEg8e/bWJPmLUw8PMq4jlIUURCJR7PwiMKjkQ1s4NMTwHHifqYfBj4XffSGy3tYL9W/ij56afUAiyzeIY4wdqPPDzVrRnSQ/w94AJ3braa44gAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 209 */
+/* 223 */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"app_container\" class=\"{{configurations.theme | lowercase}}-theme\">\r\n    <ng2-toasty></ng2-toasty>\r\n    <div class='container-fluid'>\r\n        <div class=\"row\">\r\n            <nav id=\"header\" class=\"app-component navbar navbar-inner navbar-fixed-top\">\r\n                <nav class=\"container\">\r\n                    <div class=\"navbar-header\">\r\n                        <button type=\"button\" class=\"app-component navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\".menuItemsContainer.app-component\" aria-expanded=\"false\">\r\n                            <span class=\"sr-only\">Toggle navigation</span>\r\n                            <span class=\"icon-bar\"></span>\r\n                            <span class=\"icon-bar\"></span>\r\n                            <span class=\"icon-bar\"></span>\r\n                        </button>\r\n                        <a class=\"app-component navbar-brand\" routerLink=\"/\">\r\n                            <!--<img [src]=\"appLogo\" alt=\"logo\">-->\r\n                            <span class=\"app-component appTitle\">{{appTitle}}</span>\r\n                        </a>\r\n                    </div>\r\n                    <!-- if logged in -->\r\n                    <!--<div *ngIf=\"isUserLoggedIn\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding\">\r\n                            <li routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\"><a routerLink=\"\"><span class=\"glyphicon glyphicon-home\"></span></a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewCustomers\"><a routerLink=\"/customers\">{{'mainMenu.Customers' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewProducts\"><a routerLink=\"/products\">{{'mainMenu.Products' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewOrders\"><a routerLink=\"/orders\">{{'mainMenu.Orders' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/about\">{{'mainMenu.About' | translate}}</a></li>\r\n                        </ul>\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li (click)=\"logout()\"><a href=\"javascript:;\"><span class=\"glyphicon glyphicon-log-out\"></span> {{'mainMenu.Logout' | translate}}</a></li>\r\n                        </ul>\r\n                        <p class=\"app-component navbar-text navbar-right notifications-popup\">\r\n                            {{'app.Welcome' | translate}}\r\n                            <a class=\"app-component navbar-link user-name\" [popover]=\"popTemplate\" (onHidden)=\"markNotificationsAsRead()\" placement=\"bottom\" [popoverTitle]=\"notificationsTitle\" href=\"javascript:;\" triggers=\"focus\">\r\n                                {{userName}}\r\n                                <span *ngIf=\"newNotificationCount > 0\" class=\"badge\">{{newNotificationCount}}</span>\r\n                            </a>,\r\n                        </p>\r\n\r\n                        <ng-template #popTemplate>\r\n                            <notifications-viewer [isViewOnly]=\"true\"></notifications-viewer>\r\n                        </ng-template>\r\n\r\n\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/settings\"><span class=\"glyphicon glyphicon-cog\"></span></a></li>\r\n                        </ul>\r\n                    </div>-->\r\n\r\n                    <!-- if not logged in -->\r\n                    <div *ngIf=\"!isUserLoggedIn\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/home\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Home\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/getinvolved\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Get Involved\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/About\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    About\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/blog\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Blog\r\n                                </a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n\r\n                    <!--<div *ngIf=\"!isUserLoggedIn && router.isActive('/about', false)\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/login\"><span class=\"glyphicon glyphicon-log-in\"></span></a></li>\r\n                        </ul>\r\n                    </div>\r\n                    <div *ngIf=\"!isUserLoggedIn && router.isActive('/login', false) || false\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/about\"><span class=\"glyphicon glyphicon-info-sign\"></span></a></li>\r\n                        </ul>\r\n                    </div>-->\r\n                </nav>\r\n            </nav>\r\n\r\n            <!--<div id=\"pre-bootstrap\" *ngIf=\"!removePrebootScreen\" [class.prebootShow.app-component]=\"!isAppLoaded\" class=\"app-component prebootStep\">\r\n                <div class=\"messaging\">\r\n                    <h1>\r\n                        Loading...\r\n                    </h1>\r\n\r\n                </div>\r\n            </div>-->\r\n\r\n            <div id=\"mainContent\" class=\"app-component animated fadeIn\">\r\n                <router-outlet></router-outlet>\r\n            </div>\r\n\r\n            <div id=\"footer\">\r\n                <div class=\"app-component navbar-inner footer\">\r\n                    sdfghjkl\r\n                    <div class=\"container\">\r\n                        <footer>\r\n                            <div class=\"app-component vcenter_text center-block\">\r\n                                <p class=\"text-center text-muted\">\r\n                                    <span class=\"appName\">dotnetnepal</span> &copy; {{getYear()}}\r\n                                </p>\r\n                            </div>\r\n                        </footer>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n       \r\n    </div>\r\n\r\n    <div *ngIf=\"shouldShowLoginModal\" class=\"modal fade\" bsModal #loginModal=\"bs-modal\" (onShown)=\"onLoginModalShown()\" (onHidden)=\"onLoginModalHidden()\" (onHide)=\"onLoginModalHide()\"\r\n         [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\r\n        <div class=\"modal-dialog modal-lg\">\r\n            <app-login #loginControl isModal=\"true\"></app-login>\r\n        </div>\r\n    </div>\r\n</div>";
+module.exports = "<div id=\"app_container\" class=\"{{configurations.theme | lowercase}}-theme\">\r\n    <ng2-toasty></ng2-toasty>\r\n    <div class='container-fluid'>\r\n        <div class=\"row\">\r\n            <nav id=\"header\" class=\"app-component navbar navbar-inner navbar-fixed-top\">\r\n                <nav class=\"container\">\r\n                    <div class=\"navbar-header\">\r\n                        <button type=\"button\" class=\"app-component navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\".menuItemsContainer.app-component\" aria-expanded=\"false\">\r\n                            <span class=\"sr-only\">Toggle navigation</span>\r\n                            <span class=\"icon-bar\"></span>\r\n                            <span class=\"icon-bar\"></span>\r\n                            <span class=\"icon-bar\"></span>\r\n                        </button>\r\n                        <a class=\"app-component navbar-brand\" routerLink=\"/\">\r\n                            <!--<img [src]=\"appLogo\" alt=\"logo\">-->\r\n                            <span class=\"app-component appTitle\">{{appTitle}}</span>\r\n                        </a>\r\n                    </div>\r\n                    <!-- if logged in -->\r\n                    <!--<div *ngIf=\"isUserLoggedIn\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding\">\r\n                            <li routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\"><a routerLink=\"\"><span class=\"glyphicon glyphicon-home\"></span></a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewCustomers\"><a routerLink=\"/customers\">{{'mainMenu.Customers' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewProducts\"><a routerLink=\"/products\">{{'mainMenu.Products' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\" *ngIf=\"canViewOrders\"><a routerLink=\"/orders\">{{'mainMenu.Orders' | translate}}</a></li>\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/about\">{{'mainMenu.About' | translate}}</a></li>\r\n                        </ul>\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li (click)=\"logout()\"><a href=\"javascript:;\"><span class=\"glyphicon glyphicon-log-out\"></span> {{'mainMenu.Logout' | translate}}</a></li>\r\n                        </ul>\r\n                        <p class=\"app-component navbar-text navbar-right notifications-popup\">\r\n                            {{'app.Welcome' | translate}}\r\n                            <a class=\"app-component navbar-link user-name\" [popover]=\"popTemplate\" (onHidden)=\"markNotificationsAsRead()\" placement=\"bottom\" [popoverTitle]=\"notificationsTitle\" href=\"javascript:;\" triggers=\"focus\">\r\n                                {{userName}}\r\n                                <span *ngIf=\"newNotificationCount > 0\" class=\"badge\">{{newNotificationCount}}</span>\r\n                            </a>,\r\n                        </p>\r\n\r\n                        <ng-template #popTemplate>\r\n                            <notifications-viewer [isViewOnly]=\"true\"></notifications-viewer>\r\n                        </ng-template>\r\n\r\n\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/settings\"><span class=\"glyphicon glyphicon-cog\"></span></a></li>\r\n                        </ul>\r\n                    </div>-->\r\n\r\n                    <!-- if not logged in -->\r\n                    <div *ngIf=\"!isUserLoggedIn\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/home\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Home\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/getinvolved\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Get Involved\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/About\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    About\r\n                                </a>\r\n                            </li>\r\n                            <li routerLinkActive=\"active\">\r\n                                <a routerLink=\"/blog\">\r\n                                    <!--<span class=\"glyphicon glyphicon-home\"></span>-->\r\n                                    Blog\r\n                                </a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n\r\n                    <!--<div *ngIf=\"!isUserLoggedIn && router.isActive('/about', false)\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/login\"><span class=\"glyphicon glyphicon-log-in\"></span></a></li>\r\n                        </ul>\r\n                    </div>\r\n                    <div *ngIf=\"!isUserLoggedIn && router.isActive('/login', false) || false\" class=\"app-component collapse navbar-collapse menuItemsContainer\">\r\n                        <ul class=\"app-component nav navbar-nav nav-pills navBarPadding navbar-right\">\r\n                            <li routerLinkActive=\"active\"><a routerLink=\"/about\"><span class=\"glyphicon glyphicon-info-sign\"></span></a></li>\r\n                        </ul>\r\n                    </div>-->\r\n                </nav>\r\n            </nav>\r\n\r\n            <!--<div id=\"pre-bootstrap\" *ngIf=\"!removePrebootScreen\" [class.prebootShow.app-component]=\"!isAppLoaded\" class=\"app-component prebootStep\">\r\n                <div class=\"messaging\">\r\n                    <h1>\r\n                        Loading...\r\n                    </h1>\r\n\r\n                </div>\r\n            </div>-->\r\n\r\n            <div id=\"mainContent\" class=\"app-component animated fadeIn\">\r\n                <router-outlet></router-outlet>\r\n            </div>\r\n\r\n            <footer id=\"footer\">\r\n                <div class=\"navbar-inner footer\">\r\n                    <div class=\"ms-footer-top visible-lg visible-md visible-sm\">\r\n                        <div class=\"container\">\r\n                            <div class=\"row\">\r\n                                <div class=\"col-md-3\">\r\n                                    <ul class=\"ms-foot-menu\">\r\n                                        <li class=\"ms-foot-title\">\r\n                                            More In Community\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Join in\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Code of Conduct\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Blogs\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Forum\r\n                                            </a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </div>\r\n                                <div class=\"col-md-3\">\r\n                                    <ul class=\"ms-foot-menu\">\r\n                                        <li class=\"ms-foot-title\">\r\n                                            Title\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 1\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 2\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 3\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 4\r\n                                            </a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </div>\r\n                                <div class=\"col-md-3\">\r\n                                    <ul class=\"ms-foot-menu\">\r\n                                        <li class=\"ms-foot-title\">\r\n                                            Title\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 1\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 2\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 3\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 4\r\n                                            </a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </div>\r\n                                <div class=\"col-md-3\">\r\n                                    <ul class=\"ms-foot-menu\">\r\n                                        <li class=\"ms-foot-title\">\r\n                                            Title\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 1\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 2\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 3\r\n                                            </a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a href=\"\">\r\n                                                Menu 4\r\n                                            </a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"ms-footer-bottom\">\r\n                        <div class=\"container\">\r\n                            <div class=\"app-component vcenter_text center-block\">\r\n                                <p class=\"\">\r\n                                    <span>All Rights Reserved &reg;</span>\r\n                                    <span class=\"appName\">dotnetnepal</span> &copy; {{getYear()}}\r\n\r\n                                    <span class=\"text-right\">\r\n                                        <a href=\"#\">\r\n                                           \r\n                                        </a>\r\n                                    </span>\r\n                                </p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </footer>\r\n        </div>\r\n       \r\n    </div>\r\n\r\n    <div *ngIf=\"shouldShowLoginModal\" class=\"modal fade\" bsModal #loginModal=\"bs-modal\" (onShown)=\"onLoginModalShown()\" (onHidden)=\"onLoginModalHidden()\" (onHide)=\"onLoginModalHide()\"\r\n         [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\r\n        <div class=\"modal-dialog modal-lg\">\r\n            <app-login #loginControl isModal=\"true\"></app-login>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
-/* 210 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(211);
+        var result = __webpack_require__(225);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -76605,7 +76969,7 @@ module.exports = "<div id=\"app_container\" class=\"{{configurations.theme | low
     
 
 /***/ }),
-/* 211 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76613,17 +76977,17 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\r\n#mainContent.app-component {\r\n    position: relative;\r\n    padding-top: 50px;\r\n    padding-bottom: 50px;\r\n}\r\n\r\n\r\n.appTitle.app-component {\r\n    line-height: 50px;\r\n}\r\n\r\n\r\n.navbar-fixed-top.app-component, .navbar-fixed-bottom.app-component {\r\n    z-index: 1000;\r\n}\r\n\r\n\r\n.navbar-brand.app-component {\r\n    float: none;\r\n    color: #fff;\r\n}\r\n\r\n    .navbar-brand.app-component > img {\r\n        display: inline;\r\n        height: 35px;\r\n    }\r\n\r\n.navbar-inner.app-component {\r\n    padding-left: 0px;\r\n    -webkit-border-radius: 0px;\r\n    border-radius: 0px;\r\n    -webkit-box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    box-shadow: none;\r\n    background-color: #256CA0 /*#027FF4*/;\r\n    background-image: none;\r\n}\r\n\r\n.navbar-inner.toolbar.app-component {\r\n    background-color: #fafafa;\r\n}\r\n\r\n\r\n.navbar.app-component .nav > .active > a, .navbar.app-component .nav > .active > a:hover, .navbar.app-component .nav > .active > a:focus {\r\n    background-color: #efefef;\r\n    -webkit-box-shadow: none;\r\n    box-shadow: none;\r\n    color: #808080;\r\n}\r\n\r\n.navbar.app-component .nav > li {\r\n    cursor: pointer;\r\n}\r\n\r\n    .navbar.app-component .nav > li > a {\r\n        color: white;\r\n        font-weight: bold;\r\n        -webkit-text-shadow: none;\r\n        text-shadow: none;\r\n        height: 30px;\r\n        padding-top: 6px;\r\n        padding-bottom: 0px;\r\n    }\r\n\r\n\r\n.navbar-fixed-top.app-component .navbar-inner.app-component,\r\n.navbar-static-top.app-component .navbar-inner.app-component {\r\n    -webkit-box-shadow: 0 1px 00px rgba(0, 0, 0, 0);\r\n    -moz-box-shadow: 0 1px 00px rgba(0, 0, 0, 0);\r\n    box-shadow: 0 1px 00px rgba(0, 0, 0, 0);\r\n}\r\n\r\n.nav.navBarPadding.app-component {\r\n    margin-left: 5px;\r\n    margin-top: 10px;\r\n}\r\n\r\np.navbar-text.app-component {\r\n    color: #fff;\r\n}\r\n\r\n    p.navbar-text.app-component a {\r\n        color: #fff;\r\n    }\r\n\r\n.navbar.app-component .brand {\r\n    margin-top: 2px;\r\n    color: #fff;\r\n    -webkit-text-shadow: none;\r\n    text-shadow: none;\r\n}\r\n\r\n.navbar-toggle.app-component {\r\n    border: 1px solid white;\r\n}\r\n\r\n    .navbar-toggle.app-component .icon-bar {\r\n        background-color: white;\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n@media screen and (max-width: 992px) {\r\n    #mainContent.app-component {\r\n        /*padding-top: 200px;*/\r\n    }\r\n\r\n    .navbar-brand.app-component {\r\n        font-size: 12pt;\r\n    }\r\n\r\n    /*.nav.navBarPadding.app-component {\r\n        margin-left: -10px;\r\n    }*/\r\n\r\n    .nav.app-component > li > a {\r\n        padding-right: 5px;\r\n        padding-left: 5px;\r\n    }\r\n}\r\n\r\n\r\n@media screen and (max-width: 768px) {\r\n    .nav-pills.app-component > li {\r\n        float: none;\r\n        margin: 0;\r\n    }\r\n\r\n        .nav-pills.app-component > li + li {\r\n            margin-left: 0;\r\n            margin-top: 1px;\r\n        }\r\n\r\n    .navbar-collapse.app-component {\r\n        padding-right: 30px;\r\n    }\r\n}\r\n\r\n\r\n@media (min-width: 768px) {\r\n    a.user-name.app-component {\r\n        max-width: 45px;\r\n    }\r\n}\r\n\r\n\r\n@media (min-width: 992px) {\r\n    .navbar-toggle.app-component {\r\n        display: none;\r\n    }\r\n\r\n    a.user-name.app-component {\r\n        max-width: 100px;\r\n    }\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    a.user-name.app-component {\r\n        max-width: 250px;\r\n    }\r\n}\r\n\r\n\r\na.user-name.app-component {\r\n    display: inline-block;\r\n    overflow: hidden;\r\n    white-space: nowrap;\r\n    text-overflow: ellipsis;\r\n    vertical-align: bottom;\r\n}\r\n\r\n\r\n\r\n/*footer.app-component {\r\n    margin-top: 10px;\r\n    font-weight: bold;\r\n}*/\r\n\r\n\r\n.navbar-inner.footer.app-component {\r\n    background-color: #f5f5f5;\r\n    -webkit-box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    box-shadow: none;\r\n    height: 40px;\r\n}\r\n\r\n\r\n\r\n.vcenter_text.app-component {\r\n    line-height: 40px;\r\n    vertical-align: middle;\r\n}\r\n\r\n.prebootShow.app-component {\r\n    opacity: 1 !important;\r\n}\r\n\r\n.prebootStep.app-component {\r\n    opacity: 0;\r\n    transition: .5s ease-in-out all;\r\n}\r\n\r\n/*ms*/\r\n\r\n/*ms*/", ""]);
+exports.push([module.i, "/*dark*/\r\n/*dark*/\r\n.tn-btn {\r\n  border: none;\r\n  border-radius: 0; }\r\n\r\n.tn-btn-pad {\r\n  padding: 10px 40px; }\r\n\r\n.btn-primary:hover {\r\n  background-color: #256ca0;\r\n  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }\r\n\r\n#mainContent.app-component {\r\n  position: relative;\r\n  padding-top: 50px;\r\n  padding-bottom: 0px; }\r\n\r\n.appTitle.app-component {\r\n  line-height: 50px; }\r\n\r\n.navbar-fixed-top.app-component, .navbar-fixed-bottom.app-component {\r\n  z-index: 1000; }\r\n\r\n.navbar-brand.app-component {\r\n  float: none;\r\n  color: #fff; }\r\n\r\n.navbar-brand.app-component > img {\r\n  display: inline;\r\n  height: 35px; }\r\n\r\n.navbar-inner.app-component {\r\n  padding-left: 0px;\r\n  -webkit-border-radius: 0px;\r\n  border-radius: 0px;\r\n  -webkit-box-shadow: none;\r\n  -moz-box-shadow: none;\r\n  box-shadow: none;\r\n  background-color: #256CA0;\r\n  background-image: none; }\r\n\r\n.navbar-inner.toolbar.app-component {\r\n  background-color: #fafafa; }\r\n\r\n.navbar.app-component .nav > .active > a, .navbar.app-component .nav > .active > a:hover, .navbar.app-component .nav > .active > a:focus {\r\n  background-color: #efefef;\r\n  -webkit-box-shadow: none;\r\n  box-shadow: none;\r\n  color: #808080; }\r\n\r\n.navbar.app-component .nav > li {\r\n  cursor: pointer; }\r\n\r\n.navbar.app-component .nav > li > a {\r\n  color: white;\r\n  font-weight: bold;\r\n  -webkit-text-shadow: none;\r\n  text-shadow: none;\r\n  height: 30px;\r\n  padding-top: 6px;\r\n  padding-bottom: 0px; }\r\n\r\n.navbar-fixed-top.app-component .navbar-inner.app-component,\r\n.navbar-static-top.app-component .navbar-inner.app-component {\r\n  -webkit-box-shadow: 0 1px 0px transparent;\r\n  -moz-box-shadow: 0 1px 0px transparent;\r\n  box-shadow: 0 1px 0px transparent; }\r\n\r\n.nav.navBarPadding.app-component {\r\n  margin-left: 5px;\r\n  margin-top: 10px; }\r\n\r\np.navbar-text.app-component {\r\n  color: #fff; }\r\n\r\np.navbar-text.app-component a {\r\n  color: #fff; }\r\n\r\n.navbar.app-component .brand {\r\n  margin-top: 2px;\r\n  color: #fff;\r\n  -webkit-text-shadow: none;\r\n  text-shadow: none; }\r\n\r\n.navbar-toggle.app-component {\r\n  border: 1px solid white; }\r\n\r\n.navbar-toggle.app-component .icon-bar {\r\n  background-color: white; }\r\n\r\n@media screen and (max-width: 992px) {\r\n  #mainContent.app-component {\r\n    /*padding-top: 200px;*/ }\r\n  .navbar-brand.app-component {\r\n    font-size: 12pt; }\r\n  /*.nav.navBarPadding.app-component {\r\n        margin-left: -10px;\r\n    }*/\r\n  .nav.app-component > li > a {\r\n    padding-right: 5px;\r\n    padding-left: 5px; } }\r\n\r\n@media screen and (max-width: 768px) {\r\n  .nav-pills.app-component > li {\r\n    float: none;\r\n    margin: 0; }\r\n  .nav-pills.app-component > li + li {\r\n    margin-left: 0;\r\n    margin-top: 1px; }\r\n  .navbar-collapse.app-component {\r\n    padding-right: 30px; } }\r\n\r\n@media (min-width: 768px) {\r\n  a.user-name.app-component {\r\n    max-width: 45px; } }\r\n\r\n@media (min-width: 992px) {\r\n  .navbar-toggle.app-component {\r\n    display: none; }\r\n  a.user-name.app-component {\r\n    max-width: 100px; } }\r\n\r\n@media (min-width: 1200px) {\r\n  a.user-name.app-component {\r\n    max-width: 250px; } }\r\n\r\na.user-name.app-component {\r\n  display: inline-block;\r\n  overflow: hidden;\r\n  white-space: nowrap;\r\n  text-overflow: ellipsis;\r\n  vertical-align: bottom; }\r\n\r\n/*footer.app-component {\r\n    margin-top: 10px;\r\n    font-weight: bold;\r\n}*/\r\n.navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n  -webkit-box-shadow: none;\r\n  -moz-box-shadow: none;\r\n  box-shadow: none;\r\n  height: 40px; }\r\n\r\n.vcenter_text.app-component {\r\n  line-height: 40px;\r\n  vertical-align: middle; }\r\n\r\n.prebootShow.app-component {\r\n  opacity: 1 !important; }\r\n\r\n.prebootStep.app-component {\r\n  opacity: 0;\r\n  transition: .5s ease-in-out all; }\r\n\r\n/*ms*/\r\n#footer .navbar-inner.footer {\r\n  background: none; }\r\n  #footer .navbar-inner.footer .ms-footer-top {\r\n    background-color: #256ca0;\r\n    color: #efefef;\r\n    padding-top: 15px; }\r\n    #footer .navbar-inner.footer .ms-footer-top .container .row {\r\n      display: flex; }\r\n      #footer .navbar-inner.footer .ms-footer-top .container .row .col-md-3 {\r\n        min-width: 25%; }\r\n    #footer .navbar-inner.footer .ms-footer-top ul.ms-foot-menu {\r\n      /*&:first-child {\r\n                    padding-left: 0;\r\n                }*/ }\r\n      #footer .navbar-inner.footer .ms-footer-top ul.ms-foot-menu li {\r\n        list-style: none; }\r\n        #footer .navbar-inner.footer .ms-footer-top ul.ms-foot-menu li.ms-foot-title {\r\n          font-size: 1.3rem;\r\n          text-transform: uppercase;\r\n          font-weight: bold;\r\n          color: #efefef; }\r\n        #footer .navbar-inner.footer .ms-footer-top ul.ms-foot-menu li a {\r\n          font-size: 1.3rem;\r\n          color: #e2e1e1;\r\n          text-decoration: none; }\r\n  #footer .navbar-inner.footer .ms-footer-bottom {\r\n    background-color: #1f557e;\r\n    color: white; }\r\n    #footer .navbar-inner.footer .ms-footer-bottom .app-component p {\r\n      position: relative;\r\n      margin-bottom: 0; }\r\n      #footer .navbar-inner.footer .ms-footer-bottom .app-component p .text-right {\r\n        position: absolute;\r\n        right: 0; }\r\n\r\n/*ms*/\r\n\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 212 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(213);
+        var result = __webpack_require__(227);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -76633,14 +76997,14 @@ exports.push([module.i, "\r\n#mainContent.app-component {\r\n    position: relat
     
 
 /***/ }),
-/* 213 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
 // imports
-exports.i(__webpack_require__(214), "");
-exports.i(__webpack_require__(215), "");
-exports.i(__webpack_require__(216), "");
+exports.i(__webpack_require__(228), "");
+exports.i(__webpack_require__(229), "");
+exports.i(__webpack_require__(230), "");
 
 // module
 exports.push([module.i, "/*dark*/\r\n.navbar .nav li a:hover,\r\n.navbar.nav li.toolbaritem a:hover,\r\n.nav.nav-tabsNOTUSE li a:hover {\r\n  color: #E03930; }\r\n\r\n.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {\r\n  background-color: #efefef; }\r\n\r\n.nav.nav-tabsNOTUSED li.active a {\r\n  color: #555; }\r\n\r\n.disabledContainer {\r\n  pointer-events: none;\r\n  opacity: 0.4; }\r\n\r\ninput.form-control.is-required-status, textarea.form-control.is-required-status, .bootstrap-select.is-required-status > .dropdown-toggle {\r\n  border-left-width: 5px; }\r\n\r\n.ng-valid[required], .ng-valid.required {\r\n  border-left: 5px solid #42A948;\r\n  /*57A83F*/ }\r\n\r\n.ng-invalid:not(form) {\r\n  border-left: 5px solid #a94442;\r\n  /*E03930*/ }\r\n\r\n.bootstrap-select.ng-novalidation > .dropdown-toggle {\r\n  border-left-width: 5px; }\r\n\r\n.has-success .bootstrap-select .dropdown-toggle,\r\n.success .bootstrap-select .dropdown-toggle {\r\n  border-color: #3c763d; }\r\n\r\n.has-error .bootstrap-select .dropdown-toggle,\r\n.error .bootstrap-select .dropdown-toggle {\r\n  border-color: #a94442; }\r\n\r\n.bootstrap-select .btn-default .badge {\r\n  color: #fff;\r\n  background-color: #777; }\r\n\r\n.pageHeader {\r\n  margin-bottom: 20px; }\r\n\r\n.errorMessage {\r\n  padding: 5px 10px;\r\n  color: #a94442; }\r\n\r\n.appName {\r\n  font-family: monospace; }\r\n\r\ni.page-caption {\r\n  vertical-align: baseline;\r\n  font-size: 1.2em; }\r\n\r\n.alertify {\r\n  top: 75px; }\r\n\r\n.alertify-message {\r\n  font-size: 1.2em; }\r\n\r\n#toasty.toasty-position-top-right {\r\n  top: 20px;\r\n  right: 20px; }\r\n\r\n#toasty .toast.toasty-theme-bootstrap {\r\n  font-size: 1em; }\r\n\r\n#toasty .toast.toasty-theme-bootstrap .toast-text .toast-title {\r\n  font-size: 1.04em; }\r\n\r\n/*-webkit-filter: blur(5px) grayscale(90%);*/\r\n/*body.modal-open .container {\r\n    -webkit-filter: blur(1px);\r\n    -moz-filter: blur(1px);\r\n    -o-filter: blur(1px);\r\n    -ms-filter: blur(1px);\r\n    filter: blur(1px);\r\n    filter: url(\"https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur\".svg#blur);\r\n    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');\r\n}*/\r\n.notifications-popup .popover {\r\n  color: #333 !important;\r\n  max-width: 500px;\r\n  width: 500px; }\r\n\r\n.vertical-center-flex {\r\n  min-height: 80vh;\r\n  display: flex;\r\n  align-items: center; }\r\n\r\n/*Hack stop get ngx-datatable width to be full when inside bootstrap tab control*/\r\n.tab-pane .datatable-scroll {\r\n  width: 100% !important; }\r\n\r\n.ngx-datatable.scroll-vertical {\r\n  height: 64vh; }\r\n\r\n.boldFont.app-component {\r\n  font-weight: bold; }\r\n\r\n.black-anchor {\r\n  color: #333; }\r\n\r\n.form-group .icon-addon .form-control {\r\n  border-radius: 25px; }\r\n\r\n.icon-addon {\r\n  position: relative;\r\n  color: #555;\r\n  display: block; }\r\n\r\n.icon-addon:after,\r\n.icon-addon:before {\r\n  display: table;\r\n  content: \" \"; }\r\n\r\n.icon-addon:after {\r\n  clear: both; }\r\n\r\n.icon-addon.addon-md .glyphicon,\r\n.icon-addon .glyphicon,\r\n.icon-addon.addon-md .fa,\r\n.icon-addon .fa {\r\n  position: absolute;\r\n  z-index: 2;\r\n  font-size: 14px;\r\n  width: 20px;\r\n  text-align: center;\r\n  padding: 10px 0;\r\n  top: 1px; }\r\n\r\n.icon-addon .fa.left-icon {\r\n  left: 10px;\r\n  margin-left: -2.5px; }\r\n\r\n.icon-addon .fa.right-icon {\r\n  right: 10px;\r\n  margin-right: -2.5px; }\r\n\r\n.icon-addon.addon-lg .form-control {\r\n  line-height: 1.33;\r\n  height: 46px;\r\n  font-size: 18px; }\r\n\r\n.icon-addon.addon-lg .form-control.left-icon {\r\n  padding-top: 10px;\r\n  padding-right: 16px;\r\n  padding-bottom: 10px;\r\n  padding-left: 40px !important; }\r\n\r\n.icon-addon.addon-lg .form-control.right-icon {\r\n  padding-top: 10px;\r\n  padding-right: 40px !important;\r\n  padding-bottom: 10px;\r\n  padding-left: 16px; }\r\n\r\n.icon-addon.addon-sm .form-control {\r\n  height: 30px;\r\n  font-size: 12px;\r\n  line-height: 1.5; }\r\n\r\n.icon-addon.addon-sm .form-control.left-icon {\r\n  padding-top: 5px;\r\n  padding-right: 10px;\r\n  padding-bottom: 5px;\r\n  padding-left: 28px !important; }\r\n\r\n.icon-addon.addon-sm .form-control.right-icon {\r\n  padding-top: 5px;\r\n  padding-right: 28px !important;\r\n  padding-bottom: 5px;\r\n  padding-left: 10px; }\r\n\r\n.icon-addon.addon-lg .fa,\r\n.icon-addon.addon-lg .glyphicon {\r\n  font-size: 18px;\r\n  top: 4px; }\r\n\r\n.icon-addon.addon-lg .fa.left-icon,\r\n.icon-addon.addon-lg .glyphicon.left-icon {\r\n  margin-left: 0;\r\n  left: 11px; }\r\n\r\n.icon-addon.addon-lg .fa.right-icon,\r\n.icon-addon.addon-lg .glyphicon.right-icon {\r\n  margin-right: 0;\r\n  right: 11px; }\r\n\r\n.icon-addon.addon-md .form-control,\r\n.icon-addon .form-control {\r\n  font-weight: normal; }\r\n\r\n.icon-addon.addon-md .form-control.left-icon,\r\n.icon-addon .form-control.left-icon {\r\n  float: left;\r\n  padding-left: 30px; }\r\n\r\n.icon-addon.addon-md .form-control.right-icon,\r\n.icon-addon .form-control.right-icon {\r\n  float: right;\r\n  padding-right: 30px; }\r\n\r\n.icon-addon.addon-sm .fa,\r\n.icon-addon.addon-sm .glyphicon {\r\n  font-size: 12px;\r\n  top: -1px; }\r\n\r\n.icon-addon.addon-sm .fa.left-icon,\r\n.icon-addon.addon-sm .glyphicon.left-icon {\r\n  margin-left: 0;\r\n  left: 5px; }\r\n\r\n.icon-addon.addon-sm .fa.right-icon,\r\n.icon-addon.addon-sm .glyphicon.right-icon {\r\n  margin-right: 0;\r\n  right: 5px; }\r\n\r\n.icon-addon .form-control:focus + .glyphicon,\r\n.icon-addon:hover .glyphicon,\r\n.icon-addon .form-control:focus + .fa,\r\n.icon-addon:hover .fa {\r\n  color: #2580db; }\r\n\r\n.clear-input {\r\n  text-decoration: none !important;\r\n  color: #b3b3b3 !important; }\r\n\r\n.clear-input:hover {\r\n  color: #2580db !important; }\r\n\r\n.inline-block {\r\n  display: inline-block; }\r\n\r\n/*countdown*/\r\n.countdown {\r\n  width: 100%;\r\n  height: 100px;\r\n  color: #EAF900; }\r\n  .countdown .two-dots {\r\n    display: none; }\r\n  .countdown .measurements {\r\n    color: white;\r\n    margin-right: 5px;\r\n    padding: 10px; }\r\n    .countdown .measurements:nth-child(2n+1) {\r\n      color: #EAF900; }\r\n    .countdown .measurements .measurements-number {\r\n      font-size: 4rem; }\r\n  .countdown .divider {\r\n    font-size: 30px; }\r\n\r\n/*countdown*/\r\n\r\n", ""]);
@@ -76649,7 +77013,7 @@ exports.push([module.i, "/*dark*/\r\n.navbar .nav li a:hover,\r\n.navbar.nav li.
 
 
 /***/ }),
-/* 214 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76657,13 +77021,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.ngx-datatable.material.table-shadow {\n    background: #FFF;\n    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\n    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\n    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\n    /**\n\t * Shared Styles\n\t */\n    /**\n\t * Global Row Styles\n\t */\n    /**\n\t * Header Styles\n\t */\n    /**\n\t * Body Styles\n\t */\n    /**\n\t * Footer Styles\n\t */\n}\n\n.ngx-datatable.material.xs {\n    font-size: 10px;\n}\n\n.ngx-datatable.material.sm {\n    font-size: 12px;\n}\n\n.ngx-datatable.material.md {\n    font-size: 14px;\n}\n\n.ngx-datatable.material.lg {\n    font-size: 16px;\n}\n\n.ngx-datatable.material.table-striped .datatable-row-even {\n    background: #f9f9f9;\n}\n\n.ngx-datatable.material.single-selection .datatable-body-row.active,\n.ngx-datatable.material.single-selection .datatable-body-row.active .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active,\n.ngx-datatable.material.multi-selection .datatable-body-row.active .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active,\n.ngx-datatable.material.multi-click-selection .datatable-body-row.active .datatable-row-group {\n    background-color: #304FFE;\n    color: #FFF;\n}\n\n    .ngx-datatable.material.single-selection .datatable-body-row.active:hover,\n    .ngx-datatable.material.single-selection .datatable-body-row.active:hover .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active:hover,\n    .ngx-datatable.material.multi-selection .datatable-body-row.active:hover .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active:hover,\n    .ngx-datatable.material.multi-click-selection .datatable-body-row.active:hover .datatable-row-group {\n        background-color: #193AE4;\n        color: #FFF;\n    }\n\n    .ngx-datatable.material.single-selection .datatable-body-row.active:focus,\n    .ngx-datatable.material.single-selection .datatable-body-row.active:focus .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active:focus,\n    .ngx-datatable.material.multi-selection .datatable-body-row.active:focus .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active:focus,\n    .ngx-datatable.material.multi-click-selection .datatable-body-row.active:focus .datatable-row-group {\n        background-color: #2041EF;\n        color: #FFF;\n    }\n\n.ngx-datatable.material.table-hover:not(.cell-selection) .datatable-body-row:hover,\n.ngx-datatable.material.table-hover:not(.cell-selection) .datatable-body-row:hover .datatable-row-group {\n    background-color: #f5f5f5;\n    /*transition-property: background;\n        transition-duration: .3s;\n        transition-timing-function: linear;*/\n}\n\n.ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus,\n.ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus .datatable-row-group {\n    background-color: #ddd;\n}\n\n.ngx-datatable.material.cell-selection.table-hover .datatable-body-cell:hover,\n.ngx-datatable.material.cell-selection.table-hover .datatable-body-cell:hover .datatable-row-group {\n    background-color: #f5f5f5;\n    /*transition-property: background;\n        transition-duration: .3s;\n        transition-timing-function: linear;*/\n}\n\n.ngx-datatable.material.cell-selection .datatable-body-cell:focus,\n.ngx-datatable.material.cell-selection .datatable-body-cell:focus .datatable-row-group {\n    background-color: #ddd;\n}\n\n.ngx-datatable.material.cell-selection .datatable-body-cell.active,\n.ngx-datatable.material.cell-selection .datatable-body-cell.active .datatable-row-group {\n    background-color: #304FFE;\n    color: #FFF;\n}\n\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:hover,\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:hover .datatable-row-group {\n        background-color: #193AE4;\n        color: #FFF;\n    }\n\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:focus,\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:focus .datatable-row-group {\n        background-color: #2041EF;\n        color: #FFF;\n    }\n\n.ngx-datatable.material .empty-row {\n    height: 50px;\n    text-align: left;\n    padding: .5rem 1.2rem;\n    vertical-align: top;\n    border-top: 0;\n}\n\n.ngx-datatable.material .loading-row {\n    text-align: left;\n    padding: .5rem 1.2rem;\n    vertical-align: top;\n    border-top: 0;\n}\n\n.ngx-datatable.material .datatable-header .datatable-row-left,\n.ngx-datatable.material .datatable-body .datatable-row-left {\n    background-color: #FFF;\n    background-position: 100% 0;\n    background-repeat: repeat-y;\n    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQIHWPSkNeSBmJhTQVtbiDNCgASagIIuJX8OgAAAABJRU5ErkJggg==);\n}\n\n.ngx-datatable.material .datatable-header .datatable-row-right,\n.ngx-datatable.material .datatable-body .datatable-row-right {\n    background-position: 0 0;\n    background-color: #fff;\n    background-repeat: repeat-y;\n    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQI12PQkNdi1VTQ5gbSwkAsDQARLAIGtOSFUAAAAABJRU5ErkJggg==);\n}\n\n\n\n.ngx-datatable.material .datatable-header {\n    border-bottom: 1px solid #ddd;\n}\n\n\n.ngx-datatable.material.colored-header .datatable-header {\n    padding: .9rem 0;\n    color: #fff;\n    background-color: #027FF4;\n}\n\n.ngx-datatable.material.table .datatable-body .datatable-body-row,\n.ngx-datatable.material.table-bordered .datatable-body .datatable-body-row {\n    border-top: 1px solid #ddd;\n}\n\n\n\n.ngx-datatable.material.table-bordered .datatable-header .datatable-header-cell {\n    padding: .9rem 1.2rem;\n}\n\n\n.ngx-datatable.material.full-header .datatable-header .datatable-header-cell {\n    padding: .9rem 1.2rem;\n}\n\n.ngx-datatable.material .datatable-header .datatable-header-cell {\n    text-align: left;\n    padding: .1rem 1.2rem;\n    font-weight: 400;\n    font-weight: bold;\n    vertical-align: bottom;\n}\n\n    .ngx-datatable.material .datatable-header .datatable-header-cell.longpress {\n        color: #027FF4;\n        background-color: whitesmoke;\n    }\n\n    .ngx-datatable.material .datatable-header .datatable-header-cell.dragging .resize-handle {\n        border-right: none;\n    }\n\n.ngx-datatable.material .datatable-header .resize-handle {\n    border-right: solid 1px #eee;\n}\n\n.ngx-datatable.material .datatable-body .datatable-row-detail {\n    background: #f5f5f5;\n    padding: 10px;\n}\n\n.ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell {\n    text-align: left;\n    padding: .7rem 1.2rem;\n    vertical-align: top;\n    border-top: 0;\n    -webkit-transition: width 0.3s ease;\n    transition: width 0.3s ease;\n}\n\n.ngx-datatable.material .datatable-body .progress-linear {\n    display: block;\n    width: 100%;\n    height: 5px;\n    padding: 0;\n    margin: 0;\n    position: absolute;\n    z-index:9999;\n}\n\n    .ngx-datatable.material .datatable-body .progress-linear .container {\n        display: block;\n        position: relative;\n        overflow: hidden;\n        width: 100%;\n        height: 5px;\n        -webkit-transform: translate(0, 0) scale(1, 1);\n        transform: translate(0, 0) scale(1, 1);\n        background-color: #aad1f9;\n    }\n\n        .ngx-datatable.material .datatable-body .progress-linear .container .bar {\n            transition: all .2s linear;\n            -webkit-animation: query 0.8s infinite cubic-bezier(0.39, 0.575, 0.565, 1);\n            animation: query 0.8s infinite cubic-bezier(0.39, 0.575, 0.565, 1);\n            transition: -webkit-transform .2s linear;\n            transition: transform .2s linear;\n            background-color: #106cc8;\n            position: absolute;\n            left: 0;\n            top: 0;\n            bottom: 0;\n            width: 100%;\n            height: 5px;\n        }\n\n.ngx-datatable.material .datatable-footer {\n    border-top: 1px solid rgba(0, 0, 0, 0.12);\n    font-size: 14px;\n    color: #777;\n}\n\n    .ngx-datatable.material .datatable-footer .page-count {\n        line-height: 50px;\n        height: 50px;\n        padding: 0 1.2rem;\n    }\n\n    .ngx-datatable.material .datatable-footer .datatable-pager {\n        margin: 0 10px;\n    }\n\n        .ngx-datatable.material .datatable-footer .datatable-pager li {\n            vertical-align: middle;\n        }\n\n            .ngx-datatable.material .datatable-footer .datatable-pager li.disabled a {\n                color: rgba(0, 0, 0, 0.26) !important;\n                background-color: transparent !important;\n            }\n\n            .ngx-datatable.material .datatable-footer .datatable-pager li.active a {\n                background-color: rgba(158, 158, 158, 0.2);\n                font-weight: bold;\n            }\n\n        .ngx-datatable.material .datatable-footer .datatable-pager a {\n            height: 22px;\n            min-width: 24px;\n            line-height: 22px;\n            padding: 0 6px;\n            border-radius: 3px;\n            margin: 6px 3px;\n            text-align: center;\n            vertical-align: top;\n            color: rgba(0, 0, 0, 0.54);\n            text-decoration: none;\n            vertical-align: bottom;\n        }\n\n            .ngx-datatable.material .datatable-footer .datatable-pager a:hover {\n                color: rgba(0, 0, 0, 0.75);\n                background-color: rgba(158, 158, 158, 0.2);\n            }\n\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-left,\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-skip,\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-right,\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-prev {\n            font-size: 20px;\n            line-height: 20px;\n            padding: 0 3px;\n        }\n\n/**\n * Checkboxes\n**/\n.datatable-checkbox {\n    position: relative;\n    margin: 0;\n    cursor: pointer;\n    vertical-align: middle;\n    display: inline-block;\n    box-sizing: border-box;\n    padding: 10px 0;\n}\n\n    .datatable-checkbox input[type='checkbox'] {\n        position: relative;\n        margin: 0 1rem 0 0;\n        cursor: pointer;\n        outline: none;\n    }\n\n        .datatable-checkbox input[type='checkbox']:before {\n            -webkit-transition: all 0.3s ease-in-out;\n            -moz-transition: all 0.3s ease-in-out;\n            transition: all 0.3s ease-in-out;\n            content: \"\";\n            position: absolute;\n            left: 0;\n            z-index: 1;\n            width: 1rem;\n            height: 1rem;\n            border: 2px solid #f2f2f2;\n        }\n\n        .datatable-checkbox input[type='checkbox']:checked:before {\n            -webkit-transform: rotate(-45deg);\n            -moz-transform: rotate(-45deg);\n            -ms-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n            height: .5rem;\n            border-color: #009688;\n            border-top-style: none;\n            border-right-style: none;\n        }\n\n        .datatable-checkbox input[type='checkbox']:after {\n            content: \"\";\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 1rem;\n            height: 1rem;\n            background: #fff;\n            cursor: pointer;\n        }\n\n/**\n * Progress bar animations\n */\n\n@keyframes query {\n    0% {\n        opacity: 1;\n        transform: translateX(35%) scale(0.3, 1);\n    }\n\n    100% {\n        opacity: 0;\n        transform: translateX(-50%) scale(0, 1);\n    }\n}\n", ""]);
+exports.push([module.i, "\r\n.ngx-datatable.material.table-shadow {\r\n    background: #FFF;\r\n    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\r\n    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\r\n    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);\r\n    /**\r\n\t * Shared Styles\r\n\t */\r\n    /**\r\n\t * Global Row Styles\r\n\t */\r\n    /**\r\n\t * Header Styles\r\n\t */\r\n    /**\r\n\t * Body Styles\r\n\t */\r\n    /**\r\n\t * Footer Styles\r\n\t */\r\n}\r\n\r\n.ngx-datatable.material.xs {\r\n    font-size: 10px;\r\n}\r\n\r\n.ngx-datatable.material.sm {\r\n    font-size: 12px;\r\n}\r\n\r\n.ngx-datatable.material.md {\r\n    font-size: 14px;\r\n}\r\n\r\n.ngx-datatable.material.lg {\r\n    font-size: 16px;\r\n}\r\n\r\n.ngx-datatable.material.table-striped .datatable-row-even {\r\n    background: #f9f9f9;\r\n}\r\n\r\n.ngx-datatable.material.single-selection .datatable-body-row.active,\r\n.ngx-datatable.material.single-selection .datatable-body-row.active .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active,\r\n.ngx-datatable.material.multi-selection .datatable-body-row.active .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active,\r\n.ngx-datatable.material.multi-click-selection .datatable-body-row.active .datatable-row-group {\r\n    background-color: #304FFE;\r\n    color: #FFF;\r\n}\r\n\r\n    .ngx-datatable.material.single-selection .datatable-body-row.active:hover,\r\n    .ngx-datatable.material.single-selection .datatable-body-row.active:hover .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active:hover,\r\n    .ngx-datatable.material.multi-selection .datatable-body-row.active:hover .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active:hover,\r\n    .ngx-datatable.material.multi-click-selection .datatable-body-row.active:hover .datatable-row-group {\r\n        background-color: #193AE4;\r\n        color: #FFF;\r\n    }\r\n\r\n    .ngx-datatable.material.single-selection .datatable-body-row.active:focus,\r\n    .ngx-datatable.material.single-selection .datatable-body-row.active:focus .datatable-row-group, .ngx-datatable.material.multi-selection .datatable-body-row.active:focus,\r\n    .ngx-datatable.material.multi-selection .datatable-body-row.active:focus .datatable-row-group, .ngx-datatable.material.multi-click-selection .datatable-body-row.active:focus,\r\n    .ngx-datatable.material.multi-click-selection .datatable-body-row.active:focus .datatable-row-group {\r\n        background-color: #2041EF;\r\n        color: #FFF;\r\n    }\r\n\r\n.ngx-datatable.material.table-hover:not(.cell-selection) .datatable-body-row:hover,\r\n.ngx-datatable.material.table-hover:not(.cell-selection) .datatable-body-row:hover .datatable-row-group {\r\n    background-color: #f5f5f5;\r\n    /*transition-property: background;\r\n        transition-duration: .3s;\r\n        transition-timing-function: linear;*/\r\n}\r\n\r\n.ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus,\r\n.ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus .datatable-row-group {\r\n    background-color: #ddd;\r\n}\r\n\r\n.ngx-datatable.material.cell-selection.table-hover .datatable-body-cell:hover,\r\n.ngx-datatable.material.cell-selection.table-hover .datatable-body-cell:hover .datatable-row-group {\r\n    background-color: #f5f5f5;\r\n    /*transition-property: background;\r\n        transition-duration: .3s;\r\n        transition-timing-function: linear;*/\r\n}\r\n\r\n.ngx-datatable.material.cell-selection .datatable-body-cell:focus,\r\n.ngx-datatable.material.cell-selection .datatable-body-cell:focus .datatable-row-group {\r\n    background-color: #ddd;\r\n}\r\n\r\n.ngx-datatable.material.cell-selection .datatable-body-cell.active,\r\n.ngx-datatable.material.cell-selection .datatable-body-cell.active .datatable-row-group {\r\n    background-color: #304FFE;\r\n    color: #FFF;\r\n}\r\n\r\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:hover,\r\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:hover .datatable-row-group {\r\n        background-color: #193AE4;\r\n        color: #FFF;\r\n    }\r\n\r\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:focus,\r\n    .ngx-datatable.material.cell-selection .datatable-body-cell.active:focus .datatable-row-group {\r\n        background-color: #2041EF;\r\n        color: #FFF;\r\n    }\r\n\r\n.ngx-datatable.material .empty-row {\r\n    height: 50px;\r\n    text-align: left;\r\n    padding: .5rem 1.2rem;\r\n    vertical-align: top;\r\n    border-top: 0;\r\n}\r\n\r\n.ngx-datatable.material .loading-row {\r\n    text-align: left;\r\n    padding: .5rem 1.2rem;\r\n    vertical-align: top;\r\n    border-top: 0;\r\n}\r\n\r\n.ngx-datatable.material .datatable-header .datatable-row-left,\r\n.ngx-datatable.material .datatable-body .datatable-row-left {\r\n    background-color: #FFF;\r\n    background-position: 100% 0;\r\n    background-repeat: repeat-y;\r\n    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQIHWPSkNeSBmJhTQVtbiDNCgASagIIuJX8OgAAAABJRU5ErkJggg==);\r\n}\r\n\r\n.ngx-datatable.material .datatable-header .datatable-row-right,\r\n.ngx-datatable.material .datatable-body .datatable-row-right {\r\n    background-position: 0 0;\r\n    background-color: #fff;\r\n    background-repeat: repeat-y;\r\n    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQI12PQkNdi1VTQ5gbSwkAsDQARLAIGtOSFUAAAAABJRU5ErkJggg==);\r\n}\r\n\r\n\r\n\r\n.ngx-datatable.material .datatable-header {\r\n    border-bottom: 1px solid #ddd;\r\n}\r\n\r\n\r\n.ngx-datatable.material.colored-header .datatable-header {\r\n    padding: .9rem 0;\r\n    color: #fff;\r\n    background-color: #027FF4;\r\n}\r\n\r\n.ngx-datatable.material.table .datatable-body .datatable-body-row,\r\n.ngx-datatable.material.table-bordered .datatable-body .datatable-body-row {\r\n    border-top: 1px solid #ddd;\r\n}\r\n\r\n\r\n\r\n.ngx-datatable.material.table-bordered .datatable-header .datatable-header-cell {\r\n    padding: .9rem 1.2rem;\r\n}\r\n\r\n\r\n.ngx-datatable.material.full-header .datatable-header .datatable-header-cell {\r\n    padding: .9rem 1.2rem;\r\n}\r\n\r\n.ngx-datatable.material .datatable-header .datatable-header-cell {\r\n    text-align: left;\r\n    padding: .1rem 1.2rem;\r\n    font-weight: 400;\r\n    font-weight: bold;\r\n    vertical-align: bottom;\r\n}\r\n\r\n    .ngx-datatable.material .datatable-header .datatable-header-cell.longpress {\r\n        color: #027FF4;\r\n        background-color: whitesmoke;\r\n    }\r\n\r\n    .ngx-datatable.material .datatable-header .datatable-header-cell.dragging .resize-handle {\r\n        border-right: none;\r\n    }\r\n\r\n.ngx-datatable.material .datatable-header .resize-handle {\r\n    border-right: solid 1px #eee;\r\n}\r\n\r\n.ngx-datatable.material .datatable-body .datatable-row-detail {\r\n    background: #f5f5f5;\r\n    padding: 10px;\r\n}\r\n\r\n.ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell {\r\n    text-align: left;\r\n    padding: .7rem 1.2rem;\r\n    vertical-align: top;\r\n    border-top: 0;\r\n    -webkit-transition: width 0.3s ease;\r\n    transition: width 0.3s ease;\r\n}\r\n\r\n.ngx-datatable.material .datatable-body .progress-linear {\r\n    display: block;\r\n    width: 100%;\r\n    height: 5px;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    z-index:9999;\r\n}\r\n\r\n    .ngx-datatable.material .datatable-body .progress-linear .container {\r\n        display: block;\r\n        position: relative;\r\n        overflow: hidden;\r\n        width: 100%;\r\n        height: 5px;\r\n        -webkit-transform: translate(0, 0) scale(1, 1);\r\n        transform: translate(0, 0) scale(1, 1);\r\n        background-color: #aad1f9;\r\n    }\r\n\r\n        .ngx-datatable.material .datatable-body .progress-linear .container .bar {\r\n            transition: all .2s linear;\r\n            -webkit-animation: query 0.8s infinite cubic-bezier(0.39, 0.575, 0.565, 1);\r\n            animation: query 0.8s infinite cubic-bezier(0.39, 0.575, 0.565, 1);\r\n            transition: -webkit-transform .2s linear;\r\n            transition: transform .2s linear;\r\n            background-color: #106cc8;\r\n            position: absolute;\r\n            left: 0;\r\n            top: 0;\r\n            bottom: 0;\r\n            width: 100%;\r\n            height: 5px;\r\n        }\r\n\r\n.ngx-datatable.material .datatable-footer {\r\n    border-top: 1px solid rgba(0, 0, 0, 0.12);\r\n    font-size: 14px;\r\n    color: #777;\r\n}\r\n\r\n    .ngx-datatable.material .datatable-footer .page-count {\r\n        line-height: 50px;\r\n        height: 50px;\r\n        padding: 0 1.2rem;\r\n    }\r\n\r\n    .ngx-datatable.material .datatable-footer .datatable-pager {\r\n        margin: 0 10px;\r\n    }\r\n\r\n        .ngx-datatable.material .datatable-footer .datatable-pager li {\r\n            vertical-align: middle;\r\n        }\r\n\r\n            .ngx-datatable.material .datatable-footer .datatable-pager li.disabled a {\r\n                color: rgba(0, 0, 0, 0.26) !important;\r\n                background-color: transparent !important;\r\n            }\r\n\r\n            .ngx-datatable.material .datatable-footer .datatable-pager li.active a {\r\n                background-color: rgba(158, 158, 158, 0.2);\r\n                font-weight: bold;\r\n            }\r\n\r\n        .ngx-datatable.material .datatable-footer .datatable-pager a {\r\n            height: 22px;\r\n            min-width: 24px;\r\n            line-height: 22px;\r\n            padding: 0 6px;\r\n            border-radius: 3px;\r\n            margin: 6px 3px;\r\n            text-align: center;\r\n            vertical-align: top;\r\n            color: rgba(0, 0, 0, 0.54);\r\n            text-decoration: none;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n            .ngx-datatable.material .datatable-footer .datatable-pager a:hover {\r\n                color: rgba(0, 0, 0, 0.75);\r\n                background-color: rgba(158, 158, 158, 0.2);\r\n            }\r\n\r\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-left,\r\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-skip,\r\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-right,\r\n        .ngx-datatable.material .datatable-footer .datatable-pager .icon-prev {\r\n            font-size: 20px;\r\n            line-height: 20px;\r\n            padding: 0 3px;\r\n        }\r\n\r\n/**\r\n * Checkboxes\r\n**/\r\n.datatable-checkbox {\r\n    position: relative;\r\n    margin: 0;\r\n    cursor: pointer;\r\n    vertical-align: middle;\r\n    display: inline-block;\r\n    box-sizing: border-box;\r\n    padding: 10px 0;\r\n}\r\n\r\n    .datatable-checkbox input[type='checkbox'] {\r\n        position: relative;\r\n        margin: 0 1rem 0 0;\r\n        cursor: pointer;\r\n        outline: none;\r\n    }\r\n\r\n        .datatable-checkbox input[type='checkbox']:before {\r\n            -webkit-transition: all 0.3s ease-in-out;\r\n            -moz-transition: all 0.3s ease-in-out;\r\n            transition: all 0.3s ease-in-out;\r\n            content: \"\";\r\n            position: absolute;\r\n            left: 0;\r\n            z-index: 1;\r\n            width: 1rem;\r\n            height: 1rem;\r\n            border: 2px solid #f2f2f2;\r\n        }\r\n\r\n        .datatable-checkbox input[type='checkbox']:checked:before {\r\n            -webkit-transform: rotate(-45deg);\r\n            -moz-transform: rotate(-45deg);\r\n            -ms-transform: rotate(-45deg);\r\n            transform: rotate(-45deg);\r\n            height: .5rem;\r\n            border-color: #009688;\r\n            border-top-style: none;\r\n            border-right-style: none;\r\n        }\r\n\r\n        .datatable-checkbox input[type='checkbox']:after {\r\n            content: \"\";\r\n            position: absolute;\r\n            top: 0;\r\n            left: 0;\r\n            width: 1rem;\r\n            height: 1rem;\r\n            background: #fff;\r\n            cursor: pointer;\r\n        }\r\n\r\n/**\r\n * Progress bar animations\r\n */\r\n\r\n@keyframes query {\r\n    0% {\r\n        opacity: 1;\r\n        transform: translateX(35%) scale(0.3, 1);\r\n    }\r\n\r\n    100% {\r\n        opacity: 0;\r\n        transform: translateX(-50%) scale(0, 1);\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 215 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76671,13 +77035,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".alertify,\n.alertify-show,\n.alertify-log {\n\t-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\n\t   -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\n\t    -ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\n\t     -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\n\t        transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */\n}\n.alertify-hide {\n\t-webkit-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t   -moz-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t    -ms-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t     -o-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t        transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */\n}\n.alertify-log-hide {\n\t-webkit-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t   -moz-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t    -ms-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t     -o-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\n\t        transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */\n}\n.alertify-cover {\n\tposition: fixed; z-index: 99999;\n\ttop: 0; right: 0; bottom: 0; left: 0;\n\tbackground-color:white;\n\tfilter:alpha(opacity=0);\n\topacity:0;\n}\n\t.alertify-cover-hidden {\n\t\tdisplay: none;\n\t}\n.alertify {\n\tposition: fixed; z-index: 99999;\n\ttop: 50px; left: 50%;\n\twidth: 550px;\n\tmargin-left: -275px;\n\topacity: 1;\n}\n\t.alertify-hidden {\n\t\t-webkit-transform: translate(0,-150px);\n\t\t   -moz-transform: translate(0,-150px);\n\t\t    -ms-transform: translate(0,-150px);\n\t\t     -o-transform: translate(0,-150px);\n\t\t        transform: translate(0,-150px);\n\t\topacity: 0;\n\t\tdisplay: none;\n\t}\n\t/* overwrite display: none; for everything except IE6-8 */\n\t:root *> .alertify-hidden {\n\t\tdisplay: block;\n\t\tvisibility: hidden;\n\t}\n.alertify-logs {\n\tposition: fixed;\n\tz-index: 5000;\n\tbottom: 10px;\n\tright: 10px;\n\twidth: 300px;\n}\n.alertify-logs-hidden {\n\tdisplay: none;\n}\n\t.alertify-log {\n\t\tdisplay: block;\n\t\tmargin-top: 10px;\n\t\tposition: relative;\n\t\tright: -300px;\n\t\topacity: 0;\n\t}\n\t.alertify-log-show {\n\t\tright: 0;\n\t\topacity: 1;\n\t}\n\t.alertify-log-hide {\n\t\t-webkit-transform: translate(300px, 0);\n\t\t   -moz-transform: translate(300px, 0);\n\t\t    -ms-transform: translate(300px, 0);\n\t\t     -o-transform: translate(300px, 0);\n\t\t        transform: translate(300px, 0);\n\t\topacity: 0;\n\t}\n\t.alertify-dialog {\n\t\tpadding: 25px;\n\t}\n\t\t.alertify-resetFocus {\n\t\t\tborder: 0;\n\t\t\tclip: rect(0 0 0 0);\n\t\t\theight: 1px;\n\t\t\tmargin: -1px;\n\t\t\toverflow: hidden;\n\t\t\tpadding: 0;\n\t\t\tposition: absolute;\n\t\t\twidth: 1px;\n\t\t}\n\t\t.alertify-inner {\n\t\t\ttext-align: center;\n\t\t}\n\t\t.alertify-text {\n\t\t\tmargin-bottom: 15px;\n\t\t\twidth: 100%;\n\t\t\t-webkit-box-sizing: border-box;\n\t\t\t   -moz-box-sizing: border-box;\n\t\t\t        box-sizing: border-box;\n\t\t\tfont-size: 100%;\n\t\t}\n\t\t.alertify-buttons {\n\t\t}\n\t\t\t.alertify-button,\n\t\t\t.alertify-button:hover,\n\t\t\t.alertify-button:active,\n\t\t\t.alertify-button:visited {\n\t\t\t\tbackground: none;\n\t\t\t\ttext-decoration: none;\n\t\t\t\tborder: none;\n\t\t\t\t/* line-height and font-size for input button */\n\t\t\t\tline-height: 1.5;\n\t\t\t\tfont-size: 100%;\n\t\t\t\tdisplay: inline-block;\n\t\t\t\tcursor: pointer;\n\t\t\t\tmargin-left: 5px;\n\t\t\t}\n\n@media only screen and (max-width: 680px) {\n\t.alertify,\n\t.alertify-logs {\n\t\twidth: 90%;\n\t\t-webkit-box-sizing: border-box;\n\t\t   -moz-box-sizing: border-box;\n\t\t        box-sizing: border-box;\n\t}\n\t.alertify {\n\t\tleft: 5%;\n\t\tmargin: 0;\n\t}\n}\n", ""]);
+exports.push([module.i, ".alertify,\r\n.alertify-show,\r\n.alertify-log {\r\n\t-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\r\n\t   -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\r\n\t    -ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\r\n\t     -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);\r\n\t        transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */\r\n}\r\n.alertify-hide {\r\n\t-webkit-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t   -moz-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t    -ms-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t     -o-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t        transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */\r\n}\r\n.alertify-log-hide {\r\n\t-webkit-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t   -moz-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t    -ms-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t     -o-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);\r\n\t        transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */\r\n}\r\n.alertify-cover {\r\n\tposition: fixed; z-index: 99999;\r\n\ttop: 0; right: 0; bottom: 0; left: 0;\r\n\tbackground-color:white;\r\n\tfilter:alpha(opacity=0);\r\n\topacity:0;\r\n}\r\n\t.alertify-cover-hidden {\r\n\t\tdisplay: none;\r\n\t}\r\n.alertify {\r\n\tposition: fixed; z-index: 99999;\r\n\ttop: 50px; left: 50%;\r\n\twidth: 550px;\r\n\tmargin-left: -275px;\r\n\topacity: 1;\r\n}\r\n\t.alertify-hidden {\r\n\t\t-webkit-transform: translate(0,-150px);\r\n\t\t   -moz-transform: translate(0,-150px);\r\n\t\t    -ms-transform: translate(0,-150px);\r\n\t\t     -o-transform: translate(0,-150px);\r\n\t\t        transform: translate(0,-150px);\r\n\t\topacity: 0;\r\n\t\tdisplay: none;\r\n\t}\r\n\t/* overwrite display: none; for everything except IE6-8 */\r\n\t:root *> .alertify-hidden {\r\n\t\tdisplay: block;\r\n\t\tvisibility: hidden;\r\n\t}\r\n.alertify-logs {\r\n\tposition: fixed;\r\n\tz-index: 5000;\r\n\tbottom: 10px;\r\n\tright: 10px;\r\n\twidth: 300px;\r\n}\r\n.alertify-logs-hidden {\r\n\tdisplay: none;\r\n}\r\n\t.alertify-log {\r\n\t\tdisplay: block;\r\n\t\tmargin-top: 10px;\r\n\t\tposition: relative;\r\n\t\tright: -300px;\r\n\t\topacity: 0;\r\n\t}\r\n\t.alertify-log-show {\r\n\t\tright: 0;\r\n\t\topacity: 1;\r\n\t}\r\n\t.alertify-log-hide {\r\n\t\t-webkit-transform: translate(300px, 0);\r\n\t\t   -moz-transform: translate(300px, 0);\r\n\t\t    -ms-transform: translate(300px, 0);\r\n\t\t     -o-transform: translate(300px, 0);\r\n\t\t        transform: translate(300px, 0);\r\n\t\topacity: 0;\r\n\t}\r\n\t.alertify-dialog {\r\n\t\tpadding: 25px;\r\n\t}\r\n\t\t.alertify-resetFocus {\r\n\t\t\tborder: 0;\r\n\t\t\tclip: rect(0 0 0 0);\r\n\t\t\theight: 1px;\r\n\t\t\tmargin: -1px;\r\n\t\t\toverflow: hidden;\r\n\t\t\tpadding: 0;\r\n\t\t\tposition: absolute;\r\n\t\t\twidth: 1px;\r\n\t\t}\r\n\t\t.alertify-inner {\r\n\t\t\ttext-align: center;\r\n\t\t}\r\n\t\t.alertify-text {\r\n\t\t\tmargin-bottom: 15px;\r\n\t\t\twidth: 100%;\r\n\t\t\t-webkit-box-sizing: border-box;\r\n\t\t\t   -moz-box-sizing: border-box;\r\n\t\t\t        box-sizing: border-box;\r\n\t\t\tfont-size: 100%;\r\n\t\t}\r\n\t\t.alertify-buttons {\r\n\t\t}\r\n\t\t\t.alertify-button,\r\n\t\t\t.alertify-button:hover,\r\n\t\t\t.alertify-button:active,\r\n\t\t\t.alertify-button:visited {\r\n\t\t\t\tbackground: none;\r\n\t\t\t\ttext-decoration: none;\r\n\t\t\t\tborder: none;\r\n\t\t\t\t/* line-height and font-size for input button */\r\n\t\t\t\tline-height: 1.5;\r\n\t\t\t\tfont-size: 100%;\r\n\t\t\t\tdisplay: inline-block;\r\n\t\t\t\tcursor: pointer;\r\n\t\t\t\tmargin-left: 5px;\r\n\t\t\t}\r\n\r\n@media only screen and (max-width: 680px) {\r\n\t.alertify,\r\n\t.alertify-logs {\r\n\t\twidth: 90%;\r\n\t\t-webkit-box-sizing: border-box;\r\n\t\t   -moz-box-sizing: border-box;\r\n\t\t        box-sizing: border-box;\r\n\t}\r\n\t.alertify {\r\n\t\tleft: 5%;\r\n\t\tmargin: 0;\r\n\t}\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 216 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76685,17 +77049,17 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/**\n * Twitter Bootstrap Look and Feel\n * Based on http://twitter.github.com/bootstrap/\n */\n.alertify,\n.alertify-log {\n\tfont-family: sans-serif;\n}\n.alertify {\n\tbackground: #FFF;\n\tborder: 1px solid #8E8E8E; /* browsers that don't support rgba */\n\tborder: 1px solid rgba(0,0,0,.3);\n\tborder-radius: 6px;\n\tbox-shadow: 0 3px 7px rgba(0,0,0,.3);\n\t-webkit-background-clip: padding;     /* Safari 4? Chrome 6? */\n\t   -moz-background-clip: padding;     /* Firefox 3.6 */\n\t        background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */\n}\n.alertify-dialog {\n\tpadding: 0;\n}\n\t.alertify-inner {\n\t\ttext-align: left;\n\t}\n\t\t.alertify-message {\n\t\t\tpadding: 15px;\n\t\t\tmargin: 0;\n\t\t}\n\t\t.alertify-text-wrapper {\n\t\t\tpadding: 0 15px;\n\t\t}\n\t\t\t.alertify-text {\n\t\t\t\tcolor: #555;\n\t\t\t\tborder-radius: 4px;\n\t\t\t\tpadding: 8px;\n\t\t\t\tbackground-color: #FFF;\n\t\t\t\tborder: 1px solid #CCC;\n\t\t\t\tbox-shadow: inset 0 1px 1px rgba(0,0,0,.075);\n\t\t\t}\n\t\t\t.alertify-text:focus {\n\t\t\t\tborder-color: rgba(82,168,236,.8);\n\t\t\t\toutline: 0;\n\t\t\t\tbox-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);\n\t\t\t}\n\n\t\t.alertify-buttons {\n\t\t\tpadding: 14px 15px 15px;\n\t\t\tbackground: #F5F5F5;\n\t\t\tborder-top: 1px solid #DDD;\n\t\t\tborder-radius: 0 0 6px 6px;\n\t\t\tbox-shadow: inset 0 1px 0 #FFF;\n\t\t\ttext-align: right;\n\t\t}\n\t\t\t.alertify-button,\n\t\t\t.alertify-button:hover,\n\t\t\t.alertify-button:focus,\n\t\t\t.alertify-button:active {\n\t\t\t\tmargin-left: 10px;\n\t\t\t\tborder-radius: 4px;\n\t\t\t\tfont-weight: normal;\n\t\t\t\tpadding: 4px 12px;\n\t\t\t\ttext-decoration: none;\n\t\t\t\tbox-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);\n\t\t\t\tbackground-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\n\t\t\t\tbackground-image:    -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\n\t\t\t\tbackground-image:     -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\n\t\t\t\tbackground-image:      -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\n\t\t\t\tbackground-image:         linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\n\t\t\t}\n\t\t\t.alertify-button:focus {\n\t\t\t\toutline: none;\n\t\t\t\tbox-shadow: 0 0 5px #2B72D5;\n\t\t\t}\n\t\t\t.alertify-button:active {\n\t\t\t\tposition: relative;\n\t\t\t\tbox-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);\n\t\t\t}\n\t\t\t\t.alertify-button-cancel,\n\t\t\t\t.alertify-button-cancel:hover,\n\t\t\t\t.alertify-button-cancel:focus,\n\t\t\t\t.alertify-button-cancel:active {\n\t\t\t\t\ttext-shadow: 0 -1px 0 rgba(255,255,255,.75);\n\t\t\t\t\tbackground-color: #E6E6E6;\n\t\t\t\t\tborder: 1px solid #BBB;\n\t\t\t\t\tcolor: #333;\n\t\t\t\t\tbackground-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);\n\t\t\t\t\tbackground-image:    -moz-linear-gradient(top, #FFF, #E6E6E6);\n\t\t\t\t\tbackground-image:     -ms-linear-gradient(top, #FFF, #E6E6E6);\n\t\t\t\t\tbackground-image:      -o-linear-gradient(top, #FFF, #E6E6E6);\n\t\t\t\t\tbackground-image:         linear-gradient(top, #FFF, #E6E6E6);\n\t\t\t\t}\n\t\t\t\t.alertify-button-cancel:hover,\n\t\t\t\t.alertify-button-cancel:focus,\n\t\t\t\t.alertify-button-cancel:active {\n\t\t\t\t\tbackground: #E6E6E6;\n\t\t\t\t}\n\t\t\t\t.alertify-button-ok,\n\t\t\t\t.alertify-button-ok:hover,\n\t\t\t\t.alertify-button-ok:focus,\n\t\t\t\t.alertify-button-ok:active {\n\t\t\t\t\ttext-shadow: 0 -1px 0 rgba(0,0,0,.25);\n\t\t\t\t\tbackground-color: #04C;\n\t\t\t\t\tborder: 1px solid #04C;\n\t\t\t\t\tborder-color: #04C #04C #002A80;\n\t\t\t\t\tborder-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\n\t\t\t\t\tcolor: #FFF;\n\t\t\t\t}\n\t\t\t\t.alertify-button-ok:hover,\n\t\t\t\t.alertify-button-ok:focus,\n\t\t\t\t.alertify-button-ok:active {\n\t\t\t\t\tbackground: #04C;\n\t\t\t\t}\n\n.alertify-log {\n\tbackground: #D9EDF7;\n\tpadding: 8px 14px;\n\tborder-radius: 4px;\n\tcolor: #3A8ABF;\n\ttext-shadow: 0 1px 0 rgba(255,255,255,.5);\n\tborder: 1px solid #BCE8F1;\n}\n\t.alertify-log-error {\n\t\tcolor: #B94A48;\n\t\tbackground: #F2DEDE;\n\t\tborder: 1px solid #EED3D7;\n\t}\n\t.alertify-log-success {\n\t\tcolor: #468847;\n\t\tbackground: #DFF0D8;\n\t\tborder: 1px solid #D6E9C6;\n\t}", ""]);
+exports.push([module.i, "/**\r\n * Twitter Bootstrap Look and Feel\r\n * Based on http://twitter.github.com/bootstrap/\r\n */\r\n.alertify,\r\n.alertify-log {\r\n\tfont-family: sans-serif;\r\n}\r\n.alertify {\r\n\tbackground: #FFF;\r\n\tborder: 1px solid #8E8E8E; /* browsers that don't support rgba */\r\n\tborder: 1px solid rgba(0,0,0,.3);\r\n\tborder-radius: 6px;\r\n\tbox-shadow: 0 3px 7px rgba(0,0,0,.3);\r\n\t-webkit-background-clip: padding;     /* Safari 4? Chrome 6? */\r\n\t   -moz-background-clip: padding;     /* Firefox 3.6 */\r\n\t        background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */\r\n}\r\n.alertify-dialog {\r\n\tpadding: 0;\r\n}\r\n\t.alertify-inner {\r\n\t\ttext-align: left;\r\n\t}\r\n\t\t.alertify-message {\r\n\t\t\tpadding: 15px;\r\n\t\t\tmargin: 0;\r\n\t\t}\r\n\t\t.alertify-text-wrapper {\r\n\t\t\tpadding: 0 15px;\r\n\t\t}\r\n\t\t\t.alertify-text {\r\n\t\t\t\tcolor: #555;\r\n\t\t\t\tborder-radius: 4px;\r\n\t\t\t\tpadding: 8px;\r\n\t\t\t\tbackground-color: #FFF;\r\n\t\t\t\tborder: 1px solid #CCC;\r\n\t\t\t\tbox-shadow: inset 0 1px 1px rgba(0,0,0,.075);\r\n\t\t\t}\r\n\t\t\t.alertify-text:focus {\r\n\t\t\t\tborder-color: rgba(82,168,236,.8);\r\n\t\t\t\toutline: 0;\r\n\t\t\t\tbox-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);\r\n\t\t\t}\r\n\r\n\t\t.alertify-buttons {\r\n\t\t\tpadding: 14px 15px 15px;\r\n\t\t\tbackground: #F5F5F5;\r\n\t\t\tborder-top: 1px solid #DDD;\r\n\t\t\tborder-radius: 0 0 6px 6px;\r\n\t\t\tbox-shadow: inset 0 1px 0 #FFF;\r\n\t\t\ttext-align: right;\r\n\t\t}\r\n\t\t\t.alertify-button,\r\n\t\t\t.alertify-button:hover,\r\n\t\t\t.alertify-button:focus,\r\n\t\t\t.alertify-button:active {\r\n\t\t\t\tmargin-left: 10px;\r\n\t\t\t\tborder-radius: 4px;\r\n\t\t\t\tfont-weight: normal;\r\n\t\t\t\tpadding: 4px 12px;\r\n\t\t\t\ttext-decoration: none;\r\n\t\t\t\tbox-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);\r\n\t\t\t\tbackground-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\r\n\t\t\t\tbackground-image:    -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\r\n\t\t\t\tbackground-image:     -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\r\n\t\t\t\tbackground-image:      -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\r\n\t\t\t\tbackground-image:         linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));\r\n\t\t\t}\r\n\t\t\t.alertify-button:focus {\r\n\t\t\t\toutline: none;\r\n\t\t\t\tbox-shadow: 0 0 5px #2B72D5;\r\n\t\t\t}\r\n\t\t\t.alertify-button:active {\r\n\t\t\t\tposition: relative;\r\n\t\t\t\tbox-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);\r\n\t\t\t}\r\n\t\t\t\t.alertify-button-cancel,\r\n\t\t\t\t.alertify-button-cancel:hover,\r\n\t\t\t\t.alertify-button-cancel:focus,\r\n\t\t\t\t.alertify-button-cancel:active {\r\n\t\t\t\t\ttext-shadow: 0 -1px 0 rgba(255,255,255,.75);\r\n\t\t\t\t\tbackground-color: #E6E6E6;\r\n\t\t\t\t\tborder: 1px solid #BBB;\r\n\t\t\t\t\tcolor: #333;\r\n\t\t\t\t\tbackground-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);\r\n\t\t\t\t\tbackground-image:    -moz-linear-gradient(top, #FFF, #E6E6E6);\r\n\t\t\t\t\tbackground-image:     -ms-linear-gradient(top, #FFF, #E6E6E6);\r\n\t\t\t\t\tbackground-image:      -o-linear-gradient(top, #FFF, #E6E6E6);\r\n\t\t\t\t\tbackground-image:         linear-gradient(top, #FFF, #E6E6E6);\r\n\t\t\t\t}\r\n\t\t\t\t.alertify-button-cancel:hover,\r\n\t\t\t\t.alertify-button-cancel:focus,\r\n\t\t\t\t.alertify-button-cancel:active {\r\n\t\t\t\t\tbackground: #E6E6E6;\r\n\t\t\t\t}\r\n\t\t\t\t.alertify-button-ok,\r\n\t\t\t\t.alertify-button-ok:hover,\r\n\t\t\t\t.alertify-button-ok:focus,\r\n\t\t\t\t.alertify-button-ok:active {\r\n\t\t\t\t\ttext-shadow: 0 -1px 0 rgba(0,0,0,.25);\r\n\t\t\t\t\tbackground-color: #04C;\r\n\t\t\t\t\tborder: 1px solid #04C;\r\n\t\t\t\t\tborder-color: #04C #04C #002A80;\r\n\t\t\t\t\tborder-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\r\n\t\t\t\t\tcolor: #FFF;\r\n\t\t\t\t}\r\n\t\t\t\t.alertify-button-ok:hover,\r\n\t\t\t\t.alertify-button-ok:focus,\r\n\t\t\t\t.alertify-button-ok:active {\r\n\t\t\t\t\tbackground: #04C;\r\n\t\t\t\t}\r\n\r\n.alertify-log {\r\n\tbackground: #D9EDF7;\r\n\tpadding: 8px 14px;\r\n\tborder-radius: 4px;\r\n\tcolor: #3A8ABF;\r\n\ttext-shadow: 0 1px 0 rgba(255,255,255,.5);\r\n\tborder: 1px solid #BCE8F1;\r\n}\r\n\t.alertify-log-error {\r\n\t\tcolor: #B94A48;\r\n\t\tbackground: #F2DEDE;\r\n\t\tborder: 1px solid #EED3D7;\r\n\t}\r\n\t.alertify-log-success {\r\n\t\tcolor: #468847;\r\n\t\tbackground: #DFF0D8;\r\n\t\tborder: 1px solid #D6E9C6;\r\n\t}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 217 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(218);
+        var result = __webpack_require__(232);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -76705,7 +77069,7 @@ exports.push([module.i, "/**\n * Twitter Bootstrap Look and Feel\n * Based on ht
     
 
 /***/ }),
-/* 218 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76713,57 +77077,23 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n/**********************************************************************************************************\n***********************************************************************************************************\nNOTE: SASS is already configured in this project template. To use SASS change your css file extension from\n    *.css to *.scss and you're good to go.\n\n    Example: To use SASS for this file instead of regular CSS follow the below steps\n    1. Uncomment the below SASS and comment out the CSS version of this document\n    2. Change file extension from css to scss\n    3. Change references to this file to use the sass extension\n        i.e. This file is being referenced from \"app.component.ts\". So replace references to\n            \"../themes.css\" with \"../themes.scss\"\n***********************************************************************************************************\n**********************************************************************************************************/\n\n\n\n\n/*//*********** SASS VERSION ***********\n        \n    @mixin app-theme($theme, $color, $footer:#f5f5f5) {\n    .#{$theme}-theme .navbar-inner.app-component {\n        background-color: $color; //#027FF4;\n    }\n             \n    .#{$theme}-theme .panel-primary > .panel-heading {\n        background-color: $color;\n        border-color: $color;\n    }\n\n    .#{$theme}-theme .panel-primary {\n        border-color: $color;\n    }\n\n    .#{$theme}-theme .navbar-inner.footer.app-component {\n        background-color: $footer;\n    }\n\n\n    .#{$theme}-theme .icon-addon .form-control:focus + .glyphicon,\n    .#{$theme}-theme .icon-addon:hover .glyphicon,\n    .#{$theme}-theme .icon-addon .form-control:focus + .fa,\n    .#{$theme}-theme .icon-addon:hover .fa {\n        color: $color; //#2580db;\n    }\n\n    .#{$theme}-theme .clear-input:hover {\n        color: $color !important; //#2580db !important;\n    }\n\n    .#{$theme}-theme .ngx-datatable.material.colored-header .datatable-header {\n        background-color: $color; //#027FF4;\n    }\n              \n\n    .#{$theme}-theme-option {\n        background: $color;        \n        color:white;\n        font-weight:bold;\n        display:inline-block;\n        width:100%;\n        height:100%;\n        text-align:center;\n    }\n}\n\n\n.default-theme-option {\n    background: #027FF4;\n    color:white;\n    font-weight:bold;\n    display:inline-block;\n    width:100%;\n    height:100%;\n    text-align:center;\n}\n\n\n//----------- black theme -----------\n@include app-theme('black', black);\n\n\n//----------- red theme -----------\n@include app-theme('red', red);\n\n\n//----------- orange theme -----------\n@include app-theme('orange', orange);\n\n\n//----------- green theme -----------\n@include app-theme('green', green);\n\n\n//----------- gray theme -----------\n@include app-theme('gray', gray);\n\n\n*/\n\n\n\n\n\n\n/*********** CSS VERSION ***********/\n\n.default-theme-option {\n  background: #027FF4;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n\n\n/*----------- black theme -----------*/\n.black-theme .navbar-inner.app-component {\n  background-color: black;  /*#027FF4;*/\n}\n\n.black-theme .panel-primary > .panel-heading {\n  background-color: black;\n  border-color: black;\n}\n\n.black-theme .panel-primary {\n  border-color: black;\n}\n\n.black-theme .navbar-inner.footer.app-component {\n  background-color: #f5f5f5;\n}\n\n.black-theme .icon-addon .form-control:focus + .glyphicon,\n.black-theme .icon-addon:hover .glyphicon,\n.black-theme .icon-addon .form-control:focus + .fa,\n.black-theme .icon-addon:hover .fa {\n  color: black;  /*#2580db;*/\n}\n\n.black-theme .clear-input:hover {\n  color: black !important;  /*#2580db !important;*/\n}\n\n.black-theme .ngx-datatable.material.colored-header .datatable-header {\n  background-color: black;  /*#027FF4;*/\n}\n\n.black-theme-option {\n  background: black;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n\n\n/*----------- red theme -----------*/\n.red-theme .navbar-inner.app-component {\n  background-color: red;  /*#027FF4;*/\n}\n\n.red-theme .panel-primary > .panel-heading {\n  background-color: red;\n  border-color: red;\n}\n\n.red-theme .panel-primary {\n  border-color: red;\n}\n\n.red-theme .navbar-inner.footer.app-component {\n  background-color: #f5f5f5;\n}\n\n.red-theme .icon-addon .form-control:focus + .glyphicon,\n.red-theme .icon-addon:hover .glyphicon,\n.red-theme .icon-addon .form-control:focus + .fa,\n.red-theme .icon-addon:hover .fa {\n  color: red;  /*#2580db;*/\n}\n\n.red-theme .clear-input:hover {\n  color: red !important;  /*#2580db !important;*/\n}\n\n.red-theme .ngx-datatable.material.colored-header .datatable-header {\n  background-color: red;  /*#027FF4;*/\n}\n\n.red-theme-option {\n  background: red;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n\n\n/*----------- orange theme -----------*/\n.orange-theme .navbar-inner.app-component {\n  background-color: orange;  /*#027FF4;*/\n}\n\n.orange-theme .panel-primary > .panel-heading {\n  background-color: orange;\n  border-color: orange;\n}\n\n.orange-theme .panel-primary {\n  border-color: orange;\n}\n\n.orange-theme .navbar-inner.footer.app-component {\n  background-color: #f5f5f5;\n}\n\n.orange-theme .icon-addon .form-control:focus + .glyphicon,\n.orange-theme .icon-addon:hover .glyphicon,\n.orange-theme .icon-addon .form-control:focus + .fa,\n.orange-theme .icon-addon:hover .fa {\n  color: orange;  /*#2580db;*/\n}\n\n.orange-theme .clear-input:hover {\n  color: orange !important;  /*#2580db !important;*/\n}\n\n.orange-theme .ngx-datatable.material.colored-header .datatable-header {\n  background-color: orange;  /*#027FF4;*/\n}\n\n.orange-theme-option {\n  background: orange;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n\n\n/*----------- green theme -----------*/\n.green-theme .navbar-inner.app-component {\n  background-color: green;  /*#027FF4;*/\n}\n\n.green-theme .panel-primary > .panel-heading {\n  background-color: green;\n  border-color: green;\n}\n\n.green-theme .panel-primary {\n  border-color: green;\n}\n\n.green-theme .navbar-inner.footer.app-component {\n  background-color: #f5f5f5;\n}\n\n.green-theme .icon-addon .form-control:focus + .glyphicon,\n.green-theme .icon-addon:hover .glyphicon,\n.green-theme .icon-addon .form-control:focus + .fa,\n.green-theme .icon-addon:hover .fa {\n  color: green;  /*#2580db;*/\n}\n\n.green-theme .clear-input:hover {\n  color: green !important;  /*#2580db !important;*/\n}\n\n.green-theme .ngx-datatable.material.colored-header .datatable-header {\n  background-color: green;  /*#027FF4;*/\n}\n\n.green-theme-option {\n  background: green;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n\n\n/*----------- gray theme -----------*/\n.gray-theme .navbar-inner.app-component {\n  background-color: gray;  /*#027FF4;*/\n}\n\n.gray-theme .panel-primary > .panel-heading {\n  background-color: gray;\n  border-color: gray;\n}\n\n.gray-theme .panel-primary {\n  border-color: gray;\n}\n\n.gray-theme .navbar-inner.footer.app-component {\n  background-color: #f5f5f5;\n}\n\n.gray-theme .icon-addon .form-control:focus + .glyphicon,\n.gray-theme .icon-addon:hover .glyphicon,\n.gray-theme .icon-addon .form-control:focus + .fa,\n.gray-theme .icon-addon:hover .fa {\n  color: gray;  /*#2580db;*/\n}\n\n.gray-theme .clear-input:hover {\n  color: gray !important;  /*#2580db !important;*/\n}\n\n.gray-theme .ngx-datatable.material.colored-header .datatable-header {\n  background-color: gray;  /*#027FF4;*/\n}\n\n.gray-theme-option {\n  background: gray;\n  color: white;\n  font-weight: bold;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n}\n", ""]);
+exports.push([module.i, "\r\n/**********************************************************************************************************\r\n***********************************************************************************************************\r\nNOTE: SASS is already configured in this project template. To use SASS change your css file extension from\r\n    *.css to *.scss and you're good to go.\r\n\r\n    Example: To use SASS for this file instead of regular CSS follow the below steps\r\n    1. Uncomment the below SASS and comment out the CSS version of this document\r\n    2. Change file extension from css to scss\r\n    3. Change references to this file to use the sass extension\r\n        i.e. This file is being referenced from \"app.component.ts\". So replace references to\r\n            \"../themes.css\" with \"../themes.scss\"\r\n***********************************************************************************************************\r\n**********************************************************************************************************/\r\n\r\n\r\n\r\n\r\n/*//*********** SASS VERSION ***********\r\n        \r\n    @mixin app-theme($theme, $color, $footer:#f5f5f5) {\r\n    .#{$theme}-theme .navbar-inner.app-component {\r\n        background-color: $color; //#027FF4;\r\n    }\r\n             \r\n    .#{$theme}-theme .panel-primary > .panel-heading {\r\n        background-color: $color;\r\n        border-color: $color;\r\n    }\r\n\r\n    .#{$theme}-theme .panel-primary {\r\n        border-color: $color;\r\n    }\r\n\r\n    .#{$theme}-theme .navbar-inner.footer.app-component {\r\n        background-color: $footer;\r\n    }\r\n\r\n\r\n    .#{$theme}-theme .icon-addon .form-control:focus + .glyphicon,\r\n    .#{$theme}-theme .icon-addon:hover .glyphicon,\r\n    .#{$theme}-theme .icon-addon .form-control:focus + .fa,\r\n    .#{$theme}-theme .icon-addon:hover .fa {\r\n        color: $color; //#2580db;\r\n    }\r\n\r\n    .#{$theme}-theme .clear-input:hover {\r\n        color: $color !important; //#2580db !important;\r\n    }\r\n\r\n    .#{$theme}-theme .ngx-datatable.material.colored-header .datatable-header {\r\n        background-color: $color; //#027FF4;\r\n    }\r\n              \r\n\r\n    .#{$theme}-theme-option {\r\n        background: $color;        \r\n        color:white;\r\n        font-weight:bold;\r\n        display:inline-block;\r\n        width:100%;\r\n        height:100%;\r\n        text-align:center;\r\n    }\r\n}\r\n\r\n\r\n.default-theme-option {\r\n    background: #027FF4;\r\n    color:white;\r\n    font-weight:bold;\r\n    display:inline-block;\r\n    width:100%;\r\n    height:100%;\r\n    text-align:center;\r\n}\r\n\r\n\r\n//----------- black theme -----------\r\n@include app-theme('black', black);\r\n\r\n\r\n//----------- red theme -----------\r\n@include app-theme('red', red);\r\n\r\n\r\n//----------- orange theme -----------\r\n@include app-theme('orange', orange);\r\n\r\n\r\n//----------- green theme -----------\r\n@include app-theme('green', green);\r\n\r\n\r\n//----------- gray theme -----------\r\n@include app-theme('gray', gray);\r\n\r\n\r\n*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n/*********** CSS VERSION ***********/\r\n\r\n.default-theme-option {\r\n  background: #027FF4;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n\r\n\r\n/*----------- black theme -----------*/\r\n.black-theme .navbar-inner.app-component {\r\n  background-color: black;  /*#027FF4;*/\r\n}\r\n\r\n.black-theme .panel-primary > .panel-heading {\r\n  background-color: black;\r\n  border-color: black;\r\n}\r\n\r\n.black-theme .panel-primary {\r\n  border-color: black;\r\n}\r\n\r\n.black-theme .navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n}\r\n\r\n.black-theme .icon-addon .form-control:focus + .glyphicon,\r\n.black-theme .icon-addon:hover .glyphicon,\r\n.black-theme .icon-addon .form-control:focus + .fa,\r\n.black-theme .icon-addon:hover .fa {\r\n  color: black;  /*#2580db;*/\r\n}\r\n\r\n.black-theme .clear-input:hover {\r\n  color: black !important;  /*#2580db !important;*/\r\n}\r\n\r\n.black-theme .ngx-datatable.material.colored-header .datatable-header {\r\n  background-color: black;  /*#027FF4;*/\r\n}\r\n\r\n.black-theme-option {\r\n  background: black;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n\r\n\r\n/*----------- red theme -----------*/\r\n.red-theme .navbar-inner.app-component {\r\n  background-color: red;  /*#027FF4;*/\r\n}\r\n\r\n.red-theme .panel-primary > .panel-heading {\r\n  background-color: red;\r\n  border-color: red;\r\n}\r\n\r\n.red-theme .panel-primary {\r\n  border-color: red;\r\n}\r\n\r\n.red-theme .navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n}\r\n\r\n.red-theme .icon-addon .form-control:focus + .glyphicon,\r\n.red-theme .icon-addon:hover .glyphicon,\r\n.red-theme .icon-addon .form-control:focus + .fa,\r\n.red-theme .icon-addon:hover .fa {\r\n  color: red;  /*#2580db;*/\r\n}\r\n\r\n.red-theme .clear-input:hover {\r\n  color: red !important;  /*#2580db !important;*/\r\n}\r\n\r\n.red-theme .ngx-datatable.material.colored-header .datatable-header {\r\n  background-color: red;  /*#027FF4;*/\r\n}\r\n\r\n.red-theme-option {\r\n  background: red;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n\r\n\r\n/*----------- orange theme -----------*/\r\n.orange-theme .navbar-inner.app-component {\r\n  background-color: orange;  /*#027FF4;*/\r\n}\r\n\r\n.orange-theme .panel-primary > .panel-heading {\r\n  background-color: orange;\r\n  border-color: orange;\r\n}\r\n\r\n.orange-theme .panel-primary {\r\n  border-color: orange;\r\n}\r\n\r\n.orange-theme .navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n}\r\n\r\n.orange-theme .icon-addon .form-control:focus + .glyphicon,\r\n.orange-theme .icon-addon:hover .glyphicon,\r\n.orange-theme .icon-addon .form-control:focus + .fa,\r\n.orange-theme .icon-addon:hover .fa {\r\n  color: orange;  /*#2580db;*/\r\n}\r\n\r\n.orange-theme .clear-input:hover {\r\n  color: orange !important;  /*#2580db !important;*/\r\n}\r\n\r\n.orange-theme .ngx-datatable.material.colored-header .datatable-header {\r\n  background-color: orange;  /*#027FF4;*/\r\n}\r\n\r\n.orange-theme-option {\r\n  background: orange;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n\r\n\r\n/*----------- green theme -----------*/\r\n.green-theme .navbar-inner.app-component {\r\n  background-color: green;  /*#027FF4;*/\r\n}\r\n\r\n.green-theme .panel-primary > .panel-heading {\r\n  background-color: green;\r\n  border-color: green;\r\n}\r\n\r\n.green-theme .panel-primary {\r\n  border-color: green;\r\n}\r\n\r\n.green-theme .navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n}\r\n\r\n.green-theme .icon-addon .form-control:focus + .glyphicon,\r\n.green-theme .icon-addon:hover .glyphicon,\r\n.green-theme .icon-addon .form-control:focus + .fa,\r\n.green-theme .icon-addon:hover .fa {\r\n  color: green;  /*#2580db;*/\r\n}\r\n\r\n.green-theme .clear-input:hover {\r\n  color: green !important;  /*#2580db !important;*/\r\n}\r\n\r\n.green-theme .ngx-datatable.material.colored-header .datatable-header {\r\n  background-color: green;  /*#027FF4;*/\r\n}\r\n\r\n.green-theme-option {\r\n  background: green;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n\r\n\r\n/*----------- gray theme -----------*/\r\n.gray-theme .navbar-inner.app-component {\r\n  background-color: gray;  /*#027FF4;*/\r\n}\r\n\r\n.gray-theme .panel-primary > .panel-heading {\r\n  background-color: gray;\r\n  border-color: gray;\r\n}\r\n\r\n.gray-theme .panel-primary {\r\n  border-color: gray;\r\n}\r\n\r\n.gray-theme .navbar-inner.footer.app-component {\r\n  background-color: #f5f5f5;\r\n}\r\n\r\n.gray-theme .icon-addon .form-control:focus + .glyphicon,\r\n.gray-theme .icon-addon:hover .glyphicon,\r\n.gray-theme .icon-addon .form-control:focus + .fa,\r\n.gray-theme .icon-addon:hover .fa {\r\n  color: gray;  /*#2580db;*/\r\n}\r\n\r\n.gray-theme .clear-input:hover {\r\n  color: gray !important;  /*#2580db !important;*/\r\n}\r\n\r\n.gray-theme .ngx-datatable.material.colored-header .datatable-header {\r\n  background-color: gray;  /*#027FF4;*/\r\n}\r\n\r\n.gray-theme-option {\r\n  background: gray;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: 100%;\r\n  text-align: center;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 219 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BannerDemoComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var BannerDemoComponent = /** @class */ (function () {
-    function BannerDemoComponent() {
-    }
-    BannerDemoComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'banner-demo',
-            template: __webpack_require__(220)
-        })
-    ], BannerDemoComponent);
-    return BannerDemoComponent;
-}());
-
-
-
-/***/ }),
-/* 220 */
-/***/ (function(module, exports) {
-
-module.exports = "";
-
-/***/ }),
-/* 221 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TodoDemoComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_local_store_manager_service__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_local_store_manager_service__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_utilities__ = __webpack_require__(4);
 // ======================================
 // Author: Ebenezer Monney
@@ -76948,8 +77278,8 @@ var TodoDemoComponent = /** @class */ (function () {
     TodoDemoComponent = TodoDemoComponent_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'todo-demo',
-            template: __webpack_require__(222),
-            styles: [__webpack_require__(223)]
+            template: __webpack_require__(234),
+            styles: [__webpack_require__(235)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_4__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_5__services_local_store_manager_service__["a" /* LocalStoreManager */], __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */]])
     ], TodoDemoComponent);
@@ -76960,17 +77290,17 @@ var TodoDemoComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 222 */
+/* 234 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class=\"col-sm-8\">\n            <div class=\"form-group search-box\">\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'todoDemo.management.Search' | translate}}\"></search-box>\n            </div>\n        </div>\n        <div class=\"col-sm-4\">\n            <div class=\"navbar action-box\">\n                <ul class=\"nav navbar-nav\">\n                    <li [class.active]=\"hideCompletedTasks\" class=\"toolbaritem\"><a href=\"javascript:;\" (click)=\"hideCompletedTasks = !hideCompletedTasks\"><i class=\"fa fa-eye-slash\"></i> {{'todoDemo.management.HideCompleted' | translate}}</a></li>\n                    <li class=\"toolbaritem\"><a href=\"javascript:;\" (click)=\"addTask()\"><i class=\"fa fa-plus\"></i> {{'todoDemo.management.AddTask' | translate}}</a></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <ngx-datatable class=\"material colored-header sm table-hover\"\n                   [loadingIndicator]=\"loadingIndicator\"\n                   [rows]=\"rows\"\n                   [rowHeight]=\"35\"\n                   [headerHeight]=\"35\"\n                   [footerHeight]=\"35\"\n                   [columns]=\"columns\"\n                   [scrollbarV]=\"verticalScrollbar\"\n                   [columnMode]=\"'force'\">\n    </ngx-datatable>\n\n    <ng-template #statusHeaderTemplate>\n        <i class=\"fa fa-check-square-o\"></i>\n    </ng-template>\n\n    <ng-template #statusTemplate let-row=\"row\" let-value=\"value\">\n        <div class=\"checkbox\">\n            <label>\n                <input attr.name=\"checkboxes-{{value}}\" type=\"checkbox\" [(ngModel)]=\"row.completed\">\n            </label>\n        </div>\n    </ng-template>\n\n    <ng-template #nameTemplate let-row=\"row\" let-value=\"value\">\n        <span *ngIf=\"!editing[row.$$index + '-name']\" [class.completed]=\"row.completed\" attr.title=\"{{value}}\" (dblclick)=\"editing[row.$$index + '-name'] = true\">\n            {{value}}\n        </span>\n        <input *ngIf=\"editing[row.$$index + '-name']\" class=\"inline-editor\" autofocus (blur)=\"updateValue($event, 'name', value, row)\" type=\"text\" [value]=\"value\" />\n    </ng-template>\n\n    <ng-template #descriptionTemplate let-row=\"row\" let-value=\"value\">\n        <span *ngIf=\"!editing[row.$$index + '-description']\" [class.completed]=\"row.completed\" attr.title=\"{{value}}\" (dblclick)=\"editing[row.$$index + '-description'] = true\">\n            {{value}}\n        </span>\n        <input *ngIf=\"editing[row.$$index + '-description']\" class=\"inline-editor\" autofocus (blur)=\"updateValue($event, 'description', value, row)\" type=\"text\" [value]=\"value\" />\n    </ng-template>\n\n\n    <ng-template #actionsTemplate let-row=\"row\">\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'todoDemo.management.Delete' | translate}}\" container=\"body\" (click)=\"delete(row)\"><i class=\"fa fa-times\"></i></a>\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'todoDemo.management.Important' | translate}}\" container=\"body\" (click)=\"row.important = !row.important\" (mouseover)=\"row.isMouseOver=true\" (mouseout)=\"row.isMouseOver=false\">\n            <i *ngIf=\"row.important || row.isMouseOver\" class=\"fa fa-bookmark\"></i>\n            <i *ngIf=\"!row.important && !row.isMouseOver\" class=\"fa fa-bookmark-o\"></i>\n        </a>\n    </ng-template>\n\n\n\n\n\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" tabindex=\"-1\">\n        <div class=\"modal-dialog\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                    <h4 class=\"modal-title pull-left\"><i class=\"fa fa-tasks\"></i> {{'todoDemo.editor.NewTask' | translate}}</h4>\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\n                        <span aria-hidden=\"true\">&times;</span>\n                    </button>\n                </div>\n                <div class=\"modal-body\">\n                    <form *ngIf=\"formResetToggle\" class=\"form-horizontal\" name=\"taskEditorForm\" #f=\"ngForm\" novalidate\n                          (ngSubmit)=\"f.form.valid ? save() :\n                      (!taskName.valid && showErrorAlert('Task name is required', 'Please enter a name for the task'));\">\n\n\n                        <div class=\"form-group has-feedback\">\n                            <label class=\"control-label col-md-2\" for=\"taskName\">{{'todoDemo.editor.Name' | translate}}:</label>\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && taskName.valid, 'has-error' : f.submitted && !taskName.valid}\">\n                                <input autofocus type=\"text\" id=\"taskName\" name=\"taskName\" placeholder=\"Enter task name\" class=\"form-control\" [(ngModel)]=\"taskEdit.name\" #taskName=\"ngModel\" required />\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ':taskName.valid, 'glyphicon-remove' : !taskName.valid}\"></span>\n                                <span *ngIf=\"f.submitted && !taskName.valid\" class=\"errorMessage\">\n                                    {{'todoDemo.editor.TaskNameRequired' | translate}}\n                                </span>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group description-form-group\">\n                            <label class=\"control-label col-md-2\" for=\"taskDescription\">{{'todoDemo.editor.Description' | translate}}:</label>\n                            <div class=\"col-md-10\">\n                                <input type=\"text\" id=\"taskDescription\" name=\"taskDescription\" placeholder=\"Enter task description\" class=\"form-control\" [(ngModel)]=\"taskEdit.description\" />\n                            </div>\n                        </div>\n                        <label class=\"control-label col-md-2\"> </label>\n                        <div class=\"col-md-7\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input name=\"isImportant\" type=\"checkbox\" [(ngModel)]=\"taskEdit.important\">\n                                    {{'todoDemo.editor.Important' | translate}}\n                                </label>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-12\">\n                            <hr class=\"edit-last-separator-hr\" />\n                        </div>\n\n\n                        <div class=\"form-group actionBtn-form-group\">\n                            <div class=\"pull-right\">\n                                <button type=\"submit\" class=\"btn btn-primary\">{{'todoDemo.editor.AddTask' | translate}}</button>\n                            </div>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>";
+module.exports = "<div>\r\n    <div class=\"row control-box\">\r\n        <div class=\"col-sm-8\">\r\n            <div class=\"form-group search-box\">\r\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'todoDemo.management.Search' | translate}}\"></search-box>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"navbar action-box\">\r\n                <ul class=\"nav navbar-nav\">\r\n                    <li [class.active]=\"hideCompletedTasks\" class=\"toolbaritem\"><a href=\"javascript:;\" (click)=\"hideCompletedTasks = !hideCompletedTasks\"><i class=\"fa fa-eye-slash\"></i> {{'todoDemo.management.HideCompleted' | translate}}</a></li>\r\n                    <li class=\"toolbaritem\"><a href=\"javascript:;\" (click)=\"addTask()\"><i class=\"fa fa-plus\"></i> {{'todoDemo.management.AddTask' | translate}}</a></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <ngx-datatable class=\"material colored-header sm table-hover\"\r\n                   [loadingIndicator]=\"loadingIndicator\"\r\n                   [rows]=\"rows\"\r\n                   [rowHeight]=\"35\"\r\n                   [headerHeight]=\"35\"\r\n                   [footerHeight]=\"35\"\r\n                   [columns]=\"columns\"\r\n                   [scrollbarV]=\"verticalScrollbar\"\r\n                   [columnMode]=\"'force'\">\r\n    </ngx-datatable>\r\n\r\n    <ng-template #statusHeaderTemplate>\r\n        <i class=\"fa fa-check-square-o\"></i>\r\n    </ng-template>\r\n\r\n    <ng-template #statusTemplate let-row=\"row\" let-value=\"value\">\r\n        <div class=\"checkbox\">\r\n            <label>\r\n                <input attr.name=\"checkboxes-{{value}}\" type=\"checkbox\" [(ngModel)]=\"row.completed\">\r\n            </label>\r\n        </div>\r\n    </ng-template>\r\n\r\n    <ng-template #nameTemplate let-row=\"row\" let-value=\"value\">\r\n        <span *ngIf=\"!editing[row.$$index + '-name']\" [class.completed]=\"row.completed\" attr.title=\"{{value}}\" (dblclick)=\"editing[row.$$index + '-name'] = true\">\r\n            {{value}}\r\n        </span>\r\n        <input *ngIf=\"editing[row.$$index + '-name']\" class=\"inline-editor\" autofocus (blur)=\"updateValue($event, 'name', value, row)\" type=\"text\" [value]=\"value\" />\r\n    </ng-template>\r\n\r\n    <ng-template #descriptionTemplate let-row=\"row\" let-value=\"value\">\r\n        <span *ngIf=\"!editing[row.$$index + '-description']\" [class.completed]=\"row.completed\" attr.title=\"{{value}}\" (dblclick)=\"editing[row.$$index + '-description'] = true\">\r\n            {{value}}\r\n        </span>\r\n        <input *ngIf=\"editing[row.$$index + '-description']\" class=\"inline-editor\" autofocus (blur)=\"updateValue($event, 'description', value, row)\" type=\"text\" [value]=\"value\" />\r\n    </ng-template>\r\n\r\n\r\n    <ng-template #actionsTemplate let-row=\"row\">\r\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'todoDemo.management.Delete' | translate}}\" container=\"body\" (click)=\"delete(row)\"><i class=\"fa fa-times\"></i></a>\r\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'todoDemo.management.Important' | translate}}\" container=\"body\" (click)=\"row.important = !row.important\" (mouseover)=\"row.isMouseOver=true\" (mouseout)=\"row.isMouseOver=false\">\r\n            <i *ngIf=\"row.important || row.isMouseOver\" class=\"fa fa-bookmark\"></i>\r\n            <i *ngIf=\"!row.important && !row.isMouseOver\" class=\"fa fa-bookmark-o\"></i>\r\n        </a>\r\n    </ng-template>\r\n\r\n\r\n\r\n\r\n\r\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" tabindex=\"-1\">\r\n        <div class=\"modal-dialog\">\r\n            <div class=\"modal-content\">\r\n                <div class=\"modal-header\">\r\n                    <h4 class=\"modal-title pull-left\"><i class=\"fa fa-tasks\"></i> {{'todoDemo.editor.NewTask' | translate}}</h4>\r\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\r\n                        <span aria-hidden=\"true\">&times;</span>\r\n                    </button>\r\n                </div>\r\n                <div class=\"modal-body\">\r\n                    <form *ngIf=\"formResetToggle\" class=\"form-horizontal\" name=\"taskEditorForm\" #f=\"ngForm\" novalidate\r\n                          (ngSubmit)=\"f.form.valid ? save() :\r\n                      (!taskName.valid && showErrorAlert('Task name is required', 'Please enter a name for the task'));\">\r\n\r\n\r\n                        <div class=\"form-group has-feedback\">\r\n                            <label class=\"control-label col-md-2\" for=\"taskName\">{{'todoDemo.editor.Name' | translate}}:</label>\r\n                            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && taskName.valid, 'has-error' : f.submitted && !taskName.valid}\">\r\n                                <input autofocus type=\"text\" id=\"taskName\" name=\"taskName\" placeholder=\"Enter task name\" class=\"form-control\" [(ngModel)]=\"taskEdit.name\" #taskName=\"ngModel\" required />\r\n                                <span *ngIf=\"f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ':taskName.valid, 'glyphicon-remove' : !taskName.valid}\"></span>\r\n                                <span *ngIf=\"f.submitted && !taskName.valid\" class=\"errorMessage\">\r\n                                    {{'todoDemo.editor.TaskNameRequired' | translate}}\r\n                                </span>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"form-group description-form-group\">\r\n                            <label class=\"control-label col-md-2\" for=\"taskDescription\">{{'todoDemo.editor.Description' | translate}}:</label>\r\n                            <div class=\"col-md-10\">\r\n                                <input type=\"text\" id=\"taskDescription\" name=\"taskDescription\" placeholder=\"Enter task description\" class=\"form-control\" [(ngModel)]=\"taskEdit.description\" />\r\n                            </div>\r\n                        </div>\r\n                        <label class=\"control-label col-md-2\"> </label>\r\n                        <div class=\"col-md-7\">\r\n                            <div class=\"checkbox\">\r\n                                <label>\r\n                                    <input name=\"isImportant\" type=\"checkbox\" [(ngModel)]=\"taskEdit.important\">\r\n                                    {{'todoDemo.editor.Important' | translate}}\r\n                                </label>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"col-md-12\">\r\n                            <hr class=\"edit-last-separator-hr\" />\r\n                        </div>\r\n\r\n\r\n                        <div class=\"form-group actionBtn-form-group\">\r\n                            <div class=\"pull-right\">\r\n                                <button type=\"submit\" class=\"btn btn-primary\">{{'todoDemo.editor.AddTask' | translate}}</button>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"clearfix\"></div>\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ }),
-/* 223 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(224);
+        var result = __webpack_require__(236);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -76980,7 +77310,7 @@ module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class
     
 
 /***/ }),
-/* 224 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -76988,13 +77318,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.navbar .nav > li.toolbaritem > a {\n    font-weight: bold;\n}\n\ninput.form-control {\n    border-left-width: 5px;\n}\n\n.control-box {\n    margin-bottom: 5px;\n}\n\n.search-box {\n    margin: 0;\n}\n\n.action-box {\n    margin: 0 15px 0 0;\n    min-height: 0;\n}\n\n    .action-box .toolbaritem a {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        min-width: 100px;\n    }\n\n\n.completed {\n    text-decoration: line-through;\n}\n\n.checkbox {\n    margin: 0;\n}\n\n.inline-editor {\n    width: 100%;\n}\n\n.description-form-group {\n    margin-bottom: 5px;\n}\n\n.actionBtn-form-group {\n    margin: 0;\n}\n\n.edit-last-separator-hr {\n    margin: 10px 0;\n}\n\n\n@media (max-width: 768px) {\n    .action-box {\n        margin: 0 14px;\n    }\n}\n", ""]);
+exports.push([module.i, "\r\n.navbar .nav > li.toolbaritem > a {\r\n    font-weight: bold;\r\n}\r\n\r\ninput.form-control {\r\n    border-left-width: 5px;\r\n}\r\n\r\n.control-box {\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.search-box {\r\n    margin: 0;\r\n}\r\n\r\n.action-box {\r\n    margin: 0 15px 0 0;\r\n    min-height: 0;\r\n}\r\n\r\n    .action-box .toolbaritem a {\r\n        padding-top: 5px;\r\n        padding-bottom: 5px;\r\n        min-width: 100px;\r\n    }\r\n\r\n\r\n.completed {\r\n    text-decoration: line-through;\r\n}\r\n\r\n.checkbox {\r\n    margin: 0;\r\n}\r\n\r\n.inline-editor {\r\n    width: 100%;\r\n}\r\n\r\n.description-form-group {\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.actionBtn-form-group {\r\n    margin: 0;\r\n}\r\n\r\n.edit-last-separator-hr {\r\n    margin: 10px 0;\r\n}\r\n\r\n\r\n@media (max-width: 768px) {\r\n    .action-box {\r\n        margin: 0 14px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 225 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -77019,7 +77349,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-__webpack_require__(226);
+__webpack_require__(238);
 var StatisticsDemoComponent = /** @class */ (function () {
     function StatisticsDemoComponent(alertService) {
         this.alertService = alertService;
@@ -77116,8 +77446,8 @@ var StatisticsDemoComponent = /** @class */ (function () {
     StatisticsDemoComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'statistics-demo',
-            template: __webpack_require__(227),
-            styles: [__webpack_require__(228)]
+            template: __webpack_require__(239),
+            styles: [__webpack_require__(240)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */]])
     ], StatisticsDemoComponent);
@@ -77127,23 +77457,23 @@ var StatisticsDemoComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 226 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(1))(249);
 
 /***/ }),
-/* 227 */
+/* 239 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n    <div class=\"col-md-6\">\n        <div class=\"chart-container\">\n            <canvas baseChart width=\"600\" height=\"250\"\n                    [datasets]=\"chartData\"\n                    [labels]=\"chartLabels\"\n                    [options]=\"chartOptions\"\n                    [colors]=\"chartColors\"\n                    [legend]=\"chartLegend\"\n                    [chartType]=\"chartType\"\n                    (chartHover)=\"chartHovered($event)\"\n                    (chartClick)=\"chartClicked($event)\"></canvas>\n        </div>\n    </div>\n    <div class=\"col-md-6 table-container\">\n        <table class=\"table table-responsive table-condensed\">\n            <thead>\n                <tr>\n                    <th></th>\n                    <th *ngFor=\"let label of chartLabels\">{{label}}</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr *ngFor=\"let d of chartData\">\n                    <th>{{d && d.label.split(' ').pop()}}</th>\n                    <td *ngFor=\"let label of chartLabels; let j=index\">{{d && d.data[j]}}</td>\n                </tr>\n            </tbody>\n        </table>\n        <button class=\"refresh-btn\" (click)=\"randomize();showMessage('Manual refresh!');\">REFSH</button>\n        <div class=\"chart-type-container\" dropdown>\n            <button id=\"chartType\" type=\"button\" dropdownToggle><i class=\"fa fa-bar-chart dropdown-toggle\"></i></button>\n            <ul *dropdownMenu role=\"menu\" aria-labelledby=\"chartType\" class=\"dropdown-menu\">\n                <li [class.active2]=\"chartType == 'bar'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('bar')\" href=\"javascript:;\">Bar Chart</a></li>\n                <li [class.active2]=\"chartType == 'pie'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('pie')\" href=\"javascript:;\">Pie Chart</a></li>\n                <li [class.active2]=\"chartType == 'doughnut'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('doughnut')\" href=\"javascript:;\">Doughnut Chart</a></li>\n                <li [class.active2]=\"chartType == 'polarArea'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('polarArea')\" href=\"javascript:;\">Polar Area Chart</a></li>\n                <li [class.active2]=\"chartType == 'radar'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('radar')\" href=\"javascript:;\">Radar Chart</a></li>\n                <li class=\"divider dropdown-divider\"></li>\n                <li [class.active2]=\"chartType == 'line'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('line')\" href=\"javascript:;\">Line Chart</a></li>\n            </ul>\n        </div>\n        <button class=\"p1ull-right\" (click)=\"showMessage('You\\'ve clicked on the menu')\"><i class=\"fa fa-bars\"></i></button>\n        <button class=\"p1ull-right\" (click)=\"showDialog('Enter some value to do serious configuration...')\"><i class=\"fa fa-cogs\"></i></button>\n    </div>\n</div>";
+module.exports = "<div class=\"row\">\r\n    <div class=\"col-md-6\">\r\n        <div class=\"chart-container\">\r\n            <canvas baseChart width=\"600\" height=\"250\"\r\n                    [datasets]=\"chartData\"\r\n                    [labels]=\"chartLabels\"\r\n                    [options]=\"chartOptions\"\r\n                    [colors]=\"chartColors\"\r\n                    [legend]=\"chartLegend\"\r\n                    [chartType]=\"chartType\"\r\n                    (chartHover)=\"chartHovered($event)\"\r\n                    (chartClick)=\"chartClicked($event)\"></canvas>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-md-6 table-container\">\r\n        <table class=\"table table-responsive table-condensed\">\r\n            <thead>\r\n                <tr>\r\n                    <th></th>\r\n                    <th *ngFor=\"let label of chartLabels\">{{label}}</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                <tr *ngFor=\"let d of chartData\">\r\n                    <th>{{d && d.label.split(' ').pop()}}</th>\r\n                    <td *ngFor=\"let label of chartLabels; let j=index\">{{d && d.data[j]}}</td>\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n        <button class=\"refresh-btn\" (click)=\"randomize();showMessage('Manual refresh!');\">REFSH</button>\r\n        <div class=\"chart-type-container\" dropdown>\r\n            <button id=\"chartType\" type=\"button\" dropdownToggle><i class=\"fa fa-bar-chart dropdown-toggle\"></i></button>\r\n            <ul *dropdownMenu role=\"menu\" aria-labelledby=\"chartType\" class=\"dropdown-menu\">\r\n                <li [class.active2]=\"chartType == 'bar'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('bar')\" href=\"javascript:;\">Bar Chart</a></li>\r\n                <li [class.active2]=\"chartType == 'pie'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('pie')\" href=\"javascript:;\">Pie Chart</a></li>\r\n                <li [class.active2]=\"chartType == 'doughnut'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('doughnut')\" href=\"javascript:;\">Doughnut Chart</a></li>\r\n                <li [class.active2]=\"chartType == 'polarArea'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('polarArea')\" href=\"javascript:;\">Polar Area Chart</a></li>\r\n                <li [class.active2]=\"chartType == 'radar'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('radar')\" href=\"javascript:;\">Radar Chart</a></li>\r\n                <li class=\"divider dropdown-divider\"></li>\r\n                <li [class.active2]=\"chartType == 'line'\" role=\"menuitem\"><a class=\"dropdown-item\" (click)=\"changeChartType('line')\" href=\"javascript:;\">Line Chart</a></li>\r\n            </ul>\r\n        </div>\r\n        <button class=\"p1ull-right\" (click)=\"showMessage('You\\'ve clicked on the menu')\"><i class=\"fa fa-bars\"></i></button>\r\n        <button class=\"p1ull-right\" (click)=\"showDialog('Enter some value to do serious configuration...')\"><i class=\"fa fa-cogs\"></i></button>\r\n    </div>\r\n</div>";
 
 /***/ }),
-/* 228 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(229);
+        var result = __webpack_require__(241);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77153,7 +77483,7 @@ module.exports = "<div class=\"row\">\n    <div class=\"col-md-6\">\n        <di
     
 
 /***/ }),
-/* 229 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77161,13 +77491,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.chart-container {\n    display: block;\n}\n\n.table-container {\n}\n\n\n.refresh-btn {\n    margin-right: 10px;\n}\n\n.chart-type-container {\n    display: inline-block;\n}\n\n\nli.active2 {\n    background-color: #e8e8e8;\n}\n", ""]);
+exports.push([module.i, "\r\n.chart-container {\r\n    display: block;\r\n}\r\n\r\n.table-container {\r\n}\r\n\r\n\r\n.refresh-btn {\r\n    margin-right: 10px;\r\n}\r\n\r\n.chart-type-container {\r\n    display: inline-block;\r\n}\r\n\r\n\r\nli.active2 {\r\n    background-color: #e8e8e8;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 230 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -77175,9 +77505,9 @@ exports.push([module.i, "\n.chart-container {\n    display: block;\n}\n\n.table-
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_notification_service__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_notification_service__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_account_service__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_permission_model__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_permission_model__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_utilities__ = __webpack_require__(4);
 // ======================================
 // Author: Ebenezer Monney
@@ -77354,8 +77684,8 @@ var NotificationsViewerComponent = /** @class */ (function () {
     NotificationsViewerComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'notifications-viewer',
-            template: __webpack_require__(231),
-            styles: [__webpack_require__(232)]
+            template: __webpack_require__(243),
+            styles: [__webpack_require__(244)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_2__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_4__services_account_service__["a" /* AccountService */], __WEBPACK_IMPORTED_MODULE_3__services_notification_service__["a" /* NotificationService */]])
     ], NotificationsViewerComponent);
@@ -77365,17 +77695,17 @@ var NotificationsViewerComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 231 */
+/* 243 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <ngx-datatable class=\"material colored-header sm table-hover\"\n                   [loadingIndicator]=\"loadingIndicator\"\n                   [rows]=\"rows\"\n                   [rowHeight]=\"35\"\n                   [headerHeight]=\"isViewOnly ? 0 : 35\"\n                   [footerHeight]=\"35\"\n                   [limit]=\"10\"\n                   [columns]=\"columns\"\n                   [scrollbarV]=\"verticalScrollbar\"\n                   [columnMode]=\"'force'\">\n    </ngx-datatable>\n\n    <ng-template #statusHeaderTemplate>\n        <i class=\"fa fa-bullhorn\"></i>\n    </ng-template>\n\n    <ng-template #statusTemplate>\n        <span></span>\n    </ng-template>\n\n    <ng-template #dateTemplate let-row=\"row\" let-value=\"value\">\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{getPrintedDate(value)}}\">\n            {{getPrintedDate(value)}}\n        </span>\n    </ng-template>\n\n    <ng-template #contentHeaderTemplate let-row=\"row\" let-value=\"value\">\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{row.body}}\">\n            {{value}}\n        </span>\n    </ng-template>\n\n    <ng-template #contenBodytTemplate let-row=\"row\" let-value=\"value\">\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{row.header}}\">\n            {{value}}\n        </span>\n    </ng-template>\n\n\n    <ng-template #actionsTemplate let-row=\"row\">\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'notifications.Delete' | translate}}\" container=\"body\" (click)=\"deleteNotification(row)\"><i class=\"fa fa-times\"></i></a>\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'notifications.Pin' | translate}}\" co container=\"body\" (click)=\"togglePin(row)\">\n            <i *ngIf=\"row.isPinned\" class=\"fa fa-thumb-tack\"></i>\n            <i *ngIf=\"!row.isPinned\" class=\"fa fa-thumb-tack fa-rotate-90\"></i>\n        </a>\n    </ng-template>\n</div>";
+module.exports = "<div>\r\n    <ngx-datatable class=\"material colored-header sm table-hover\"\r\n                   [loadingIndicator]=\"loadingIndicator\"\r\n                   [rows]=\"rows\"\r\n                   [rowHeight]=\"35\"\r\n                   [headerHeight]=\"isViewOnly ? 0 : 35\"\r\n                   [footerHeight]=\"35\"\r\n                   [limit]=\"10\"\r\n                   [columns]=\"columns\"\r\n                   [scrollbarV]=\"verticalScrollbar\"\r\n                   [columnMode]=\"'force'\">\r\n    </ngx-datatable>\r\n\r\n    <ng-template #statusHeaderTemplate>\r\n        <i class=\"fa fa-bullhorn\"></i>\r\n    </ng-template>\r\n\r\n    <ng-template #statusTemplate>\r\n        <span></span>\r\n    </ng-template>\r\n\r\n    <ng-template #dateTemplate let-row=\"row\" let-value=\"value\">\r\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{getPrintedDate(value)}}\">\r\n            {{getPrintedDate(value)}}\r\n        </span>\r\n    </ng-template>\r\n\r\n    <ng-template #contentHeaderTemplate let-row=\"row\" let-value=\"value\">\r\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{row.body}}\">\r\n            {{value}}\r\n        </span>\r\n    </ng-template>\r\n\r\n    <ng-template #contenBodytTemplate let-row=\"row\" let-value=\"value\">\r\n        <span [class.unread]=\"!row.isRead\" attr.title=\"{{row.header}}\">\r\n            {{value}}\r\n        </span>\r\n    </ng-template>\r\n\r\n\r\n    <ng-template #actionsTemplate let-row=\"row\">\r\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'notifications.Delete' | translate}}\" container=\"body\" (click)=\"deleteNotification(row)\"><i class=\"fa fa-times\"></i></a>\r\n        <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" tooltip=\"{{'notifications.Pin' | translate}}\" co container=\"body\" (click)=\"togglePin(row)\">\r\n            <i *ngIf=\"row.isPinned\" class=\"fa fa-thumb-tack\"></i>\r\n            <i *ngIf=\"!row.isPinned\" class=\"fa fa-thumb-tack fa-rotate-90\"></i>\r\n        </a>\r\n    </ng-template>\r\n</div>";
 
 /***/ }),
-/* 232 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(233);
+        var result = __webpack_require__(245);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77385,7 +77715,7 @@ module.exports = "<div>\n    <ngx-datatable class=\"material colored-header sm t
     
 
 /***/ }),
-/* 233 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77393,13 +77723,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.unread {\n    font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\r\n.unread {\r\n    font-weight: bold;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 234 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -77450,8 +77780,8 @@ var SearchBoxComponent = /** @class */ (function () {
     SearchBoxComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'search-box',
-            template: __webpack_require__(235),
-            styles: [__webpack_require__(236)]
+            template: __webpack_require__(247),
+            styles: [__webpack_require__(248)]
         })
     ], SearchBoxComponent);
     return SearchBoxComponent;
@@ -77460,17 +77790,17 @@ var SearchBoxComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 235 */
+/* 247 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"icon-addon addon-sm\">\n    <label for=\"searchInput\" title=\"Search\"><i class=\"fa fa-search left-icon search-icon\"></i></label>\n    <input id=\"searchInput\" #searchInput type=\"search\" ngModel=\"\" (ngModelChange)=\"onValueChange($event)\" [attr.placeholder]=\"placeholder\" class=\"form-control left-icon right-icon\">\n    <a *ngIf=\"searchInput.value\" href=\"javascript:;\" title=\"Clear\" (click)=\"clear()\" class=\"fa fa-times-circle clear-input right-icon\"></a>\n</div>";
+module.exports = "<div class=\"icon-addon addon-sm\">\r\n    <label for=\"searchInput\" title=\"Search\"><i class=\"fa fa-search left-icon search-icon\"></i></label>\r\n    <input id=\"searchInput\" #searchInput type=\"search\" ngModel=\"\" (ngModelChange)=\"onValueChange($event)\" [attr.placeholder]=\"placeholder\" class=\"form-control left-icon right-icon\">\r\n    <a *ngIf=\"searchInput.value\" href=\"javascript:;\" title=\"Clear\" (click)=\"clear()\" class=\"fa fa-times-circle clear-input right-icon\"></a>\r\n</div>";
 
 /***/ }),
-/* 236 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(237);
+        var result = __webpack_require__(249);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77480,7 +77810,7 @@ module.exports = "<div class=\"icon-addon addon-sm\">\n    <label for=\"searchIn
     
 
 /***/ }),
-/* 237 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77488,18 +77818,18 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.search-icon {\n    pointer-events: none;\n}\n", ""]);
+exports.push([module.i, "\r\n.search-icon {\r\n    pointer-events: none;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 238 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserEdit; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user_model__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user_model__ = __webpack_require__(31);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -77526,17 +77856,17 @@ var UserEdit = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 239 */
+/* 251 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <form *ngIf=\"formResetToggle\" [attr.autocomplete]=\"isGeneralEditor ? NaN : null\" class=\"form-horizontal\" name=\"userInfoForm\" #f=\"ngForm\" novalidate\n          (ngSubmit)=\"f.form.valid ? save() :\n\n          (!userName.valid && showErrorAlert('User name is required', 'Please enter a user name (minimum of 2 and maximum of 200 characters)'));\n\n          (userPassword && !userPassword.valid && showErrorAlert('Password is required', 'Please enter the current password'));\n\n          (email.errors?.required && showErrorAlert('Email is required', 'Please enter an email address (maximum of 200 characters)'));\n          (email.errors?.pattern && showErrorAlert('Invalid Email', 'Please enter a valid email address'));\n\n          (isChangePassword && isEditingSelf && !currentPassword.valid && showErrorAlert('Current password is required', 'Please enter the current password'));\n\n          (isChangePassword && !newPassword.valid && showErrorAlert('New password is required', 'Please enter the new password (minimum of 6 characters)'));\n\n          (isChangePassword && confirmPassword.errors?.required && showErrorAlert('Confirmation password is required', 'Please enter the confirmation password'));\n          (isChangePassword && confirmPassword.errors?.validateEqual && showErrorAlert('Passwword mismatch', 'New password and comfirmation password do not match'));\n\n          (canAssignRoles && !roles.valid && showErrorAlert('Roles is required', 'Please select a minimum of 1 role'));\">\n\n        <div class=\"form-group\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"jobTitle-{{uniqueId}}\">{{'users.editor.JobTitle' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">{{user.jobTitle}}</p>\n            </div>\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <input autofocus type=\"text\" attr.id=\"jobTitle-{{uniqueId}}\" name=\"jobTitle\" placeholder=\"Enter Job Title\" class=\"form-control\" [(ngModel)]=\"userEdit.jobTitle\" />\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div class=\"form-group has-feedback\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"userName-{{uniqueId}}\">{{'users.editor.UserName' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">{{user.userName}}</p>\n            </div>\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && userName.valid, 'has-error' : f.submitted && !userName.valid}\">\n                <input type=\"text\" attr.id=\"userName-{{uniqueId}}\" name=\"userName\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter user name\"\n                       class=\"form-control\" [(ngModel)]=\"userEdit.userName\" #userName=\"ngModel\" required minlength=\"2\" maxlength=\"200\" />\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': userName.valid, 'glyphicon-remove' : !userName.valid}\"></span>\n                <span *ngIf=\"showValidationErrors && f.submitted && !userName.valid\" class=\"errorMessage\">\n                    {{'users.editor.UserNameRequired' | translate}}\n                </span>\n            </div>\n        </div>\n\n        <div *ngIf=\"isEditMode && isEditingSelf && !isChangePassword && user.userName != userEdit.userName\" class=\"row\">\n            <div class=\"col-md-12\">\n                <hr class=\"password-separator-hr\" />\n            </div>\n        </div>\n        <div *ngIf=\"isEditMode && isEditingSelf && !isChangePassword && user.userName != userEdit.userName\" class=\"form-group has-feedback\">\n            <label class=\"control-label col-md-2\" for=\"userPassword-{{uniqueId}}\">{{'users.editor.Password' | translate}}</label>\n            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && userPassword.valid, 'has-error' : f.submitted && !userPassword.valid}\">\n                <input type=\"password\" attr.id=\"userPassword-{{uniqueId}}\" name=\"userPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter password\"\n                       class=\"form-control\" [(ngModel)]=\"userEdit.currentPassword\" #userPassword=\"ngModel\" required />\n                <small class=\"hint-sm\">{{'users.editor.PasswordHint' | translate}}</small>\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': userPassword.valid, 'glyphicon-remove' : !userPassword.valid}\"></span>\n                <span *ngIf=\"showValidationErrors && f.submitted && !userPassword.valid\" class=\"errorMessage\">\n                    {{'users.editor.CurrentPasswordRequired' | translate}}\n                </span>\n            </div>\n        </div>\n\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div class=\"form-group has-feedback\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"email-{{uniqueId}}\">{{'users.editor.Email' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">{{user.email}}</p>\n            </div>\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && email.valid, 'has-error' : f.submitted && !email.valid}\">\n                <input type=\"text\" attr.id=\"email-{{uniqueId}}\" name=\"email\" placeholder=\"Enter email address\" class=\"form-control\" [(ngModel)]=\"userEdit.email\" #email=\"ngModel\"\n                       required maxlength=\"200\" pattern=\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\" />\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': email.valid, 'glyphicon-remove' : !email.valid}\"></span>\n                <span *ngIf=\"showValidationErrors && f.submitted && email.errors?.required\" class=\"errorMessage\">\n                    {{'users.editor.EmailRequired' | translate}}\n                </span>\n                <span *ngIf=\"showValidationErrors && f.submitted && email.errors?.pattern\" class=\"errorMessage\">\n                    {{'users.editor.InvalidEmail' | translate}}\n                </span>\n            </div>\n        </div>\n\n        <div *ngIf=\"isEditMode\" class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div *ngIf=\"isEditMode\" class=\"form-group\">\n            <label for=\"newPassword-{{uniqueId}}\" class=\"control-label col-md-2\">{{'users.editor.Password' | translate}}</label>\n            <div *ngIf=\"!isChangePassword && !isNewUser\" class=\"col-md-10\">\n                <button type=\"button\" (click)=\"changePassword()\" class=\"btn btn-link\">{{'users.editor.ChangePassword' | translate}}</button>\n            </div>\n\n            <div *ngIf=\"isChangePassword || isNewUser\" class=\"col-md-10\">\n                <div class=\"password-well well well-sm\">\n                    <div *ngIf=\"isEditingSelf\" class=\"form-group has-feedback\">\n                        <label class=\"control-label col-md-3\" for=\"currentPassword-{{uniqueId}}\">{{'users.editor.CurrentPassword' | translate}}</label>\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && currentPassword.valid, 'has-error' : f.submitted && !currentPassword.valid}\">\n                            <input type=\"password\" attr.id=\"currentPassword-{{uniqueId}}\" name=\"currentPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter current password\" class=\"form-control\" [(ngModel)]=\"userEdit.currentPassword\" #currentPassword=\"ngModel\"\n                                   required />\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': currentPassword.valid, 'glyphicon-remove' : !currentPassword.valid}\"></span>\n                            <span *ngIf=\"showValidationErrors && f.submitted && !currentPassword.valid\" class=\"errorMessage\">\n                                {{'users.editor.CurrentPasswordRequired' | translate}}\n                            </span>\n                        </div>\n                    </div>\n\n                    <div *ngIf=\"!isNewUser\" class=\"row\">\n                        <div class=\"col-md-12\">\n                            <hr class=\"password-separator-hr\" />\n                        </div>\n                    </div>\n\n                    <div class=\"form-group has-feedback\">\n                        <label class=\"control-label col-md-3\" for=\"newPassword-{{uniqueId}}\">{{'users.editor.NewPassword' | translate}}</label>\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && newPassword.valid, 'has-error' : f.submitted && !newPassword.valid}\">\n                            <input type=\"password\" attr.id=\"newPassword-{{uniqueId}}\" name=\"newPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter new password\" class=\"form-control\" [(ngModel)]=\"userEdit.newPassword\" #newPassword=\"ngModel\"\n                                   required minlength=\"6\" validateEqual=\"confirmPassword\" reverse=\"true\" />\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': newPassword.valid, 'glyphicon-remove' : !newPassword.valid}\"></span>\n                            <span *ngIf=\"showValidationErrors && f.submitted && !newPassword.valid\" class=\"errorMessage\">\n                                {{'users.editor.NewPasswordRequired' | translate}}\n                            </span>\n                        </div>\n                    </div>\n\n                    <div class=\"row\">\n                        <div class=\"col-md-12\">\n                            <hr class=\"password-separator-hr\" />\n                        </div>\n                    </div>\n\n                    <div class=\"form-group has-feedback\">\n                        <label class=\"control-label col-md-3\" for=\"confirmPassword-{{uniqueId}}\">{{'users.editor.ConfirmPassword' | translate}}</label>\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && confirmPassword.valid, 'has-error' : f.submitted && !confirmPassword.valid}\">\n                            <input type=\"password\" attr.id=\"confirmPassword-{{uniqueId}}\" name=\"confirmPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Confirm new password\" class=\"form-control\" [(ngModel)]=\"userEdit.confirmPassword\" #confirmPassword=\"ngModel\"\n                                   required validateEqual=\"newPassword\" />\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': confirmPassword.valid, 'glyphicon-remove' : !confirmPassword.valid}\"></span>\n                            <span *ngIf=\"showValidationErrors && f.submitted && confirmPassword.errors?.required\" class=\"errorMessage\">\n                                {{'users.editor.ConfirmationPasswordRequired' | translate}}\n                            </span>\n                            <span *ngIf=\"showValidationErrors && f.submitted && confirmPassword.errors?.validateEqual && !confirmPassword.errors?.required\" class=\"errorMessage\">\n                                {{'users.editor.PasswordMismatch' | translate}}\n                            </span>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <!--******************************************************************************************************-->\n\n        <div *ngIf=\"!isEditMode || canAssignRoles\" class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div *ngIf=\"!isEditMode || canAssignRoles\" class=\"form-group has-feedback\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"roles-user-info\">{{'users.editor.Roles' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">\n                    <span *ngFor=\"let role of user.roles\">\n                        <span title='{{getRoleByName(role)?.description}}' class=\"badge\">{{role}}</span>\n                    </span>\n                </p>\n            </div>\n            <div *ngIf=\"isEditMode && canAssignRoles\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && roles.valid, 'has-error' : f.submitted && !roles.valid}\">\n                <select id=\"roles-user-info\" name=\"roles\" [(ngModel)]=\"userEdit.roles\" #roles=\"ngModel\" class=\"selectpicker form-control\" bootstrapSelect required multiple\n                        data-live-search=\"true\" data-actions-box=\"false\" data-live-search-placeholder=\"Search...\" title=\"Select Roles\">\n                    <option *ngFor=\"let role of allRoles\" attr.data-content=\"<span title='{{role.description}}' class='badge'>{{role.name}}</span>\" attr.value=\"{{role.name}}\">\n                        {{role.name}}\n                    </option>\n                </select>\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': roles.valid, 'glyphicon-remove' : !roles.valid}\"></span>\n                <span *ngIf=\"showValidationErrors && f.submitted && !roles.valid\" class=\"errorMessage\">\n                    {{'users.editor.RoleRequired' | translate}}\n                </span>\n            </div>\n        </div>\n\n        <!--******************************************************************************************************-->\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div class=\"form-group\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"fullName-{{uniqueId}}\">{{'users.editor.FullName' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">{{user.fullName}}</p>\n            </div>\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <input type=\"text\" attr.id=\"fullName-{{uniqueId}}\" name=\"fullName\" placeholder=\"Enter full name\" class=\"form-control\" [(ngModel)]=\"userEdit.fullName\" />\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div class=\"form-group has-feedback\">\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"phoneNumber-{{uniqueId}}\">{{'users.editor.PhoneNumber' | translate}}</label>\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <p class=\"form-control-static\">{{user.phoneNumber}}</p>\n            </div>\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\n                <input type=\"text\" attr.id=\"phoneNumber-{{uniqueId}}\" name=\"phoneNumber\" placeholder=\"Enter phone number\" class=\"form-control\" [(ngModel)]=\"userEdit.phoneNumber\" />\n            </div>\n        </div>\n\n        <div *ngIf=\"!isViewOnly\" class=\"row\">\n            <div class=\"col-md-12\">\n                <hr [class.last-separator-hr]=\"!isEditMode\" [class.edit-last-separator-hr]=\"isEditMode\" />\n            </div>\n        </div>\n\n        <div *ngIf=\"!isViewOnly\" class=\"form-group\">\n            <div class=\"col-sm-5\">\n                <div *ngIf=\"isGeneralEditor && isEditMode\" class=\"pull-left\">\n                    <div class=\"checkbox user-enabled\">\n                        <label>\n                            <input type=\"checkbox\" name=\"isEnabled\" [(ngModel)]=\"userEdit.isEnabled\">\n                            {{'users.editor.Enabled' | translate}}\n                        </label>\n                    </div>\n                    <button *ngIf=\"userEdit.isLockedOut\" type=\"button\" (click)=\"unlockUser()\" class=\"btn btn-warning unblock-user\" [disabled]=\"isSaving\"><i class='fa fa-unlock-alt'></i> {{'users.editor.Unblock' | translate}}</button>\n                </div>\n            </div>\n            <div class=\"col-sm-7\">\n                <div class=\"pull-right\">\n                    <button *ngIf=\"!isEditMode && isGeneralEditor\" type=\"button\" (click)=\"close()\" class=\"btn btn-default\"><i class='fa fa-close'></i> {{'users.editor.Close' | translate}}</button>\n                    <button *ngIf=\"!isEditMode && !isGeneralEditor\" type=\"button\" (click)=\"edit()\" class=\"btn btn-default\"><i class='fa fa-edit'></i> {{'users.editor.Edit' | translate}}</button>\n                    <button *ngIf=\"isEditMode\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-danger\" [disabled]=\"isSaving\"><i class='fa fa-times'></i> {{'users.editor.Cancel' | translate}}</button>\n                    <button *ngIf=\"isEditMode\" type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isSaving\">\n                        <i *ngIf=\"!isSaving\" class='fa fa-save'></i><i *ngIf=\"isSaving\" class='fa fa-circle-o-notch fa-spin'></i> {{isSaving ? ('users.editor.Saving' | translate) : ('users.editor.Save' | translate)}}\n                    </button>\n                </div>\n            </div>\n        </div>\n        <div class=\"clearfix\"></div>\n    </form>\n</div>\n";
+module.exports = "<div>\r\n    <form *ngIf=\"formResetToggle\" [attr.autocomplete]=\"isGeneralEditor ? NaN : null\" class=\"form-horizontal\" name=\"userInfoForm\" #f=\"ngForm\" novalidate\r\n          (ngSubmit)=\"f.form.valid ? save() :\r\n\r\n          (!userName.valid && showErrorAlert('User name is required', 'Please enter a user name (minimum of 2 and maximum of 200 characters)'));\r\n\r\n          (userPassword && !userPassword.valid && showErrorAlert('Password is required', 'Please enter the current password'));\r\n\r\n          (email.errors?.required && showErrorAlert('Email is required', 'Please enter an email address (maximum of 200 characters)'));\r\n          (email.errors?.pattern && showErrorAlert('Invalid Email', 'Please enter a valid email address'));\r\n\r\n          (isChangePassword && isEditingSelf && !currentPassword.valid && showErrorAlert('Current password is required', 'Please enter the current password'));\r\n\r\n          (isChangePassword && !newPassword.valid && showErrorAlert('New password is required', 'Please enter the new password (minimum of 6 characters)'));\r\n\r\n          (isChangePassword && confirmPassword.errors?.required && showErrorAlert('Confirmation password is required', 'Please enter the confirmation password'));\r\n          (isChangePassword && confirmPassword.errors?.validateEqual && showErrorAlert('Passwword mismatch', 'New password and comfirmation password do not match'));\r\n\r\n          (canAssignRoles && !roles.valid && showErrorAlert('Roles is required', 'Please select a minimum of 1 role'));\">\r\n\r\n        <div class=\"form-group\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"jobTitle-{{uniqueId}}\">{{'users.editor.JobTitle' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">{{user.jobTitle}}</p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <input autofocus type=\"text\" attr.id=\"jobTitle-{{uniqueId}}\" name=\"jobTitle\" placeholder=\"Enter Job Title\" class=\"form-control\" [(ngModel)]=\"userEdit.jobTitle\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"form-group has-feedback\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"userName-{{uniqueId}}\">{{'users.editor.UserName' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">{{user.userName}}</p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && userName.valid, 'has-error' : f.submitted && !userName.valid}\">\r\n                <input type=\"text\" attr.id=\"userName-{{uniqueId}}\" name=\"userName\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter user name\"\r\n                       class=\"form-control\" [(ngModel)]=\"userEdit.userName\" #userName=\"ngModel\" required minlength=\"2\" maxlength=\"200\" />\r\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': userName.valid, 'glyphicon-remove' : !userName.valid}\"></span>\r\n                <span *ngIf=\"showValidationErrors && f.submitted && !userName.valid\" class=\"errorMessage\">\r\n                    {{'users.editor.UserNameRequired' | translate}}\r\n                </span>\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"isEditMode && isEditingSelf && !isChangePassword && user.userName != userEdit.userName\" class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr class=\"password-separator-hr\" />\r\n            </div>\r\n        </div>\r\n        <div *ngIf=\"isEditMode && isEditingSelf && !isChangePassword && user.userName != userEdit.userName\" class=\"form-group has-feedback\">\r\n            <label class=\"control-label col-md-2\" for=\"userPassword-{{uniqueId}}\">{{'users.editor.Password' | translate}}</label>\r\n            <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && userPassword.valid, 'has-error' : f.submitted && !userPassword.valid}\">\r\n                <input type=\"password\" attr.id=\"userPassword-{{uniqueId}}\" name=\"userPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter password\"\r\n                       class=\"form-control\" [(ngModel)]=\"userEdit.currentPassword\" #userPassword=\"ngModel\" required />\r\n                <small class=\"hint-sm\">{{'users.editor.PasswordHint' | translate}}</small>\r\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': userPassword.valid, 'glyphicon-remove' : !userPassword.valid}\"></span>\r\n                <span *ngIf=\"showValidationErrors && f.submitted && !userPassword.valid\" class=\"errorMessage\">\r\n                    {{'users.editor.CurrentPasswordRequired' | translate}}\r\n                </span>\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"form-group has-feedback\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"email-{{uniqueId}}\">{{'users.editor.Email' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">{{user.email}}</p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && email.valid, 'has-error' : f.submitted && !email.valid}\">\r\n                <input type=\"text\" attr.id=\"email-{{uniqueId}}\" name=\"email\" placeholder=\"Enter email address\" class=\"form-control\" [(ngModel)]=\"userEdit.email\" #email=\"ngModel\"\r\n                       required maxlength=\"200\" pattern=\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\" />\r\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': email.valid, 'glyphicon-remove' : !email.valid}\"></span>\r\n                <span *ngIf=\"showValidationErrors && f.submitted && email.errors?.required\" class=\"errorMessage\">\r\n                    {{'users.editor.EmailRequired' | translate}}\r\n                </span>\r\n                <span *ngIf=\"showValidationErrors && f.submitted && email.errors?.pattern\" class=\"errorMessage\">\r\n                    {{'users.editor.InvalidEmail' | translate}}\r\n                </span>\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"isEditMode\" class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"isEditMode\" class=\"form-group\">\r\n            <label for=\"newPassword-{{uniqueId}}\" class=\"control-label col-md-2\">{{'users.editor.Password' | translate}}</label>\r\n            <div *ngIf=\"!isChangePassword && !isNewUser\" class=\"col-md-10\">\r\n                <button type=\"button\" (click)=\"changePassword()\" class=\"btn btn-link\">{{'users.editor.ChangePassword' | translate}}</button>\r\n            </div>\r\n\r\n            <div *ngIf=\"isChangePassword || isNewUser\" class=\"col-md-10\">\r\n                <div class=\"password-well well well-sm\">\r\n                    <div *ngIf=\"isEditingSelf\" class=\"form-group has-feedback\">\r\n                        <label class=\"control-label col-md-3\" for=\"currentPassword-{{uniqueId}}\">{{'users.editor.CurrentPassword' | translate}}</label>\r\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && currentPassword.valid, 'has-error' : f.submitted && !currentPassword.valid}\">\r\n                            <input type=\"password\" attr.id=\"currentPassword-{{uniqueId}}\" name=\"currentPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter current password\" class=\"form-control\" [(ngModel)]=\"userEdit.currentPassword\" #currentPassword=\"ngModel\"\r\n                                   required />\r\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': currentPassword.valid, 'glyphicon-remove' : !currentPassword.valid}\"></span>\r\n                            <span *ngIf=\"showValidationErrors && f.submitted && !currentPassword.valid\" class=\"errorMessage\">\r\n                                {{'users.editor.CurrentPasswordRequired' | translate}}\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div *ngIf=\"!isNewUser\" class=\"row\">\r\n                        <div class=\"col-md-12\">\r\n                            <hr class=\"password-separator-hr\" />\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"form-group has-feedback\">\r\n                        <label class=\"control-label col-md-3\" for=\"newPassword-{{uniqueId}}\">{{'users.editor.NewPassword' | translate}}</label>\r\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && newPassword.valid, 'has-error' : f.submitted && !newPassword.valid}\">\r\n                            <input type=\"password\" attr.id=\"newPassword-{{uniqueId}}\" name=\"newPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Enter new password\" class=\"form-control\" [(ngModel)]=\"userEdit.newPassword\" #newPassword=\"ngModel\"\r\n                                   required minlength=\"6\" validateEqual=\"confirmPassword\" reverse=\"true\" />\r\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': newPassword.valid, 'glyphicon-remove' : !newPassword.valid}\"></span>\r\n                            <span *ngIf=\"showValidationErrors && f.submitted && !newPassword.valid\" class=\"errorMessage\">\r\n                                {{'users.editor.NewPasswordRequired' | translate}}\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-12\">\r\n                            <hr class=\"password-separator-hr\" />\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"form-group has-feedback\">\r\n                        <label class=\"control-label col-md-3\" for=\"confirmPassword-{{uniqueId}}\">{{'users.editor.ConfirmPassword' | translate}}</label>\r\n                        <div class=\"col-md-9\" [ngClass]=\"{'has-success': f.submitted && confirmPassword.valid, 'has-error' : f.submitted && !confirmPassword.valid}\">\r\n                            <input type=\"password\" attr.id=\"confirmPassword-{{uniqueId}}\" name=\"confirmPassword\" [attr.autocomplete]=\"isGeneralEditor ? new-password : null\" placeholder=\"Confirm new password\" class=\"form-control\" [(ngModel)]=\"userEdit.confirmPassword\" #confirmPassword=\"ngModel\"\r\n                                   required validateEqual=\"newPassword\" />\r\n                            <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': confirmPassword.valid, 'glyphicon-remove' : !confirmPassword.valid}\"></span>\r\n                            <span *ngIf=\"showValidationErrors && f.submitted && confirmPassword.errors?.required\" class=\"errorMessage\">\r\n                                {{'users.editor.ConfirmationPasswordRequired' | translate}}\r\n                            </span>\r\n                            <span *ngIf=\"showValidationErrors && f.submitted && confirmPassword.errors?.validateEqual && !confirmPassword.errors?.required\" class=\"errorMessage\">\r\n                                {{'users.editor.PasswordMismatch' | translate}}\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <!--******************************************************************************************************-->\r\n\r\n        <div *ngIf=\"!isEditMode || canAssignRoles\" class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"!isEditMode || canAssignRoles\" class=\"form-group has-feedback\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"roles-user-info\">{{'users.editor.Roles' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">\r\n                    <span *ngFor=\"let role of user.roles\">\r\n                        <span title='{{getRoleByName(role)?.description}}' class=\"badge\">{{role}}</span>\r\n                    </span>\r\n                </p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode && canAssignRoles\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\" [ngClass]=\"{'has-success': f.submitted && roles.valid, 'has-error' : f.submitted && !roles.valid}\">\r\n                <select id=\"roles-user-info\" name=\"roles\" [(ngModel)]=\"userEdit.roles\" #roles=\"ngModel\" class=\"selectpicker form-control\" bootstrapSelect required multiple\r\n                        data-live-search=\"true\" data-actions-box=\"false\" data-live-search-placeholder=\"Search...\" title=\"Select Roles\">\r\n                    <option *ngFor=\"let role of allRoles\" attr.data-content=\"<span title='{{role.description}}' class='badge'>{{role.name}}</span>\" attr.value=\"{{role.name}}\">\r\n                        {{role.name}}\r\n                    </option>\r\n                </select>\r\n                <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': roles.valid, 'glyphicon-remove' : !roles.valid}\"></span>\r\n                <span *ngIf=\"showValidationErrors && f.submitted && !roles.valid\" class=\"errorMessage\">\r\n                    {{'users.editor.RoleRequired' | translate}}\r\n                </span>\r\n            </div>\r\n        </div>\r\n\r\n        <!--******************************************************************************************************-->\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"fullName-{{uniqueId}}\">{{'users.editor.FullName' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">{{user.fullName}}</p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <input type=\"text\" attr.id=\"fullName-{{uniqueId}}\" name=\"fullName\" placeholder=\"Enter full name\" class=\"form-control\" [(ngModel)]=\"userEdit.fullName\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.separator-hr]=\"!isEditMode\" [class.edit-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"form-group has-feedback\">\r\n            <label [class.col-md-3]=\"isViewOnly\" [class.col-md-2]=\"!isViewOnly\" class=\"control-label\" for=\"phoneNumber-{{uniqueId}}\">{{'users.editor.PhoneNumber' | translate}}</label>\r\n            <div *ngIf=\"!isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <p class=\"form-control-static\">{{user.phoneNumber}}</p>\r\n            </div>\r\n            <div *ngIf=\"isEditMode\" [class.col-md-9]=\"isViewOnly\" [class.col-md-10]=\"!isViewOnly\">\r\n                <input type=\"text\" attr.id=\"phoneNumber-{{uniqueId}}\" name=\"phoneNumber\" placeholder=\"Enter phone number\" class=\"form-control\" [(ngModel)]=\"userEdit.phoneNumber\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"!isViewOnly\" class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr [class.last-separator-hr]=\"!isEditMode\" [class.edit-last-separator-hr]=\"isEditMode\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"!isViewOnly\" class=\"form-group\">\r\n            <div class=\"col-sm-5\">\r\n                <div *ngIf=\"isGeneralEditor && isEditMode\" class=\"pull-left\">\r\n                    <div class=\"checkbox user-enabled\">\r\n                        <label>\r\n                            <input type=\"checkbox\" name=\"isEnabled\" [(ngModel)]=\"userEdit.isEnabled\">\r\n                            {{'users.editor.Enabled' | translate}}\r\n                        </label>\r\n                    </div>\r\n                    <button *ngIf=\"userEdit.isLockedOut\" type=\"button\" (click)=\"unlockUser()\" class=\"btn btn-warning unblock-user\" [disabled]=\"isSaving\"><i class='fa fa-unlock-alt'></i> {{'users.editor.Unblock' | translate}}</button>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-7\">\r\n                <div class=\"pull-right\">\r\n                    <button *ngIf=\"!isEditMode && isGeneralEditor\" type=\"button\" (click)=\"close()\" class=\"btn btn-default\"><i class='fa fa-close'></i> {{'users.editor.Close' | translate}}</button>\r\n                    <button *ngIf=\"!isEditMode && !isGeneralEditor\" type=\"button\" (click)=\"edit()\" class=\"btn btn-default\"><i class='fa fa-edit'></i> {{'users.editor.Edit' | translate}}</button>\r\n                    <button *ngIf=\"isEditMode\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-danger\" [disabled]=\"isSaving\"><i class='fa fa-times'></i> {{'users.editor.Cancel' | translate}}</button>\r\n                    <button *ngIf=\"isEditMode\" type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isSaving\">\r\n                        <i *ngIf=\"!isSaving\" class='fa fa-save'></i><i *ngIf=\"isSaving\" class='fa fa-circle-o-notch fa-spin'></i> {{isSaving ? ('users.editor.Saving' | translate) : ('users.editor.Save' | translate)}}\r\n                    </button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n    </form>\r\n</div>\r\n";
 
 /***/ }),
-/* 240 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(241);
+        var result = __webpack_require__(253);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77546,7 +77876,7 @@ module.exports = "<div>\n    <form *ngIf=\"formResetToggle\" [attr.autocomplete]
     
 
 /***/ }),
-/* 241 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77554,32 +77884,25 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".row:not(:last-child) {\n    /*border-bottom: 1px solid #ccc;*/\n}\n\n.separator-hr {\n    margin: 0 5px;\n    border-top-style: dashed;\n}\n\n.edit-separator-hr {\n    margin: 10px 5px;\n    border-top-style: dashed;\n}\n\n.last-separator-hr {\n    margin-top: 5px;\n}\n\n.edit-last-separator-hr {\n    margin-top: 15px;\n}\n\n.password-separator-hr {\n    margin: 5px;\n    border-style: none;\n}\n\n\n.form-group {\n    margin-top: 0;\n    margin-bottom: 0;\n}\n\ninput.form-control {\n    border-left-width: 5px;\n}\n\n\n.password-well {\n    margin-bottom: 0;\n}\n\n.hint-sm {\n    display: block;\n}\n\n.checkbox.user-enabled {\n    display: inline-block;\n}\n\n.unblock-user {\n    margin-left: 34px;\n}\n\n@media (min-width: 992px) {\n    .user-enabled {\n        margin-left: 40px;\n    }\n}\n", ""]);
+exports.push([module.i, ".row:not(:last-child) {\r\n    /*border-bottom: 1px solid #ccc;*/\r\n}\r\n\r\n.separator-hr {\r\n    margin: 0 5px;\r\n    border-top-style: dashed;\r\n}\r\n\r\n.edit-separator-hr {\r\n    margin: 10px 5px;\r\n    border-top-style: dashed;\r\n}\r\n\r\n.last-separator-hr {\r\n    margin-top: 5px;\r\n}\r\n\r\n.edit-last-separator-hr {\r\n    margin-top: 15px;\r\n}\r\n\r\n.password-separator-hr {\r\n    margin: 5px;\r\n    border-style: none;\r\n}\r\n\r\n\r\n.form-group {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\ninput.form-control {\r\n    border-left-width: 5px;\r\n}\r\n\r\n\r\n.password-well {\r\n    margin-bottom: 0;\r\n}\r\n\r\n.hint-sm {\r\n    display: block;\r\n}\r\n\r\n.checkbox.user-enabled {\r\n    display: inline-block;\r\n}\r\n\r\n.unblock-user {\r\n    margin-left: 34px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .user-enabled {\r\n        margin-left: 40px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 242 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserPreferencesComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_alert_service__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_select_directive__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_bootstrap_select_directive__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
-// ======================================
-// Author: Ebenezer Monney
-// Email:  info@ebenmonney.com
-// Copyright (c) 2017 www.ebenmonney.com
-// 
-// ==> Gun4Hire: contact@ebenmonney.com
-// ======================================
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -77697,8 +78020,8 @@ var UserPreferencesComponent = /** @class */ (function () {
     UserPreferencesComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'user-preferences',
-            template: __webpack_require__(243),
-            styles: [__webpack_require__(244)]
+            template: __webpack_require__(255),
+            styles: [__webpack_require__(256)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_5__services_account_service__["a" /* AccountService */], __WEBPACK_IMPORTED_MODULE_2__services_configuration_service__["a" /* ConfigurationService */]])
     ], UserPreferencesComponent);
@@ -77708,17 +78031,17 @@ var UserPreferencesComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 243 */
+/* 255 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"form-horizontal\">\n    <div class=\"form-group\">\n        <label for=\"refreshButton\" class=\"col-sm-3 control-label\">{{'preferences.ReloadPreferences' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <button id=\"refreshButton\" class=\"btn btn-default\" (click)=\"reloadFromServer()\">\n                <i class=\"fa fa-refresh\"></i>\n            </button>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.ReloadPreferencesHint' | translate}}</p>\n        </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"separator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label for=\"language\" class=\"col-sm-3 control-label\">{{'preferences.Language' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <select id=\"language\" [(ngModel)]=\"configurations.language\" #languageSelector=\"bootstrap-select\" bootstrapSelect class=\"selectpicker form-control\">\n                <option data-subtext=\"(Default)\" value=\"en\">{{'preferences.English' | translate}}</option>\n                <option value=\"fr\">{{'preferences.French' | translate}}</option>\n                <option value=\"de\">{{'preferences.German' | translate}}</option>\n                <option value=\"ar\">{{'preferences.Arabic' | translate}}</option>\n                <option value=\"ko\">{{'preferences.Korean' | translate}}</option>\n            </select>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.LanguageHint' | translate}}</p>\n        </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"separator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label for=\"homePage\" class=\"col-sm-3 control-label\">{{'preferences.HomePage' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <select id=\"homePage\" [(ngModel)]=\"configurations.homeUrl\" #homePageSelector=\"bootstrap-select\" bootstrapSelect class=\"selectpicker form-control\">\n                <option data-icon=\"fa fa-tachometer\" data-subtext=\"(Default)\" value=\"/\">{{'preferences.Dashboard' | translate}}</option>\n                <option *ngIf=\"canViewCustomers\" data-icon=\"fa fa-handshake-o\" value=\"/customers\">{{'preferences.Customers' | translate}}</option>\n                <option *ngIf=\"canViewProducts\" data-icon=\"fa fa-truck\" value=\"/products\">{{'preferences.Products' | translate}}</option>\n                <option *ngIf=\"canViewOrders\" data-icon=\"fa fa-shopping-cart\" value=\"/orders\">{{'preferences.Orders' | translate}}</option>\n                <option data-icon=\"fa fa-info-circle\" value=\"/about\">{{'preferences.About' | translate}}</option>\n                <option data-icon=\"fa fa-cog\" value=\"/settings\">{{'preferences.Settings' | translate}}</option>\n            </select>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.HomePageHint' | translate}}</p>\n        </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"separator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label for=\"defaultTheme\" class=\"col-sm-3 control-label\">{{'preferences.Theme' | translate}} </label>\n        <div *ngIf=\"themeSelectorToggle\" class=\"col-sm-4\">\n            <select id=\"defaultTheme\" [(ngModel)]=\"configurations.theme\" bootstrapSelect class=\"selectpicker form-control\">\n                <option attr.data-content=\"{{'preferences.DefaultColor' | translate}}\">Default</option>\n                <option attr.data-content=\"{{'preferences.RedColor' | translate}}\">Red</option>\n                <option attr.data-content=\"{{'preferences.OrangeColor' | translate}}\">Orange</option>\n                <option attr.data-content=\"{{'preferences.GreenColor' | translate}}\">Green</option>\n                <option attr.data-content=\"{{'preferences.GrayColor' | translate}}\">Gray</option>\n                <option attr.data-content=\"{{'preferences.BlackColor' | translate}}\">Black</option>\n            </select>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.ThemeHint' | translate}}</p>\n        </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"separator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label class=\"col-sm-3 control-label\" for=\"dashboardStatistics\">{{'preferences.DashboardStatistics' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <div class=\"checkbox\">\n                <input name=\"dashboardStatistics\" [(ngModel)]=\"configurations.showDashboardStatistics\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\n            </div>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardStatisticsHint' | translate}}</p>\n        </div>\n    </div>\n    <!--  -->\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"subseparator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label class=\"col-sm-3 control-label\" for=\"dashboardTodo\">{{'preferences.DashboardNotifications' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <div class=\"checkbox\">\n                <input name=\"dashboardNotifications\" [(ngModel)]=\"configurations.showDashboardNotifications\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\n            </div>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardNotificationsHint' | translate}}</p>\n        </div>\n    </div>\n    <!--  -->\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"subseparator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label class=\"col-sm-3 control-label\" for=\"dashboardTodo\">{{'preferences.DashboardTodo' | translate}} </label>\n        <div class=\"col-sm-4\">\n            <div class=\"checkbox\">\n                <input name=\"dashboardTodo\" [(ngModel)]=\"configurations.showDashboardTodo\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\n            </div>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardTodoHint' | translate}}</p>\n        </div>\n    </div>\n    <!--  -->\n\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"subseparator-hr\" />\n        </div>\n    </div>\n\n    <div class=\"form-group\">\n        <label class=\"col-sm-3 control-label\" for=\"dashboardBanner\">{{'preferences.DashboardBanner' | translate}}</label>\n        <div class=\"col-sm-4\">\n            <div class=\"checkbox\">\n                <input name=\"dashboardBanner\" [(ngModel)]=\"configurations.showDashboardBanner\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\n            </div>\n        </div>\n        <div class=\"col-sm-5\">\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardBannerHint' | translate}}</p>\n        </div>\n    </div>\n    <!--  -->\n\n\n\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <hr class=\"last-separator-hr\" />\n        </div>\n    </div>\n    <div class=\"form-group\">\n        <div class=\"col-sm-3\">\n\n        </div>\n        <div class=\"col-sm-9\">\n            <div class=\"row pull-left\">\n                <div class=\"col-sm-6 col-reset-default\">\n                    <button type=\"button\" (click)=\"resetDefault()\" class=\"btn btn-success\">\n                        <i class='fa fa-circle-o-notch'></i> {{'preferences.ResetDefault' | translate}}\n                    </button>\n                </div>\n                <div class=\"col-sm-6 col-set-default\">\n                    <button type=\"button\" (click)=\"setAsDefault()\" class=\"btn btn-primary\">\n                        <i class='fa fa-hdd-o'></i> {{'preferences.SetDefault' | translate}}\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
+module.exports = "<div class=\"form-horizontal\">\r\n    <div class=\"form-group\">\r\n        <label for=\"refreshButton\" class=\"col-sm-3 control-label\">{{'preferences.ReloadPreferences' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <button id=\"refreshButton\" class=\"btn btn-default\" (click)=\"reloadFromServer()\">\r\n                <i class=\"fa fa-refresh\"></i>\r\n            </button>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.ReloadPreferencesHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"separator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label for=\"language\" class=\"col-sm-3 control-label\">{{'preferences.Language' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <select id=\"language\" [(ngModel)]=\"configurations.language\" #languageSelector=\"bootstrap-select\" bootstrapSelect class=\"selectpicker form-control\">\r\n                <option data-subtext=\"(Default)\" value=\"en\">{{'preferences.English' | translate}}</option>\r\n                <option value=\"fr\">{{'preferences.French' | translate}}</option>\r\n                <option value=\"de\">{{'preferences.German' | translate}}</option>\r\n                <option value=\"ar\">{{'preferences.Arabic' | translate}}</option>\r\n                <option value=\"ko\">{{'preferences.Korean' | translate}}</option>\r\n            </select>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.LanguageHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"separator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label for=\"homePage\" class=\"col-sm-3 control-label\">{{'preferences.HomePage' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <select id=\"homePage\" [(ngModel)]=\"configurations.homeUrl\" #homePageSelector=\"bootstrap-select\" bootstrapSelect class=\"selectpicker form-control\">\r\n                <option data-icon=\"fa fa-tachometer\" data-subtext=\"(Default)\" value=\"/\">{{'preferences.Dashboard' | translate}}</option>\r\n                <option *ngIf=\"canViewCustomers\" data-icon=\"fa fa-handshake-o\" value=\"/customers\">{{'preferences.Customers' | translate}}</option>\r\n                <option *ngIf=\"canViewProducts\" data-icon=\"fa fa-truck\" value=\"/products\">{{'preferences.Products' | translate}}</option>\r\n                <option *ngIf=\"canViewOrders\" data-icon=\"fa fa-shopping-cart\" value=\"/orders\">{{'preferences.Orders' | translate}}</option>\r\n                <option data-icon=\"fa fa-info-circle\" value=\"/about\">{{'preferences.About' | translate}}</option>\r\n                <option data-icon=\"fa fa-cog\" value=\"/settings\">{{'preferences.Settings' | translate}}</option>\r\n            </select>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.HomePageHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"separator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label for=\"defaultTheme\" class=\"col-sm-3 control-label\">{{'preferences.Theme' | translate}} </label>\r\n        <div *ngIf=\"themeSelectorToggle\" class=\"col-sm-4\">\r\n            <select id=\"defaultTheme\" [(ngModel)]=\"configurations.theme\" bootstrapSelect class=\"selectpicker form-control\">\r\n                <option attr.data-content=\"{{'preferences.DefaultColor' | translate}}\">Default</option>\r\n                <option attr.data-content=\"{{'preferences.RedColor' | translate}}\">Red</option>\r\n                <option attr.data-content=\"{{'preferences.OrangeColor' | translate}}\">Orange</option>\r\n                <option attr.data-content=\"{{'preferences.GreenColor' | translate}}\">Green</option>\r\n                <option attr.data-content=\"{{'preferences.GrayColor' | translate}}\">Gray</option>\r\n                <option attr.data-content=\"{{'preferences.BlackColor' | translate}}\">Black</option>\r\n            </select>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.ThemeHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"separator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label class=\"col-sm-3 control-label\" for=\"dashboardStatistics\">{{'preferences.DashboardStatistics' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"checkbox\">\r\n                <input name=\"dashboardStatistics\" [(ngModel)]=\"configurations.showDashboardStatistics\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardStatisticsHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n    <!--  -->\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"subseparator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label class=\"col-sm-3 control-label\" for=\"dashboardTodo\">{{'preferences.DashboardNotifications' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"checkbox\">\r\n                <input name=\"dashboardNotifications\" [(ngModel)]=\"configurations.showDashboardNotifications\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardNotificationsHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n    <!--  -->\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"subseparator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label class=\"col-sm-3 control-label\" for=\"dashboardTodo\">{{'preferences.DashboardTodo' | translate}} </label>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"checkbox\">\r\n                <input name=\"dashboardTodo\" [(ngModel)]=\"configurations.showDashboardTodo\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardTodoHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n    <!--  -->\r\n\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"subseparator-hr\" />\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n        <label class=\"col-sm-3 control-label\" for=\"dashboardBanner\">{{'preferences.DashboardBanner' | translate}}</label>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"checkbox\">\r\n                <input name=\"dashboardBanner\" [(ngModel)]=\"configurations.showDashboardBanner\" class=\"form-control\" type=\"checkbox\" bootstrapToggle data-size=\"small\">\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-5\">\r\n            <p class=\"form-control-static text-muted small\">{{'preferences.DashboardBannerHint' | translate}}</p>\r\n        </div>\r\n    </div>\r\n    <!--  -->\r\n\r\n\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n            <hr class=\"last-separator-hr\" />\r\n        </div>\r\n    </div>\r\n    <div class=\"form-group\">\r\n        <div class=\"col-sm-3\">\r\n\r\n        </div>\r\n        <div class=\"col-sm-9\">\r\n            <div class=\"row pull-left\">\r\n                <div class=\"col-sm-6 col-reset-default\">\r\n                    <button type=\"button\" (click)=\"resetDefault()\" class=\"btn btn-success\">\r\n                        <i class='fa fa-circle-o-notch'></i> {{'preferences.ResetDefault' | translate}}\r\n                    </button>\r\n                </div>\r\n                <div class=\"col-sm-6 col-set-default\">\r\n                    <button type=\"button\" (click)=\"setAsDefault()\" class=\"btn btn-primary\">\r\n                        <i class='fa fa-hdd-o'></i> {{'preferences.SetDefault' | translate}}\r\n                    </button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 244 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(245);
+        var result = __webpack_require__(257);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77728,7 +78051,7 @@ module.exports = "<div class=\"form-horizontal\">\n    <div class=\"form-group\"
     
 
 /***/ }),
-/* 245 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77736,26 +78059,26 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.separator-hr {\n    margin: 7px 5px;\n    border-top-style: dashed;\n}\n\n.subseparator-hr {\n    margin: 7px 5px;\n    border-top-style: none;\n}\n\n.last-separator-hr {\n    margin-top: 7px;\n}\n\n.form-group {\n    margin-top: 0;\n    margin-bottom: 0;\n}\n\n.form-control-static {\n    min-height: 0;\n}\n\n.form-horizontal .checkbox {\n    padding-top: 0;\n}\n\n.col-reset-default {\n    padding-right: 0;\n}\n\n.col-set-default {\n    padding-left: 5px;\n}\n\n\n@media (min-width: 768px) {\n    .form-horizontal .control-label {\n        padding-top: 5px;\n    }\n}\n", ""]);
+exports.push([module.i, "\r\n.separator-hr {\r\n    margin: 7px 5px;\r\n    border-top-style: dashed;\r\n}\r\n\r\n.subseparator-hr {\r\n    margin: 7px 5px;\r\n    border-top-style: none;\r\n}\r\n\r\n.last-separator-hr {\r\n    margin-top: 7px;\r\n}\r\n\r\n.form-group {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.form-control-static {\r\n    min-height: 0;\r\n}\r\n\r\n.form-horizontal .checkbox {\r\n    padding-top: 0;\r\n}\r\n\r\n.col-reset-default {\r\n    padding-right: 0;\r\n}\r\n\r\n.col-set-default {\r\n    padding-left: 5px;\r\n}\r\n\r\n\r\n@media (min-width: 768px) {\r\n    .form-horizontal .control-label {\r\n        padding-top: 5px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 246 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsersManagementComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_user_model__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__user_info_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_user_model__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__user_info_component__ = __webpack_require__(83);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -77946,8 +78269,8 @@ var UsersManagementComponent = /** @class */ (function () {
     UsersManagementComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'users-management',
-            template: __webpack_require__(247),
-            styles: [__webpack_require__(248)]
+            template: __webpack_require__(259),
+            styles: [__webpack_require__(260)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_4__services_account_service__["a" /* AccountService */]])
     ], UsersManagementComponent);
@@ -77957,17 +78280,17 @@ var UsersManagementComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 247 */
+/* 259 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class=\"col-sm-8\">\n            <div class=\"form-group search-box\">\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'users.management.Search' | translate}}\">></search-box>\n            </div>\n        </div>\n        <div class=\"col-sm-4\">\n            <div class=\"navbar action-box\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li *ngIf=\"canManageUsers\" class=\"toolbaritem\">\n                        <a href=\"javascript:;\" (click)=\"newUser(row)\">\n                            <i class=\"fa fa-plus-circle\"></i> {{'users.management.NewUser' | translate}}\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n    <ngx-datatable class=\"material colored-header sm table table-striped table-hover\"\n                   [loadingIndicator]=\"loadingIndicator\"\n                   [rows]=\"rows\"\n                   [rowHeight]=\"35\"\n                   [headerHeight]=\"35\"\n                   [footerHeight]=\"35\"\n                   [columns]=\"columns\"\n                   [scrollbarV]=\"true\"\n                   [columnMode]=\"'force'\">\n    </ngx-datatable>\n\n    <ng-template #indexTemplate let-value=\"value\">\n        <strong>{{value}}</strong>\n    </ng-template>\n\n    <ng-template #userNameTemplate let-row=\"row\" let-value=\"value\">\n        <span [class.locked-out]=\"row.isLockedOut\" [class.user-disabled]=\"!row.isEnabled\">\n            <i *ngIf=\"row.isLockedOut\" class=\"fa fa-exclamation-triangle\"> </i>\n            <i *ngIf=\"!row.isEnabled\" class=\"fa fa-exclamation\"> </i>\n            {{value}}\n        </span>\n    </ng-template>\n\n    <ng-template #rolesTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\n        <span class=\"user-role badge\" *ngFor=\"let role of value\">{{role}}</span>\n    </ng-template>\n\n    <ng-template #actionsTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\n        <div *ngIf=\"canManageUsers\">\n            <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editUser(row)\"><i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i> {{'users.management.Edit' | translate}}</a>\n            |\n            <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"deleteUser(row)\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> {{'users.management.Delete' | translate}}</a>\n        </div>\n    </ng-template>\n\n\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" (onHidden)=\"onEditorModalHidden()\" [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\n        <div class=\"modal-dialog modal-lg\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                    <h4 class=\"modal-title pull-left\"><i class=\"fa fa-user-circle-o\"></i> {{editingUserName ? ('users.management.EditUser' | translate:editingUserName) : ('users.management.NewUser' | translate)}}</h4>\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\n                        <span aria-hidden=\"true\">&times;</span>\n                    </button>\n                </div>\n                <div class=\"modal-body\">\n                    <user-info #userEditor [isGeneralEditor]=\"true\"></user-info>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
+module.exports = "<div>\r\n    <div class=\"row control-box\">\r\n        <div class=\"col-sm-8\">\r\n            <div class=\"form-group search-box\">\r\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'users.management.Search' | translate}}\">></search-box>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"navbar action-box\">\r\n                <ul class=\"nav navbar-nav navbar-right\">\r\n                    <li *ngIf=\"canManageUsers\" class=\"toolbaritem\">\r\n                        <a href=\"javascript:;\" (click)=\"newUser(row)\">\r\n                            <i class=\"fa fa-plus-circle\"></i> {{'users.management.NewUser' | translate}}\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <ngx-datatable class=\"material colored-header sm table table-striped table-hover\"\r\n                   [loadingIndicator]=\"loadingIndicator\"\r\n                   [rows]=\"rows\"\r\n                   [rowHeight]=\"35\"\r\n                   [headerHeight]=\"35\"\r\n                   [footerHeight]=\"35\"\r\n                   [columns]=\"columns\"\r\n                   [scrollbarV]=\"true\"\r\n                   [columnMode]=\"'force'\">\r\n    </ngx-datatable>\r\n\r\n    <ng-template #indexTemplate let-value=\"value\">\r\n        <strong>{{value}}</strong>\r\n    </ng-template>\r\n\r\n    <ng-template #userNameTemplate let-row=\"row\" let-value=\"value\">\r\n        <span [class.locked-out]=\"row.isLockedOut\" [class.user-disabled]=\"!row.isEnabled\">\r\n            <i *ngIf=\"row.isLockedOut\" class=\"fa fa-exclamation-triangle\"> </i>\r\n            <i *ngIf=\"!row.isEnabled\" class=\"fa fa-exclamation\"> </i>\r\n            {{value}}\r\n        </span>\r\n    </ng-template>\r\n\r\n    <ng-template #rolesTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\r\n        <span class=\"user-role badge\" *ngFor=\"let role of value\">{{role}}</span>\r\n    </ng-template>\r\n\r\n    <ng-template #actionsTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\r\n        <div *ngIf=\"canManageUsers\">\r\n            <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editUser(row)\"><i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i> {{'users.management.Edit' | translate}}</a>\r\n            |\r\n            <a class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"deleteUser(row)\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> {{'users.management.Delete' | translate}}</a>\r\n        </div>\r\n    </ng-template>\r\n\r\n\r\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" (onHidden)=\"onEditorModalHidden()\" [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\r\n        <div class=\"modal-dialog modal-lg\">\r\n            <div class=\"modal-content\">\r\n                <div class=\"modal-header\">\r\n                    <h4 class=\"modal-title pull-left\"><i class=\"fa fa-user-circle-o\"></i> {{editingUserName ? ('users.management.EditUser' | translate:editingUserName) : ('users.management.NewUser' | translate)}}</h4>\r\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\r\n                        <span aria-hidden=\"true\">&times;</span>\r\n                    </button>\r\n                </div>\r\n                <div class=\"modal-body\">\r\n                    <user-info #userEditor [isGeneralEditor]=\"true\"></user-info>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 248 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(249);
+        var result = __webpack_require__(261);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -77977,7 +78300,7 @@ module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class
     
 
 /***/ }),
-/* 249 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -77985,26 +78308,26 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.user-role {\n    font-size: 0.8em !important;\n    margin-right: 1px;\n}\n\n.control-box {\n    margin-bottom: 5px;\n}\n\n.search-box {\n    margin: 0;\n}\n\n.action-box {\n    margin: 0 50px 0 0;\n    min-height: 0;\n}\n\n    .action-box .toolbaritem a {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        min-width: 100px;\n    }\n\n\n.user-disabled {\n    color: #777;\n    font-style: italic;\n}\n\n\n.locked-out {\n    background-color: orangered;\n    color: whitesmoke;\n    width: 100%;\n    display: inline-block;\n    padding-left: 5px;\n}\n\n\n@media (max-width: 768px) {\n    .action-box {\n        margin: 0 14px;\n    }\n}\n", ""]);
+exports.push([module.i, "\r\n.user-role {\r\n    font-size: 0.8em !important;\r\n    margin-right: 1px;\r\n}\r\n\r\n.control-box {\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.search-box {\r\n    margin: 0;\r\n}\r\n\r\n.action-box {\r\n    margin: 0 50px 0 0;\r\n    min-height: 0;\r\n}\r\n\r\n    .action-box .toolbaritem a {\r\n        padding-top: 5px;\r\n        padding-bottom: 5px;\r\n        min-width: 100px;\r\n    }\r\n\r\n\r\n.user-disabled {\r\n    color: #777;\r\n    font-style: italic;\r\n}\r\n\r\n\r\n.locked-out {\r\n    background-color: orangered;\r\n    color: whitesmoke;\r\n    width: 100%;\r\n    display: inline-block;\r\n    padding-left: 5px;\r\n}\r\n\r\n\r\n@media (max-width: 768px) {\r\n    .action-box {\r\n        margin: 0 14px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 250 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RolesManagementComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_bootstrap_modal__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_alert_service__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_account_service__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_utilities__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__role_editor_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_role_model__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_permission_model__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__role_editor_component__ = __webpack_require__(84);
 // ======================================
 // Author: Ebenezer Monney
 // Email:  info@ebenmonney.com
@@ -78172,8 +78495,8 @@ var RolesManagementComponent = /** @class */ (function () {
     RolesManagementComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'roles-management',
-            template: __webpack_require__(254),
-            styles: [__webpack_require__(255)]
+            template: __webpack_require__(266),
+            styles: [__webpack_require__(267)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_alert_service__["a" /* AlertService */], __WEBPACK_IMPORTED_MODULE_3__services_app_translation_service__["a" /* AppTranslationService */], __WEBPACK_IMPORTED_MODULE_4__services_account_service__["a" /* AccountService */]])
     ], RolesManagementComponent);
@@ -78183,17 +78506,17 @@ var RolesManagementComponent = /** @class */ (function () {
 
 
 /***/ }),
-/* 251 */
+/* 263 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <form *ngIf=\"formResetToggle\" class=\"form-horizontal\" name=\"roleEditorForm\" #f=\"ngForm\" novalidate\n          (ngSubmit)=\"f.form.valid ? save() :\n          (!roleName.valid && showErrorAlert('Role name is required', 'Please enter a role name (minimum of 2 and maximum of 200 characters)'));\">\n\n        <div class=\"row\">\n            <div class=\"col-sm-4\">\n                <div class=\"form-group has-feedback\">\n                    <label class=\"control-label col-md-2\" for=\"roleName\">{{'roles.editor.Name' | translate}}</label>\n                    <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && roleName.valid, 'has-error' : f.submitted && !roleName.valid}\">\n                        <input [disabled]=\"!canManageRoles\" type=\"text\" id=\"roleName\" name=\"roleName\" placeholder=\"Enter role name\" class=\"form-control\" [(ngModel)]=\"roleEdit.name\" #roleName=\"ngModel\" required minlength=\"2\" maxlength=\"200\" />\n                        <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': roleName.valid, 'glyphicon-remove' : !roleName.valid}\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-sm-8\">\n                <div class=\"form-group\">\n                    <label class=\"control-label col-md-2\" for=\"roleDescription\">{{'roles.editor.Description' | translate}}</label>\n                    <div class=\"col-md-10\">\n                        <input [disabled]=\"!canManageRoles\" type=\"text\" id=\"roleDescription\" name=\"roleDescription\" placeholder=\"Enter role description\" class=\"form-control\" [(ngModel)]=\"roleEdit.description\" />\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <span *ngIf=\"showValidationErrors && f.submitted && !roleName.valid\" class=\"errorMessage roleErrorMessage\">\n                    {{'roles.editor.RoleNameRequired' | translate}}\n                </span>\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr class=\"edit-separator-hr\" />\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"row well well-sm permissionsRow\">\n\n                <ng-template ngFor let-permissionGroup [ngForOf]=\"allPermissions | groupBy: 'groupName'\" let-i=\"index\">\n                    <div class=\"form-group col-sm-6 permissionsColumn\">\n                        <label class=\"col-md-5 control-label\" for=\"checkboxes\" (click)=\"toggleGroup(permissionGroup.key)\">{{permissionGroup.key}}</label>\n                        <div class=\"col-md-7\">\n                            <div class=\"checkbox\" *ngFor=\"let permission of permissionGroup.value\">\n                                <label tooltip=\"{{permission.description}}\" for=\"checkboxes-{{permission.value}}\">\n                                    <input [disabled]=\"!canManageRoles\" name=\"checkboxes-{{permission.value}}\" id=\"checkboxes-{{permission.value}}\" type=\"checkbox\" [(ngModel)]=\"selectedValues[permission.value]\">\n                                    {{permission.name}}\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n                    <div *ngIf=\"(i + 1) % 2 === 0\" class=\"clearfix\"></div>\n                </ng-template>\n\n            </div>\n\n        </div>\n\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <hr class=\"edit-last-separator-hr\" />\n            </div>\n        </div>\n\n\n        <div class=\"form-group\">\n            <div class=\"col-sm-5\">\n                <div *ngIf=\"canManageRoles\" class=\"pull-left\">\n                    <a (click)=\"selectAll()\" href=\"javascript:;\" class=\"btn btn-link\">{{'roles.editor.SelectAll' | translate}}</a>|<a (click)=\"selectNone()\" href=\"javascript:;\" class=\"btn btn-link\">{{'roles.editor.SelectNone' | translate}}</a>\n                </div>\n            </div>\n\n            <div class=\"col-sm-7\">\n                <div class=\"pull-right\">\n                    <button *ngIf=\"!canManageRoles\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-default\">{{'roles.editor.Close' | translate}}</button>\n                    <button *ngIf=\"canManageRoles\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-danger\" [disabled]=\"isSaving\"><i class='fa fa-times'></i> {{'roles.editor.Cancel' | translate}}</button>\n                    <button *ngIf=\"canManageRoles\" type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isSaving\">\n                        <i *ngIf=\"!isSaving\" class='fa fa-save'></i><i *ngIf=\"isSaving\" class='fa fa-circle-o-notch fa-spin'></i> {{isSaving ? ('roles.editor.Saving' | translate) : ('roles.editor.Save' | translate)}}\n                    </button>\n                </div>\n            </div>\n        </div>\n        <div class=\"clearfix\"></div>\n    </form>\n</div>\n";
+module.exports = "<div>\r\n    <form *ngIf=\"formResetToggle\" class=\"form-horizontal\" name=\"roleEditorForm\" #f=\"ngForm\" novalidate\r\n          (ngSubmit)=\"f.form.valid ? save() :\r\n          (!roleName.valid && showErrorAlert('Role name is required', 'Please enter a role name (minimum of 2 and maximum of 200 characters)'));\">\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-4\">\r\n                <div class=\"form-group has-feedback\">\r\n                    <label class=\"control-label col-md-2\" for=\"roleName\">{{'roles.editor.Name' | translate}}</label>\r\n                    <div class=\"col-md-10\" [ngClass]=\"{'has-success': f.submitted && roleName.valid, 'has-error' : f.submitted && !roleName.valid}\">\r\n                        <input [disabled]=\"!canManageRoles\" type=\"text\" id=\"roleName\" name=\"roleName\" placeholder=\"Enter role name\" class=\"form-control\" [(ngModel)]=\"roleEdit.name\" #roleName=\"ngModel\" required minlength=\"2\" maxlength=\"200\" />\r\n                        <span *ngIf=\"showValidationErrors && f.submitted\" class=\"glyphicon form-control-feedback\" [ngClass]=\"{'glyphicon-ok ': roleName.valid, 'glyphicon-remove' : !roleName.valid}\"></span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"col-sm-8\">\r\n                <div class=\"form-group\">\r\n                    <label class=\"control-label col-md-2\" for=\"roleDescription\">{{'roles.editor.Description' | translate}}</label>\r\n                    <div class=\"col-md-10\">\r\n                        <input [disabled]=\"!canManageRoles\" type=\"text\" id=\"roleDescription\" name=\"roleDescription\" placeholder=\"Enter role description\" class=\"form-control\" [(ngModel)]=\"roleEdit.description\" />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <span *ngIf=\"showValidationErrors && f.submitted && !roleName.valid\" class=\"errorMessage roleErrorMessage\">\r\n                    {{'roles.editor.RoleNameRequired' | translate}}\r\n                </span>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr class=\"edit-separator-hr\" />\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"row well well-sm permissionsRow\">\r\n\r\n                <ng-template ngFor let-permissionGroup [ngForOf]=\"allPermissions | groupBy: 'groupName'\" let-i=\"index\">\r\n                    <div class=\"form-group col-sm-6 permissionsColumn\">\r\n                        <label class=\"col-md-5 control-label\" for=\"checkboxes\" (click)=\"toggleGroup(permissionGroup.key)\">{{permissionGroup.key}}</label>\r\n                        <div class=\"col-md-7\">\r\n                            <div class=\"checkbox\" *ngFor=\"let permission of permissionGroup.value\">\r\n                                <label tooltip=\"{{permission.description}}\" for=\"checkboxes-{{permission.value}}\">\r\n                                    <input [disabled]=\"!canManageRoles\" name=\"checkboxes-{{permission.value}}\" id=\"checkboxes-{{permission.value}}\" type=\"checkbox\" [(ngModel)]=\"selectedValues[permission.value]\">\r\n                                    {{permission.name}}\r\n                                </label>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div *ngIf=\"(i + 1) % 2 === 0\" class=\"clearfix\"></div>\r\n                </ng-template>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-md-12\">\r\n                <hr class=\"edit-last-separator-hr\" />\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"form-group\">\r\n            <div class=\"col-sm-5\">\r\n                <div *ngIf=\"canManageRoles\" class=\"pull-left\">\r\n                    <a (click)=\"selectAll()\" href=\"javascript:;\" class=\"btn btn-link\">{{'roles.editor.SelectAll' | translate}}</a>|<a (click)=\"selectNone()\" href=\"javascript:;\" class=\"btn btn-link\">{{'roles.editor.SelectNone' | translate}}</a>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"col-sm-7\">\r\n                <div class=\"pull-right\">\r\n                    <button *ngIf=\"!canManageRoles\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-default\">{{'roles.editor.Close' | translate}}</button>\r\n                    <button *ngIf=\"canManageRoles\" type=\"button\" (click)=\"cancel()\" class=\"btn btn-danger\" [disabled]=\"isSaving\"><i class='fa fa-times'></i> {{'roles.editor.Cancel' | translate}}</button>\r\n                    <button *ngIf=\"canManageRoles\" type=\"submit\" class=\"btn btn-primary\" [disabled]=\"isSaving\">\r\n                        <i *ngIf=\"!isSaving\" class='fa fa-save'></i><i *ngIf=\"isSaving\" class='fa fa-circle-o-notch fa-spin'></i> {{isSaving ? ('roles.editor.Saving' | translate) : ('roles.editor.Save' | translate)}}\r\n                    </button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n    </form>\r\n</div>\r\n";
 
 /***/ }),
-/* 252 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(253);
+        var result = __webpack_require__(265);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -78203,7 +78526,7 @@ module.exports = "<div>\n    <form *ngIf=\"formResetToggle\" class=\"form-horizo
     
 
 /***/ }),
-/* 253 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -78211,23 +78534,23 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".row:not(:last-child) {\n    /*border-bottom: 1px solid #ccc;*/\n}\n\n.separator-hr {\n    margin: 0 5px;\n    border-top-style: dashed;\n}\n\n.edit-separator-hr {\n    margin: 10px 5px;\n    border-top-style: dashed;\n}\n\n.last-separator-hr {\n    margin-top: 5px;\n}\n\n.edit-last-separator-hr {\n    margin-top: 15px;\n}\n\n\n.form-group {\n    margin-top: 0;\n    margin-bottom: 0;\n}\n\ninput.form-control {\n    border-left-width: 5px;\n}\n\n.roleErrorMessage {\n    margin-left: 50px;\n}\n\n.permissionsColumn {\n    margin-bottom: 20px;\n}\n\n.permissionsRow {\n    margin: 0 15px;\n}\n\n\n.password-well {\n    margin-bottom: 0;\n}\n\n@media (min-width: 992px) {\n    .user-enabled {\n        margin-left: 40px;\n    }\n}\n", ""]);
+exports.push([module.i, ".row:not(:last-child) {\r\n    /*border-bottom: 1px solid #ccc;*/\r\n}\r\n\r\n.separator-hr {\r\n    margin: 0 5px;\r\n    border-top-style: dashed;\r\n}\r\n\r\n.edit-separator-hr {\r\n    margin: 10px 5px;\r\n    border-top-style: dashed;\r\n}\r\n\r\n.last-separator-hr {\r\n    margin-top: 5px;\r\n}\r\n\r\n.edit-last-separator-hr {\r\n    margin-top: 15px;\r\n}\r\n\r\n\r\n.form-group {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\ninput.form-control {\r\n    border-left-width: 5px;\r\n}\r\n\r\n.roleErrorMessage {\r\n    margin-left: 50px;\r\n}\r\n\r\n.permissionsColumn {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.permissionsRow {\r\n    margin: 0 15px;\r\n}\r\n\r\n\r\n.password-well {\r\n    margin-bottom: 0;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .user-enabled {\r\n        margin-left: 40px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 254 */
+/* 266 */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class=\"col-sm-8\">\n            <div class=\"form-group search-box\">\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'roles.management.Search' | translate}}\">></search-box>\n            </div>\n        </div>\n        <div class=\"col-sm-4\">\n            <div class=\"navbar action-box\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li *ngIf=\"canManageRoles\" class=\"toolbaritem\">\n                        <a href=\"javascript:;\" (click)=\"newRole(row)\">\n                            <i class=\"fa fa-plus-circle\"></i> {{'roles.management.NewRole' | translate}}\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n    <ngx-datatable class=\"material colored-header sm table table-striped table-hover\"\n                   [loadingIndicator]=\"loadingIndicator\"\n                   [rows]=\"rows\"\n                   [rowHeight]=\"35\"\n                   [headerHeight]=\"35\"\n                   [footerHeight]=\"35\"\n                   [columns]=\"columns\"\n                   [scrollbarV]=\"true\"\n                   [columnMode]=\"'force'\">\n    </ngx-datatable>\n\n    <ng-template #indexTemplate let-value=\"value\">\n        <strong>{{value}}</strong>\n    </ng-template>\n\n\n    <ng-template #actionsTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\n        <a *ngIf=\"canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editRole(row)\"><i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i> {{'roles.management.Edit' | translate}}</a>\n        <a *ngIf=\"!canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editRole(row)\"><i class=\"fa fa-eye\" aria-hidden=\"true\"></i> {{'roles.management.Details' | translate}}</a>\n        {{canManageRoles ? '|' : ''}}\n        <a *ngIf=\"canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"deleteRole(row)\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> {{'roles.management.Delete' | translate}}</a>\n    </ng-template>\n\n\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" (onHidden)=\"onEditorModalHidden()\" [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\n        <div class=\"modal-dialog modal-lg\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                    <h4 *ngIf=\"!canManageRoles\" class=\"modal-title pull-left\"><i class=\"fa fa-shield\"></i> {{'roles.management.RoleDetails' | translate}} \"{{editingRoleName}}\"</h4>\n                    <h4 *ngIf=\"canManageRoles\" class=\"modal-title pull-left\"><i class=\"fa fa-shield\"></i> {{editingRoleName ? ('roles.management.EditRole' | translate:editingRoleName) : ('roles.management.NewRole' | translate)}}</h4>\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\n                        <span aria-hidden=\"true\">&times;</span>\n                    </button>\n                </div>\n                <div class=\"modal-body\">\n                    <role-editor #roleEditor></role-editor>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n";
+module.exports = "<div>\r\n    <div class=\"row control-box\">\r\n        <div class=\"col-sm-8\">\r\n            <div class=\"form-group search-box\">\r\n                <search-box (searchChange)=\"onSearchChanged($event)\" placeholder=\"{{'roles.management.Search' | translate}}\">></search-box>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <div class=\"navbar action-box\">\r\n                <ul class=\"nav navbar-nav navbar-right\">\r\n                    <li *ngIf=\"canManageRoles\" class=\"toolbaritem\">\r\n                        <a href=\"javascript:;\" (click)=\"newRole(row)\">\r\n                            <i class=\"fa fa-plus-circle\"></i> {{'roles.management.NewRole' | translate}}\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <ngx-datatable class=\"material colored-header sm table table-striped table-hover\"\r\n                   [loadingIndicator]=\"loadingIndicator\"\r\n                   [rows]=\"rows\"\r\n                   [rowHeight]=\"35\"\r\n                   [headerHeight]=\"35\"\r\n                   [footerHeight]=\"35\"\r\n                   [columns]=\"columns\"\r\n                   [scrollbarV]=\"true\"\r\n                   [columnMode]=\"'force'\">\r\n    </ngx-datatable>\r\n\r\n    <ng-template #indexTemplate let-value=\"value\">\r\n        <strong>{{value}}</strong>\r\n    </ng-template>\r\n\r\n\r\n    <ng-template #actionsTemplate let-row=\"row\" let-value=\"value\" let-i=\"index\">\r\n        <a *ngIf=\"canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editRole(row)\"><i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i> {{'roles.management.Edit' | translate}}</a>\r\n        <a *ngIf=\"!canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"editRole(row)\"><i class=\"fa fa-eye\" aria-hidden=\"true\"></i> {{'roles.management.Details' | translate}}</a>\r\n        {{canManageRoles ? '|' : ''}}\r\n        <a *ngIf=\"canManageRoles\" class=\"btn btn-link btn-xs\" href=\"javascript:;\" (click)=\"deleteRole(row)\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> {{'roles.management.Delete' | translate}}</a>\r\n    </ng-template>\r\n\r\n\r\n    <div class=\"modal fade\" bsModal #editorModal=\"bs-modal\" (onHidden)=\"onEditorModalHidden()\" [config]=\"{backdrop: 'static'}\" tabindex=\"-1\">\r\n        <div class=\"modal-dialog modal-lg\">\r\n            <div class=\"modal-content\">\r\n                <div class=\"modal-header\">\r\n                    <h4 *ngIf=\"!canManageRoles\" class=\"modal-title pull-left\"><i class=\"fa fa-shield\"></i> {{'roles.management.RoleDetails' | translate}} \"{{editingRoleName}}\"</h4>\r\n                    <h4 *ngIf=\"canManageRoles\" class=\"modal-title pull-left\"><i class=\"fa fa-shield\"></i> {{editingRoleName ? ('roles.management.EditRole' | translate:editingRoleName) : ('roles.management.NewRole' | translate)}}</h4>\r\n                    <button type=\"button\" class=\"close pull-right\" title=\"Close\" (click)=\"editorModal.hide()\">\r\n                        <span aria-hidden=\"true\">&times;</span>\r\n                    </button>\r\n                </div>\r\n                <div class=\"modal-body\">\r\n                    <role-editor #roleEditor></role-editor>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 255 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(256);
+        var result = __webpack_require__(268);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -78237,7 +78560,7 @@ module.exports = "<div>\n    <div class=\"row control-box\">\n        <div class
     
 
 /***/ }),
-/* 256 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -78245,177 +78568,10 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "\n.control-box {\n    margin-bottom: 5px;\n}\n\n.search-box {\n    margin: 0;\n}\n\n.action-box {\n    margin: 0 50px 0 0;\n    min-height: 0;\n}\n\n    .action-box .toolbaritem a {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        min-width: 100px;\n    }\n\n\n@media (max-width: 768px) {\n    .action-box {\n        margin: 0 14px;\n    }\n}\n", ""]);
+exports.push([module.i, "\r\n.control-box {\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.search-box {\r\n    margin: 0;\r\n}\r\n\r\n.action-box {\r\n    margin: 0 50px 0 0;\r\n    min-height: 0;\r\n}\r\n\r\n    .action-box .toolbaritem a {\r\n        padding-top: 5px;\r\n        padding-bottom: 5px;\r\n        min-width: 100px;\r\n    }\r\n\r\n\r\n@media (max-width: 768px) {\r\n    .action-box {\r\n        margin: 0 14px;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
-
-/***/ }),
-/* 257 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lib_countdown__ = __webpack_require__(258);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__lib_countdown__["a"]; });
-
-
-
-/***/ }),
-/* 258 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CountDown; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var CountDown = /** @class */ (function () {
-    function CountDown() {
-        var _this = this;
-        this.displayString = '';
-        this.reached = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
-        this.display = [];
-        this.displayNumbers = [];
-        this.wasReached = false;
-        setInterval(function () { return _this._displayString(); }, 100);
-    }
-    CountDown.prototype._displayString = function () {
-        if (typeof this.units === 'string') {
-            this.units = this.units.split('|');
-        }
-        var givenDate = new Date(this.end);
-        var now = new Date();
-        var dateDifference = givenDate - now;
-        if (dateDifference < 100 && dateDifference > 0 && !this.wasReached) {
-            this.wasReached = true;
-            this.reached.next(now);
-        }
-        var lastUnit = this.units[this.units.length - 1], unitConstantForMillisecs = {
-            year: (((1000 * 60 * 60 * 24 * 7) * 4) * 12),
-            month: ((1000 * 60 * 60 * 24 * 7) * 4),
-            weeks: (1000 * 60 * 60 * 24 * 7),
-            days: (1000 * 60 * 60 * 24),
-            hours: (1000 * 60 * 60),
-            minutes: (1000 * 60),
-            seconds: 1000
-        }, unitsLeft = {}, returnText = '', returnNumbers = '', totalMillisecsLeft = dateDifference, i, unit;
-        for (i in this.units) {
-            if (this.units.hasOwnProperty(i)) {
-                unit = this.units[i].trim();
-                if (unitConstantForMillisecs[unit.toLowerCase()] === false) {
-                    //$interval.cancel(countDownInterval);
-                    throw new Error('Cannot repeat unit: ' + unit);
-                }
-                if (unitConstantForMillisecs.hasOwnProperty(unit.toLowerCase()) === false) {
-                    throw new Error('Unit: ' + unit + ' is not supported. Please use following units: year, month, weeks, days, hours, minutes, seconds, milliseconds');
-                }
-                unitsLeft[unit] = totalMillisecsLeft / unitConstantForMillisecs[unit.toLowerCase()];
-                if (lastUnit === unit) {
-                    unitsLeft[unit] = Math.ceil(unitsLeft[unit]);
-                }
-                else {
-                    unitsLeft[unit] = Math.floor(unitsLeft[unit]);
-                }
-                totalMillisecsLeft -= unitsLeft[unit] * unitConstantForMillisecs[unit.toLowerCase()];
-                unitConstantForMillisecs[unit.toLowerCase()] = false;
-                returnNumbers += ' ' + unitsLeft[unit] + ' | ';
-                returnText += ' ' + unit;
-            }
-        }
-        if (this.text === null || !this.text) {
-            this.text = {
-                Year: 'Year',
-                Month: 'Month',
-                Weeks: 'Weeks',
-                Days: 'Days',
-                Hours: 'Hours',
-                Minutes: 'Minutes',
-                Seconds: 'Seconds',
-                MilliSeconds: 'Milliseconds'
-            };
-        }
-        this.displayString = returnText
-            .replace('Year', this.text.Year + ' | ')
-            .replace('Month', this.text.Month + ' | ')
-            .replace('Weeks', this.text.Weeks + ' | ')
-            .replace('Days', this.text.Days + ' | ')
-            .replace('Hours', this.text.Hours + ' | ')
-            .replace('Minutes', this.text.Minutes + ' | ')
-            .replace('Seconds', this.text.Seconds);
-        this.displayNumbers = returnNumbers.split('|');
-        this.display = this.displayString.split('|');
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-        __metadata("design:type", Object)
-    ], CountDown.prototype, "units", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-        __metadata("design:type", Object)
-    ], CountDown.prototype, "end", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-        __metadata("design:type", String)
-    ], CountDown.prototype, "displayString", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-        __metadata("design:type", Object)
-    ], CountDown.prototype, "text", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-        __metadata("design:type", Object)
-    ], CountDown.prototype, "divider", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"])
-    ], CountDown.prototype, "reached", void 0);
-    CountDown = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            moduleId: module.i,
-            selector: 'countdown',
-            template: __webpack_require__(259),
-            styles: [__webpack_require__(260)]
-        }),
-        __metadata("design:paramtypes", [])
-    ], CountDown);
-    return CountDown;
-}());
-
-
-
-/***/ }),
-/* 259 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"countdown\">\n  <div *ngFor=\"let time of display; let i = index\" class=\"measurements {{time}}\">\n    <p class=\"measurements-number\"> {{displayNumbers[i]}} </p>\n    <span *ngIf=\"display[i+1]\" class=\"divider\"> {{divider}} </span>\n    <p class=\"measurements-text\">\n      {{time}}      \n    </p>\n  </div>\n</div>\n<ng-content></ng-content>\n";
-
-/***/ }),
-/* 260 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(261);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-/* 261 */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: Node Sass does not yet support your current environment: Windows 64-bit with Unsupported runtime (59)\nFor more information on which environments are supported please see:\nhttps://github.com/sass/node-sass/releases/tag/v4.5.3\n    at module.exports (C:\\Users\\dedav\\Dropbox\\dotnetnepal\\demo\\dotnetnepal\\dotnetnepal\\node_modules\\node-sass\\lib\\binding.js:13:13)\n    at Object.<anonymous> (C:\\Users\\dedav\\Dropbox\\dotnetnepal\\demo\\dotnetnepal\\dotnetnepal\\node_modules\\node-sass\\lib\\index.js:14:35)\n    at Module._compile (module.js:641:30)\n    at Object.Module._extensions..js (module.js:652:10)\n    at Module.load (module.js:560:32)\n    at tryModuleLoad (module.js:503:12)\n    at Function.Module._load (module.js:495:3)\n    at Module.require (module.js:585:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\dedav\\Dropbox\\dotnetnepal\\demo\\dotnetnepal\\dotnetnepal\\node_modules\\sass-loader\\lib\\loader.js:3:14)");
 
 /***/ })
 /******/ ]);

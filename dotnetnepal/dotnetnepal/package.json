@@ -54,8 +54,7 @@
     "webpack": "3.6.0",
     "webpack-hot-middleware": "2.19.1",
     "webpack-merge": "4.1.0",
-    "zone.js": "0.8.17",
-    "ng2-date-countdown": "0.0.4"
+    "zone.js": "0.8.17"
   },
   "devDependencies": {
     "@types/chai": "4.0.4",

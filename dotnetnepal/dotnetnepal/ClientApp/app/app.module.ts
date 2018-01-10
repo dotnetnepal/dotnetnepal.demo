@@ -59,7 +59,7 @@ import { RolesManagementComponent } from "./components/controls/roles-management
 import { RoleEditorComponent } from "./components/controls/role-editor.component";
 
 //ms-import
-import { CountDown } from 'ng2-date-countdown';
+
 import { BlogReadComponent } from "./components/blog-read/blog-read.component";
 
 
@@ -111,7 +111,6 @@ import { BlogsService } from './services/blog.service';
         BootstrapSelectDirective,
         BootstrapDatepickerDirective,
         GroupByPipe,
-        CountDown,
         BlogsComponent
   
     ],
