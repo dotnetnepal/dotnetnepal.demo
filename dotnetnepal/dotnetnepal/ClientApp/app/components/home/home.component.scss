@@ -97,10 +97,113 @@
 }
 
 .ms-slide.two {
-    background: #256CA0;
+    //background: #256CA0;
+    background: fixed;
+    background-image: url(../../assets/images/backgrounds/laptop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    .carousel-caption {
-        .ms-cap-heading {
+    .ms-cap {
+        .carousel-caption {
+            &.two {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*left: 0;
+                right: 0px;
+                height: 100%;
+                width:100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;*/
+            }
+            /*.ms-cap-body {
+                display: flex;
+                position: relative;
+
+                .ms-cap-body-info {
+                    //flex: 1;
+                    padding: 0 15px 0 15px;
+                    display: flex;
+                    align-content: center;
+
+                    .b-center {
+
+                        .title {
+                            font-size: 2rem;
+                            padding: 5px;
+                            background: $yellow;
+                        }
+
+                        ul {
+                            padding: 15px;
+                            list-style-position: inside;
+                            list-style-type: armenian;
+
+                            li {
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+
+                .ms-cap-body-img {
+                    //flex: 1;
+                    img {
+                        height: 250px;
+                        width: auto;
+                    }
+                }
+            }*/
+            .ms-cap-body {
+                flex: 1;
+
+                .ms-cap-body-info {
+                    .b-center {
+                        padding: 15px;
+                        background-color: rgba(87, 198, 212, 0.5);
+                        border: 1em solid;
+
+                        .title {
+                            padding: 5px;
+                            //background:$yellow;
+                            font-size: 3.5rem;
+                            //text-align: left;
+                            color: rgba(77, 61, 158, 0.99);
+                        }
+
+                        ul {
+                            list-style: none;
+                            list-style-position: outside;
+                            padding-left: 0;
+                            text-align: center;
+
+                            li {
+                                text-align: center;
+                                padding: 15px 10px;
+                                margin: 15px;
+                                font-size: 2.3rem;
+
+                                /*&:before {
+                                    content: url(https://cdn.iconscout.com/public/images/icon/premium/png-512/office-hand-finger-pointing-right-thumb-addressing-3ce3848165e198ac-512x512.png);
+                                    max-height:10px;
+                                    width:auto;
+                                    color:white;
+                                }*/
+
+                                &.one {
+                                    // background-image: url(../../assets/images/listjoin.png);
+                                }
+
+                                &.two {
+                                    // background-image: url(../../assets/images/listjoininv.png);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

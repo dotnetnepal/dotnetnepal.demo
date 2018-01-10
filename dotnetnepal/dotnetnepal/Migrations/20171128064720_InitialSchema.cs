@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace dotnetnepal.Migrations
 {
-    public partial class intialSchema : Migration
+    public partial class InitialSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

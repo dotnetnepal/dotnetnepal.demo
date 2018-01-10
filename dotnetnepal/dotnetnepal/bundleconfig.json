@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "webpack.config.min.js",
+    "inputFiles": [
+      "webpack.config.js"
+    ]
+  }
+]

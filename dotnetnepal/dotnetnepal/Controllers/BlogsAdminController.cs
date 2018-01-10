@@ -47,14 +47,14 @@ namespace dotnetnepal.Controllers
         }
 
 
-        public IActionResult Post([FromRoute] Guid id)
+        public ActionResult Post([FromRoute] Guid id)
         {
             var post = _unitOfWork.Posts.GetPost(id);
             return View(post);
         }
 
 
-        public IActionResult New()
+        public ActionResult New()
         {
             return View();
         }
@@ -101,7 +101,7 @@ namespace dotnetnepal.Controllers
             return View();
         }
 
-        public IActionResult Delete()
+        public ActionResult Delete()
         {
 
             return View();
