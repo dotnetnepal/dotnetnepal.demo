@@ -1,0 +1,51 @@
+﻿@model dotnetnepal.ViewModels.PostViewModel
+
+@{
+    ViewData["Title"] = "New Blog Post";
+}
+
+<h2>Write a New Post</h2>
+
+<form asp-controller="BlogsAdmin" asp-action="New" method="post" role="form" >
+    <div class="col-md-12 well">
+        <div class="form-group col-md-6">
+            <label for="Title">Title</></label>
+            <input type="text" class="form-control" placeholder="" asp-for="Title" />
+            <span asp-validation-for="Title" class="text-warning"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label for="Body" class="primaryField">Body</label>
+            <textarea rows="10" class="form-control" placeholder="" asp-for="Body" id="post-body"></textarea>
+            <span asp-validation-for="Body" class="text-warning"></span>
+        </div>
+        <div class="form-group col-md-12">
+            <label for="Excerpt" class="secondaryField">Excerpt (Optional)</label>
+            <textarea class="form-control" placeholder="" asp-for="Excerpt"></textarea>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+                <label>Upload Files</label>
+                <input type="file" name="files" multiple id="file-input" onchange="insertFiles()" />
+            </div>
+        </div>
+        <div class="col-md-12">
+            @*<input type="submit" name="publish" class="btn btn-primary btn-sm" value="Publish" />*@
+
+            <button type="submit" class="btn btn-primary btn-sm">Publish</button>
+         </div>
+    </div>
+</form>
+
+
+<script>
+    $("#file-input").change(insertFiles, false);
+
+    function insertFiles() {
+        var selectedFiles = document.getElementById("file-input");
+        for (var i = 0; i < selectedFiles.files.length; i++) {
+            var postBody = $("#post-body");
+            var name = selectedFiles.files[i].name;
+            postBody.val(postBody.val() + "\n![" + name + "](/Uploads/" + name + ")");
+        }
+    }
+</script>

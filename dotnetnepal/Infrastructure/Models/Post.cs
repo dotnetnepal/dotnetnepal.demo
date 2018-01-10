@@ -9,7 +9,8 @@ namespace Infrastructure.Models
 {
     public class Post
     {
-        public Guid Id { get; set; }
+       [Key]
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Title required")]
         public string Title { get; set; }

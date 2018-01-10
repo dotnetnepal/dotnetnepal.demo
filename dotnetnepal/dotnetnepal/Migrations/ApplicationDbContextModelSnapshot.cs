@@ -121,6 +121,66 @@ namespace dotnetnepal.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("Infrastructure.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Author");
+
+                    b.Property<string>("Content");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("Ip");
+
+                    b.Property<bool>("IsAdmin");
+
+                    b.Property<bool>("IsApproved");
+
+                    b.Property<int?>("PostId");
+
+                    b.Property<DateTime>("PubDate");
+
+                    b.Property<string>("UserAgent");
+
+                    b.Property<string>("Website");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostId");
+
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("Infrastructure.Models.Post", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Body")
+                        .IsRequired();
+
+                    b.Property<string>("Excerpt");
+
+                    b.Property<bool>("IsDeleted");
+
+                    b.Property<bool>("IsPublic");
+
+                    b.Property<DateTimeOffset>("LastModified");
+
+                    b.Property<DateTimeOffset>("PubDate");
+
+                    b.Property<string>("Slug");
+
+                    b.Property<string>("Title")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Posts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -324,6 +384,13 @@ namespace dotnetnepal.Migrations
                         .HasFilter("[Hash] IS NOT NULL");
 
                     b.ToTable("OpenIddictTokens");
+                });
+
+            modelBuilder.Entity("Infrastructure.Models.Comment", b =>
+                {
+                    b.HasOne("Infrastructure.Models.Post")
+                        .WithMany("Comments")
+                        .HasForeignKey("PostId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -45,9 +45,9 @@ import { LoginComponent } from "./components/login/login.component";
 import { HomeComponent } from "./components/home/home.component";
 import { SettingsComponent } from "./components/settings/settings.component";
 import { AboutComponent } from "./components/about/about.component";
+import { BlogsComponent } from "./components/blogs/blogs.component";
 import { NotFoundComponent } from "./components/not-found/not-found.component";
 
-import { BannerDemoComponent } from "./components/controls/banner-demo.component";
 import { TodoDemoComponent } from "./components/controls/todo-demo.component";
 import { StatisticsDemoComponent } from "./components/controls/statistics-demo.component";
 import { NotificationsViewerComponent } from "./components/controls/notifications-viewer.component";
@@ -60,6 +60,12 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
 
 //ms-import
 import { CountDown } from 'ng2-date-countdown';
+import { BlogReadComponent } from "./components/blog-read/blog-read.component";
+
+
+import { BlogsService } from './services/blog.service';
+
+
 
 @NgModule({
     imports: [
@@ -88,13 +94,15 @@ import { CountDown } from 'ng2-date-countdown';
         LoginComponent,
         HomeComponent,
         SettingsComponent,
+        BlogsComponent,
+        BlogReadComponent,
         UsersManagementComponent, UserInfoComponent, UserPreferencesComponent,
         RolesManagementComponent, RoleEditorComponent,
         AboutComponent,
         NotFoundComponent,
         NotificationsViewerComponent,
         SearchBoxComponent,
-        StatisticsDemoComponent, TodoDemoComponent, BannerDemoComponent,
+        StatisticsDemoComponent, TodoDemoComponent,
         EqualValidator,
         LastElementDirective,
         AutofocusDirective,
@@ -103,7 +111,9 @@ import { CountDown } from 'ng2-date-countdown';
         BootstrapSelectDirective,
         BootstrapDatepickerDirective,
         GroupByPipe,
-        CountDown
+        CountDown,
+        BlogsComponent
+  
     ],
     providers: [
         { provide: 'BASE_URL', useFactory: getBaseUrl },
@@ -117,7 +127,8 @@ import { CountDown } from 'ng2-date-countdown';
         AccountService,
         AccountEndpoint,
         LocalStoreManager,
-        EndpointFactory
+        EndpointFactory,
+        BlogsService
     ],
     bootstrap: [AppComponent]
 })

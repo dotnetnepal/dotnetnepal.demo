@@ -21,6 +21,13 @@ namespace Infrastructure.Repositories
                 .OrderBy(c => c.PubDate)
                 .ToList();
         }
+        public IEnumerable<Comment> GetAllCommentsData()
+        {
+            return appContext.Comments
+                          .OrderBy(c => c.PubDate)
+                .ToList();
+        }
+
         public Post GetPost(Guid Id)
         {
             return appContext.Posts.Find(Id);
@@ -31,10 +38,13 @@ namespace Infrastructure.Repositories
         public void SavePost(Post post)
         {
             appContext.Add(post);
+            appContext.SaveChanges();
         }
         public void DeletePost(Guid Id)
         {
             appContext.Remove(GetPost(Id));
+            appContext.SaveChanges();
+
         }
 
         private ApplicationDbContext appContext
