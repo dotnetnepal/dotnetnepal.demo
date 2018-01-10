@@ -12,7 +12,7 @@ namespace Infrastructure
     public interface IUnitOfWork
     {
         IPostRepository Posts { get; }
-
+        IArticleRepository Articles { get; }
         int SaveChanges();
     }
 }
