@@ -21,12 +21,12 @@ namespace Infrastructure.Repositories
                 .OrderBy(c => c.PubDate)
                 .ToList();
         }
-        public IEnumerable<Comment> GetAllCommentsData()
-        {
-            return appContext.Comments
-                          .OrderBy(c => c.PubDate)
-                .ToList();
-        }
+        //public IEnumerable<Comment> GetAllCommentsData()
+        //{
+        //    return appContext.Comments
+        //                  .OrderBy(c => c.PubDate)
+        //        .ToList();
+        //}
 
         public Post GetPost(Guid Id)
         {
