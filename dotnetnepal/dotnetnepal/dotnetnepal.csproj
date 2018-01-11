@@ -89,6 +89,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="ClientApp\app\components\controls\roles-management.component.css~RF11f33395.TMP" />
     <None Include="wwwroot\js\master.js" />
   </ItemGroup>
 

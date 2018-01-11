@@ -166,6 +166,8 @@
                         border: 1em solid;
 
                         .title {
+                            display:grid;
+                            grid-template: 1fr 1fr 1fr;
                             padding: 5px;
                             //background:$yellow;
                             font-size: 3.5rem;

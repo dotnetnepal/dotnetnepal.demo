@@ -61,8 +61,8 @@ import { RoleEditorComponent } from "./components/controls/role-editor.component
 //ms-import
 
 import { BlogReadComponent } from "./components/blog-read/blog-read.component";
-
-
+import { NewBlogComponent } from "./components/blogs/new/new.component";
+import { BlogEditComponent } from "./components/blogs/edit/edit.component";
 import { BlogsService } from './services/blog.service';
 
 
@@ -111,7 +111,9 @@ import { BlogsService } from './services/blog.service';
         BootstrapSelectDirective,
         BootstrapDatepickerDirective,
         GroupByPipe,
-        BlogsComponent
+        BlogsComponent,
+        NewBlogComponent,
+        BlogEditComponent
   
     ],
     providers: [

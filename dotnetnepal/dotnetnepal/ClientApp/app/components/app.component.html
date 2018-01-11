@@ -25,38 +25,56 @@
                                     Home
                                 </a>
                             </li>
-                            <li routerLinkActive="active">
+                            <li>
                                 <a routerLink="/getinvolved">
                                     <!--<span class="glyphicon glyphicon-home"></span>-->
                                     Get Involved
                                 </a>
                             </li>
-                            <li routerLinkActive="active">
+                            <li>
                                 <a routerLink="/About">
                                     <!--<span class="glyphicon glyphicon-home"></span>-->
                                     About
                                 </a>
                             </li>
-                            <li routerLinkActive="active">
+                            <li>
                                 <a routerLink="/blog">
                                     <!--<span class="glyphicon glyphicon-home"></span>-->
                                     Blog
                                 </a>
                             </li>
                         </ul>
-                        <ul class="app-component nav navbar-nav nav-pills navBarPadding navbar-right">
+                        <!--<ul class="app-component nav navbar-nav nav-pills navBarPadding navbar-right">
                             <li (click)="logout()"><a href="javascript:;"><span class="glyphicon glyphicon-log-out"></span> {{'mainMenu.Logout' | translate}}</a></li>
-                        </ul>
+                        </ul>-->
                         <p class="app-component navbar-text navbar-right notifications-popup">
                             {{'app.Welcome' | translate}}
-                            <a class="app-component navbar-link user-name" [popover]="popTemplate" (onHidden)="markNotificationsAsRead()" placement="bottom" [popoverTitle]="notificationsTitle" href="javascript:;" triggers="focus">
+                            <a href="javascript:;" class="app-component navbar-link user-name" [popover]="popTemplate" placement="bottom">
+                                {{userName}}
+                            </a>
+
+                            
+                            <!--<a class="app-component navbar-link user-name" [popover]="popTemplate" (onHidden)="markNotificationsAsRead()" placement="bottom" [popoverTitle]="notificationsTitle" href="javascript:;" triggers="focus">
                                 {{userName}}
                                 <span *ngIf="newNotificationCount > 0" class="badge">{{newNotificationCount}}</span>
-                            </a>,
+                            </a>-->
                         </p>
                         <ng-template #popTemplate>
-                            <notifications-viewer [isViewOnly]="true"></notifications-viewer>
+                            <ul>
+                                <li>
+                                    <a routerLink="/settings">Settings</a>
+                                </li>
+                                <li (click)="logout()">
+                                    <a href="javascript:;">
+                                        <span class="glyphicon glyphicon-log-out"></span> 
+                                    {{'mainMenu.Logout' | translate}}
+                                     </a>
+                                </li>
+                            </ul>
                         </ng-template>
+                        <!--<ng-template #popTemplate>
+                            <notifications-viewer [isViewOnly]="true"></notifications-viewer>
+                        </ng-template>-->
                     </div>
                     <!--<div *ngIf="isUserLoggedIn" class="app-component collapse navbar-collapse menuItemsContainer">
                         <ul class="app-component nav navbar-nav nav-pills navBarPadding">
@@ -114,7 +132,16 @@
                                     Blog
                                 </a>
                             </li>
+                            <li id="login">
+                                <a routerLink="/login">
+                                    <!--<span class="glyphicon glyphicon-home"></span>-->
+                                    Login
+                                </a>
+                            </li>
                         </ul>
+                        <!--<ul class="app-component nav navbar-nav navBarPadding navbar-right">
+                            
+                            </ul>-->
                     </div>
 
                     <!--<div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
