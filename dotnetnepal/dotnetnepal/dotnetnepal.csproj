@@ -87,8 +87,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Comments\" />
-    <Folder Include="Features\Tags\" />
     <Folder Include="Helpers\Templates\" />
   </ItemGroup>
 
