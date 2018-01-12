@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using dotnetnepal.Helpers;
 using Infrastructure;
+using BenchmarkDotNet.Running;
 
 namespace dotnetnepal
 {
@@ -34,7 +35,11 @@ namespace dotnetnepal
                 }
             }
 
+            //  var summary = BenchmarkRunner.Run<Startup>();
+
             host.Run();
+
+    
         }
 
 
