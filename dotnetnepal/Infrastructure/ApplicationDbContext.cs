@@ -35,8 +35,8 @@ namespace Infrastructure
         }
 
         public DbSet<Post> Posts { get; set; }
-        public DbSet<Core.Domains.Comment> Comments { get; set; }
-        public DbSet<Article> Articles { get; set; }
+     //   public DbSet<Core.Domains.Comment> Comments { get; set; }
+        //public DbSet<Article> Articles { get; set; }
 
         public override int SaveChanges()
         {
