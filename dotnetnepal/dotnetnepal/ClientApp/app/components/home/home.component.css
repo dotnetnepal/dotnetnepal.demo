@@ -140,6 +140,8 @@
         background-color: rgba(87, 198, 212, 0.5);
         border: 1em solid; }
         .ms-slide.two .ms-cap .carousel-caption .ms-cap-body .ms-cap-body-info .b-center .title {
+          display: grid;
+          grid-template: 1fr 1fr 1fr;
           padding: 5px;
           font-size: 3.5rem;
           color: rgba(77, 61, 158, 0.99); }

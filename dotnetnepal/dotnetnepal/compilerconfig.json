@@ -22,5 +22,9 @@
   {
     "outputFile": "ClientApp/app/components/blog-read/blog-read.component.css",
     "inputFile": "ClientApp/app/components/blog-read/blog-read.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/blogs/new/edit.component.css",
+    "inputFile": "ClientApp/app/components/blogs/new/edit.component.scss"
   }
 ]

@@ -205,7 +205,47 @@ a.user-name.app-component {
     transition: .5s ease-in-out all;
 }
 
+/*notification dropdown*/
+.notifications-popup .popover{
+    width:auto !important;
+}
+.popover-content {
+    padding: 0;
+
+    ul {
+        padding: 0;
+        margin-bottom:0;
+    }
+}
+.popover-content ul li{
+    list-style:none;
+    padding:10px 35px;
+    &:last-child{
+        border-top:1px solid $blue;
+    }
+    &:hover{
+        background-color:rgba(0,0,0,0.1);
+    }
+   
+}
+.popover-content ul li a{
+    color:$blue !important;
+    text-decoration:none;
+}
+/* notification*/
+
 /*ms*/
+#login {
+    background: white;
+    padding: 0px 20px;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+
+    a {
+        color: $blue !important;
+    }
+}
+
 #footer {
     .navbar-inner.footer {
         background: none;

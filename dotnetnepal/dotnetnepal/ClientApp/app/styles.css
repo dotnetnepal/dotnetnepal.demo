@@ -236,6 +236,19 @@ i.page-caption {
 .inline-block {
   display: inline-block; }
 
+/*modal in setting/roles*/
+.modal-backdrop {
+  display: none; }
+
+.modal-dialog {
+  top: 50px; }
+
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    height: 100%;
+    top: 10%; } }
+
+/*modal*/
 /*countdown*/
 .countdown {
   width: 100%;
